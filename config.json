@@ -1,0 +1,252 @@
+{
+  "workers": 8,
+  "fx": {
+    "EUR": 1,
+    "USD": 0.86,
+    "GBP": 1.15,
+    "PLN": 0.235,
+    "CZK": 0.041,
+    "RON": 0.2,
+    "BGN": 0.51,
+    "HUF": 0.0025,
+    "SEK": 0.09,
+    "DKK": 0.134,
+    "NOK": 0.085,
+    "UAH": 0.021,
+    "KZT": 0.0017,
+    "JPY": 0.0058,
+    "CAD": 0.63,
+    "MXN": 0.047,
+    "BRL": 0.16,
+    "ARS": 0.0006,
+    "CLP": 0.00095,
+    "COP": 0.00021
+  },
+  "groups": {
+    "vinted_all": [
+      "vinted:fr",
+      "vinted:de",
+      "vinted:it",
+      "vinted:es",
+      "vinted:pt",
+      "vinted:be",
+      "vinted:nl",
+      "vinted:lu",
+      "vinted:at",
+      "vinted:pl",
+      "vinted:cz",
+      "vinted:lt",
+      "vinted:lv",
+      "vinted:ee",
+      "vinted:se",
+      "vinted:dk",
+      "vinted:fi",
+      "vinted:ie",
+      "vinted:gr",
+      "vinted:ro",
+      "vinted:co.uk",
+      "vinted:com"
+    ],
+    "ebay_all": [
+      "ebay:fr",
+      "ebay:de",
+      "ebay:it",
+      "ebay:es",
+      "ebay:nl",
+      "ebay:at",
+      "ebay:ie",
+      "ebay:gb",
+      "ebay:us",
+      "ebay:ca"
+    ],
+    "olx_all": [
+      "olx:pl",
+      "olx:ro",
+      "olx:bg",
+      "olx:pt",
+      "olx:ua",
+      "olx:kz"
+    ],
+    "benelux": [
+      "marktplaats",
+      "2dehands",
+      "2ememain"
+    ],
+    "autres": [
+      "willhaben",
+      "bazos:cz",
+      "bazos:sk",
+      "subito"
+    ],
+    "tous": [
+      "vinted_all",
+      "ebay_all",
+      "olx_all",
+      "benelux",
+      "autres"
+    ],
+    "vinted_main": [
+      "vinted:fr",
+      "vinted:de",
+      "vinted:it",
+      "vinted:pl",
+      "vinted:co.uk"
+    ],
+    "vinted_other": [
+      "vinted:es",
+      "vinted:nl",
+      "vinted:be",
+      "vinted:pt",
+      "vinted:at",
+      "vinted:cz",
+      "vinted:sk",
+      "vinted:ro",
+      "vinted:lt",
+      "vinted:lu"
+    ],
+    "experimentaux": [
+      "wallapop",
+      "depop"
+    ],
+    "amerique_sud": [
+      "ml:mx",
+      "ml:br",
+      "ml:ar",
+      "ml:cl",
+      "ml:co"
+    ],
+    "desactives": [
+      "kleinanzeigen",
+      "wallapop",
+      "depop",
+      "ml:mx",
+      "ml:br",
+      "ml:ar",
+      "ml:cl",
+      "ml:co"
+    ]
+  },
+  "default_exclude": [
+    "femme",
+    "women",
+    "womens",
+    "wmns",
+    "damen",
+    "donna",
+    "mujer",
+    "dames",
+    "damskie",
+    "kobiet",
+    "enfant",
+    "kids",
+    "kinder",
+    "junior",
+    "bambino",
+    "niño",
+    "dziecięce",
+    "dětské",
+    "short"
+  ],
+  "searches": [
+    {
+      "name": "Nike Phenom / Run Division",
+      "queries": [
+        "nike phenom",
+        "nike run division",
+        "nike rdvn"
+      ],
+      "must_include_any": [
+        "phenom",
+        "run division",
+        "rdvn",
+        "phn elt"
+      ],
+      "max_price": 70,
+      "sources": [
+        "tous"
+      ]
+    },
+    {
+      "name": "Nike Storm-FIT / Therma-FIT / Aeroloft",
+      "queries": [
+        "nike storm-fit adv",
+        "nike therma-fit adv",
+        "nike aeroloft",
+        "nike hypershield",
+        "nike flyvent"
+      ],
+      "must_include_any": [
+        "storm-fit",
+        "storm fit",
+        "stormfit",
+        "therma-fit",
+        "therma fit",
+        "thermafit",
+        "aeroloft",
+        "hypershield",
+        "flyvent",
+        "aeroshield",
+        "nk sf",
+        "nk tf"
+      ],
+      "max_price": 70,
+      "sources": [
+        "tous"
+      ]
+    },
+    {
+      "name": "Under Armour Run / Storm / ColdGear",
+      "queries": [
+        "under armour run everywhere",
+        "under armour hybrid pants",
+        "under armour storm",
+        "under armour swacket",
+        "under armour coldgear infrared",
+        "under armour celliant",
+        "under armour qualifier"
+      ],
+      "must_include_any": [
+        "run everywhere",
+        "hybrid",
+        "storm",
+        "swacket",
+        "infrared",
+        "cgi",
+        "celliant",
+        "outrun",
+        "qualifier"
+      ],
+      "max_price": 70,
+      "sources": [
+        "tous"
+      ]
+    },
+    {
+      "name": "Codes exacts (SKU)",
+      "queries": [
+        "DQ6536-010",
+        "DQ6536",
+        "CU5439-010",
+        "DD6086-010",
+        "1379293-001",
+        "1352029-001"
+      ],
+      "max_price": 70,
+      "sources": [
+        "tous"
+      ]
+    }
+  ],
+  "pace": {
+    "vinted": [
+      12,
+      20
+    ]
+  },
+  "cooldown_min": 45,
+  "notify_existing": true,
+  "backlog_max": 60,
+  "rotate": {
+    "vinted": 6
+  }
+}
