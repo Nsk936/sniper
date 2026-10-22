@@ -66,3 +66,22 @@ Par défaut (`"notify_existing": true`), au premier passage le bot t'envoie auss
 correspondent à tes filtres (marquées « 📌 Déjà en ligne »), jusqu'à `backlog_max` par passe ; le reste suit à la passe
 suivante. Seules les ~30 à 90 annonces les plus récentes de chaque recherche sont lues, pas tout l'historique.
 Pour refaire ce rattrapage, supprime le fichier `seen.json`. Mets `"notify_existing": false` pour ne recevoir que les nouvelles.
+
+## Nouveautés (v2)
+- **Niveaux** (`tier` par recherche) : `top` (🚨 + notif ntfy), `normal`, `low` (notification silencieuse), `digest` (regroupé dans le résumé de 8 h). Une pépite, une baisse de prix ou une vraie affaire passe toujours en 🚨.
+- **Score d'affaire** : prix comparé à la médiane déjà vue pour le même modèle (💎, ⚠️ prix suspect, 💰 revente estimée — estimation indicative, pas une garantie).
+- **Taille** : mets `"sizes": ["M"]` dans config.json ; une taille différente écarte l'annonce, une taille non indiquée la garde.
+- **Boutons Telegram** : Ouvrir / Ignorer ce modèle / Ignorer ce vendeur (le vendeur n'est connu que si le site le fournit ; les clics sont lus à la passe suivante).
+- **Fréquence par site** : `interval_min` (eBay 5 min, Vinted FR 10 min…). Sur GitHub Actions le minimum reste 15 min.
+- **ntfy** (2e canal gratuit) : installe l'appli ntfy, choisis un nom de canal secret et définis `NTFY_TOPIC`.
+- **E-mails d'alertes** (Leboncoin, Vestiaire, Depop, Wallapop, Facebook) : crée les alertes sur ces sites vers une adresse Gmail, puis définis `IMAP_HOST=imap.gmail.com`, `IMAP_USER`, `IMAP_PASSWORD` (mot de passe d'application) et mets `"email": {"enabled": true}`. Non testé en réel.
+- Enchères eBay finissant bientôt (`ebayend:*`), fautes de vendeurs, lots/bundles, remises en ligne, baisses de prix, alerte de panne (>2 h), résumé du matin, journal `journal.csv` (ouvrable dans Excel), compteurs par mot-clé, sauvegardes quotidiennes dans `backups/`.
+- **Windows** : lance `demarrage_auto_windows.bat` une fois ; le bot redémarre à chaque connexion.
+
+## Messages photo (v3)
+- Chaque annonce = **un message photo** (photo en grand, légende HTML courte, mêmes lignes partout : 💶 prix, 📏 taille, ✨ état, ⭐ vendeur, 🕒 ancienneté — une ligne est omise si le site ne donne pas l'info). Si la photo ne charge pas, le message part sans photo.
+- Badges : « 🔥 -X % sous le marché » (dès que le bot a assez de prix de comparaison) et « 💎 Pépite ». **Son de notification uniquement pour les 💎 pépites**, le reste est silencieux.
+- Boutons : 🛒 Acheter / 🔗 Voir l'annonce (liens) · 💬 Contacter / ⭐ Favori · 📷 Photos (album) / 🚫 Ignorer. « Contacter » ouvre l'annonce (aucun site ne permet d'écrire au vendeur par un lien direct). Favori/Photos/Ignorer sont traités à la passe suivante du bot, pas instantanément.
+- Un sujet par marque : crée un groupe Telegram avec « Sujets » activés, ajoute le bot comme admin, puis mets les numéros de sujets dans `"topics"` de config.json, ex. `{"Nike": 12, "Stone Island": 15}` (et TELEGRAM_CHAT_ID = l'identifiant du groupe).
+- Nouvelles marques : Stone Island, Ralph Lauren, Essentials, Lacoste, Alo, Adidas, Nike archives, Under Armour pépites (pépites = alertes normales, général = silencieux). Exclusions ajoutées : taché, troué, abîmé, défaut, dupe, imitation, aliexpress…
+- Les annonces sans marque (« veste coupe-vent noire ») ne sont pas cherchables par mot-clé ici ; il faut les alertes natives des sites avec filtre de marque.

@@ -21,11 +21,13 @@ import sys
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+
+import extras
 
 BASE_DIR = Path(__file__).parent
 CONFIG_FILE = BASE_DIR / "config.json"
@@ -105,35 +107,55 @@ def soup_of(html):
     return BeautifulSoup(html, "html.parser")
 
 
-def telegram_send(text):
-    """Envoie un message ; réessaie en cas de coupure réseau. Renvoie True si envoyé."""
+def telegram_send(text, markup=None, silent=False, photo=None, html=False, thread=None):
+    """Envoie un message (avec photo si possible) ; réessaie en cas de coupure réseau.
+    Si la photo ne charge pas, renvoie le message sans photo. Renvoie True si envoyé."""
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
     if not token or not chat_id:
         log("Telegram non configuré (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID).")
         print(text)
         return False
-    url = f"https://api.telegram.org/bot{token}/sendMessage"
-    payload = {"chat_id": chat_id, "text": text[:4000]}
-    for attempt in range(4):
-        try:
-            r = requests.post(url, json=payload, timeout=20)
-        except requests.RequestException as e:  # coupure réseau, connexion réinitialisée...
-            log(f"Telegram : erreur réseau ({type(e).__name__}), nouvel essai")
-            time.sleep(3 * (attempt + 1))
-            continue
-        if r.status_code == 429:  # limite d'envoi : on attend le délai demandé
+    base = {"chat_id": chat_id}
+    if markup:
+        base["reply_markup"] = markup
+    if silent:
+        base["disable_notification"] = True
+    if thread:
+        base["message_thread_id"] = thread
+    if html:
+        base["parse_mode"] = "HTML"
+
+    def post(method, payload):
+        """Renvoie (ok, status). Gère les coupures réseau et la limite d'envoi (429)."""
+        r = None
+        for attempt in range(4):
             try:
-                time.sleep(min(int(r.json()["parameters"]["retry_after"]) + 1, 60))
-            except (KeyError, ValueError, TypeError):
-                time.sleep(5)
-            continue
-        if not r.ok:
-            log(f"Échec Telegram : {r.status_code} {r.text[:200]}")
-            return False
-        time.sleep(0.5)
-        return True
-    return False
+                r = requests.post(f"https://api.telegram.org/bot{token}/{method}", json=payload, timeout=20)
+            except requests.RequestException as e:  # coupure réseau, connexion réinitialisée...
+                log(f"Telegram : erreur réseau ({type(e).__name__}), nouvel essai")
+                time.sleep(3 * (attempt + 1))
+                continue
+            if r.status_code == 429:  # limite d'envoi : on attend le délai demandé
+                try:
+                    time.sleep(min(int(r.json()["parameters"]["retry_after"]) + 1, 60))
+                except (KeyError, ValueError, TypeError):
+                    time.sleep(5)
+                continue
+            if not r.ok:
+                log(f"Échec Telegram {method} : {r.status_code} {r.text[:160]}")
+                return False, r.status_code
+            time.sleep(0.5)
+            return True, 200
+        return False, (r.status_code if r is not None else 0)
+
+    if photo:
+        ok, _ = post("sendPhoto", {**base, "photo": photo, "caption": text[:1024]})
+        if ok:
+            return True
+        log("Photo refusée : envoi du message sans photo")
+    ok, _ = post("sendMessage", {**base, "text": text[:4000], "disable_web_page_preview": bool(photo)})
+    return ok
 
 
 # --------------------------------------------------------------------------
@@ -168,8 +190,9 @@ class Source:
         if r.status_code >= 400:
             raise RuntimeError(f"HTTP {r.status_code} sur {str(r.url)[:80]} -> {r.text[:100]!r}")
 
-    def item(self, raw_id, title, price, currency, url, extra=""):
-        return {
+    def item(self, raw_id, title, price, currency, url, extra="", **meta):
+        """meta facultatif : photo, photos (liste), size, state, seller, rating, reviews, posted (epoch)."""
+        return {**{k: v for k, v in meta.items() if v not in (None, "", [])},
             "id": f"{self.id}:{raw_id}",
             "title": title or "",
             "price": price,
@@ -218,9 +241,18 @@ class Vinted(Source):
             extra = " · ".join(
                 x for x in (it.get("size_title"), it.get("status"), it.get("brand_title")) if x
             )
+            ph = it.get("photo") or {}
+            user = it.get("user") or {}
+            rep_ = user.get("feedback_reputation")
             yield self.item(
                 it["id"], it.get("title"), parse_price(price), currency or "EUR",
                 it.get("url") or f"{self.base}/items/{it['id']}", extra,
+                photo=ph.get("full_size_url") or ph.get("url"),
+                photos=[ph.get("full_size_url") or ph.get("url")] if ph else None,
+                size=it.get("size_title"), state=it.get("status"), seller=user.get("login"),
+                rating=round(float(rep_) * 5, 1) if isinstance(rep_, (int, float)) and rep_ <= 1 else None,
+                reviews=user.get("feedback_count") or user.get("item_count"),
+                posted=((ph.get("high_resolution") or {}).get("timestamp")),
             )
 
     def _html(self, query):
@@ -240,8 +272,11 @@ class Vinted(Source):
             cur = {"€": "EUR", "£": "GBP", "$": "USD", "zł": "PLN", "Kč": "CZK", "lei": "RON",
                    "Ft": "HUF", "kr": VINTED_KR.get(self.id.split(":")[1], "SEK")
                    }.get(pm[-1][1] if pm else "", "EUR")
+            img = a.find("img")
+            photo = (img.get("src") or img.get("data-src")) if img else None
             yield self.item(m.group(1), title.split(", ")[0], price, cur,
-                            urljoin(self.base, a["href"]), title)
+                            urljoin(self.base, a["href"]), title, photo=photo,
+                            photos=[photo] if photo else None)
 
     def search(self, query):
         if not self.ready:
@@ -267,6 +302,24 @@ EBAY = {"us": ("EBAY_US", "USD"), "gb": ("EBAY_GB", "GBP"), "de": ("EBAY_DE", "E
         "fr": ("EBAY_FR", "EUR"), "it": ("EBAY_IT", "EUR"), "es": ("EBAY_ES", "EUR"),
         "nl": ("EBAY_NL", "EUR"), "at": ("EBAY_AT", "EUR"), "ie": ("EBAY_IE", "EUR"),
         "ca": ("EBAY_CA", "CAD")}
+
+
+def ebay_meta(it):
+    """Photo, vendeur, note et date de mise en ligne d'un résumé d'annonce eBay."""
+    seller = it.get("seller") or {}
+    imgs = [it.get("image", {}).get("imageUrl")] + [i.get("imageUrl") for i in it.get("additionalImages", [])]
+    imgs = [i for i in imgs if i]
+    posted = None
+    try:
+        posted = datetime.strptime(it["itemCreationDate"][:19], "%Y-%m-%dT%H:%M:%S").replace(
+            tzinfo=timezone.utc).timestamp()
+    except (KeyError, ValueError):
+        pass
+    pct = seller.get("feedbackPercentage")
+    return dict(photo=imgs[0] if imgs else None, photos=imgs, state=it.get("condition"),
+                seller=seller.get("username"),
+                rating=round(float(pct) / 20, 1) if pct else None, reviews=seller.get("feedbackScore"),
+                posted=posted, size=None)
 
 
 class Ebay(Source):
@@ -323,6 +376,35 @@ class Ebay(Source):
             yield self.item(
                 it["itemId"], it.get("title"), parse_price(price.get("value")),
                 price.get("currency"), it.get("itemWebUrl", ""), it.get("condition", ""),
+                **ebay_meta(it),
+            )
+
+
+class EbayEnding(Ebay):
+    """Enchères eBay qui se terminent dans les prochaines heures (souvent sans enchérisseur)."""
+
+    def __init__(self, country="fr", hours=6):
+        super().__init__(country)
+        self.id = f"ebay:{country}"  # mêmes identifiants que les annonces eBay normales
+        self.hours = hours
+
+    def search(self, query):
+        end = datetime.utcnow() + timedelta(hours=self.hours)
+        r = self.get(
+            "https://api.ebay.com/buy/browse/v1/item_summary/search",
+            params={"q": query, "sort": "endingSoonest", "limit": 30,
+                    "filter": "buyingOptions:{AUCTION},itemEndDate:[..%s]" % end.strftime("%Y-%m-%dT%H:%M:%S.000Z")},
+            headers={"Authorization": f"Bearer {self._get_token()}",
+                     "X-EBAY-C-MARKETPLACE-ID": self.marketplace},
+        )
+        for it in r.json().get("itemSummaries", []):
+            price = it.get("price", {})
+            bids = it.get("bidCount", 0)
+            yield self.item(
+                it["itemId"], it.get("title"), parse_price(price.get("value")), price.get("currency"),
+                it.get("itemWebUrl", ""),
+                f"⏳ Enchère finit {str(it.get('itemEndDate', ''))[:16].replace('T', ' ')} UTC · {bids} enchère(s)",
+                **ebay_meta(it),
             )
 
 
@@ -348,7 +430,18 @@ class Olx(Source):
                 if p.get("key") == "price":
                     v = p.get("value") or {}
                     price, currency = parse_price(v.get("value")), v.get("currency")
-            yield self.item(it["id"], it.get("title"), price, currency, it.get("url", ""))
+            photos = [ph.get("link", "").replace("{width}", "800").replace("{height}", "800")
+                      for ph in it.get("photos", []) if ph.get("link")]
+            posted = None
+            try:
+                posted = datetime.fromisoformat(it["created_time"]).timestamp()
+            except (KeyError, ValueError, TypeError):
+                pass
+            size = next((str(p.get("value", {}).get("label")) for p in it.get("params", [])
+                         if p.get("key") in ("size", "clothing_size", "rozmiar")), None)
+            yield self.item(it["id"], it.get("title"), price, currency, it.get("url", ""),
+                            photo=photos[0] if photos else None, photos=photos, posted=posted,
+                            size=size, seller=(it.get("user") or {}).get("name"))
 
 
 MARKTPLAATS = {
@@ -545,6 +638,8 @@ def make_source(sid):
         return Vinted(arg or "fr")
     if kind == "ebay":
         return Ebay(arg or "fr")
+    if kind == "ebayend":
+        return EbayEnding(arg or "fr")
     if kind == "olx":
         return Olx(arg)
     if kind in MARKTPLAATS:
@@ -578,32 +673,43 @@ def queries_of(search):
 
 
 def matches(item, search, fx=None, default_exclude=()):
-    title = item["title"].lower()
+    # On cherche dans le titre ET dans la marque / l'état (champ "extra") quand le site les donne.
+    text = " " + (item["title"] + " " + (item.get("extra") or "")).lower() + " "
     for word in search.get("must_include", []):
-        if word.lower() not in title:
+        if word.lower() not in text:
             return False
     any_of = search.get("must_include_any", [])
-    if any_of and not any(w.lower() in title for w in any_of):
+    if any_of and not any(w.lower() in text for w in any_of):
         return False
-    for word in list(default_exclude) + search.get("exclude", []):
-        if word.lower() in title:
+    for group in search.get("require", []):  # chaque groupe : au moins un de ses mots
+        if not any(w.lower() in text for w in group):
             return False
-    max_price = search.get("max_price")
-    if max_price and item["price"] is not None:
+    allow = [w.lower() for w in search.get("allow", [])]
+    for word in [w for w in default_exclude if w.lower() not in allow] + search.get("exclude", []):
+        if word.lower() in text:
+            return False
+    if item["price"] is not None:
         eur = to_eur(item["price"], item["currency"], fx)
-        if eur is not None and eur > max_price:
-            return False
+        if eur is not None:
+            if search.get("max_price") and eur > search["max_price"]:
+                return False
+            if search.get("min_price") and eur < search["min_price"]:
+                return False  # prix trop bas : souvent une contrefaçon ou une annonce bidon
     return True
 
 
-def format_item(search_name, item, fx=None):
+def price_text(item, fx=None):
     if item["price"] is None:
-        price = "prix ?"
-    else:
-        price = f"{item['price']:.2f} {item['currency']}"
-        eur = to_eur(item["price"], item["currency"], fx)
-        if item["currency"] != "EUR" and eur is not None:
-            price += f" (≈ {eur:.0f} €)"
+        return "prix ?"
+    price = f"{item['price']:.2f} {item['currency']}"
+    eur = to_eur(item["price"], item["currency"], fx)
+    if item["currency"] != "EUR" and eur is not None:
+        price += f" (≈ {eur:.0f} €)"
+    return price
+
+
+def format_item(search_name, item, fx=None):
+    price = price_text(item, fx)
     lines = [f"🔔 {search_name}", item["title"], f"💶 {price}"]
     if item["extra"]:
         lines.append(item["extra"])
@@ -647,6 +753,15 @@ def run_once(config, dry_run=False, only=None):
     cooldown = state.setdefault("cooldown", {})
     now = time.time()
     paused = {s for s, until in cooldown.items() if until > now}
+    if not dry_run:
+        extras.process_callbacks(state)
+    last = state.setdefault("last", {})
+    intervals = config.get("interval_min", {})
+
+    def due(sid):
+        """Un site peut avoir sa propre fréquence (config « interval_min », clé = site ou type)."""
+        mins = intervals.get(sid, intervals.get(sid.split(":")[0]))
+        return not mins or now - last.get(sid, 0) >= mins * 60 - 30
 
     def sources_of(search):
         sids = expand(search.get("sources", ["vinted:fr"]), groups)
@@ -675,6 +790,20 @@ def run_once(config, dry_run=False, only=None):
                     del plan[s]
             if not dry_run:
                 rot[kind] = (start + n) % len(ids)
+    for kind, n in config.get("slice", {}).items():  # n mots-clés par passe et par site, en alternance
+        qrot = state.setdefault("qrot", {})
+        for sid in [s for s in plan if s.split(":")[0] == kind]:
+            qs = plan[sid]
+            if len(qs) > n:
+                start = qrot.get(sid, 0) % len(qs)
+                plan[sid] = [qs[(start + i) % len(qs)] for i in range(n)]
+                if not dry_run:
+                    qrot[sid] = (start + n) % len(qs)
+    for sid in [x for x in plan if not due(x)]:
+        del plan[sid]
+    if not dry_run:
+        for sid in plan:
+            last[sid] = now
     if paused:
         log(f"En pause (trop de requêtes récemment) : {', '.join(sorted(paused))}")
     log(f"{len(plan)} site(s), {sum(len(v) for v in plan.values())} requête(s) au total")
@@ -683,8 +812,20 @@ def run_once(config, dry_run=False, only=None):
 
     errors = {}
     alerts = 0
+    xcfg = config.get("extras", {})
+    wanted_sizes = config.get("sizes", [])
+    pricelog = state.setdefault("pl", {})
+    fprints = state.setdefault("fp", {})
+    digest = state.setdefault("digest", [])
+    flat_highlight = [h.lower() for h in config.get("highlight", [])]
+
+    def notify_plain(text):
+        if not dry_run:
+            telegram_send(text, silent=False)
+
     try:
         for search in config.get("searches", []):
+            tier = search.get("tier", "normal")
             for sid in sources_of(search):
                 res = fetched.get(sid, {})
                 for q in queries_of(search):
@@ -699,32 +840,113 @@ def run_once(config, dry_run=False, only=None):
                     key = f"{sid}|{q}"
                     first_run = key not in initialized
                     for item in items:
-                        if item["id"] in seen:
+                        low = " " + (item["title"] + " " + (item.get("extra") or "")).lower() + " "
+                        eur = to_eur(item["price"], item["currency"], fx) if item["price"] is not None else None
+                        already = item["id"] in seen
+                        drop = False
+                        if already:  # baisse de prix d'une annonce déjà signalée ?
+                            old = pricelog.get(item["id"])
+                            if old and eur and eur <= old * float(xcfg.get("drop_ratio", 0.85)) and matches(item, search, fx, default_exclude):
+                                drop = True
+                            else:
+                                continue
+                        if extras.ignored(state, item):
+                            seen[item["id"]] = int(time.time())
                             continue
-                        if first_run and not notify_existing:  # on mémorise sans notifier
+                        if first_run and not notify_existing and not already:  # on mémorise sans notifier
                             if not dry_run:
                                 seen[item["id"]] = int(time.time())
                             continue
                         if not matches(item, search, fx, default_exclude):
                             continue
-                        if first_run:
+                        if not extras.size_ok(low, wanted_sizes):
+                            continue
+                        mkey = extras.model_key(item["title"])
+                        med = extras.median_for(state, mkey)
+                        if not dry_run and not drop:
+                            extras.record_price(state, mkey, eur)
+                        if first_run and not already:
                             if backlog_sent >= backlog_max:
                                 continue  # trop d'annonces existantes d'un coup : le reste viendra à la passe suivante
                             backlog_sent += 1
-                        msg = format_item(search["name"], item, fx)
+                        labels = []
+                        if any(h in low for h in flat_highlight):
+                            labels.append("⭐ Pépite possible")
+                        labels += extras.deal_labels(eur, med, xcfg)
+                        if any(w.lower() in low for w in config.get("rare_words", [])):
+                            labels.append("🏷️ Mot rare / vintage dans l'annonce")
+                        if any(w.lower() in low for w in config.get("urgent_words", [])):
+                            labels.append("⏰ Vendeur pressé : marge de négociation")
+                        if extras.is_lot(low):
+                            labels.append("📦 Lot / bundle : vérifie le contenu")
+                        fp = extras.fingerprint(item, eur)
+                        if fp in fprints and fprints[fp] != item["id"] and not drop:
+                            labels.append("♻️ Remise en ligne probable (même titre et prix déjà vus)")
+                        if drop:
+                            labels.insert(0, f"📉 Baisse de prix (avant ≈ {pricelog[item['id']]:.0f} €)")
+                        eff_tier = tier
+                        if tier != "digest" and any(l.startswith(("⭐", "💎", "📉")) for l in labels):
+                            eff_tier = "top"  # une pépite ou une vraie affaire remonte toujours en priorité
+                        pepite = any(l.startswith(("⭐ Pépite", "💎")) for l in labels)
                         if first_run:
-                            msg = "📌 Déjà en ligne\n" + msg
+                            labels.append("📌 Déjà en ligne")
+                        brand = extras.detect_brand(item["title"], config.get("brands", {}))
+                        msg = extras.caption(item, brand, eur, med, pepite, labels, price_text(item, fx))
                         if dry_run:
-                            print(msg, "\n")
+                            print(f"[{eff_tier}{' 🔔' if pepite else ''}]", msg, "\n")
                             alerts += 1
-                        elif telegram_send(msg):
+                            continue
+                        if eff_tier == "digest":
+                            digest.append({"title": item["title"], "price": eur or 0, "url": item["url"],
+                                           "score": (eur / med) if (eur and med) else 1})
+                            del digest[:-200]
+                            sent = True
+                        else:
+                            extras.remember(state, item, brand)
+                            sent = telegram_send(msg, markup=extras.keyboard(item), silent=not pepite,
+                                                 photo=item.get("photo"), html=True,
+                                                 thread=config.get("topics", {}).get(brand))
+                            if sent and pepite:
+                                extras.ntfy_send("Pépite", f"{item['title']} — {price_text(item, fx)}", item.get("url"))
+                        if sent:
                             seen[item["id"]] = int(time.time())  # marqué vu seulement si bien envoyé
+                            if eur:
+                                pricelog[item["id"]] = eur
+                            fprints[fp] = item["id"]
+                            extras.bump(state, q)
+                            extras.journal_add([datetime.now().strftime("%Y-%m-%d %H:%M"), search["name"], sid,
+                                                item["title"], round(eur, 2) if eur else "", eff_tier,
+                                                " | ".join(labels), item["url"]])
                             alerts += 1
                     if not dry_run:
                         initialized.add(key)
 
+        # alertes reçues par e-mail pour les sites bloqués (Leboncoin, Vestiaire, Depop, Wallapop...)
+        if not dry_run and config.get("email", {}).get("enabled"):
+            try:
+                for item in extras.mail_items(config["email"]):
+                    if item["id"] not in seen and telegram_send("✉️ Alerte e-mail\n" + item["title"] + "\n" + item["url"],
+                                                                 markup=extras.keyboard(item)):
+                        seen[item["id"]] = int(time.time())
+                        alerts += 1
+            except Exception as ex:
+                log(f"Lecture des e-mails impossible : {type(ex).__name__}: {ex}")
+
     except Exception as ex:  # une erreur imprévue ne doit pas faire perdre l'état
         log(f"Erreur pendant le traitement : {type(ex).__name__}: {ex}")
+
+    if not dry_run:
+        for sid in plan:
+            extras.update_health(state, sid, sid not in errors, xcfg, notify_plain)
+        if extras.digest_due(state, xcfg.get("digest_hour", 8)):
+            if digest or xcfg.get("digest_always", False):
+                telegram_send(extras.build_digest(state), silent=True)
+            state["digest"] = []
+            state["digest_day"] = datetime.now().strftime("%Y-%m-%d")
+        for k in list(pricelog)[:-5000]:
+            del pricelog[k]
+        for k in list(fprints)[:-5000]:
+            del fprints[k]
 
     for sid, err in sorted(errors.items()):
         log(f"[{sid}] KO : {err}")
@@ -737,6 +959,10 @@ def run_once(config, dry_run=False, only=None):
         state["initialized"] = sorted(initialized)
         state["cooldown"] = {s: u for s, u in cooldown.items() if u > time.time()}
         STATE_FILE.write_text(json.dumps(state, indent=1), encoding="utf-8")
+        try:
+            extras.daily_backup([STATE_FILE, extras.JOURNAL])
+        except OSError as ex:
+            log(f"Sauvegarde impossible : {ex}")
 
 
 def check(config, only=None):
