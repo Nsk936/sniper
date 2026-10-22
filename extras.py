@@ -177,6 +177,17 @@ def ntfy_send(title, text, url=None):
 
 
 # ---------------------------------------------------------------- légende photo + boutons Telegram
+def api(method, **payload):
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    if not token:
+        return None
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{token}/{method}", json=payload, timeout=20)
+        return r.json() if r.ok else None
+    except (requests.RequestException, ValueError):
+        return None
+
+
 def detect_brand(title, brands):
     """brands : {"Nike": ["nike"], "Stone Island": ["stone island", "stoneisland"]...}"""
     t = (title or "").lower()
