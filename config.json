@@ -1410,7 +1410,7 @@
  "notify_existing": true,
  "backlog_max": 60,
  "slice": {
-  "vinted": 24,
+  "vinted": 14,
   "ebay": 10,
   "ebayend": 7
  },
@@ -1531,5 +1531,7 @@
    "columbia"
   ]
  },
- "topics": {}
+ "topics": {},
+ "slice_default": 10,
+ "time_budget_min": 10
 }
