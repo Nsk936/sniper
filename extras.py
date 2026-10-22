@@ -208,35 +208,55 @@ def ago(ts):
     return f"{mins // 1440} j"
 
 
-def caption(item, brand, eur, med, pepite, labels, price_txt):
+def pepite_score(eur, med, highlighted, tier, item, rare=False):
+    """Note /100 : remise vs marché + mots-clés rares + recherche prioritaire + état + vendeur."""
+    score = 0
+    if eur and med and eur < med:
+        score += min(50, round((1 - eur / med) * 100))
+    if highlighted:
+        score += 45
+    if tier == "top":
+        score += 15
+    if rare:
+        score += 5
+    st = (item.get("state") or "").lower()
+    if any(w in st for w in ("neuf", "new", "nieuw", "nuevo", "nuovo")):
+        score += 5
+    if (item.get("rating") or 0) >= 4.7:
+        score += 5
+    return min(score, 100)
+
+
+def caption(item, brand, eur, med, score, pepite, labels, price_txt):
     """Légende HTML courte et identique pour toutes les annonces (< 1024 caractères)."""
     e = html.escape
     title = (item["title"] or "").strip()[:110]
-    head = f"<b>{e(brand.upper() + ' – ' if brand else '')}{e(title)}</b>"
+    lines = [f"<b>{e(brand.upper() + ' – ' if brand else '')}{e(title)}</b>", ""]
     badges = []
     if eur and med and eur < med * 0.9:
         badges.append(f"🔥 -{round((1 - eur / med) * 100)} % sous le marché")
     if pepite:
-        badges.append("💎 Pépite")
-    lines = [head]
+        badges.append(f"💎 Pépite {score}/100")
     if badges:
-        lines.append(" · ".join(badges))
-    lines.append(f"💶 {e(price_txt)}")
+        lines += ["  ·  ".join(badges), ""]
+    lines.append(f"💶 Prix · <b>{e(price_txt)}</b>")
+    ts = []
     if item.get("size"):
-        lines.append(f"📏 {e(str(item['size']))}")
+        ts.append(f"📏 Taille · {e(str(item['size']))}")
     if item.get("state"):
-        lines.append(f"✨ {e(str(item['state']))}")
+        ts.append(f"✨ État · {e(str(item['state']))}")
+    if ts:
+        lines.append("   ".join(ts))
     if item.get("seller"):
-        r = f" {item['rating']}/5" if item.get("rating") else ""
+        r = f"{item['rating']}/5".replace(".", ",") if item.get("rating") else ""
         n = f" ({item['reviews']} avis)" if item.get("reviews") else ""
-        lines.append(f"⭐ {e(str(item['seller']))}{r}{n}")
+        lines.append(f"⭐ Vendeur · {e(str(item['seller']))}" + (f" {r}" if r else "") + n)
     a = ago(item.get("posted"))
     if a:
-        lines.append(f"🕒 En ligne il y a {a}")
-    for l in labels:  # alertes supplémentaires (lot, baisse de prix, prix suspect...)
-        if not l.startswith(("💎", "⭐ Pépite", "🔥")):
-            lines.append(e(l))
-    lines.append(f"📍 {e(item.get('source', ''))}")
+        lines.append(f"🕒 En ligne · il y a {a}")
+    extra = [l for l in labels if not l.startswith(("💎", "⭐ Pépite", "🔥"))]
+    if extra:  # alertes supplémentaires (lot, baisse de prix, prix suspect...)
+        lines += [""] + [e(l) for l in extra]
     return "\n".join(lines)[:1000]
 
 

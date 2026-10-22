@@ -719,9 +719,13 @@ def matches(item, search, fx=None, default_exclude=()):
 def price_text(item, fx=None):
     if item["price"] is None:
         return "prix ?"
-    price = f"{item['price']:.2f} {item['currency']}"
-    eur = to_eur(item["price"], item["currency"], fx)
-    if item["currency"] != "EUR" and eur is not None:
+    v = item["price"]
+    num = f"{v:.0f}" if abs(v - round(v)) < 0.005 else f"{v:.2f}".replace(".", ",")
+    eur = to_eur(v, item["currency"], fx)
+    if item["currency"] == "EUR":
+        return f"{num} €"
+    price = f"{num} {item['currency']}"
+    if eur is not None:
         price += f" (≈ {eur:.0f} €)"
     return price
 
@@ -840,11 +844,17 @@ def run_once(config, dry_run=False, only=None):
         sids = expand(search.get("sources", ["vinted:fr"]), groups)
         return [s for s in sids if s not in paused and (not only or any(s.startswith(p) for p in only))]
 
-    plan = {}
+    per_search = {}  # site -> liste de listes de mots-clés (une par recherche)
     for search in config.get("searches", []):
         for sid in sources_of(search):
-            lst = plan.setdefault(sid, [])
-            lst.extend(q for q in queries_of(search) if q not in lst)
+            per_search.setdefault(sid, []).append(queries_of(search))
+    plan = {}
+    for sid, lists in per_search.items():  # on mélange les recherches (une marque après l'autre), pour que
+        lst = plan.setdefault(sid, [])     # chaque passe touche toutes les marques et pas seulement les premières
+        for i in range(max(len(x) for x in lists)):
+            for qs in lists:
+                if i < len(qs) and qs[i] not in lst:
+                    lst.append(qs[i])
 
     if not (os.getenv("EBAY_CLIENT_ID") and os.getenv("EBAY_CLIENT_SECRET")):
         ebay = [s for s in plan if s.startswith("ebay")]
@@ -969,11 +979,14 @@ def run_once(config, dry_run=False, only=None):
                         eff_tier = tier
                         if tier != "digest" and any(l.startswith(("⭐", "💎", "📉")) for l in labels):
                             eff_tier = "top"  # une pépite ou une vraie affaire remonte toujours en priorité
-                        pepite = any(l.startswith(("⭐ Pépite", "💎")) for l in labels)
+                        highlighted = any(l.startswith("⭐ Pépite") for l in labels)
+                        rare = any(l.startswith("🏷️") for l in labels)
+                        score = extras.pepite_score(eur, med, highlighted, tier, item, rare)
+                        pepite = score >= int(xcfg.get("pepite_min", 50))
                         if first_run:
                             labels.append("📌 Déjà en ligne")
                         brand = extras.detect_brand(item["title"], config.get("brands", {}))
-                        msg = extras.caption(item, brand, eur, med, pepite, labels, price_text(item, fx))
+                        msg = extras.caption(item, brand, eur, med, score, pepite, labels, price_text(item, fx))
                         if dry_run:
                             print(f"[{eff_tier}{' 🔔' if pepite else ''}]", msg, "\n")
                             alerts += 1

@@ -1448,7 +1448,7 @@
  "backlog_max": 60,
  "slice": {
   "vinted": 14,
-  "ebay": 10,
+  "ebay": 20,
   "ebayend": 7
  },
  "highlight": [
@@ -1488,7 +1488,8 @@
   "drop_ratio": 0.85,
   "outage_hours": 2,
   "digest_hour": 8,
-  "digest_always": false
+  "digest_always": false,
+  "pepite_min": 50
  },
  "email": {
   "enabled": false,
@@ -1569,7 +1570,7 @@
   ]
  },
  "topics": {},
- "slice_default": 10,
+ "slice_default": 30,
  "time_budget_min": 6,
  "send_budget_min": 9,
  "max_alerts_per_pass": 60,
