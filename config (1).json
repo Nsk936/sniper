@@ -1,0 +1,1539 @@
+{
+ "workers": 8,
+ "fx": {
+  "EUR": 1,
+  "USD": 0.86,
+  "GBP": 1.15,
+  "PLN": 0.235,
+  "CZK": 0.041,
+  "RON": 0.2,
+  "BGN": 0.51,
+  "HUF": 0.0025,
+  "SEK": 0.09,
+  "DKK": 0.134,
+  "NOK": 0.085,
+  "UAH": 0.021,
+  "KZT": 0.0017,
+  "JPY": 0.0058,
+  "CAD": 0.63,
+  "MXN": 0.047,
+  "BRL": 0.16,
+  "ARS": 0.0006,
+  "CLP": 0.00095,
+  "COP": 0.00021
+ },
+ "groups": {
+  "vinted_all": [
+   "vinted:fr",
+   "vinted:de",
+   "vinted:it",
+   "vinted:es",
+   "vinted:pt",
+   "vinted:be",
+   "vinted:nl",
+   "vinted:lu",
+   "vinted:at",
+   "vinted:pl",
+   "vinted:cz",
+   "vinted:lt",
+   "vinted:lv",
+   "vinted:ee",
+   "vinted:se",
+   "vinted:dk",
+   "vinted:fi",
+   "vinted:ie",
+   "vinted:gr",
+   "vinted:ro",
+   "vinted:co.uk",
+   "vinted:com"
+  ],
+  "ebay_all": [
+   "ebay:fr",
+   "ebay:de",
+   "ebay:it",
+   "ebay:es",
+   "ebay:nl",
+   "ebay:at",
+   "ebay:ie",
+   "ebay:gb",
+   "ebay:us",
+   "ebay:ca"
+  ],
+  "olx_all": [
+   "olx:pl",
+   "olx:ro",
+   "olx:bg",
+   "olx:pt",
+   "olx:ua",
+   "olx:kz"
+  ],
+  "benelux": [
+   "marktplaats",
+   "2dehands",
+   "2ememain"
+  ],
+  "autres": [
+   "willhaben",
+   "bazos:cz",
+   "bazos:sk",
+   "subito"
+  ],
+  "tous": [
+   "vinted_core",
+   "ebay_core",
+   "olx_all",
+   "benelux",
+   "autres"
+  ],
+  "vinted_main": [
+   "vinted:fr",
+   "vinted:de",
+   "vinted:it",
+   "vinted:pl",
+   "vinted:co.uk"
+  ],
+  "vinted_other": [
+   "vinted:es",
+   "vinted:nl",
+   "vinted:be",
+   "vinted:pt",
+   "vinted:at",
+   "vinted:cz",
+   "vinted:sk",
+   "vinted:ro",
+   "vinted:lt",
+   "vinted:lu"
+  ],
+  "experimentaux": [
+   "wallapop",
+   "depop"
+  ],
+  "amerique_sud": [
+   "ml:mx",
+   "ml:br",
+   "ml:ar",
+   "ml:cl",
+   "ml:co"
+  ],
+  "desactives": [
+   "kleinanzeigen",
+   "wallapop",
+   "depop",
+   "ml:mx",
+   "ml:br",
+   "ml:ar",
+   "ml:cl",
+   "ml:co"
+  ],
+  "vinted_core": [
+   "vinted:fr",
+   "vinted:pl",
+   "vinted:lt",
+   "vinted:fi",
+   "vinted:co.uk",
+   "vinted:com",
+   "vinted:gr",
+   "vinted:ie"
+  ],
+  "ebay_core": [
+   "ebay:fr",
+   "ebay:de",
+   "ebay:it",
+   "ebay:gb",
+   "ebay:us"
+  ],
+  "sans_ebay": [
+   "vinted_core",
+   "olx_all",
+   "benelux",
+   "autres"
+  ]
+ },
+ "default_exclude": [
+  " rep ",
+  " reps ",
+  "1:1",
+  "aaa",
+  "adidasi",
+  "audi",
+  "bambino",
+  "basket",
+  "baskets",
+  "bmw",
+  "boty",
+  "buty",
+  "chaussure",
+  "cipő",
+  "copie",
+  "copy",
+  "damen",
+  "dames",
+  "damskie",
+  "dhgate",
+  "diesel",
+  "donna",
+  "dziecięce",
+  "dětské",
+  "enfant",
+  "fake",
+  "femme",
+  "grade a",
+  "hyundai",
+  "inspired",
+  "inspiré",
+  "junior",
+  "kia ",
+  "kids",
+  "kinder",
+  "kobiet",
+  "mercedes",
+  "mujer",
+  "niño",
+  "pantofi",
+  "peugeot",
+  "renault",
+  "replica",
+  "replique",
+  "réplica",
+  "réplique",
+  "samochod",
+  "samochód",
+  "scarpe",
+  "schuhe",
+  "sedan",
+  "shoes",
+  "short",
+  "skoda",
+  "sneaker",
+  "suv",
+  "tdi",
+  "tenis",
+  "toyota",
+  "tênis",
+  "volkswagen",
+  "wmns",
+  "women",
+  "womens",
+  "zapatilla",
+  "taché",
+  "tâché",
+  "tache ",
+  "troué",
+  "abîmé",
+  "abime",
+  "défaut",
+  "defaut",
+  "dupe",
+  "imitation",
+  "aliexpress",
+  "taille enfant",
+  "déchiré",
+  "trou "
+ ],
+ "searches": [
+  {
+   "name": "Nike lignes rares (Phenom, Run Division, ARC, Gyakusou, Lab)",
+   "queries": [
+    "nike phenom",
+    "nike run division",
+    "nike rdvn",
+    "phn elt",
+    "nike arc",
+    "nike gyakusou",
+    "nike lab"
+   ],
+   "must_include_any": [
+    "phenom",
+    "run division",
+    "rdvn",
+    "phn elt",
+    " arc ",
+    "gyakusou",
+    "nikelab",
+    "nike lab"
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "require": [
+    [
+     "nike",
+     "rdvn",
+     "nikelab",
+     "gyakusou"
+    ]
+   ],
+   "sources": [
+    "tous"
+   ],
+   "tier": "top"
+  },
+  {
+   "name": "Nike technologies froid / pluie",
+   "queries": [
+    "nike storm-fit",
+    "nike therma-fit adv",
+    "nike aeroshield",
+    "nike aeroloft",
+    "nike hypershield",
+    "nike flyvent",
+    "nk sf",
+    "nk tf"
+   ],
+   "must_include_any": [
+    "storm-fit",
+    "storm fit",
+    "stormfit",
+    "therma-fit adv",
+    "therma fit adv",
+    "aeroshield",
+    "aero-shield",
+    "aeroloft",
+    "aero-loft",
+    "hypershield",
+    "hyper shield",
+    "flyvent",
+    "nk sf",
+    "nk tf"
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "require": [
+    [
+     "nike",
+     "rdvn",
+     "nikelab",
+     "gyakusou"
+    ]
+   ],
+   "sources": [
+    "tous"
+   ],
+   "tier": "normal"
+  },
+  {
+   "name": "Nike technologies (termes larges)",
+   "queries": [
+    "nike therma-fit",
+    "nike shield",
+    "nike sphere",
+    "nike element",
+    "nike pro warm",
+    "nike dri-fit adv",
+    "nike gore-tex"
+   ],
+   "must_include_any": [
+    "therma-fit",
+    "therma fit",
+    "shield",
+    "sphere",
+    "element",
+    "pro warm",
+    "dri-fit adv",
+    "dri fit adv",
+    "gore-tex",
+    "goretex",
+    "gtx"
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "require": [
+    [
+     "nike",
+     "rdvn",
+     "nikelab",
+     "gyakusou"
+    ],
+    [
+     "pant",
+     "pantalon",
+     "pantalones",
+     "pantaloni",
+     "trouser",
+     "jogger",
+     "jogging",
+     "legging",
+     "tight",
+     "hose",
+     "jacke",
+     "jacket",
+     "veste",
+     "giacca",
+     "chaqueta",
+     "kurtka",
+     "spodnie",
+     "calça",
+     "casaco",
+     "broek",
+     "jas ",
+     "bukse",
+     "byxor",
+     "housut",
+     "vest",
+     "gilet",
+     "fleece",
+     "hoodie",
+     "sweat",
+     "tracksuit",
+     "survêtement",
+     "windbreaker",
+     "coupe-vent",
+     "anorak",
+     "parka",
+     "shell"
+    ]
+   ],
+   "sources": [
+    "sans_ebay"
+   ],
+   "tier": "low"
+  },
+  {
+   "name": "Nike gammes et coupes (Running, Trail, Tech Fleece, Windrunner...)",
+   "queries": [
+    "nike running pants",
+    "nike running jacket",
+    "nike trail",
+    "nike wildhorse",
+    "nike tech fleece",
+    "nike pro",
+    "nike fast",
+    "nike swift",
+    "nike challenger",
+    "nike tapered running",
+    "nike zip ankle pants",
+    "nike woven running",
+    "nike flash",
+    "nike reflective",
+    "nike packable",
+    "nike windrunner",
+    "nike running gilet",
+    "nike knit running"
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "require": [
+    [
+     "nike",
+     "rdvn",
+     "nikelab",
+     "gyakusou"
+    ],
+    [
+     "pant",
+     "pantalon",
+     "pantalones",
+     "pantaloni",
+     "trouser",
+     "jogger",
+     "jogging",
+     "legging",
+     "tight",
+     "hose",
+     "jacke",
+     "jacket",
+     "veste",
+     "giacca",
+     "chaqueta",
+     "kurtka",
+     "spodnie",
+     "calça",
+     "casaco",
+     "broek",
+     "jas ",
+     "bukse",
+     "byxor",
+     "housut",
+     "vest",
+     "gilet",
+     "fleece",
+     "hoodie",
+     "sweat",
+     "tracksuit",
+     "survêtement",
+     "windbreaker",
+     "coupe-vent",
+     "anorak",
+     "parka",
+     "shell"
+    ]
+   ],
+   "sources": [
+    "sans_ebay"
+   ],
+   "tier": "low"
+  },
+  {
+   "name": "Under Armour technologies",
+   "queries": [
+    "under armour coldgear infrared",
+    "under armour storm",
+    "under armour rush",
+    "under armour celliant",
+    "under armour swacket",
+    "under armour outrun the storm",
+    "under armour qualifier",
+    "under armour hybrid",
+    "under armour run everywhere",
+    "under armour tactical",
+    "ua cgi"
+   ],
+   "must_include_any": [
+    "infrared",
+    "cgi",
+    "storm",
+    "rush",
+    "celliant",
+    "swacket",
+    "outrun",
+    "qualifier",
+    "hybrid",
+    "run everywhere",
+    "tactical"
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "require": [
+    [
+     "under armour",
+     "underarmour",
+     " ua "
+    ]
+   ],
+   "sources": [
+    "tous"
+   ]
+  },
+  {
+   "name": "Under Armour running / ColdGear (large)",
+   "queries": [
+    "under armour running",
+    "ua running",
+    "under armour coldgear",
+    "ua coldgear"
+   ],
+   "must_include_any": [
+    "running",
+    "coldgear",
+    "cold gear"
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "require": [
+    [
+     "under armour",
+     "underarmour",
+     " ua "
+    ],
+    [
+     "pant",
+     "pantalon",
+     "pantalones",
+     "pantaloni",
+     "trouser",
+     "jogger",
+     "jogging",
+     "legging",
+     "tight",
+     "hose",
+     "jacke",
+     "jacket",
+     "veste",
+     "giacca",
+     "chaqueta",
+     "kurtka",
+     "spodnie",
+     "calça",
+     "casaco",
+     "broek",
+     "jas ",
+     "bukse",
+     "byxor",
+     "housut",
+     "vest",
+     "gilet",
+     "fleece",
+     "hoodie",
+     "sweat",
+     "tracksuit",
+     "survêtement",
+     "windbreaker",
+     "coupe-vent",
+     "anorak",
+     "parka",
+     "shell"
+    ]
+   ],
+   "sources": [
+    "sans_ebay"
+   ],
+   "tier": "low"
+  },
+  {
+   "name": "Columbia (Omni-Heat, OutDry, Titanium, Montrail...)",
+   "queries": [
+    "columbia omni-heat",
+    "columbia omni-heat infinity",
+    "columbia omni-tech",
+    "columbia omni-shield",
+    "columbia outdry",
+    "columbia omni-wick",
+    "columbia omni-wind",
+    "columbia titanium",
+    "columbia montrail",
+    "columbia pfg"
+   ],
+   "must_include_any": [
+    "omni-heat",
+    "omni heat",
+    "omni-tech",
+    "omni tech",
+    "omni-shield",
+    "outdry",
+    "omni-wick",
+    "omni-wind",
+    "titanium",
+    "montrail",
+    "pfg"
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "require": [
+    [
+     "columbia"
+    ]
+   ],
+   "sources": [
+    "sans_ebay"
+   ]
+  },
+  {
+   "name": "Codes exacts (SKU)",
+   "queries": [
+    "DQ6536-010",
+    "DQ6536",
+    "CU5439",
+    "DD6086",
+    "CZ8834",
+    "DA0450",
+    "1379293-001",
+    "1352029-001"
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "require": [],
+   "sources": [
+    "tous"
+   ],
+   "tier": "top",
+   "must_include_any": [
+    "dq6536",
+    "cu5439",
+    "dd6086",
+    "cz8834",
+    "da0450",
+    "1379293",
+    "1352029"
+   ]
+  },
+  {
+   "name": "Fautes d'orthographe de vendeurs",
+   "tier": "normal",
+   "queries": [
+    "aloyoga",
+    "columbia omniheat",
+    "columbia outdry extreme",
+    "lacoste crocodile",
+    "nike phenom elit",
+    "nike phenon",
+    "nike run divison",
+    "nike run divsion",
+    "nike storm fit",
+    "nike strom-fit",
+    "nike therma fit adv",
+    "nikee",
+    "ralph laurent",
+    "ralphlauren",
+    "stone ilsand",
+    "stoneisland",
+    "under armor coldgear",
+    "under armour cold gear",
+    "underarmor",
+    "underarmour storm"
+   ],
+   "require": [
+    [
+     "nike",
+     "under armour",
+     "under armor",
+     "underarmour",
+     "columbia",
+     "stone",
+     "ralph",
+     "lacoste",
+     "alo",
+     "nikee",
+     "underarmor"
+    ],
+    [
+     "jacket",
+     "veste",
+     "jacke",
+     "giacca",
+     "chaqueta",
+     "pants",
+     "pantalon",
+     "hose",
+     "pantaloni",
+     "hoodie",
+     "vest",
+     "gilet",
+     "top",
+     "shirt",
+     "tights",
+     "legging"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "vinted_core",
+    "olx_all",
+    "benelux",
+    "autres"
+   ]
+  },
+  {
+   "name": "Enchères eBay qui se terminent bientôt",
+   "tier": "normal",
+   "queries": [
+    "nike phenom",
+    "nike run division",
+    "nike storm-fit",
+    "nike shield",
+    "under armour coldgear",
+    "under armour storm",
+    "columbia omni-heat"
+   ],
+   "require": [
+    [
+     "nike",
+     "under armour",
+     "columbia"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 5,
+   "sources": [
+    "ebayend:fr",
+    "ebayend:de",
+    "ebayend:gb",
+    "ebayend:it",
+    "ebayend:es"
+   ]
+  },
+  {
+   "name": "Nike archives / collabs – pépites",
+   "tier": "normal",
+   "queries": [
+    "nike aeroswift",
+    "nike aerogami",
+    "nike acg",
+    "nike nocta",
+    "nike tech fleece",
+    "nike silver tag",
+    "nike white tag",
+    "nike vintage 90s",
+    "nike big swoosh",
+    "nike made in usa",
+    "nike x stussy",
+    "nike x off-white",
+    "nike x sacai",
+    "nike x corteiz",
+    "nike x patta",
+    "nike x travis scott",
+    "nike x cpfm",
+    "DQ6536-410",
+    "nike division"
+   ],
+   "require": [
+    [
+     "nike",
+     "nocta",
+     "acg"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ]
+  },
+  {
+   "name": "Nike archives / collabs – général",
+   "tier": "low",
+   "queries": [
+    "nike windrunner",
+    "nike tracksuit",
+    "nike survêtement",
+    "nike club",
+    "nike sportswear",
+    "nike dri-fit",
+    "nike storm-fit",
+    "nike therma-fit",
+    "nike center swoosh"
+   ],
+   "require": [
+    [
+     "nike",
+     "nocta",
+     "acg"
+    ],
+    [
+     "jacket",
+     "veste",
+     "jacke",
+     "giacca",
+     "chaqueta",
+     "pants",
+     "pantalon",
+     "hose",
+     "pantaloni",
+     "hoodie",
+     "sweat",
+     "vest",
+     "gilet",
+     "top",
+     "shirt",
+     "polo ralph",
+     "pull",
+     "tracksuit",
+     "survêtement",
+     "jogging",
+     "tights",
+     "legging",
+     "short",
+     "fleece",
+     "coat",
+     "manteau",
+     "crewneck",
+     "cardigan",
+     "knit",
+     "track"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "sources": [
+    "sans_ebay"
+   ]
+  },
+  {
+   "name": "Stone Island – pépites",
+   "tier": "normal",
+   "queries": [
+    "stone island vintage",
+    "stone island osti",
+    "stone island massimo osti",
+    "shadow project",
+    "ghost piece",
+    "crinkle reps",
+    "membrana 3l",
+    "david-tc",
+    "raso gommato",
+    "ice jacket",
+    "tela stella",
+    "prismatica",
+    "liquid reflective",
+    "heat reactive",
+    "dutch rope",
+    "stone island x supreme",
+    "stone island x palace",
+    "stone island x new balance"
+   ],
+   "require": [
+    [
+     "stone island",
+     "stoneisland",
+     "shadow project"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ]
+  },
+  {
+   "name": "Stone Island – général",
+   "tier": "low",
+   "queries": [
+    "stone island compass",
+    "stone island badge",
+    "soft shell-r",
+    "stone island overshirt",
+    "stone island sweat",
+    "stone island polo",
+    "stone island marina"
+   ],
+   "require": [
+    [
+     "stone island",
+     "stoneisland",
+     "shadow project"
+    ],
+    [
+     "jacket",
+     "veste",
+     "jacke",
+     "giacca",
+     "chaqueta",
+     "pants",
+     "pantalon",
+     "hose",
+     "pantaloni",
+     "hoodie",
+     "sweat",
+     "vest",
+     "gilet",
+     "top",
+     "shirt",
+     "polo ralph",
+     "pull",
+     "tracksuit",
+     "survêtement",
+     "jogging",
+     "tights",
+     "legging",
+     "short",
+     "fleece",
+     "coat",
+     "manteau",
+     "crewneck",
+     "cardigan",
+     "knit",
+     "track"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "sources": [
+    "sans_ebay"
+   ]
+  },
+  {
+   "name": "Ralph Lauren – pépites",
+   "tier": "normal",
+   "queries": [
+    "polo bear",
+    "polo sport",
+    "rlx",
+    "polo hi tech",
+    "polo stadium 1992",
+    "polo snow beach",
+    "polo p-wing",
+    "polo cookie",
+    "polo country",
+    "polo sailing",
+    "purple label",
+    "big pony",
+    "polo 1967",
+    "ralph lauren vintage 90s",
+    "chaps ralph lauren vintage",
+    "polo ralph lauren made in usa"
+   ],
+   "require": [
+    [
+     "ralph lauren",
+     "ralphlauren",
+     "ralph laurent",
+     "polo ralph",
+     "polo rl",
+     "polo bear",
+     "polo sport",
+     " rlx ",
+     "purple label",
+     "chaps"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ]
+  },
+  {
+   "name": "Ralph Lauren – général",
+   "tier": "low",
+   "queries": [
+    "polo ralph lauren",
+    "polo rl",
+    "cable knit ralph lauren",
+    "quarter zip ralph lauren",
+    "harrington ralph lauren",
+    "ralph lauren rugby",
+    "polo custom fit"
+   ],
+   "require": [
+    [
+     "ralph lauren",
+     "ralphlauren",
+     "ralph laurent",
+     "polo ralph",
+     "polo rl",
+     "polo bear",
+     "polo sport",
+     " rlx ",
+     "purple label",
+     "chaps"
+    ],
+    [
+     "ralph lauren",
+     "ralphlauren",
+     "ralph laurent",
+     "polo ralph",
+     "polo rl",
+     "polo bear",
+     "polo sport",
+     " rlx ",
+     "purple label",
+     "chaps"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "sources": [
+    "sans_ebay"
+   ]
+  },
+  {
+   "name": "Essentials (Fear of God) – pépites",
+   "tier": "normal",
+   "queries": [
+    "essentials 1977",
+    "essentials nylon",
+    "essentials reflective",
+    "essentials spring collection",
+    "essentials fall collection",
+    "fear of god athletics",
+    "fear of god main line",
+    "fear of god 7th collection",
+    "essentials tracksuit",
+    "essentials iron",
+    "essentials dark oatmeal",
+    "essentials light oatmeal",
+    "essentials cement",
+    "essentials off black",
+    "essentials stretch limo",
+    "essentials wheat",
+    "essentials smoke",
+    "essentials jet black"
+   ],
+   "require": [
+    [
+     "essentials",
+     "fear of god",
+     " fog "
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ]
+  },
+  {
+   "name": "Essentials (Fear of God) – général",
+   "tier": "low",
+   "queries": [
+    "essentials hoodie",
+    "essentials sweatpants",
+    "essentials crewneck",
+    "essentials short",
+    "fear of god essentials",
+    "fog essentials"
+   ],
+   "require": [
+    [
+     "essentials",
+     "fear of god",
+     " fog "
+    ],
+    [
+     "jacket",
+     "veste",
+     "jacke",
+     "giacca",
+     "chaqueta",
+     "pants",
+     "pantalon",
+     "hose",
+     "pantaloni",
+     "hoodie",
+     "sweat",
+     "vest",
+     "gilet",
+     "top",
+     "shirt",
+     "polo ralph",
+     "pull",
+     "tracksuit",
+     "survêtement",
+     "jogging",
+     "tights",
+     "legging",
+     "short",
+     "fleece",
+     "coat",
+     "manteau",
+     "crewneck",
+     "cardigan",
+     "knit",
+     "track"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "sources": [
+    "sans_ebay"
+   ]
+  },
+  {
+   "name": "Lacoste – pépites",
+   "tier": "normal",
+   "queries": [
+    "lacoste vintage",
+    "lacoste 90s",
+    "lacoste made in france",
+    "lacoste devanlay",
+    "lacoste big croco",
+    "lacoste sport tennis",
+    "lacoste ultra dry",
+    "lacoste x supreme",
+    "lacoste x golf le fleur",
+    "lacoste survêtement vintage",
+    "lacoste track jacket"
+   ],
+   "require": [
+    [
+     "lacoste"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ]
+  },
+  {
+   "name": "Lacoste – général",
+   "tier": "low",
+   "queries": [
+    "lacoste polo",
+    "lacoste L1212",
+    "lacoste crocodile brodé",
+    "lacoste sport",
+    "lacoste L!VE",
+    "lacoste pull",
+    "lacoste veste"
+   ],
+   "require": [
+    [
+     "lacoste"
+    ],
+    [
+     "jacket",
+     "veste",
+     "jacke",
+     "giacca",
+     "chaqueta",
+     "pants",
+     "pantalon",
+     "hose",
+     "pantaloni",
+     "hoodie",
+     "sweat",
+     "vest",
+     "gilet",
+     "top",
+     "shirt",
+     "polo ralph",
+     "pull",
+     "tracksuit",
+     "survêtement",
+     "jogging",
+     "tights",
+     "legging",
+     "short",
+     "fleece",
+     "coat",
+     "manteau",
+     "crewneck",
+     "cardigan",
+     "knit",
+     "track"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "sources": [
+    "sans_ebay"
+   ]
+  },
+  {
+   "name": "Alo Yoga – pépites",
+   "tier": "normal",
+   "queries": [
+    "alo airlift",
+    "alo airbrush",
+    "alo accolade",
+    "alo conquer",
+    "alo warrior",
+    "alo moto legging",
+    "alo goddess",
+    "alo muse",
+    "alo renew",
+    "alo cargo",
+    "alo soho",
+    "alo yoga neuf avec étiquette"
+   ],
+   "require": [
+    [
+     "alo yoga",
+     " alo ",
+     "aloyoga"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ],
+   "allow": [
+    "femme",
+    "women",
+    "womens",
+    "damen",
+    "dames",
+    "donna",
+    "mujer",
+    "wmns",
+    "kobiet",
+    "damskie",
+    "short"
+   ]
+  },
+  {
+   "name": "Alo Yoga – général",
+   "tier": "low",
+   "queries": [
+    "alo yoga",
+    "alo hoodie",
+    "alo sweatpants",
+    "alo high-waist",
+    "alo 7/8",
+    "alo bella tank"
+   ],
+   "require": [
+    [
+     "alo yoga",
+     " alo ",
+     "aloyoga"
+    ],
+    [
+     "jacket",
+     "veste",
+     "jacke",
+     "giacca",
+     "chaqueta",
+     "pants",
+     "pantalon",
+     "hose",
+     "pantaloni",
+     "hoodie",
+     "sweat",
+     "vest",
+     "gilet",
+     "top",
+     "shirt",
+     "polo ralph",
+     "pull",
+     "tracksuit",
+     "survêtement",
+     "jogging",
+     "tights",
+     "legging",
+     "short",
+     "fleece",
+     "coat",
+     "manteau",
+     "crewneck",
+     "cardigan",
+     "knit",
+     "track"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "sources": [
+    "sans_ebay"
+   ],
+   "allow": [
+    "femme",
+    "women",
+    "womens",
+    "damen",
+    "dames",
+    "donna",
+    "mujer",
+    "wmns",
+    "kobiet",
+    "damskie",
+    "short"
+   ]
+  },
+  {
+   "name": "Adidas Training – pépites",
+   "tier": "normal",
+   "queries": [
+    "adidas fear of god athletics",
+    "adidas x wales bonner",
+    "adidas x pharrell",
+    "adidas adizero",
+    "adidas aeroready",
+    "adidas heat.rdy",
+    "adidas techfit",
+    "adidas z.n.e.",
+    "adidas firebird vintage",
+    "adidas originals vintage 90s"
+   ],
+   "require": [
+    [
+     "adidas"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ]
+  },
+  {
+   "name": "Adidas Training – général",
+   "tier": "low",
+   "queries": [
+    "adidas training",
+    "adidas tiro",
+    "adidas designed 4 training",
+    "adidas powerreact",
+    "adidas climacool",
+    "adidas climalite",
+    "adidas formotion",
+    "adidas own the run"
+   ],
+   "require": [
+    [
+     "adidas"
+    ],
+    [
+     "jacket",
+     "veste",
+     "jacke",
+     "giacca",
+     "chaqueta",
+     "pants",
+     "pantalon",
+     "hose",
+     "pantaloni",
+     "hoodie",
+     "sweat",
+     "vest",
+     "gilet",
+     "top",
+     "shirt",
+     "polo ralph",
+     "pull",
+     "tracksuit",
+     "survêtement",
+     "jogging",
+     "tights",
+     "legging",
+     "short",
+     "fleece",
+     "coat",
+     "manteau",
+     "crewneck",
+     "cardigan",
+     "knit",
+     "track"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 15,
+   "sources": [
+    "sans_ebay"
+   ]
+  },
+  {
+   "name": "Under Armour pépites – pépites",
+   "tier": "normal",
+   "queries": [
+    "ua project rock",
+    "ua curry",
+    "ua vanish",
+    "ua coldgear infrared",
+    "ua iso-chill",
+    "under armour vintage 2000s",
+    "ua storm"
+   ],
+   "require": [
+    [
+     "under armour",
+     "under armor",
+     "underarmour",
+     " ua "
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "tous"
+   ]
+  }
+ ],
+ "pace": {
+  "vinted": [
+   12,
+   20
+  ]
+ },
+ "cooldown_min": 45,
+ "notify_existing": true,
+ "backlog_max": 60,
+ "slice": {
+  "vinted": 14,
+  "ebay": 10,
+  "ebayend": 7
+ },
+ "highlight": [
+  " ds ",
+  "bnwt",
+  "collector",
+  "deadstock",
+  "edition limitee",
+  "gore-tex",
+  "goretex",
+  "gtx",
+  "jamais porte",
+  "jamais porté",
+  "neu mit etikett",
+  "neuf avec etiquette",
+  "neuf avec étiquette",
+  "new with tags",
+  "nwt",
+  "sample",
+  "sold out",
+  "vntg",
+  "édition limitée",
+  "épuisé"
+ ],
+ "sizes": [],
+ "interval_min": {
+  "ebay": 5,
+  "ebayend": 30,
+  "marktplaats": 5,
+  "vinted:fr": 10,
+  "vinted": 20
+ },
+ "extras": {
+  "deal_ratio": 0.65,
+  "suspect_ratio": 0.3,
+  "resale_factor": 0.85,
+  "drop_ratio": 0.85,
+  "outage_hours": 2,
+  "digest_hour": 8,
+  "digest_always": false
+ },
+ "email": {
+  "enabled": false,
+  "senders": [
+   "leboncoin",
+   "vestiairecollective",
+   "depop",
+   "wallapop",
+   "facebookmail",
+   "kleinanzeigen",
+   "vinted"
+  ]
+ },
+ "rare_words": [
+  "rare",
+  "vintage",
+  "90s",
+  "y2k",
+  "made in usa",
+  "made in italy",
+  "made in france"
+ ],
+ "urgent_words": [
+  "vide dressing",
+  "déménagement",
+  "demenagement",
+  "urgent",
+  "à saisir",
+  "a saisir",
+  "prix cassé",
+  "prix casse",
+  "faire offre",
+  "offre acceptée"
+ ],
+ "brands": {
+  "Nike": [
+   "nike",
+   "nikee"
+  ],
+  "Stone Island": [
+   "stone island",
+   "stoneisland",
+   "stone ilsand",
+   "shadow project"
+  ],
+  "Ralph Lauren": [
+   "ralph lauren",
+   "ralphlauren",
+   "ralph laurent",
+   "polo rl",
+   "polo ralph"
+  ],
+  "Essentials": [
+   "essentials",
+   "fear of god",
+   " fog "
+  ],
+  "Lacoste": [
+   "lacoste"
+  ],
+  "Alo": [
+   " alo ",
+   "alo yoga",
+   "aloyoga"
+  ],
+  "Adidas": [
+   "adidas"
+  ],
+  "Under Armour": [
+   "under armour",
+   "under armor",
+   "underarmour",
+   "underarmor",
+   " ua "
+  ],
+  "Columbia": [
+   "columbia"
+  ]
+ },
+ "topics": {},
+ "slice_default": 10,
+ "time_budget_min": 6,
+ "send_budget_min": 9,
+ "max_alerts_per_pass": 40
+}
