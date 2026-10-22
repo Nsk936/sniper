@@ -620,28 +620,20 @@
    ],
    "max_price": 70,
    "min_price": 12,
-   "require": [
-    [
-     "nike",
-     "rdvn",
-     "nikelab",
-     "gyakusou",
-     "under armour",
-     "underarmour",
-     " ua ",
-     "dq6536",
-     "cu5439",
-     "dd6086",
-     "cz8834",
-     "da0450",
-     "1379293",
-     "1352029"
-    ]
-   ],
+   "require": [],
    "sources": [
     "tous"
    ],
-   "tier": "top"
+   "tier": "top",
+   "must_include_any": [
+    "dq6536",
+    "cu5439",
+    "dd6086",
+    "cz8834",
+    "da0450",
+    "1379293",
+    "1352029"
+   ]
   },
   {
    "name": "Fautes d'orthographe de vendeurs",
