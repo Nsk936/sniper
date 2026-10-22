@@ -754,7 +754,10 @@ def run_once(config, dry_run=False, only=None):
     now = time.time()
     paused = {s for s, until in cooldown.items() if until > now}
     if not dry_run:
-        extras.process_callbacks(state)
+        try:
+            extras.process_callbacks(state)
+        except Exception as ex:  # les boutons ne doivent jamais bloquer la passe
+            log(f"Boutons Telegram ignorés : {type(ex).__name__}: {ex}")
     last = state.setdefault("last", {})
     intervals = config.get("interval_min", {})
 
