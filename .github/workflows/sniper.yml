@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: sniper
@@ -49,3 +50,11 @@ jobs:
             sleep 5
           done
           exit 1
+
+      - name: Relancer la passe suivante (boucle automatique)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 90
+          gh workflow run sniper.yml --ref "${GITHUB_REF_NAME}" || echo "relance impossible, le planning prendra le relais"
