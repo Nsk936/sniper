@@ -1,5 +1,10 @@
 {
  "seen": {
+  "olx:ua:884496706": 1792940363,
+  "olx:ua:932040554": 1792940362,
+  "olx:ua:881666725": 1792940360,
+  "olx:bg:148226737": 1792940359,
+  "olx:bg:143457420": 1792940357,
   "olx:pt:582035615": 1792940077,
   "olx:pt:672827804": 1792940076,
   "vinted:10524912963": 1792940074,
@@ -19994,12 +19999,7 @@
   "vinted:pl:10295572720": 1792011061,
   "vinted:pl:10283579612": 1792011061,
   "vinted:pl:10288009799": 1792011061,
-  "vinted:pl:10281644741": 1792011061,
-  "vinted:pl:10275635231": 1792011061,
-  "vinted:pl:10248977622": 1792011061,
-  "vinted:pl:10272579841": 1792011061,
-  "vinted:pl:10270385045": 1792011061,
-  "vinted:pl:10267594864": 1792011061
+  "vinted:pl:10281644741": 1792011061
  },
  "initialized": [
   "2dehands|1352029-001",
@@ -25858,7 +25858,18 @@
   "willhaben|underarmor",
   "willhaben|underarmour storm"
  ],
- "cooldown": {},
+ "cooldown": {
+  "ebayend:fr": 1792942889.251786,
+  "ebayend:de": 1792942889.251786,
+  "ebayend:gb": 1792942889.251786,
+  "ebayend:it": 1792942889.251786,
+  "ebayend:es": 1792942889.251786,
+  "ebay:fr": 1792942889.251786,
+  "ebay:de": 1792942889.251786,
+  "ebay:it": 1792942889.251786,
+  "ebay:gb": 1792942889.251786,
+  "ebay:us": 1792942889.251786
+ },
  "rot": {
   "vinted": 18
  },
@@ -25875,64 +25886,59 @@
   "vinted:com": 1792939769.5677843,
   "vinted:gr": 1792939339.9465415,
   "vinted:ie": 1792939339.9465415,
-  "ebay:fr": 1792937347.5262258,
-  "ebay:de": 1792937347.5262258,
-  "ebay:it": 1792937347.5262258,
-  "ebay:gb": 1792937347.5262258,
-  "ebay:us": 1792937347.5262258,
+  "ebay:fr": 1792940189.251786,
+  "ebay:de": 1792940189.251786,
+  "ebay:it": 1792940189.251786,
+  "ebay:gb": 1792940189.251786,
+  "ebay:us": 1792940189.251786,
   "olx:pl": 1792757224.1069632,
-  "olx:ro": 1792939769.5677843,
-  "olx:bg": 1792939769.5677843,
-  "olx:pt": 1792939769.5677843,
-  "olx:ua": 1792939769.5677843,
-  "olx:kz": 1792939769.5677843,
+  "olx:ro": 1792940189.251786,
+  "olx:bg": 1792940189.251786,
+  "olx:pt": 1792940189.251786,
+  "olx:ua": 1792940189.251786,
+  "olx:kz": 1792940189.251786,
   "marktplaats": 1792757224.1069632,
   "2dehands": 1792757224.1069632,
   "2ememain": 1792757224.1069632,
-  "willhaben": 1792939769.5677843,
-  "bazos:cz": 1792939769.5677843,
-  "bazos:sk": 1792939769.5677843,
-  "subito": 1792939769.5677843,
-  "ebayend:fr": 1792937347.5262258,
-  "ebayend:de": 1792937347.5262258,
-  "ebayend:gb": 1792937347.5262258,
-  "ebayend:it": 1792937347.5262258,
-  "ebayend:es": 1792937347.5262258
+  "willhaben": 1792940189.251786,
+  "bazos:cz": 1792940189.251786,
+  "bazos:sk": 1792940189.251786,
+  "subito": 1792940189.251786,
+  "ebayend:fr": 1792940189.251786,
+  "ebayend:de": 1792940189.251786,
+  "ebayend:gb": 1792940189.251786,
+  "ebayend:it": 1792940189.251786,
+  "ebayend:es": 1792940189.251786
  },
  "qrot": {
-  "vinted:fr": 90,
-  "vinted:pl": 214,
-  "vinted:lt": 20,
-  "vinted:fi": 90,
-  "vinted:co.uk": 242,
-  "vinted:com": 242,
-  "vinted:gr": 20,
-  "vinted:ie": 90,
-  "ebay:fr": 55,
-  "ebay:de": 55,
-  "ebay:it": 55,
-  "ebay:gb": 55,
-  "ebay:us": 55,
+  "vinted:fr": 104,
+  "vinted:pl": 228,
+  "vinted:lt": 34,
+  "vinted:fi": 104,
+  "vinted:co.uk": 6,
+  "vinted:com": 6,
+  "vinted:gr": 34,
+  "vinted:ie": 104,
+  "ebay:fr": 75,
+  "ebay:de": 75,
+  "ebay:it": 75,
+  "ebay:gb": 75,
+  "ebay:us": 75,
   "olx:pl": 190,
-  "olx:ro": 220,
-  "olx:bg": 220,
-  "olx:pt": 220,
-  "olx:ua": 220,
-  "olx:kz": 220,
+  "olx:ro": 0,
+  "olx:bg": 0,
+  "olx:pt": 0,
+  "olx:ua": 0,
+  "olx:kz": 0,
   "marktplaats": 190,
   "2dehands": 190,
   "2ememain": 190,
-  "willhaben": 220,
-  "bazos:cz": 220,
-  "bazos:sk": 220,
-  "subito": 220
+  "willhaben": 0,
+  "bazos:cz": 0,
+  "bazos:sk": 0,
+  "subito": 0
  },
  "pl": {
-  "olx:bg:149486834": 20.0,
-  "olx:pt:670413433": 25.0,
-  "olx:pt:665294444": 19.0,
-  "willhaben:1305493749": 30.0,
-  "willhaben:1356556354": 40.0,
   "willhaben:1969810606": 25.0,
   "subito:id:ad:9018847a-bca8-497d-924a-7036fffed329:list:625318882": 34.0,
   "olx:pt:651956759": 50.0,
@@ -30927,14 +30933,14 @@
   "vinted:10527109592": 18.55,
   "vinted:10524912963": 13.93,
   "olx:pt:672827804": 30.0,
-  "olx:pt:582035615": 60.0
+  "olx:pt:582035615": 60.0,
+  "olx:bg:143457420": 28.12,
+  "olx:bg:148226737": 35.0,
+  "olx:ua:881666725": 63.00000000000001,
+  "olx:ua:932040554": 31.500000000000004,
+  "olx:ua:884496706": 37.737
  },
  "fp": {
-  "survtementgrisnike|32": "vinted:10517206535",
-  "quarterzipperralphlauren|45": "olx:pt:674799656",
-  "polovintagechemiselacostenoirpochepoitri|22": "vinted:10516274377",
-  "polovintagechemiselacostevertmenthecolzi|22": "vinted:10516196778",
-  "sweatcapuche|19": "vinted:10517134818",
   "tshirtlacostevintagebleucieltaille4m|16": "vinted:10516854874",
   "bluzaadidasadizerorosul|20": "olx:ro:309780015",
   "pantaloniadidasaeroreadynavyblue|18": "olx:ro:309733694",
@@ -35929,7 +35935,12 @@
   "pantalonessentials|19": "vinted:10527109592",
   "chemiselacostedevanlayvintage2000manches|14": "vinted:10524912963",
   "sapatilhasadidas70s20|30": "olx:pt:672827804",
-  "blusodesportivoadidas90svintage|60": "olx:pt:582035615"
+  "blusodesportivoadidas90svintage|60": "olx:pt:582035615",
+  "nike|28": "olx:bg:143457420",
+  "nikerunningdivisiondrifitadvrun|35": "olx:bg:148226737",
+  "nikexcactusjackbytravisscottpants|63": "olx:ua:881666725",
+  "nikeairjordan1lowxtravisscottpinkwhitebe|32": "olx:ua:932040554",
+  "nikesbdunklow|38": "olx:ua:884496706"
  },
  "digest": [],
  "prices": {
@@ -43207,7 +43218,6 @@
    32.2
   ],
   "nike": [
-   40.4,
    56.7,
    37.5,
    37.5,
@@ -43266,7 +43276,8 @@
    51.1,
    53.2,
    50.3,
-   26.9
+   26.9,
+   28.1
   ],
   "nike royal blue windbreaker": [
    27.7
@@ -53122,7 +53133,6 @@
    23.7
   ],
   "nike dri fit challenger": [
-   37.0,
    14.7,
    14.7,
    37.0,
@@ -53174,6 +53184,7 @@
    14.7,
    14.7,
    37.0,
+   14.7,
    14.7,
    14.7,
    14.7,
@@ -92891,7 +92902,6 @@
    63.7
   ],
   "nike acg": [
-   48.3,
    50.4,
    31.3,
    31.3,
@@ -92950,6 +92960,7 @@
    48.3,
    22.1,
    20.6,
+   35.7,
    35.7
   ],
   "nike acg mexico vintage": [
@@ -103570,7 +103581,6 @@
    40.4
   ],
   "polo ralph lauren": [
-   31.5,
    27.3,
    22.4,
    53.2,
@@ -103629,7 +103639,8 @@
    42.0,
    25.2,
    23.1,
-   31.5
+   31.5,
+   27.3
   ],
   "geac din puf ralph": [
    50.5,
@@ -108434,7 +108445,6 @@
   ],
   "polo ralph lauren sport": [
    28.4,
-   28.4,
    58.5,
    21.7,
    28.4,
@@ -108492,6 +108502,7 @@
    28.4,
    19.1,
    49.1,
+   28.4,
    28.4
   ],
   "ralph lauren neck cable": [
@@ -109952,7 +109963,6 @@
    15.0
   ],
   "polo ralph lauren vintage": [
-   65.3,
    13.1,
    41.4,
    65.3,
@@ -110011,7 +110021,8 @@
    31.0,
    23.2,
    63.6,
-   58.5
+   58.5,
+   55.4
   ],
   "sweatshirt ralph lauren tamanho": [
    55.0,
@@ -161702,7 +161713,6 @@
    20.8
   ],
   "nike air force low": [
-   40.4,
    52.0,
    37.7,
    41.8,
@@ -161761,7 +161771,8 @@
    43.0,
    36.7,
    43.0,
-   36.7
+   36.7,
+   58.6
   ],
   "nike air max plus": [
    51.1,
@@ -165154,7 +165165,6 @@
    39.1
   ],
   "vintage polo sport ralph": [
-   40.0,
    38.9,
    36.8,
    36.1,
@@ -165213,7 +165223,8 @@
    37.4,
    50.5,
    51.0,
-   50.3
+   50.3,
+   46.2
   ],
   "polo ralph lauren schnee": [
    23.9,
@@ -167220,7 +167231,6 @@
    25.2
   ],
   "polo bear ralph lauren": [
-   21.0,
    37.8,
    37.8,
    42.7,
@@ -167278,6 +167288,7 @@
    37.8,
    28.4,
    27.3,
+   37.8,
    37.8,
    37.8
   ],
@@ -187223,8 +187234,6 @@
    70.0
   ],
   "nike dunk low": [
-   39.7,
-   39.7,
    37.7,
    39.7,
    37.7,
@@ -187282,7 +187291,9 @@
    37.7,
    37.7,
    37.7,
-   58.9
+   58.9,
+   37.7,
+   37.7
   ],
   "dunk low pro nobuck": [
    55.0,
@@ -191292,7 +191303,6 @@
    34.1
   ],
   "ralph lauren big pony": [
-   17.9,
    25.2,
    16.8,
    32.2,
@@ -191351,7 +191361,8 @@
    13.3,
    16.8,
    17.9,
-   25.2
+   25.2,
+   16.8
   ],
   "ralph lauren sport rlx": [
    54.7,
@@ -193178,7 +193189,6 @@
    41.8
   ],
   "polo ralph lauren big": [
-   32.7,
    65.2,
    30.8,
    29.4,
@@ -193237,7 +193247,8 @@
    26.2,
    17.8,
    37.8,
-   36.7
+   36.7,
+   26.2
   ],
   "polo sport crewneck": [
    25.6,
@@ -195062,7 +195073,6 @@
    39.9,
    39.9,
    39.9,
-   39.9,
    64.5,
    39.9,
    39.9,
@@ -195077,6 +195087,7 @@
    64.5,
    39.9,
    64.5,
+   39.9,
    39.9,
    39.9,
    39.9,
@@ -196560,7 +196571,6 @@
    40.4
   ],
   "polo ralph lauren old": [
-   14.5,
    14.7,
    14.7,
    14.7,
@@ -196619,7 +196629,8 @@
    15.8,
    14.7,
    52.3,
-   33.2
+   33.2,
+   14.7
   ],
   "polo ralph lauren light": [
    25.0,
@@ -200889,7 +200900,6 @@
    65.1,
    65.1,
    65.1,
-   65.1,
    47.9,
    65.1,
    65.1,
@@ -200944,7 +200954,8 @@
    47.9,
    65.1,
    65.1,
-   55.1
+   55.1,
+   65.1
   ],
   "fear god essentials ss22": [
    56.7,
@@ -266381,7 +266392,6 @@
   ],
   "ralph lauren polo jeans": [
    15.8,
-   15.8,
    20.0,
    20.4,
    17.4,
@@ -266439,7 +266449,8 @@
    15.8,
    17.4,
    60.8,
-   14.9
+   14.9,
+   15.8
   ],
   "chaps ralph lauren linen": [
    21.5,
@@ -319213,6 +319224,7 @@
    12.9,
    12.9,
    41.9,
+   35.0,
    35.0
   ],
   "nike running division-": [
@@ -319226,6 +319238,7 @@
    30.7,
    30.7,
    30.7,
+   41.8,
    41.8
   ],
   "nike running division adv": [
@@ -319574,8 +319587,6 @@
    40.0
   ],
   "nike air jordan low": [
-   52.5,
-   60.9,
    60.9,
    60.9,
    65.7,
@@ -319632,6 +319643,8 @@
    31.5,
    18.9,
    65.7,
+   31.5,
+   52.5,
    31.5,
    52.5
   ],
@@ -320680,7 +320693,6 @@
    58.6
   ],
   "nike air force cpfm": [
-   29.7,
    57.8,
    45.1,
    57.8,
@@ -320739,9 +320751,11 @@
    57.8,
    39.1,
    29.7,
+   57.8,
    57.8
   ],
   "nike air max cactus": [
+   67.2,
    67.2,
    67.2,
    67.2,
@@ -320907,9 +320921,11 @@
    52.5,
    52.5,
    52.5,
+   52.5,
    52.5
   ],
   "nike nocta souvenir cactus": [
+   33.6,
    33.6,
    33.6,
    33.6,
@@ -321012,6 +321028,7 @@
    31.5,
    31.5,
    31.5,
+   31.5,
    31.5
   ],
   "krakatau s-m riot division": [
@@ -321064,9 +321081,11 @@
    47.2,
    47.2,
    47.2,
+   47.2,
    47.2
   ],
   "nike 13-14": [
+   12.6,
    12.6,
    12.6,
    12.6,
@@ -321976,9 +321995,9 @@
    20.0
   ],
   "new balance stone island": [
+   59.9,
    65.1,
    66.2,
-   60.0,
    56.5,
    59.6,
    52.5,
@@ -322175,10 +322194,6 @@
    39.0
   ],
   "stone island supreme stone": [
-   32.6,
-   51.5,
-   59.8,
-   58.6,
    44.1,
    32.6,
    51.5,
@@ -322234,7 +322249,11 @@
    44.1,
    32.6,
    51.5,
-   60.9
+   60.9,
+   58.6,
+   44.1,
+   32.6,
+   51.5
   ],
   "stone island supreme spider": [
    69.3,
@@ -322301,22 +322320,6 @@
   "stone island supreme": [
    51.5,
    54.6,
-   42.0,
-   48.3,
-   42.0,
-   69.3,
-   64.0,
-   67.2,
-   67.0,
-   58.6,
-   48.1,
-   54.6,
-   28.4,
-   67.2,
-   54.6,
-   42.0,
-   51.5,
-   54.6,
    48.3,
    51.5,
    69.3,
@@ -322349,6 +322352,22 @@
    54.6,
    48.3,
    51.5,
+   69.3,
+   64.0,
+   67.2,
+   67.0,
+   58.6,
+   48.1,
+   54.6,
+   28.4,
+   67.2,
+   54.6,
+   51.5,
+   54.6,
+   42.0,
+   48.3,
+   51.5,
+   42.0,
    69.3,
    64.0,
    67.2,
@@ -322473,9 +322492,11 @@
    54.6,
    54.6,
    54.6,
+   54.6,
    54.6
   ],
   "stone island supreme s-m-l-xl-xxl": [
+   60.5,
    60.5,
    60.5,
    60.5,
@@ -322530,8 +322551,6 @@
   ],
   "stone island new balance": [
    58.8,
-   56.7,
-   58.8,
    66.0,
    52.1,
    56.7,
@@ -322588,10 +322607,11 @@
    58.8,
    56.7,
    58.8,
-   32.2
+   32.2,
+   56.7,
+   58.8
   ],
   "new balance fuelcell stone": [
-   67.2,
    60.9,
    67.2,
    60.9,
@@ -322625,6 +322645,7 @@
    60.9,
    67.2,
    60.9,
+   67.2,
    67.2,
    67.2,
    67.2,
@@ -322653,6 +322674,7 @@
    67.2
   ],
   "wow new balance stone": [
+   69.1,
    69.1,
    69.1,
    69.1,
@@ -322756,12 +322778,10 @@
    60.9,
    60.9,
    60.9,
+   60.9,
    60.9
   ],
   "new balance legacy stone": [
-   50.2,
-   58.6,
-   55.7,
    58.8,
    50.2,
    58.6,
@@ -322804,6 +322824,9 @@
    55.7,
    58.8,
    50.2,
+   58.6,
+   55.7,
+   58.8,
    58.6,
    55.7,
    58.8,
@@ -324147,11 +324170,10 @@
    58.8,
    58.8,
    58.8,
+   58.8,
    58.8
   ],
   "polo ralph lauren down": [
-   50.4,
-   65.1,
    50.4,
    65.1,
    50.4,
@@ -324206,6 +324228,8 @@
    65.1,
    50.4,
    43.1,
+   65.1,
+   50.4,
    65.1,
    50.4,
    65.1,
@@ -324266,10 +324290,10 @@
    28.4,
    28.4,
    28.4,
+   28.4,
    28.4
   ],
   "ralph lauren polo golf": [
-   44.1,
    44.1,
    44.1,
    44.1,
@@ -324328,9 +324352,11 @@
    44.1,
    44.1,
    34.6,
+   44.1,
    44.1
   ],
   "timberland ralph lauren style": [
+   44.1,
    44.1,
    44.1,
    44.1,
@@ -324434,9 +324460,11 @@
    27.5,
    27.5,
    27.5,
+   27.5,
    27.5
   ],
   "henley longsleeve archive faith": [
+   33.4,
    33.4,
    33.4,
    33.4,
@@ -324595,6 +324623,7 @@
    37.8,
    37.8,
    37.8,
+   37.8,
    37.8
   ],
   "polo ralph lauren nylon": [
@@ -324648,9 +324677,11 @@
    27.3,
    27.3,
    27.3,
+   27.3,
    27.3
   ],
   "polo ralph lauren hand": [
+   18.5,
    18.5,
    18.5,
    18.5,
@@ -326635,6 +326666,7 @@
    37.8,
    37.8,
    37.8,
+   37.8,
    37.8
   ],
   "fear god essentials raw": [
@@ -326706,9 +326738,11 @@
    58.4,
    58.4,
    58.4,
+   58.4,
    58.4
   ],
   "dior smoke essentials": [
+   15.8,
    15.8,
    15.8,
    15.8,
@@ -393007,6 +393041,7 @@
    32.2,
    32.2,
    32.2,
+   63.0,
    63.0,
    63.0,
    63.0,
@@ -462342,7 +462377,7 @@
    42.0
   ],
   "stone island puffer stone": [
-   67.2,
+   63.0,
    63.0,
    63.0,
    63.0,
@@ -537899,6 +537934,7 @@
    54.4,
    40.0,
    58.6,
+   58.6,
    58.6
   ],
   "barcelona nike vintage training": [
@@ -579716,6 +579752,7 @@
    15.4
   ],
   "38-45 new balance stone": [
+   65.1,
    65.1,
    65.1,
    65.1,
@@ -658070,9 +658107,11 @@
    65.0
   ],
   "nike dri-fit one icon": [
+   26.2,
    26.2
   ],
   "calvin klein j30j319656 riot": [
+   43.3,
    43.3
   ],
   "vintage early 2000s y2k": [
@@ -659969,88 +660008,12 @@
   ],
   "sweather lacoste vintage taglia": [
    37.5
+  ],
+  "nike air force react": [
+   20.1
   ]
  },
  "meta": {
-  "ebay:it:v1|117486461904|0": {
-   "model": "australia shirt mens yellow",
-   "seller": "ja-jcust-jbj9rsn",
-   "photos": [
-    "https://i.ebayimg.com/images/g/OgoAAeSwPXdqhlXy/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/Pl8AAeSwgwRqhlX1/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/sM4AAeSwR8JqhlX3/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/Q8QAAeSwPdNqhlX-/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/KxYAAeSwhPJqhlX7/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/O3MAAeSwsDVqhlYA/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/0BUAAeSw7dJqhlYG/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/AOwAAeSw5NJqhlYE/s-l225.jpg"
-   ],
-   "title": "Australia Shirt Mens XL Yellow Soccer Nike National Team Graphic T Shirt ACG",
-   "url": "https://www.ebay.it/itm/117486461904?_skw=nike+acg&hash=item1b5abd23d0:g:OgoAAeSwPXdqhlXy",
-   "brand": "Nike"
-  },
-  "ebay:it:v1|377596535364|0": {
-   "model": "nike acg pullover black",
-   "seller": "unc_jes",
-   "photos": [
-    "https://i.ebayimg.com/images/g/iXIAAeSwwetq3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/kQ4AAeSwIaJq3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/mNgAAeSwHrdq3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/gGIAAeSwOE5q3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/je0AAeSwZzlq3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/458AAeSwi4Zq3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/m1EAAeSw1~1q3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/hE0AAeSwG55q3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/3-YAAeSwp6Vq3f6s/s-l225.jpg",
-    "https://i.ebayimg.com/images/g/4mkAAeSwODFq3f6s/s-l225.jpg"
-   ],
-   "title": "Nike ACG Pullover L Black Quarter Zip NikeFIT DRY Long Sleeve Top *",
-   "url": "https://www.ebay.it/itm/377596535364?_skw=nike+acg&hash=item57ea81e244:g:iXIAAeSwwetq3f6s",
-   "brand": "Nike"
-  },
-  "olx:pt:616705602": {
-   "model": "camisola nike",
-   "seller": "Filipa Santos",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/wznr5xuuhi2a-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/im96hky3hzx61-PT/image;s=800x800"
-   ],
-   "title": "Camisola Nike",
-   "url": "https://www.olx.pt/d/anuncio/camisola-nike-IDFJDiy.html",
-   "brand": "Nike"
-  },
-  "olx:pt:649070178": {
-   "model": "cal nike acg outer",
-   "seller": "Mikael Bernardino",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/fx7nl9bpdue42-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/7rdign5es7n73-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/a1s3o6lfc73s1-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/30wgw0i3g3jo3-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/ieeok1bduejt3-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/1qs2c2gjendv1-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/qfs2emdqatxg1-PT/image;s=800x800"
-   ],
-   "title": "Cal\u00e7a Nike ACG outer layer 3 couche externe",
-   "url": "https://www.olx.pt/d/anuncio/cala-nike-acg-outer-layer-3-couche-externe-IDHWqNQ.html",
-   "brand": "Nike"
-  },
-  "olx:ua:896278017": {
-   "model": "nike acg",
-   "seller": "inst BERSERK_MARKET",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/4bfuxy6qerkm-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/sa042vzt6hps-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/hecw3j95scat-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/gy496srspd81-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/bpq9o9o4ymau2-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/b614126niqmm1-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/iamw5brngv0a-UA/image;s=800x800"
-   ],
-   "title": "\u0421\u044e\u0434\u0430! \u0428\u0442\u0430\u043d\u0438 Nike ACG | \u041e\u041f\u0422, \u0414\u0420\u041e\u041f\u0428\u0418\u041f\u0406\u041d\u0413 |",
-   "url": "https://www.olx.ua/d/uk/obyavlenie/syuda-shtani-nike-acg-opt-dropshipng-IDYEGR3.html",
-   "brand": "Nike"
-  },
   "olx:ua:933784909": {
    "model": "nike acg goretex xxl",
    "seller": "\u041c\u0456\u0448\u0430 380975639094",
@@ -664601,6 +664564,88 @@
    "title": "Blus\u00e3o Desportivo Adidas 90s Vintage",
    "url": "https://www.olx.pt/d/anuncio/bluso-desportivo-adidas-90s-vintage-IDDoa3d.html",
    "brand": "Adidas"
+  },
+  "olx:bg:143457420": {
+   "model": "nike",
+   "seller": "\u041c\u0430\u0440\u0442\u0438\u043d",
+   "photos": [
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/wenpmp64jzr51-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/c1jegiyiq9ye2-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/cytgukulf4bv2-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/97zylbskao622-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/2ucafixynuss-BG/image;s=800x800"
+   ],
+   "title": "\u041c\u044a\u0436\u043a\u0438 \u0442\u0435\u043d\u0438\u0441\u043a\u0438 Nike - \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u0440\u0430\u0437\u043c\u0435\u0440\u0438",
+   "url": "https://www.olx.bg/d/ad/mazhki-teniski-nike-razlichni-razmeri-CID655-ID9HWPm.html",
+   "brand": "Nike"
+  },
+  "olx:bg:148226737": {
+   "model": "nike running division dri",
+   "seller": "\u041d\u0430\u0442\u0430\u043b\u0438\u044f",
+   "photos": [
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/epjr9tsti4193-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/e56sm1bywqek3-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/iqhufnjg98yj2-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/f1h14lv98lgk2-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/zkuf7cq664eu-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/d9wugx6x564n2-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/ajkm67z82n273-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/pptfxfhv12171-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/tkdokbr0e7tv2-BG/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/fo71x7sl1xeu3-BG/image;s=800x800"
+   ],
+   "title": "Nike Running Division Dri Fit ADV Run \u043a\u044a\u0441\u0438 \u043f\u0430\u043d\u0442\u0430\u043b\u043e\u043d\u0438 \u0448\u043e\u0440\u0442\u0438 \u0437\u0430 \u0442\u0438\u0447\u0430\u043d\u0435 \u0431\u044f\u0433\u0430\u043d\u0435",
+   "url": "https://www.olx.bg/d/ad/nike-running-division-dri-fit-adv-run-kasi-pantaloni-shorti-za-tichane-byagane-CID655-IDa1VxP.html",
+   "brand": "Nike"
+  },
+  "olx:ua:881666725": {
+   "model": "nike cactus jack travis",
+   "seller": "\u043c\u043e\u044f \u0456\u043d\u0441\u0442\u0430 - oleg.glock",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/xfgrwuk780ka-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/u6suvpxlb1em2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/6n0grjh8f2dj1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/cpgqfxkuomlh3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ksf35xo1zy1z-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/bzx8elnw1ive3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/qxf44qnoivfo-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/1781taum486u1-UA/image;s=800x800"
+   ],
+   "title": "\u041e\u0440\u0438\u0433\u0456\u043d\u0430\u043b\u044c\u043d\u0456 \u0447\u043e\u043b\u043e\u0432\u0456\u0447\u0456 \u0448\u0442\u0430\u043d\u0438 Nike x Cactus Jack by Travis Scott Pants",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/orignaln-cholovch-shtani-nike-x-cactus-jack-by-travis-scott-pants-IDXFnN3.html",
+   "brand": "Nike"
+  },
+  "olx:ua:932040554": {
+   "model": "nike air jordan low",
+   "seller": "Yuna_shop",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/mswh9n2s2rbc1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/t5brq65dhks8-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/noop9ztd4p2a1-UA/image;s=800x800;r=90",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/xk44m2aazxl12-UA/image;s=800x800;r=90",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/9au6jt29pil03-UA/image;s=800x800;r=90",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/cb1e2ol7llsc2-UA/image;s=800x800;r=90"
+   ],
+   "title": "\u041a\u0435\u0434\u0438 \u0436\u0456\u043d\u043e\u0447\u0456 Nike Air Jordan 1 Low x Travis Scott Pink White Beige",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/kedi-zhnoch-nike-air-jordan-1-low-x-travis-scott-pink-white-beige-ID114Kka.html",
+   "brand": "Nike"
+  },
+  "olx:ua:884496706": {
+   "model": "nike dunk low",
+   "seller": "\u0406\u0432\u0430\u043d",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/yt0qpq2vy7ft1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/447ietx3k8lo1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/fyq6n9ufgs8r1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/hiye56c7pg653-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/kru14ifh3kba3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/tsag8i71eu6y1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/oym17sq4geoc2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/jhcupwzlspkg1-UA/image;s=800x800"
+   ],
+   "title": "\u0412\u0421\u0406 \u041c\u041e\u0414\u0415\u041b\u0406 Nike SB Dunk Low / \u041d\u0430\u0439\u043a \u0421\u0411 \u0414\u0430\u043d\u043a /\u0444\u043e\u0440\u0441\u0438 \u0434\u0430\u043d\u043a\u0438 \u0411\u0415\u0417 \u041f\u0420\u0415\u0414\u041e\u041f\u041b\u0410\u0422\u0418",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/vs-model-nike-sb-dunk-low-nayk-sb-dank-forsi-danki-bez-predoplati-IDXRfZU.html",
+   "brand": "Nike"
   }
  },
  "stats": {
@@ -664656,7 +664701,7 @@
   "nike x patta": 42,
   "nike x sacai": 98,
   "nike x corteiz": 96,
-  "nike x travis scott": 84,
+  "nike x travis scott": 87,
   "nike white tag": 250,
   "nike silver tag": 110,
   "nike dri-fit": 85,
@@ -664683,7 +664728,7 @@
   "nike big swoosh": 158,
   "ua cgi": 53,
   "nike aeroswift": 189,
-  "nike division": 160,
+  "nike division": 162,
   "columbia titanium": 110,
   "columbia pfg": 89,
   "columbia montrail": 15,
