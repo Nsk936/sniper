@@ -1,5 +1,6 @@
 {
  "seen": {
+  "olx:ro:309836907": 1792971679,
   "vinted:10530422486": 1792971403,
   "vinted:10530297603": 1792971401,
   "vinted:10534355876": 1792971400,
@@ -19998,8 +19999,7 @@
   "vinted:10371777633": 1792085069,
   "vinted:10374352788": 1792085069,
   "vinted:10377654137": 1792085068,
-  "vinted:10378472448": 1792085067,
-  "vinted:10379277594": 1792085067
+  "vinted:10378472448": 1792085067
  },
  "initialized": [
   "2dehands|1352029-001",
@@ -25858,7 +25858,18 @@
   "willhaben|underarmor",
   "willhaben|underarmour storm"
  ],
- "cooldown": {},
+ "cooldown": {
+  "ebayend:fr": 1792974210.067468,
+  "ebayend:de": 1792974210.067468,
+  "ebayend:gb": 1792974210.067468,
+  "ebayend:it": 1792974210.067468,
+  "ebayend:es": 1792974210.067468,
+  "ebay:fr": 1792974210.067468,
+  "ebay:de": 1792974210.067468,
+  "ebay:it": 1792974210.067468,
+  "ebay:gb": 1792974210.067468,
+  "ebay:us": 1792974210.067468
+ },
  "rot": {
   "vinted": 18
  },
@@ -25875,60 +25886,59 @@
   "vinted:com": 1792971097.4427676,
   "vinted:gr": 1792970687.2498722,
   "vinted:ie": 1792970687.2498722,
-  "ebay:fr": 1792968543.6548924,
-  "ebay:de": 1792968543.6548924,
-  "ebay:it": 1792968543.6548924,
-  "ebay:gb": 1792968543.6548924,
-  "ebay:us": 1792968543.6548924,
+  "ebay:fr": 1792971510.067468,
+  "ebay:de": 1792971510.067468,
+  "ebay:it": 1792971510.067468,
+  "ebay:gb": 1792971510.067468,
+  "ebay:us": 1792971510.067468,
   "olx:pl": 1792757224.1069632,
-  "olx:ro": 1792971097.4427676,
-  "olx:bg": 1792971097.4427676,
-  "olx:pt": 1792971097.4427676,
-  "olx:ua": 1792971097.4427676,
-  "olx:kz": 1792971097.4427676,
+  "olx:ro": 1792971510.067468,
+  "olx:bg": 1792971510.067468,
+  "olx:pt": 1792971510.067468,
+  "olx:ua": 1792971510.067468,
+  "olx:kz": 1792971510.067468,
   "marktplaats": 1792757224.1069632,
   "2dehands": 1792757224.1069632,
   "2ememain": 1792757224.1069632,
-  "willhaben": 1792971097.4427676,
-  "bazos:cz": 1792971097.4427676,
-  "bazos:sk": 1792971097.4427676,
-  "subito": 1792971097.4427676,
-  "ebayend:fr": 1792968543.6548924,
-  "ebayend:de": 1792968543.6548924,
-  "ebayend:gb": 1792968543.6548924,
-  "ebayend:it": 1792968543.6548924,
-  "ebayend:es": 1792968543.6548924
+  "willhaben": 1792971510.067468,
+  "bazos:cz": 1792971510.067468,
+  "bazos:sk": 1792971510.067468,
+  "subito": 1792971510.067468,
+  "ebayend:fr": 1792971510.067468,
+  "ebayend:de": 1792971510.067468,
+  "ebayend:gb": 1792971510.067468,
+  "ebayend:it": 1792971510.067468,
+  "ebayend:es": 1792971510.067468
  },
  "qrot": {
-  "vinted:fr": 210,
-  "vinted:pl": 84,
-  "vinted:lt": 140,
-  "vinted:fi": 210,
-  "vinted:co.uk": 112,
-  "vinted:com": 112,
-  "vinted:gr": 140,
-  "vinted:ie": 210,
-  "ebay:fr": 130,
-  "ebay:de": 130,
-  "ebay:it": 130,
-  "ebay:gb": 130,
-  "ebay:us": 130,
+  "vinted:fr": 224,
+  "vinted:pl": 98,
+  "vinted:lt": 154,
+  "vinted:fi": 224,
+  "vinted:co.uk": 126,
+  "vinted:com": 126,
+  "vinted:gr": 154,
+  "vinted:ie": 224,
+  "ebay:fr": 5,
+  "ebay:de": 5,
+  "ebay:it": 5,
+  "ebay:gb": 5,
+  "ebay:us": 5,
   "olx:pl": 190,
-  "olx:ro": 120,
-  "olx:bg": 120,
-  "olx:pt": 120,
-  "olx:ua": 120,
-  "olx:kz": 120,
+  "olx:ro": 150,
+  "olx:bg": 150,
+  "olx:pt": 150,
+  "olx:ua": 150,
+  "olx:kz": 150,
   "marktplaats": 190,
   "2dehands": 190,
   "2ememain": 190,
-  "willhaben": 120,
-  "bazos:cz": 120,
-  "bazos:sk": 120,
-  "subito": 120
+  "willhaben": 150,
+  "bazos:cz": 150,
+  "bazos:sk": 150,
+  "subito": 150
  },
  "pl": {
-  "vinted:10516204111": 50.46,
   "vinted:10517264936": 25.53,
   "vinted:10512946121": 20.37,
   "vinted:10512583736": 60.3,
@@ -30927,10 +30937,10 @@
   "vinted:10534229511": 18.662,
   "vinted:10534355876": 36.722,
   "vinted:10530297603": 37.03,
-  "vinted:10530422486": 16.4
+  "vinted:10530422486": 16.4,
+  "olx:ro:309836907": 17.0
  },
  "fp": {
-  "poloralphlaurengilettorsadrouge6ans|13": "vinted:10519492867",
   "nikeacgmountainflylow2waterproofgoretex|61": "olx:ua:936463150",
   "nikeacg|31": "olx:ua:864114204",
   "menspolojacket|49": "vinted:10519551457",
@@ -35929,7 +35939,8 @@
   "essentialsfearofgodsweatshirt|19": "vinted:10534229511",
   "essentialsfearofgodtshirtmens|37": "vinted:10534355876",
   "menslacostebag|37": "vinted:10530297603",
-  "adidasoriginalsy2kvintagegreentshirtssv7|16": "vinted:10530422486"
+  "adidasoriginalsy2kvintagegreentshirtssv7|16": "vinted:10530422486",
+  "pantaloninikedrifitnegrul|17": "olx:ro:309836907"
  },
  "digest": [],
  "prices": {
@@ -195274,7 +195285,8 @@
    16.6,
    16.6,
    18.0,
-   15.3
+   15.3,
+   17.0
   ],
   "nike miller set complet": [
    29.8,
@@ -721040,16 +721052,6 @@
   ]
  },
  "meta": {
-  "vinted:10534861301": {
-   "model": "nike tech fleece black",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/01_01dc7_AHxcHZAhncgVHR4VYDvmAcE7/310x430/6876e95b.webp?s=3d65817a91194b05ca3ff4c7048ecc878f5718ec"
-   ],
-   "title": "Nike Tech Fleece Black Tapered Joggers - Men's L",
-   "url": "https://www.vinted.co.uk/items/10534861301-nike-tech-fleece-black-tapered-joggers-mens-l?referrer=catalog",
-   "brand": "Nike"
-  },
   "vinted:10534411045": {
    "model": "nike tech fleece tracksuit",
    "seller": "",
@@ -725438,6 +725440,18 @@
    "title": "Adidas Originals Y2K Vintage Green Tshirt SSV7M7",
    "url": "https://www.vinted.fr/items/10530422486-adidas-originals-y2k-vintage-green-tshirt-ssv7m7?referrer=catalog",
    "brand": "Adidas"
+  },
+  "olx:ro:309836907": {
+   "model": "pantaloni nike dri fit",
+   "seller": "Raul",
+   "photos": [
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/klkvm2xdedy82-RO/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/l7tupxu6adua3-RO/image;s=800x800",
+    "https://frankfurt.apollo.olxcdn.com:443/v1/files/pqfhak6bd39g1-RO/image;s=800x800"
+   ],
+   "title": "Pantaloni Nike Dri Fit  Negru L",
+   "url": "https://www.olx.ro/d/oferta/pantaloni-nike-dri-fit-negru-l-IDkY2Jt.html",
+   "brand": "Nike"
   }
  },
  "stats": {
@@ -725496,7 +725510,7 @@
   "nike x travis scott": 100,
   "nike white tag": 273,
   "nike silver tag": 123,
-  "nike dri-fit": 98,
+  "nike dri-fit": 99,
   "polo 1967": 131,
   "ralph lauren vintage 90s": 274,
   "big pony": 262,
