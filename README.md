@@ -85,3 +85,9 @@ Pour refaire ce rattrapage, supprime le fichier `seen.json`. Mets `"notify_exist
 - Un sujet par marque : crée un groupe Telegram avec « Sujets » activés, ajoute le bot comme admin, puis mets les numéros de sujets dans `"topics"` de config.json, ex. `{"Nike": 12, "Stone Island": 15}` (et TELEGRAM_CHAT_ID = l'identifiant du groupe).
 - Nouvelles marques : Stone Island, Ralph Lauren, Essentials, Lacoste, Alo, Adidas, Nike archives, Under Armour pépites (pépites = alertes normales, général = silencieux). Exclusions ajoutées : taché, troué, abîmé, défaut, dupe, imitation, aliexpress…
 - Les annonces sans marque (« veste coupe-vent noire ») ne sont pas cherchables par mot-clé ici ; il faut les alertes natives des sites avec filtre de marque.
+
+## Onglets Telegram (sujets)
+1. Crée un groupe Telegram, active « Sujets » (Gérer le groupe > Sujets), ajoute ton bot comme administrateur avec le droit de gérer les sujets.
+2. Mets l'identifiant du groupe dans TELEGRAM_CHAT_ID (il commence par -100…).
+3. Sur ton PC : `python sniper.py --setup-topics` crée les onglets 👟 Nike, 🏃 Sport technique, 💎 Luxe, ✨ Semi-luxe, Autres et écrit `topics.json`.
+4. Envoie `topics.json` dans ton dépôt GitHub. Les marques par catégorie se changent dans `categories` de config.json.

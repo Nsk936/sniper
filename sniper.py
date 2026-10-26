@@ -1008,7 +1008,7 @@ def run_once(config, dry_run=False, only=None):
                             extras.remember(state, item, brand)
                             sent = telegram_send(msg, markup=extras.keyboard(item), silent=not pepite,
                                                  photo=item.get("photo"), html=True,
-                                                 thread=config.get("topics", {}).get(brand))
+                                                 thread=route_topic(config, brand))
                             if sent and pepite:
                                 extras.ntfy_send("Pépite", f"{item['title']} — {price_text(item, fx)}", item.get("url"))
                         if sent:
@@ -1059,6 +1059,40 @@ def run_once(config, dry_run=False, only=None):
     if not dry_run:
         save_state()
     watchdog.cancel()
+
+
+TOPICS_FILE = BASE_DIR / "topics.json"
+
+
+def route_topic(config, brand):
+    """Numéro de sujet (onglet) Telegram pour cette marque : d'abord sa catégorie (Nike, Luxe...), puis la marque."""
+    topics = {**config.get("topics", {}), **load_json(TOPICS_FILE, {})}
+    for cat, brands in config.get("categories", {}).items():
+        if brand in brands and cat in topics:
+            return topics[cat]
+    return topics.get(brand) or topics.get("Autres")
+
+
+def setup_topics(config):
+    """Crée les onglets du groupe Telegram (le groupe doit avoir les « Sujets » activés, bot admin)."""
+    token, chat = os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
+    if not token or not chat:
+        sys.exit("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID manquants.")
+    topics = load_json(TOPICS_FILE, {})
+    for name in config.get("topic_names", list(config.get("categories", {}))):
+        if name in topics:
+            print(f"déjà créé : {name}")
+            continue
+        r = requests.post(f"https://api.telegram.org/bot{token}/createForumTopic",
+                          json={"chat_id": chat, "name": name}, timeout=20)
+        if r.ok:
+            topics[name] = r.json()["result"]["message_thread_id"]
+            print(f"créé : {name} -> {topics[name]}")
+        else:
+            print(f"échec pour {name} : {r.text[:200]}")
+            break
+    TOPICS_FILE.write_text(json.dumps(topics, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("Enregistré dans topics.json (à mettre aussi dans le dépôt GitHub).")
 
 
 def check(config, only=None):
@@ -1116,6 +1150,7 @@ def main():
     parser.add_argument("--check", action="store_true", help="teste chaque site (OK / KO)")
     parser.add_argument("--probe", metavar="SITE", help="diagnostic d'un site, ex. vinted:fr")
     parser.add_argument("--only", metavar="PREFIXES", help="ex. vinted,olx:pl,ebay")
+    parser.add_argument("--setup-topics", action="store_true", help="crée les onglets du groupe Telegram")
     parser.add_argument("--test-telegram", action="store_true", help="envoie un message de test")
     args = parser.parse_args()
     only = [p.strip() for p in args.only.split(",") if p.strip()] if args.only else None
@@ -1131,7 +1166,9 @@ def main():
     if not config:
         sys.exit("config.json introuvable ou vide.")
 
-    if args.check:
+    if args.setup_topics:
+        setup_topics(config)
+    elif args.check:
         check(config, only)
     elif args.loop:
         while True:

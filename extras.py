@@ -37,9 +37,13 @@ def model_key(title):
 def record_price(state, key, eur, keep=60):
     if eur is None or not key:
         return
-    lst = state.setdefault("prices", {}).setdefault(key, [])
+    prices = state.setdefault("prices", {})
+    lst = prices.pop(key, [])  # on le remet en fin de dictionnaire : les plus anciens sortent d'abord
     lst.append(round(eur, 1))
-    del lst[:-keep]
+    del lst[:-30]
+    prices[key] = lst
+    for k in list(prices)[:max(len(prices) - 3000, 0)]:  # évite que seen.json grossisse sans fin
+        del prices[k]
 
 
 def median_for(state, key, min_samples=5):
