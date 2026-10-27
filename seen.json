@@ -1,5 +1,10 @@
 {
  "seen": {
+  "olx:pt:652448908": 1793069844,
+  "olx:pt:674053090": 1793069842,
+  "olx:pt:638056082": 1793069841,
+  "olx:ua:935715131": 1793069839,
+  "olx:ua:937263357": 1793069838,
   "olx:pt:652772431": 1793069567,
   "vinted:10551058622": 1793069565,
   "vinted:10551395295": 1793069563,
@@ -19994,12 +19999,7 @@
   "olx:pt:544651098": 1792833920,
   "olx:ua:864087863": 1792833919,
   "ebay:gb:v1|137870749366|0": 1792833918,
-  "ebay:gb:v1|336860613114|0": 1792833917,
-  "ebay:it:v1|336860613114|0": 1792833916,
-  "ebay:fr:v1|920005406765|0": 1792833915,
-  "ebay:fr:v1|137825668024|0": 1792833913,
-  "olx:ua:938472844": 1792833912,
-  "olx:ua:938474393": 1792833911
+  "ebay:gb:v1|336860613114|0": 1792833917
  },
  "initialized": [
   "2dehands|1352029-001",
@@ -25863,7 +25863,12 @@
   "ebay:de": 1793070956.176076,
   "ebay:it": 1793070956.176076,
   "ebay:gb": 1793070956.176076,
-  "ebay:us": 1793070956.176076
+  "ebay:us": 1793070956.176076,
+  "ebayend:fr": 1793072373.6782408,
+  "ebayend:de": 1793072373.6782408,
+  "ebayend:gb": 1793072373.6782408,
+  "ebayend:it": 1793072373.6782408,
+  "ebayend:es": 1793072373.6782408
  },
  "rot": {
   "vinted": 18
@@ -25887,58 +25892,53 @@
   "ebay:gb": 1793068256.176076,
   "ebay:us": 1793068256.176076,
   "olx:pl": 1792757224.1069632,
-  "olx:ro": 1793069306.5522995,
-  "olx:bg": 1793069306.5522995,
-  "olx:pt": 1793069306.5522995,
-  "olx:ua": 1793069306.5522995,
-  "olx:kz": 1793069306.5522995,
+  "olx:ro": 1793069673.6782408,
+  "olx:bg": 1793069673.6782408,
+  "olx:pt": 1793069673.6782408,
+  "olx:ua": 1793069673.6782408,
+  "olx:kz": 1793069673.6782408,
   "marktplaats": 1792757224.1069632,
   "2dehands": 1792757224.1069632,
   "2ememain": 1792757224.1069632,
-  "willhaben": 1793069306.5522995,
-  "bazos:cz": 1793069306.5522995,
-  "bazos:sk": 1793069306.5522995,
-  "subito": 1793069306.5522995,
-  "ebayend:fr": 1793066838.0354996,
-  "ebayend:de": 1793066838.0354996,
-  "ebayend:gb": 1793066838.0354996,
-  "ebayend:it": 1793066838.0354996,
-  "ebayend:es": 1793066838.0354996
+  "willhaben": 1793069673.6782408,
+  "bazos:cz": 1793069673.6782408,
+  "bazos:sk": 1793069673.6782408,
+  "subito": 1793069673.6782408,
+  "ebayend:fr": 1793069673.6782408,
+  "ebayend:de": 1793069673.6782408,
+  "ebayend:gb": 1793069673.6782408,
+  "ebayend:it": 1793069673.6782408,
+  "ebayend:es": 1793069673.6782408
  },
  "qrot": {
-  "vinted:fr": 112,
-  "vinted:pl": 236,
-  "vinted:lt": 42,
-  "vinted:fi": 112,
-  "vinted:co.uk": 14,
-  "vinted:com": 14,
-  "vinted:gr": 42,
-  "vinted:ie": 14,
+  "vinted:fr": 126,
+  "vinted:pl": 0,
+  "vinted:lt": 56,
+  "vinted:fi": 126,
+  "vinted:co.uk": 28,
+  "vinted:com": 28,
+  "vinted:gr": 56,
+  "vinted:ie": 28,
   "ebay:fr": 140,
   "ebay:de": 140,
   "ebay:it": 140,
   "ebay:gb": 140,
   "ebay:us": 140,
   "olx:pl": 190,
-  "olx:ro": 160,
-  "olx:bg": 160,
-  "olx:pt": 160,
-  "olx:ua": 160,
-  "olx:kz": 160,
+  "olx:ro": 190,
+  "olx:bg": 190,
+  "olx:pt": 190,
+  "olx:ua": 190,
+  "olx:kz": 190,
   "marktplaats": 190,
   "2dehands": 190,
   "2ememain": 190,
-  "willhaben": 160,
-  "bazos:cz": 160,
-  "bazos:sk": 160,
-  "subito": 160
+  "willhaben": 190,
+  "bazos:cz": 190,
+  "bazos:sk": 190,
+  "subito": 190
  },
  "pl": {
-  "vinted:10539584692": 12.67825,
-  "vinted:10456073751": 58.45,
-  "ebay:fr:v1|880041715451|0": 37.1,
-  "ebay:fr:v1|820259132473|0": 38.05,
-  "ebay:fr:v1|287660934256|0": 69.9,
   "ebay:de:v1|267824298355|0": 22.0,
   "ebay:it:v1|267824298355|0": 22.55,
   "ebay:us:v1|267824298355|0": 17.8106,
@@ -30933,13 +30933,14 @@
   "vinted:10549374545": 43.0675,
   "vinted:10551395295": 14.146999999999998,
   "vinted:10551058622": 13.244,
-  "olx:pt:652772431": 30.0
+  "olx:pt:652772431": 30.0,
+  "olx:ua:937263357": 56.679,
+  "olx:ua:935715131": 29.379,
+  "olx:pt:638056082": 30.0,
+  "olx:pt:674053090": 29.0,
+  "olx:pt:652448908": 34.0
  },
  "fp": {
-  "underarmourmensuastormevolutiondaytonaha|37": "vinted:10418573502",
-  "underarmourcoldgearjacketsizem|13": "vinted:10500268023",
-  "columbiaomniheat|16": "olx:ua:938949772",
-  "lacosteclassicfithoodiemensxsgreymarlcro|25": "vinted:10535948087",
   "hanorachoodieunderarmoursmnepurtat|27": "olx:ro:272965619",
   "nikenoctahotstepairterrapinkquartzdr0508|50": "vinted:10450058690",
   "stussynikeartmuraltoile24x24cmcarrgrisbl|13": "ebay:fr:v1|366663276556|0",
@@ -34589,7 +34590,7 @@
   "sweatnikebrancam|25": "olx:pt:657074141",
   "sapatilhasnikezoomallout|20": "olx:pt:649939422",
   "nikebiglogonikebigswoosh|37": "olx:ua:936731483",
-  "nikebigswoosh5|29": "olx:ua:935206215",
+  "nikebigswoosh5|29": "olx:ua:935715131",
   "nikecourtvintage90s|42": "olx:ua:927429112",
   "poloralphlaurenpoloshirtlightbluesizelcl|20": "vinted:10466496154",
   "polojeanscoralphlaurenchinocaprihlae|22": "vinted:10326306735",
@@ -35935,25 +35936,14 @@
   "polobearralphlaurentshirt|43": "vinted:10549374545",
   "poloralphlauren3t|14": "vinted:10551395295",
   "poloralphlaurenbeartshirtboyssize5navy|13": "vinted:10551058622",
-  "calasfatotreinounderarmour|30": "olx:pt:652772431"
+  "calasfatotreinounderarmour|30": "olx:pt:652772431",
+  "topnikestormfitnikenike|57": "olx:ua:937263357",
+  "adidascortavento|30": "olx:pt:638056082",
+  "casacoadidasoriginalswindbreakercortaven|29": "olx:pt:674053090",
+  "tshirtvintageadidasstreetball|34": "olx:pt:652448908"
  },
  "digest": [],
  "prices": {
-  "fog essentials long sleeve": [
-   61.2
-  ],
-  "essentials dark oatmeal jumper": [
-   49.1
-  ],
-  "fear god essentials front-logo": [
-   46.5
-  ],
-  "makeover essentials wet dry": [
-   14.1
-  ],
-  "selling essential crew neck": [
-   27.7
-  ],
   "travel essentials": [
    14.1
   ],
@@ -47739,59 +47729,24 @@
   ],
   "cal fato treino under": [
    30.0
+  ],
+  "top nike storm fit": [
+   56.7
+  ],
+  "nike big swoosh": [
+   29.4
+  ],
+  "adidas corta vento": [
+   30.0
+  ],
+  "casaco adidas originals windbreaker": [
+   29.0
+  ],
+  "t-shirt vintage adidas streetball": [
+   34.0
   ]
  },
  "meta": {
-  "vinted:10546913142": {
-   "model": "vintage 90s polo ralph",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/01_0114d_SdiPdjz1GoBaZEi4ixfjf8Fy/310x430/a550dfb9.webp?s=2722e803798da3c7c124652a220158baec85a0df"
-   ],
-   "title": "Vintage 90s Polo Ralph Lauren Men's Plaid Check Button-Down Shirt - Green/Pink - Size S (18.5\" P2P)",
-   "url": "https://www.vinted.co.uk/items/10546913142-vintage-90s-polo-ralph-lauren-mens-plaid-check-button-down-shirt-greenpink-size-s-185-p2p?referrer=catalog",
-   "brand": "Ralph Lauren"
-  },
-  "vinted:10546449887": {
-   "model": "polo ralph lauren vintage",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/02_001a7_gK3MRJvVfeyKH8N8jrLJqeQn/310x430/9c594a17.webp?s=20ea6c673bc00c03ff3d29f8c5dbb4b4ba95e904"
-   ],
-   "title": "Polo Ralph Lauren vintage vtg denim skirt with slit 90s y2k size 8",
-   "url": "https://www.vinted.co.uk/items/10546449887-polo-ralph-lauren-vintage-vtg-denim-skirt-with-slit-90s-y2k-size-8?referrer=catalog",
-   "brand": "Ralph Lauren"
-  },
-  "vinted:10545490689": {
-   "model": "polo ralph lauren vintage",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/02_02360_eYZenkdLqFS2Ck2ewQRJELdj/310x430/404dbd85.webp?s=f2a0c52eed0aa5a299427d610d34dba67ac251dd"
-   ],
-   "title": "Polo Ralph Lauren vintage Blake shirt mens L XL blue check 90s button up",
-   "url": "https://www.vinted.co.uk/items/10545490689-polo-ralph-lauren-vintage-blake-shirt-mens-l-xl-blue-check-90s-button-up?referrer=catalog",
-   "brand": "Ralph Lauren"
-  },
-  "vinted:10545253801": {
-   "model": "vintage polo ralph lauren",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/01_0268d_9bfM3Lrb9b9ssUiGpJTUpNLF/310x430/bc1d133c.webp?s=8932403bc571bcf3ae8f8d6e0cdb6a678b54daf1"
-   ],
-   "title": "Vintage polo Ralph Lauren - size M",
-   "url": "https://www.vinted.co.uk/items/10545253801-vintage-polo-ralph-lauren-size-m?referrer=catalog",
-   "brand": "Ralph Lauren"
-  },
-  "vinted:10504758911": {
-   "model": "vintage ralph lauren polo",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/05_00657_1ih8CTcUsTXsb9e3JPNNYAno/310x430/251c58dc.webp?s=a08a4c7a276ff6d5658a1a27f20794b33bc68193"
-   ],
-   "title": "Vintage Ralph Lauren Polo 90s Men\u2019s Shirt Gray Green Xxl Cotton USA",
-   "url": "https://www.vinted.co.uk/items/10504758911-vintage-ralph-lauren-polo-90s-mens-shirt-gray-green-xxl-cotton-usa?referrer=catalog",
-   "brand": "Ralph Lauren"
-  },
   "vinted:10551042790": {
    "model": "vintage 90s polo ralph",
    "seller": "",
@@ -52408,6 +52363,79 @@
    "title": "Cal\u00e7as fato treino under Armour",
    "url": "https://www.olx.pt/d/anuncio/calas-fato-treino-under-armour-IDIaXWB.html",
    "brand": "Under Armour"
+  },
+  "olx:ua:937263357": {
+   "model": "top nike storm fit",
+   "seller": "Baza",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/gvx6lv35v9g31-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/80q9cvhk1bd3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/5lq03ppx2l7v1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/vvppubaru9093-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/9748xskd617e1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ffy1wq73bng7-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ldrwgxa2wxnv3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/8fl2js8hqovn-UA/image;s=800x800"
+   ],
+   "title": "\u203c\ufe0fTOP\u203c\ufe0f\u0411\u0415\u0417 \u041f\u0420\u0415\u0414\u041e\u041f\u041b\u0410\u0422\u203c\ufe0f\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u043f\u0443\u0445\u043e\u0432\u0438\u043a \u043d\u0430\u0439\u043a Nike Storm Fit | \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0439 \u043f\u0443\u0445\u043e\u0432\u0438\u043a \u043d\u0430\u0439\u043a | \u0437\u0438\u043c\u043d\u044f\u044f \u043a\u0443\u0440\u0442\u043a\u0430 \u043d\u0430\u0439\u043a | \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0430\u044f \u043a\u0443\u0440\u0442\u043a\u0430 Nike | Nike |",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/topbez-predoplatmuzhskaya-kurtka-puhovik-nayk-nike-storm-fit-sportivnyy-puhovik-nayk-zimnyaya-kurtka-nayk-sportivnaya-kurtka-nike-nike-ID11qF0W.html",
+   "brand": "Nike"
+  },
+  "olx:ua:935715131": {
+   "model": "nike big swoosh",
+   "seller": "Telegram  vladnetss",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/lkvz8diagq3v3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/eqmfsf7jxame2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/uvwxh1eda9gs1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/o98s3tmmj9gf1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/kbvawpb7l1z11-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/3l3f1v9v6opl2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/2y0ji4b15b3i-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/sarmpcoyzcas1-UA/image;s=800x800"
+   ],
+   "title": "\u0428\u0442\u0430\u043d\u0438 Nike Big Swoosh 5 \u043a\u043e\u043b\u044c\u043e\u0440\u0456\u0432 \u0431\u0440\u044e\u043a\u0438 \u043d\u0430\u0439\u043a \u0431\u0438\u0433 \u0441\u0432\u0443\u0448 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0456",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/shtani-nike-big-swoosh-5-kolorv-bryuki-nayk-big-svush-sportivn-ID11kafx.html",
+   "brand": "Nike"
+  },
+  "olx:pt:638056082": {
+   "model": "adidas corta vento",
+   "seller": "bigacekrusso",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/smb99h2spc5o-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/18g7zx7fud4k-PT/image;s=800x800"
+   ],
+   "title": "Adidas corta vento",
+   "url": "https://www.olx.pt/d/anuncio/adidas-corta-vento-IDHbdx8.html",
+   "brand": "Adidas"
+  },
+  "olx:pt:674053090": {
+   "model": "casaco adidas originals windbreaker",
+   "seller": "Rodrigo",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/0q38m999xw6v2-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/n54now7s5e633-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/sbkax5mhw1ek1-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/1pikako16xyq2-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/jpmox4r77j3e-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/indnhzh9ljxb2-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/x82kni0k210h2-PT/image;s=800x800"
+   ],
+   "title": "Casaco Adidas Originals Windbreaker / Corta-vento Trefoil S",
+   "url": "https://www.olx.pt/d/anuncio/casaco-adidas-originals-windbreaker-corta-vento-trefoil-s-IDJCg02.html",
+   "brand": "Adidas"
+  },
+  "olx:pt:652448908": {
+   "model": "t-shirt vintage adidas streetball",
+   "seller": "Lu\u00eds S",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/q9m5q4b74n3g-PT/image;s=800x800;r=270",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/t6c65vf0q4qz2-PT/image;s=800x800;r=90",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ndgi84ywfqsm-PT/image;s=800x800;r=90"
+   ],
+   "title": "T-shirt vintage Adidas Streetball",
+   "url": "https://www.olx.pt/d/anuncio/t-shirt-vintage-adidas-streetball-IDI9BLu.html",
+   "brand": "Adidas"
   }
  },
  "stats": {
@@ -52487,14 +52515,14 @@
   "columbia omniheat": 93,
   "nike vintage 90s": 436,
   "columbia omni-tech": 179,
-  "nike big swoosh": 251,
+  "nike big swoosh": 252,
   "ua cgi": 97,
   "nike aeroswift": 259,
   "nike division": 238,
   "columbia titanium": 193,
   "columbia pfg": 140,
   "columbia montrail": 46,
-  "nike storm fit": 55,
+  "nike storm fit": 56,
   "nike acg": 654,
   "nike woven running": 134,
   "nike phenon": 66,
@@ -52607,7 +52635,7 @@
   "adidas tiro": 63,
   "ua curry": 51,
   "adidas own the run": 9,
-  "adidas firebird vintage": 142,
+  "adidas firebird vintage": 145,
   "under armor coldgear": 49,
   "nike surv\u00eatement": 94,
   "stone island overshirt": 24,
@@ -52716,7 +52744,7 @@
    "alerted": false
   },
   "olx:ua": {
-   "since": null,
+   "since": 1793069844,
    "alerted": false
   },
   "olx:kz": {
