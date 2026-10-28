@@ -1435,6 +1435,87 @@
    "sources": [
     "tous"
    ]
+  },
+  {
+   "name": "Langues locales (jacke, giacca, kurtka, bunda...)",
+   "tier": "normal",
+   "queries": [
+    "jacke nike",
+    "giacca nike",
+    "kurtka nike",
+    "bunda nike",
+    "casaco nike",
+    "geacă nike",
+    "chaqueta nike",
+    "jas nike",
+    "veste nike",
+    "jacke under armour",
+    "giacca under armour",
+    "kurtka under armour",
+    "bunda under armour",
+    "casaco under armour",
+    "geacă under armour",
+    "chaqueta under armour",
+    "jas under armour",
+    "veste under armour",
+    "jacke stone island",
+    "giacca stone island",
+    "kurtka stone island",
+    "bunda stone island",
+    "casaco stone island",
+    "geacă stone island",
+    "chaqueta stone island",
+    "jas stone island",
+    "veste stone island",
+    "jacke ralph lauren",
+    "giacca ralph lauren",
+    "kurtka ralph lauren",
+    "bunda ralph lauren",
+    "casaco ralph lauren",
+    "geacă ralph lauren",
+    "chaqueta ralph lauren",
+    "jas ralph lauren",
+    "veste ralph lauren",
+    "jacke lacoste",
+    "giacca lacoste",
+    "kurtka lacoste",
+    "bunda lacoste",
+    "casaco lacoste",
+    "geacă lacoste",
+    "chaqueta lacoste",
+    "jas lacoste",
+    "veste lacoste",
+    "jacke columbia",
+    "giacca columbia",
+    "kurtka columbia",
+    "bunda columbia",
+    "casaco columbia",
+    "geacă columbia",
+    "chaqueta columbia",
+    "jas columbia",
+    "veste columbia"
+   ],
+   "require": [
+    [
+     "nike",
+     "under armour",
+     "under armor",
+     "underarmour",
+     "stone island",
+     "stoneisland",
+     "ralph lauren",
+     "polo ralph",
+     "lacoste",
+     "columbia"
+    ]
+   ],
+   "max_price": 70,
+   "min_price": 12,
+   "sources": [
+    "olx_all",
+    "benelux",
+    "autres"
+   ]
   }
  ],
  "pace": {
@@ -1489,7 +1570,15 @@
   "outage_hours": 2,
   "digest_hour": 8,
   "digest_always": false,
-  "pepite_min": 50
+  "pepite_min": 50,
+  "dynamic_max": {
+   "enabled": true,
+   "ratio": 0.45,
+   "cap_eur": 250
+  },
+  "seller_min_rating": 3.5,
+  "verify_listing": true,
+  "photo_dedupe": true
  },
  "email": {
   "enabled": false,

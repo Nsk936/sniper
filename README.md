@@ -91,3 +91,13 @@ Pour refaire ce rattrapage, supprime le fichier `seen.json`. Mets `"notify_exist
 2. Mets l'identifiant du groupe dans TELEGRAM_CHAT_ID (il commence par -100…).
 3. Sur ton PC : `python sniper.py --setup-topics` crée les onglets 👟 Nike, 🏃 Sport technique, 💎 Luxe, ✨ Semi-luxe, Autres et écrit `topics.json`.
 4. Envoie `topics.json` dans ton dépôt GitHub. Les marques par catégorie se changent dans `categories` de config.json.
+
+## Nouveautés v4
+- **Prix dynamique** : une annonce au-dessus du budget mais à moins de 45 % du prix du marché (et ≤ 250 €) est quand même signalée (🚀).
+- **Mots-clés en langues locales** (jacke, giacca, kurtka, bunda…), **prix avec protection Vinted**, **écart entre marchés** (🌍).
+- **Vérification avant envoi** (annonce vendue/supprimée ignorée), **doublons par photo**, **filtre vendeurs** (note < 3,5 écartée, « sans avis », « pro »).
+- **Le bot apprend** : ⭐ Favori et 🚫 Ignorer modifient la note des marques/modèles.
+- **Commandes Telegram** (dans le chat autorisé, prises en compte à la passe suivante) : /pause, /reprendre, /stats, /ignorer mot, /taille M L, /taille tout, /aide.
+- **Favoris** : alerte si le prix baisse, ou si l'annonce est vendue/supprimée.
+- **💬 Message tout prêt** : texte de négociation (-15 %) dans la langue du site, à copier.
+- **Bilan quotidien** (annonces examinées, alertes, sites en difficulté) et **résumé du lundi** (meilleures affaires de la semaine).

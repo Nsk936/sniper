@@ -690,7 +690,18 @@ def queries_of(search):
     return [q] if isinstance(q, str) else list(q)
 
 
-def matches(item, search, fx=None, default_exclude=()):
+def price_ok(item, search, fx=None):
+    if item["price"] is not None:
+        eur = to_eur(item["price"], item["currency"], fx)
+        if eur is not None:
+            if search.get("max_price") and eur > search["max_price"]:
+                return False
+            if search.get("min_price") and eur < search["min_price"]:
+                return False  # prix trop bas : souvent une contrefaçon ou une annonce bidon
+    return True
+
+
+def matches(item, search, fx=None, default_exclude=(), check_price=True):
     # On cherche dans le titre ET dans la marque / l'état (champ "extra") quand le site les donne.
     text = " " + (item["title"] + " " + (item.get("extra") or "")).lower() + " "
     for word in search.get("must_include", []):
@@ -706,14 +717,7 @@ def matches(item, search, fx=None, default_exclude=()):
     for word in [w for w in default_exclude if w.lower() not in allow] + search.get("exclude", []):
         if word.lower() in text:
             return False
-    if item["price"] is not None:
-        eur = to_eur(item["price"], item["currency"], fx)
-        if eur is not None:
-            if search.get("max_price") and eur > search["max_price"]:
-                return False
-            if search.get("min_price") and eur < search["min_price"]:
-                return False  # prix trop bas : souvent une contrefaçon ou une annonce bidon
-    return True
+    return price_ok(item, search, fx) if check_price else True
 
 
 def price_text(item, fx=None):
@@ -743,26 +747,44 @@ def format_item(search_name, item, fx=None):
 _GENERIC = {}
 
 
-def enrich_photo(item):
-    """Si le site n'a pas donné de photo, on la lit sur la page de l'annonce (balises og:image)."""
-    if item.get("photo") or not str(item.get("url", "")).startswith("http"):
-        return
+GONE_RE = re.compile(r'"(?:is_closed|is_sold|item_is_closed|isSold|sold)"\s*:\s*true', re.I)
+
+
+def inspect_listing(item, verify=True):
+    """Ouvre la page de l'annonce : renvoie True si elle est vendue/supprimée, et complète la photo (og:image)
+    quand le site ne l'a pas donnée. En cas de doute (blocage, 429...), on considère l'annonce disponible."""
+    url = str(item.get("url", ""))
+    if not url.startswith("http"):
+        return False
+    need_photo = not item.get("photo")
+    if not need_photo and not (verify and not item.get("source", "").startswith("ebay")):
+        return False
     try:
         if "s" not in _GENERIC:
             _GENERIC["s"] = Source("generic")
-        r = _GENERIC["s"].session.get(item["url"], timeout=12)
+        r = _GENERIC["s"].session.get(url, timeout=12)
+        if r.status_code in (404, 410):
+            return True
         if r.status_code >= 400:
-            return
-        urls = []
-        for m in soup_of(r.text).find_all("meta"):
-            if m.get("property") in ("og:image", "og:image:secure_url") or m.get("name") == "twitter:image":
-                u = m.get("content")
-                if u and u.startswith("http") and u not in urls:
-                    urls.append(u)
-        if urls:
-            item["photo"], item["photos"] = urls[0], urls[:10]
+            return False
+        if verify and GONE_RE.search(r.text[:400000]):
+            return True
+        if need_photo:
+            urls = []
+            for m in soup_of(r.text).find_all("meta"):
+                if m.get("property") in ("og:image", "og:image:secure_url") or m.get("name") == "twitter:image":
+                    u = m.get("content")
+                    if u and u.startswith("http") and u not in urls:
+                        urls.append(u)
+            if urls:
+                item["photo"], item["photos"] = urls[0], urls[:10]
     except Exception:
-        pass  # sans photo, le message part quand même
+        pass  # sans réponse, le message part quand même
+    return False
+
+
+def enrich_photo(item):  # ancien nom, gardé pour compatibilité
+    inspect_listing(item, verify=False)
 
 
 def fetch_source(sid, queries, pace=None, deadline=None):
@@ -802,7 +824,7 @@ def run_once(config, dry_run=False, only=None):
     cooldown = state.setdefault("cooldown", {})
     now = time.time()
     paused = {s for s, until in cooldown.items() if until > now}
-    if not dry_run:
+    if not dry_run and not only:
         try:
             extras.process_callbacks(state)
         except Exception as ex:  # les boutons ne doivent jamais bloquer la passe
@@ -832,6 +854,11 @@ def run_once(config, dry_run=False, only=None):
     watchdog.daemon = True
     if os.getenv("GITHUB_ACTIONS") == "true" and not dry_run:  # sur GitHub : jamais de coupure brutale
         watchdog.start()
+    if state.get("paused") and not dry_run:
+        log("Bot en pause (commande /pause) : aucune recherche.")
+        save_state()
+        watchdog.cancel()
+        return
     last = state.setdefault("last", {})
     intervals = config.get("interval_min", {})
 
@@ -907,7 +934,9 @@ def run_once(config, dry_run=False, only=None):
     per_site = int(config.get("max_alerts_per_site", 3))
     sent_by_site = {}
     xcfg = config.get("extras", {})
-    wanted_sizes = config.get("sizes", [])
+    wanted_sizes = state["sizes"] if "sizes" in state else config.get("sizes", [])
+    dstats = extras.day_stats(state)
+    favs = state.get("favs") if isinstance(state.get("favs"), dict) else {}
     pricelog = state.setdefault("pl", {})
     fprints = state.setdefault("fp", {})
     digest = state.setdefault("digest", [])
@@ -933,11 +962,18 @@ def run_once(config, dry_run=False, only=None):
                         continue
                     key = f"{sid}|{q}"
                     first_run = key not in initialized
+                    dstats["scanned"] += len(items)
                     for item in items:
                         low = " " + (item["title"] + " " + (item.get("extra") or "")).lower() + " "
                         eur = to_eur(item["price"], item["currency"], fx) if item["price"] is not None else None
                         already = item["id"] in seen
                         drop = False
+                        if already and item["id"] in favs and eur and not dry_run:  # favori : baisse de prix
+                            fav = favs[item["id"]]
+                            if fav.get("eur") and eur <= fav["eur"] * 0.95:
+                                telegram_send(f"⭐📉 Favori : prix en baisse ({fav['eur']:.0f} € → {eur:.0f} €)\n"
+                                              f"{item['title']}\n{item['url']}", silent=False)
+                                fav["eur"] = eur
                         if already:  # baisse de prix d'une annonce déjà signalée ?
                             old = pricelog.get(item["id"])
                             if old and eur and eur <= old * float(xcfg.get("drop_ratio", 0.85)) and matches(item, search, fx, default_exclude):
@@ -951,14 +987,27 @@ def run_once(config, dry_run=False, only=None):
                             if not dry_run:
                                 seen[item["id"]] = int(time.time())
                             continue
-                        if not matches(item, search, fx, default_exclude):
-                            continue
-                        if not extras.size_ok(low, wanted_sizes):
+                        if not matches(item, search, fx, default_exclude, check_price=False):
                             continue
                         mkey = extras.model_key(item["title"])
-                        med = extras.median_for(state, mkey)
-                        if not dry_run and not drop:
+                        if not dry_run and not drop:  # on apprend les prix du marché, même hors budget
                             extras.record_price(state, mkey, eur)
+                            extras.record_market(state, mkey, sid, eur)
+                        med = extras.median_for(state, mkey)
+                        over_budget = False
+                        if not price_ok(item, search, fx):
+                            if eur and eur > (search.get("max_price") or 1e9) and extras.dynamic_ok(
+                                    eur, extras.median_for(state, mkey, 8), xcfg):
+                                over_budget = True  # hors budget mais très sous le prix du marché
+                            else:
+                                continue
+                        if not extras.size_ok(low, wanted_sizes):
+                            continue
+                        skip_seller, seller_labels = extras.seller_check(item, xcfg)
+                        if skip_seller:
+                            if not dry_run:
+                                seen[item["id"]] = int(time.time())
+                            continue
                         if first_run and not already:
                             if backlog_sent >= backlog_max:
                                 continue  # trop d'annonces existantes d'un coup : le reste viendra à la passe suivante
@@ -967,6 +1016,12 @@ def run_once(config, dry_run=False, only=None):
                         if any(h in low for h in flat_highlight):
                             labels.append("⭐ Pépite possible")
                         labels += extras.deal_labels(eur, med, xcfg)
+                        if over_budget:
+                            labels.append(f"🚀 Au-dessus de ton budget ({search.get('max_price')} €) mais très sous le marché")
+                        labels += seller_labels
+                        for extra_label in (extras.market_label(state, mkey, sid, eur), extras.fees_label(item, eur)):
+                            if extra_label:
+                                labels.append(extra_label)
                         if any(w.lower() in low for w in config.get("rare_words", [])):
                             labels.append("🏷️ Mot rare / vintage dans l'annonce")
                         if any(w.lower() in low for w in config.get("urgent_words", [])):
@@ -983,11 +1038,12 @@ def run_once(config, dry_run=False, only=None):
                             eff_tier = "top"  # une pépite ou une vraie affaire remonte toujours en priorité
                         highlighted = any(l.startswith("⭐ Pépite") for l in labels)
                         rare = any(l.startswith("🏷️") for l in labels)
-                        score = extras.pepite_score(eur, med, highlighted, tier, item, rare)
+                        brand = extras.detect_brand(item["title"], config.get("brands", {}))
+                        bonus = extras.pref_bonus(state, brand, mkey) + (10 if over_budget else 0)
+                        score = extras.pepite_score(eur, med, highlighted, tier, item, rare, bonus)
                         pepite = score >= int(xcfg.get("pepite_min", 50))
                         if first_run:
                             labels.append("📌 Déjà en ligne")
-                        brand = extras.detect_brand(item["title"], config.get("brands", {}))
                         msg = extras.caption(item, brand, eur, med, score, pepite, labels, price_text(item, fx))
                         if dry_run:
                             print(f"[{eff_tier}{' 🔔' if pepite else ''}]", msg, "\n")
@@ -1004,7 +1060,13 @@ def run_once(config, dry_run=False, only=None):
                             sent = True
                         else:
                             if time.time() < send_deadline - 30:
-                                enrich_photo(item)
+                                if inspect_listing(item, verify=bool(xcfg.get("verify_listing", True))):
+                                    seen[item["id"]] = int(time.time())  # déjà vendue / supprimée
+                                    continue
+                                if xcfg.get("photo_dedupe", True) and extras.dup_check(state, item, eur):
+                                    seen[item["id"]] = int(time.time())  # même annonce déjà envoyée ailleurs
+                                    continue
+                            item["eur"] = eur
                             extras.remember(state, item, brand)
                             sent = telegram_send(msg, markup=extras.keyboard(item), silent=not pepite,
                                                  photo=item.get("photo"), html=True,
@@ -1021,6 +1083,8 @@ def run_once(config, dry_run=False, only=None):
                                                 item["title"], round(eur, 2) if eur else "", eff_tier,
                                                 " | ".join(labels), item["url"]])
                             alerts += 1
+                            dstats["alerts"] += 1
+                            extras.week_add(state, item["title"], eur, score, item["url"])
                             sent_by_site[sid] = sent_by_site.get(sid, 0) + 1
                     if not dry_run:
                         initialized.add(key)
@@ -1039,14 +1103,31 @@ def run_once(config, dry_run=False, only=None):
     except Exception as ex:  # une erreur imprévue ne doit pas faire perdre l'état
         log(f"Erreur pendant le traitement : {type(ex).__name__}: {ex}")
 
+    if not dry_run and favs and not only:  # favoris vendus / supprimés (quelques-uns par passe)
+        for fid in sorted(favs, key=lambda i: favs[i].get("checked", 0))[:4]:
+            fav = favs[fid]
+            fav["checked"] = int(time.time())
+            if fav.get("url") and inspect_listing({"url": fav["url"], "source": "fav", "photo": "x"}, verify=True):
+                telegram_send(f"⭐❌ Favori vendu ou supprimé\n{fav.get('title', '')}", silent=False)
+                del favs[fid]
+
     if not dry_run:
         for sid in plan:
             extras.update_health(state, sid, sid not in errors, xcfg, notify_plain)
         if extras.digest_due(state, xcfg.get("digest_hour", 8)):
-            if digest or xcfg.get("digest_always", False):
-                telegram_send(extras.build_digest(state), silent=True)
+            text = extras.build_report(state)
+            if digest:
+                text += "\n\n" + extras.build_digest(state)
+            telegram_send(text, silent=True)
             state["digest"] = []
+            state["day"] = {"scanned": 0, "alerts": 0}
             state["digest_day"] = datetime.now().strftime("%Y-%m-%d")
+            if extras.weekly_due(state):
+                weekly = extras.build_weekly(state)
+                if weekly:
+                    telegram_send(weekly, silent=True)
+                state["week"] = []
+                state["week_day"] = datetime.now().strftime("%Y-%m-%d")
         for k in list(pricelog)[:-5000]:
             del pricelog[k]
         for k in list(fprints)[:-5000]:
