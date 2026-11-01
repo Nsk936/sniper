@@ -1,5 +1,14 @@
 {
  "seen": {
+  "subito:id:ad:5e94b507-90bf-4d2f-9d01-9621780c7237:list:658833145": 1793577330,
+  "subito:id:ad:39c9d7ce-ef49-4f8d-a7a9-676e6c38ddfa:list:666729650": 1793577328,
+  "subito:id:ad:95f07b82-8240-4fbd-85c3-19d0ea84d2da:list:666735652": 1793577327,
+  "olx:pt:656539424": 1793577320,
+  "olx:pt:673907860": 1793577318,
+  "olx:pt:673871367": 1793577317,
+  "olx:ua:939610409": 1793577315,
+  "olx:ua:938740009": 1793577313,
+  "olx:ua:939610880": 1793577311,
   "olx:pt:674023426": 1793577039,
   "subito:id:ad:8b7146fc-b8ea-42bd-b592-ea025b957431:list:660748387": 1793577037,
   "olx:bg:149211092": 1793577035,
@@ -19990,16 +19999,7 @@
   "ebay:gb:v1|920087271571|0": 1793354456,
   "ebay:de:v1|327430034018|0": 1793354454,
   "ebay:de:v1|800854947903|0": 1793354452,
-  "ebay:de:v1|800854954387|0": 1793354451,
-  "vinted:10556131967": 1793354449,
-  "vinted:10584463064": 1793354447,
-  "vinted:10585620979": 1793354445,
-  "vinted:10586929025": 1793354443,
-  "olx:ua:919500868": 1793354441,
-  "olx:pt:617759559": 1793354438,
-  "olx:bg:142534196": 1793354434,
-  "vinted:9570962071": 1793354430,
-  "ebay:gb:v1|307247074102|0": 1793354428
+  "ebay:de:v1|800854954387|0": 1793354451
  },
  "initialized": [
   "2dehands|1352029-001",
@@ -26352,7 +26352,9 @@
   "ebay:de": 1793579398.1450975,
   "ebay:gb": 1793579398.1450975,
   "ebay:us": 1793579398.1450975,
-  "ebayend:es": 1793578273.0276241
+  "ebayend:es": 1793578273.0276241,
+  "ebayend:gb": 1793579845.2316,
+  "ebayend:it": 1793579845.2316
  },
  "rot": {
   "vinted": 18
@@ -26376,62 +26378,53 @@
   "ebay:gb": 1793576698.1450975,
   "ebay:us": 1793576698.1450975,
   "olx:pl": 1792757224.1069632,
-  "olx:ro": 1793576698.1450975,
-  "olx:bg": 1793576698.1450975,
-  "olx:pt": 1793576698.1450975,
-  "olx:ua": 1793576698.1450975,
-  "olx:kz": 1793576698.1450975,
+  "olx:ro": 1793577145.2316,
+  "olx:bg": 1793577145.2316,
+  "olx:pt": 1793577145.2316,
+  "olx:ua": 1793577145.2316,
+  "olx:kz": 1793577145.2316,
   "marktplaats": 1792757224.1069632,
   "2dehands": 1792757224.1069632,
   "2ememain": 1792757224.1069632,
-  "willhaben": 1793576698.1450975,
-  "bazos:cz": 1793576698.1450975,
-  "bazos:sk": 1793576698.1450975,
-  "subito": 1793576698.1450975,
+  "willhaben": 1793577145.2316,
+  "bazos:cz": 1793577145.2316,
+  "bazos:sk": 1793577145.2316,
+  "subito": 1793577145.2316,
   "ebayend:fr": 1793576698.1450975,
   "ebayend:de": 1793576698.1450975,
-  "ebayend:gb": 1793574329.0835931,
-  "ebayend:it": 1793574329.0835931,
+  "ebayend:gb": 1793577145.2316,
+  "ebayend:it": 1793577145.2316,
   "ebayend:es": 1793575573.0276241
  },
  "qrot": {
-  "vinted:fr": 8,
-  "vinted:pl": 132,
-  "vinted:lt": 188,
-  "vinted:fi": 8,
-  "vinted:co.uk": 160,
-  "vinted:com": 160,
-  "vinted:gr": 188,
-  "vinted:ie": 160,
+  "vinted:fr": 22,
+  "vinted:pl": 146,
+  "vinted:lt": 202,
+  "vinted:fi": 22,
+  "vinted:co.uk": 174,
+  "vinted:com": 174,
+  "vinted:gr": 202,
+  "vinted:ie": 174,
   "ebay:fr": 140,
   "ebay:de": 140,
   "ebay:it": 120,
   "ebay:gb": 140,
   "ebay:us": 140,
   "olx:pl": 190,
-  "olx:ro": 38,
-  "olx:bg": 38,
-  "olx:pt": 38,
-  "olx:ua": 38,
-  "olx:kz": 38,
+  "olx:ro": 68,
+  "olx:bg": 68,
+  "olx:pt": 68,
+  "olx:ua": 68,
+  "olx:kz": 68,
   "marktplaats": 190,
   "2dehands": 190,
   "2ememain": 190,
-  "willhaben": 38,
-  "bazos:cz": 38,
-  "bazos:sk": 38,
-  "subito": 38
+  "willhaben": 68,
+  "bazos:cz": 68,
+  "bazos:sk": 68,
+  "subito": 68
  },
  "pl": {
-  "ebay:de:v1|366731418680|0": 37.5,
-  "ebay:de:v1|820231313025|0": 60.0,
-  "ebay:it:v1|307259005707|0": 43.72,
-  "ebay:gb:v1|137890993223|0": 32.878499999999995,
-  "ebay:gb:v1|237154793201|0": 31.3145,
-  "vinted:10398171989": 29.42,
-  "vinted:10297281112": 22.42,
-  "vinted:10201328373": 12.52,
-  "willhaben:1209161725": 30.0,
   "vinted:10569269176": 58.45,
   "vinted:10569098955": 47.95,
   "vinted:10569088534": 53.2,
@@ -31422,18 +31415,18 @@
   "vinted:10492367003": 23.177,
   "olx:bg:149211092": 17.0,
   "subito:id:ad:8b7146fc-b8ea-42bd-b592-ea025b957431:list:660748387": 28.0,
-  "olx:pt:674023426": 25.0
+  "olx:pt:674023426": 25.0,
+  "olx:ua:939610880": 50.379000000000005,
+  "olx:ua:938740009": 31.479000000000003,
+  "olx:ua:939610409": 46.2,
+  "olx:pt:673871367": 55.0,
+  "olx:pt:673907860": 20.0,
+  "olx:pt:656539424": 20.0,
+  "subito:id:ad:95f07b82-8240-4fbd-85c3-19d0ea84d2da:list:666735652": 65.0,
+  "subito:id:ad:39c9d7ce-ef49-4f8d-a7a9-676e6c38ddfa:list:666729650": 25.0,
+  "subito:id:ad:5e94b507-90bf-4d2f-9d01-9621780c7237:list:658833145": 20.0
  },
  "fp": {
-  "newbalance574xstoneislanddarkgreen|120": "olx:bg:147960841",
-  "newbalance574xstoneislanddarkghost|130": "olx:bg:148435853",
-  "stoneislandbranco|35": "olx:pt:669971743",
-  "tshirtstoneisland|20": "olx:pt:664671512",
-  "poloralphlaurenpolobearpoloshirtweil|32": "vinted:10615618985",
-  "poloralphlaurenbigponysashpoloshirtnavyb|57": "ebay:de:v1|820301310940|0",
-  "poloralphlaurenbigponylangarmrugbyshirtj|40": "ebay:de:v1|940055737190|0",
-  "y2kpoloralphlaurenrl2000schwarzpinkponyl|19": "ebay:de:v1|287695229583|0",
-  "poloralphlaurenvintagelightbluecottonmen|22": "ebay:de:v1|900054030312|0",
   "polocountryralphlaurencamiciabottonilegg|41": "ebay:it:v1|880070754999|0",
   "poloralphlaurenuomobiancapololmanicacort|28": "ebay:it:v1|257827651314|0",
   "ralphlaurenpurplelabelcamiciauomo165abit|49": "ebay:it:v1|900055294449|0",
@@ -36424,1064 +36417,19 @@
   "lacostesportnovakdjokovictshirtmens3xlgr|23": "vinted:10492367003",
   "vintagelacostepolom|17": "olx:bg:149211092",
   "pantaloncinialoyoga|28": "subito:id:ad:8b7146fc-b8ea-42bd-b592-ea025b957431:list:660748387",
-  "calaadidasfatodetreino|25": "olx:pt:674023426"
+  "calaadidasfatodetreino|25": "olx:pt:674023426",
+  "nikeacgprimaloftgoretexxsxl|50": "olx:ua:939610880",
+  "nikeacg|31": "olx:ua:938740009",
+  "nikeacgninjanikeacgninjanikeacgninjahood|46": "olx:ua:939610409",
+  "tnisadidasgazelleboldw|55": "olx:pt:673871367",
+  "casaconikeadolescente1214anos|20": "olx:pt:673907860",
+  "sapatilhasnikecomcaixa|20": "olx:pt:656539424",
+  "giaccanikepsgvintage|65": "subito:id:ad:95f07b82-8240-4fbd-85c3-19d0ea84d2da:list:666735652",
+  "giaccanike|25": "subito:id:ad:39c9d7ce-ef49-4f8d-a7a9-676e6c38ddfa:list:666729650",
+  "giaccaantiventonike|20": "subito:id:ad:5e94b507-90bf-4d2f-9d01-9621780c7237:list:658833145"
  },
  "digest": [],
  "prices": {
-  "koszulka fear god essentials": [
-   41.7,
-   46.5,
-   41.7
-  ],
-  "spodnie essentials": [
-   72.9
-  ],
-  "essentials black stretch limo": [
-   149.1
-  ],
-  "komplet dresowy essentials stretch": [
-   145.5
-  ],
-  "spodenki fear god essentials": [
-   41.5,
-   41.7,
-   41.7,
-   56.2
-  ],
-  "ostatnia sztuka fear god": [
-   97.2
-  ],
-  "fear god essentials long": [
-   24.8
-  ],
-  "spodenki essentials fear god": [
-   15.2
-  ],
-  "essentials stretch limo set": [
-   97.2
-  ],
-  "bluza essentials stretch limo": [
-   121.4
-  ],
-  "spodnie dresowe fear god": [
-   133.4,
-   193.8,
-   44.1,
-   46.5
-  ],
-  "czarna koszulka tshirt essentials": [
-   36.9,
-   36.9
-  ],
-  "czarne spodenki essentials fog": [
-   36.9
-  ],
-  "spodnie essentials fear god": [
-   65.9
-  ],
-  "t-shirt essentials fog stretch": [
-   29.7
-  ],
-  "fog essentials stretch limo": [
-   60.8
-  ],
-  "oryginalna bluza fear god": [
-   100.8
-  ],
-  "essentials huppari": [
-   90.0,
-   86.8
-  ],
-  "fear god essentials pullover": [
-   92.4,
-   121.4
-  ],
-  "bluza fear god esssentials": [
-   139.5
-  ],
-  "bluza essentials wheat": [
-   97.0
-  ],
-  "essentials fear god": [
-   116.5
-  ],
-  "bluza kapturem fear god": [
-   86.4
-  ],
-  "adidas essentials 3-stripes single": [
-   8.1
-  ],
-  "jogging adidas fear god": [
-   126.7
-  ],
-  "athletics los angeles adidas": [
-   84.7
-  ],
-  "adidas fear god hoodie": [
-   94.2
-  ],
-  "adidas fear god top": [
-   137.2
-  ],
-  "sweat oversize fear god": [
-   48.0
-  ],
-  "veste coupe-vent fear god": [
-   163.4
-  ],
-  "bardeur court adidas fear": [
-   53.2
-  ],
-  "cycliste running adidas fear": [
-   53.2
-  ],
-  "adidas athletics fear god": [
-   90.0
-  ],
-  "cycliste adidas fear god": [
-   69.0
-  ],
-  "adidas fear god parka": [
-   157.2
-  ],
-  "ensemble fear god adidas": [
-   257.9
-  ],
-  "fear god athletics suede": [
-   315.7
-  ],
-  "fear god athletics relaxed": [
-   263.2,
-   158.2
-  ],
-  "jogging fear god athletics": [
-   90.0
-  ],
-  "fear god athletics": [
-   84.7
-  ],
-  "adidas originals fear god": [
-   53.2
-  ],
-  "adidas fear god sweatshirt": [
-   69.0
-  ],
-  "limited fear god athletics": [
-   210.7
-  ],
-  "bardeur adidas fear god": [
-   53.2
-  ],
-  "fear god originals athletics": [
-   99.6,
-   100.5,
-   98.9,
-   102.5,
-   101.5
-  ],
-  "adidas fear god": [
-   84.7,
-   90.0,
-   84.7,
-   83.7,
-   84.7,
-   100.5
-  ],
-  "t-shirt adidas fear god": [
-   83.7
-  ],
-  "adidas fear god runner": [
-   189.7
-  ],
-  "col roul molleton fear": [
-   116.2
-  ],
-  "hoodie adidas fear god": [
-   131.9
-  ],
-  "pantaloni scur essentials fear": [
-   22.3
-  ],
-  "essentials fear god oversized": [
-   62.5,
-   62.5,
-   72.8
-  ],
-  "hoodie szara bluza kapturem": [
-   45.1
-  ],
-  "essentials fear god track": [
-   62.1
-  ],
-  "fear god essentials t-shirt": [
-   35.0
-  ],
-  "fear god sweatshirt": [
-   100.9
-  ],
-  "fear god essentials sweatpants": [
-   69.0,
-   95.4,
-   48.0,
-   63.7,
-   84.7,
-   53.2,
-   55.9
-  ],
-  "relaxed pants essentials fog": [
-   46.6
-  ],
-  "bluza fear god essentials": [
-   169.6,
-   46.5,
-   74.7
-  ],
-  "fear god hoodie": [
-   98.5
-  ],
-  "kurtka sherpa camo fleece": [
-   55.0
-  ],
-  "pacsun shirt essentials fear": [
-   12.8
-  ],
-  "ska bluza fear god": [
-   35.2
-  ],
-  "essentials fear god black": [
-   67.3
-  ],
-  "fear god essentials beige": [
-   31.5
-  ],
-  "essentials grey hoodie": [
-   58.9
-  ],
-  "bluza essentials fear god": [
-   73.1,
-   25.4,
-   50.0
-  ],
-  "fear god essentials signature": [
-   96.9
-  ],
-  "essentials fog ss22 light": [
-   63.7
-  ],
-  "sweatshirt fog essentials": [
-   95.2
-  ],
-  "essentials fog fear god": [
-   55.6,
-   116.4,
-   116.4
-  ],
-  "essantials fog hoodie blanc": [
-   74.2
-  ],
-  "sweat pull fear god": [
-   79.5
-  ],
-  "jogging fear god essentials": [
-   69.0,
-   147.7
-  ],
-  "sweat capuche essentials fear": [
-   23.8
-  ],
-  "essentials fear god t-shirt": [
-   48.0,
-   48.0
-  ],
-  "sweat zipp essentials fear": [
-   63.7
-  ],
-  "jogging essentials fog": [
-   68.9,
-   74.2,
-   74.2
-  ],
-  "ensemble essentials fog gris": [
-   142.4
-  ],
-  "fog essentials zip hoodie": [
-   74.2
-  ],
-  "sweat essentials fog taille-s": [
-   74.2
-  ],
-  "essentials s22 fear god": [
-   126.7
-  ],
-  "t-shirt essentials fear god": [
-   94.2,
-   53.2
-  ],
-  "sweat crewneck fear god": [
-   74.2
-  ],
-  "veste blouson oversize vintage": [
-   20.6
-  ],
-  "sweat capuche essentials fog": [
-   95.2
-  ],
-  "jogging essentials fog gris": [
-   63.7,
-   70.0
-  ],
-  "tee shirt fog essentials": [
-   19.6
-  ],
-  "pull essentials fog noir": [
-   84.7
-  ],
-  "t-shirt fear god essentials": [
-   76.9,
-   53.2,
-   11.2
-  ],
-  "sweat essentials fear god": [
-   84.7
-  ],
-  "jogging essentials fear god": [
-   84.7
-  ],
-  "tee shirt fog": [
-   63.7
-  ],
-  "jogging essentials noir": [
-   48.0
-  ],
-  "pull essentials fog": [
-   84.7
-  ],
-  "essentials fog hoodie": [
-   63.7,
-   21.7
-  ],
-  "pull essentials": [
-   37.5,
-   63.7
-  ],
-  "ensemble essentials fog tracksuit": [
-   100.5
-  ],
-  "ensemble surv tement essentials": [
-   137.2
-  ],
-  "sweat capuche hoodie fear": [
-   53.2
-  ],
-  "pull fog essentials": [
-   69.0
-  ],
-  "ensemble jogging pull essentials": [
-   131.9
-  ],
-  "fear god classic sweatpant": [
-   230.7
-  ],
-  "cream essentials fog cardigan": [
-   63.7
-  ],
-  "essentials pantalon gris": [
-   16.4
-  ],
-  "lacoste baseball sapka fekete": [
-   24.7
-  ],
-  "lacoste grey loungewear big": [
-   17.7
-  ],
-  "lacoste club big croc": [
-   11.7
-  ],
-  "lacoste modr mikina bez": [
-   33.6
-  ],
-  "lacoste cap": [
-   18.7
-  ],
-  "lacoste modr nsy rifle": [
-   13.9
-  ],
-  "supreme lacoste bluza bia": [
-   77.9
-  ],
-  "supreme lacoste velour polo": [
-   69.0
-  ],
-  "supreme lacoste ss17 jersey": [
-   68.3
-  ],
-  "supreme lacoste longsleeve": [
-   158.2
-  ],
-  "supreme lacoste crewneck ss18": [
-   157.6
-  ],
-  "tkie spodenki": [
-   2.1
-  ],
-  "bluza supreme lacoste": [
-   109.3,
-   73.1
-  ],
-  "koszulka polo coste": [
-   24.8
-  ],
-  "polo coste rozmiar": [
-   24.6
-  ],
-  "supreme lacoste cap": [
-   84.7
-  ],
-  "ywana supreme lacoste torba": [
-   91.2
-  ],
-  "supreme jacket": [
-   315.7
-  ],
-  "supreme lacoste beanie": [
-   29.7
-  ],
-  "supreme lacoste ss18 velour": [
-   135.8
-  ],
-  "bluza kapturem supreme lacoste": [
-   145.3,
-   97.2
-  ],
-  "bluza lacoste supreme": [
-   85.2
-  ],
-  "kurtka varsity supereme lacoste": [
-   217.9
-  ],
-  "bluza lacoste supreme ss18": [
-   97.2
-  ],
-  "supreme lacoste crewneck light": [
-   169.4
-  ],
-  "bluza unisex supreme lacoste": [
-   82.8
-  ],
-  "supreme hoodie lacoste": [
-   95.2
-  ],
-  "coste": [
-   9.1
-  ],
-  "adida albi": [
-   20.6
-  ],
-  "supreme lacoste windbreaker jacket": [
-   210.7
-  ],
-  "jacheta lacoste supreme": [
-   70.5
-  ],
-  "supreme lacoste pique knit": [
-   100.3
-  ],
-  "supreme lacoste velour crusher": [
-   142.4
-  ],
-  "lacoste supreme hoodie opium": [
-   84.4
-  ],
-  "track jacket lacoste surv": [
-   30.1
-  ],
-  "polo lacoste sport vert": [
-   37.5
-  ],
-  "robe tennis lacoste vintage": [
-   42.7
-  ],
-  "lot polos lacoste rose": [
-   19.6
-  ],
-  "lacoste ag-lt pro medvedev": [
-   100.5
-  ],
-  "robe vintage tennis lacoste": [
-   16.4
-  ],
-  "veste zipp capuche lacoste": [
-   32.2
-  ],
-  "robe neuve lacoste sport": [
-   126.7
-  ],
-  "polo lacoste sport blanc": [
-   15.3,
-   31.1
-  ],
-  "veste surv tement lacoste": [
-   37.4,
-   29.1,
-   32.2,
-   38.5
-  ],
-  "t-shirt lacoste sport ultra": [
-   28.9
-  ],
-  "superbe teeshirt sport lacoste": [
-   42.7
-  ],
-  "polo lacoste sport noir": [
-   26.9
-  ],
-  "pull lacoste maille torsad": [
-   74.2
-  ],
-  "gilet lacoste zipp col": [
-   36.4
-  ],
-  "polo lacoste sport tennis": [
-   30.1
-  ],
-  "raquette tennis lacoste top": [
-   13.3
-  ],
-  "t-shirt lacoste": [
-   11.2
-  ],
-  "lot polos lacoste authentiques": [
-   42.7
-  ],
-  "veste coupe-vent lacoste sport": [
-   32.2
-  ],
-  "tenue tennis ans lacoste": [
-   32.2
-  ],
-  "jupe pliss lacoste tenniscore": [
-   42.7
-  ],
-  "t-shirt sport lacoste": [
-   42.7
-  ],
-  "raquette vintage lacoste tal": [
-   42.7
-  ],
-  "polo lacoste sport rouge": [
-   16.4
-  ],
-  "tee shirt tennis sport": [
-   58.5
-  ],
-  "serre poignet lacoste sport": [
-   18.6
-  ],
-  "robe lacoste": [
-   84.7,
-   52.1,
-   53.2
-  ],
-  "robe tennis lacoste sport": [
-   38.5
-  ],
-  "robe lacoste bleu clair": [
-   26.9
-  ],
-  "polo lacoste roland garros": [
-   69.0
-  ],
-  "veste zipp lacoste sport": [
-   25.9
-  ],
-  "polo tennis lacoste sport": [
-   32.2
-  ],
-  "robe tennis roland garros": [
-   13.3
-  ],
-  "robe polo sans manches": [
-   18.6
-  ],
-  "lacoste sport coupe-vent capuche": [
-   75.2
-  ],
-  "lacoste sport sweat veste": [
-   41.6,
-   41.6
-  ],
-  "jogging lacoste sport bleu": [
-   31.1
-  ],
-  "sweat lacoste sport bleu": [
-   41.6
-  ],
-  "veste tennis lacoste sport": [
-   53.2
-  ],
-  "veste lacoste sport tennis": [
-   38.5
-  ],
-  "t-shirt lacoste sport vintage": [
-   26.9
-  ],
-  "half zip zip lacoste": [
-   48.0
-  ],
-  "t-shirt tennis lacoste": [
-   32.2
-  ],
-  "veste lacoste sport coupe-vent": [
-   37.5,
-   19.6
-  ],
-  "t-shirt lacoste sport bleu": [
-   14.3
-  ],
-  "veste sport coupe-vent lacoste": [
-   14.3
-  ],
-  "surv tement tennis color-block": [
-   189.7
-  ],
-  "polo tennis lacoste": [
-   11.2
-  ],
-  "polo lacoste sport slim": [
-   21.7
-  ],
-  "polo lacoste sport bleu": [
-   17.0,
-   21.7
-  ],
-  "ensemble lacoste fluo brassi": [
-   167.7
-  ],
-  "t-shirt lacoste sport tennis": [
-   53.2
-  ],
-  "sweat lacoste sport colorblock": [
-   21.7
-  ],
-  "pull ras cou lacoste": [
-   39.5
-  ],
-  "t-shirt tennis lacoste ultra": [
-   42.7
-  ],
-  "robe tennis lacoste": [
-   48.0
-  ],
-  "polo lacoste sport bicolore": [
-   26.9
-  ],
-  "veste xxl lacoste": [
-   72.1
-  ],
-  "shirt lacoste": [
-   52.1
-  ],
-  "polo lacoste bordeaux manches": [
-   16.4
-  ],
-  "polo lacoste rouge slim": [
-   15.3
-  ],
-  "raquette tennis vintage lacoste": [
-   94.2
-  ],
-  "polo technique lacoste sport": [
-   32.2
-  ],
-  "gilet zipp lacoste sport": [
-   24.9
-  ],
-  "polo lacoste sport gar": [
-   13.3
-  ],
-  "raquettes plage lacoste": [
-   11.2
-  ],
-  "t-shirt sport-tennis lacoste bleu": [
-   7.0
-  ],
-  "veste lacoste sport veste": [
-   26.9
-  ],
-  "technique sport polo lacoste": [
-   19.6
-  ],
-  "robe tennis vintage lacoste": [
-   55.3
-  ],
-  "polo technique sport lacoste": [
-   15.4
-  ],
-  "superbe robe lacoste tennis": [
-   47.9
-  ],
-  "gilet polaire fuchsia": [
-   32.2
-  ],
-  "t-shirt lacoste rozmiar xxl": [
-   21.7
-  ],
-  "lacoste monogram tracksuit": [
-   136.1
-  ],
-  "lacoste opening ceremony t-shirt": [
-   20.2
-  ],
-  "lacoste live roz ska": [
-   99.4
-  ],
-  "lacoste klassisk poloshirt str": [
-   22.7
-  ],
-  "owy t-shirt lacoste koszulka": [
-   15.5
-  ],
-  "lacosge live tracksuit black": [
-   26.5
-  ],
-  "lacoste military style shirt": [
-   22.7
-  ],
-  "t-shirt alb lacoste text": [
-   11.4
-  ],
-  "lacoste classic fit polo": [
-   18.0
-  ],
-  "lacoste white shirt": [
-   15.4
-  ],
-  "lacoste dark blue sweater": [
-   13.9
-  ],
-  "lacoste live sweatshirt": [
-   30.3
-  ],
-  "supreme lacoste harrington jacket": [
-   184.4
-  ],
-  "koszulka ska lacoste live": [
-   7.8
-  ],
-  "zielona bluza green hoodie": [
-   22.9
-  ],
-  "lacoste live nylon black": [
-   43.9
-  ],
-  "lacoste koszulka t-shirt bia": [
-   25.4
-  ],
-  "lacoste two-tone polo shirt": [
-   12.5
-  ],
-  "lacoste crewneck unisex": [
-   54.7
-  ],
-  "lacoste bomber jacket": [
-   66.7
-  ],
-  "sweat lacoste vert fonc": [
-   63.7
-  ],
-  "veste lacoste navy pull": [
-   44.8
-  ],
-  "sweat-shirt lacoste beige": [
-   26.9
-  ],
-  "pull lacoste col gris": [
-   41.6
-  ],
-  "lacoste pull v-neck sweater": [
-   31.3
-  ],
-  "pull sweat capuche lacoste": [
-   26.9
-  ],
-  "sweat zipp capuche lacoste": [
-   32.2
-  ],
-  "pull lacoste excellente tat": [
-   29.1
-  ],
-  "pull lacoste noir": [
-   58.4
-  ],
-  "pull lacoste vert kaki": [
-   21.7
-  ],
-  "veste survet coupe vent": [
-   45.9
-  ],
-  "lacoste pull polo manche": [
-   42.7
-  ],
-  "cardigan lacoste rouge bordeaux": [
-   26.9
-  ],
-  "sweat pull col lacoste": [
-   23.8
-  ],
-  "sweat pull crewneck marini": [
-   30.1
-  ],
-  "sweat pull col vintage": [
-   23.3
-  ],
-  "sweat lacoste colorblock beige": [
-   26.9
-  ],
-  "pull lacoste bordeaux col": [
-   31.1
-  ],
-  "veste lacoste zipp capuche": [
-   42.7
-  ],
-  "gilet lacoste": [
-   42.7,
-   26.9
-  ],
-  "pull vintage lacoste": [
-   34.3
-  ],
-  "pull capuche beige unisexe": [
-   53.2
-  ],
-  "pull col lacoste gris": [
-   13.3
-  ],
-  "sweat lacoste bleu": [
-   32.2
-  ],
-  "lacoste pull": [
-   32.2
-  ],
-  "sweat rouge-blanc-marine lacoste": [
-   37.5
-  ],
-  "sweat lacoste sport": [
-   21.7,
-   26.9
-  ],
-  "sweat capuche zipp lacoste": [
-   42.7
-  ],
-  "lacoste pull fin blanc": [
-   37.5
-  ],
-  "pull lacoste blanc tel": [
-   32.2
-  ],
-  "pull col rond gris": [
-   26.9
-  ],
-  "pull ray lacoste sport": [
-   37.5
-  ],
-  "sweat lacoste sport col": [
-   37.5
-  ],
-  "pull lacoste bleu marine": [
-   32.2,
-   15.4,
-   21.7
-  ],
-  "veste zipp noire lacoste": [
-   84.7
-  ],
-  "sweat lacoste roland garros": [
-   31.1
-  ],
-  "pull lacoste xxl": [
-   21.7
-  ],
-  "pull hiver noir": [
-   26.9
-  ],
-  "pull lacoste vintage 90s": [
-   21.7
-  ],
-  "gilet cardigan vintage lacoste": [
-   21.7
-  ],
-  "pull lacoste vintage": [
-   37.4
-  ],
-  "pull lacoste moutarde coton": [
-   24.9
-  ],
-  "pull half buttons lacoste": [
-   24.9
-  ],
-  "lacoste pull col bleu": [
-   26.9
-  ],
-  "pull maille lacoste bleu": [
-   15.4
-  ],
-  "gilet lacoste dition roland-garros": [
-   74.2
-  ],
-  "pull lacoste ray col": [
-   29.0
-  ],
-  "pull lacoste beige parfait": [
-   32.2
-  ],
-  "pull lacoste gris carreaux": [
-   34.8
-  ],
-  "sweat capuche lacoste": [
-   21.7,
-   30.1
-  ],
-  "pull sans manches lacoste": [
-   21.7
-  ],
-  "pull bleu marine vintage": [
-   26.9
-  ],
-  "pull lacoste rouge": [
-   58.5
-  ],
-  "pull lacoste ray": [
-   19.6
-  ],
-  "veste lacoste novak djokovic": [
-   21.7
-  ],
-  "pull lacoste chic colorblock": [
-   37.5
-  ],
-  "pull lacoste col rond": [
-   32.2
-  ],
-  "pull col rond lacoste": [
-   26.9,
-   32.2,
-   32.2,
-   19.6,
-   4.9
-  ],
-  "sweat lacoste": [
-   48.0,
-   26.9,
-   32.2,
-   37.5
-  ],
-  "gilet lacoste torsad chic": [
-   44.8
-  ],
-  "veste neuve lacoste": [
-   137.2
-  ],
-  "pull lacoste authentique": [
-   42.7
-  ],
-  "sweat capuche hoody lacoste": [
-   29.6
-  ],
-  "sweat vintage lacoste ray": [
-   37.5
-  ],
-  "pull lacoste": [
-   79.5,
-   48.0,
-   26.9,
-   6.0,
-   19.6,
-   34.3,
-   16.4,
-   16.4,
-   21.7,
-   16.4
-  ],
-  "alo yoga warrior black": [
-   136.0
-  ],
-  "alo shortsit": [
-   13.9
-  ],
-  "mata warrior mat alo": [
-   79.6
-  ],
-  "alo high waisted ripped": [
-   17.5,
-   45.7,
-   18.3
-  ],
-  "alo ripped warrior sport": [
-   17.4
-  ],
-  "alo ripped warrior sportbra": [
-   17.4
-  ],
-  "alo yoga high-waisted ripped": [
-   35.7
-  ],
-  "alo yoga warrior mat": [
-   139.0
-  ],
-  "alon musta warrior joogamatto": [
-   198.6
-  ],
-  "ripped warrior leggings alo": [
-   35.7
-  ],
-  "set alo yoga": [
-   77.2
-  ],
-  "alo yoga ripped warrior": [
-   45.8,
-   49.8,
-   68.5,
-   31.5
-  ],
-  "alo yoga muse -setti": [
-   74.2
-  ],
-  "alo muse sweatpant czarne": [
-   44.1
-  ],
-  "alo yoga muse hoodie": [
-   60.8,
-   41.7
-  ],
-  "superbe legging moto blanc": [
-   14.3
-  ],
-  "pantalon molletonn alo yoga": [
-   95.2
-  ],
-  "legging high-waist moto alo": [
-   32.2,
-   42.7
-  ],
-  "leggings alo yoga embl": [
-   13.3
-  ],
-  "legging alo yoga moto": [
-   32.2,
-   40.6
-  ],
-  "legging alo moto alo": [
-   16.4
-  ],
-  "legging gris alo modele": [
-   30.1
-  ],
-  "legging haute alo yoga": [
-   29.1
-  ],
-  "legging blanc lycra alo": [
-   30.1
-  ],
   "alo yoga leggings sport": [
    73.2
   ],
@@ -37508,10 +36456,6 @@
   "alo high waist airbrush": [
    81.9,
    83.1
-  ],
-  "alo yoga airbrush high-waist": [
-   36.7,
-   91.0
   ],
   "alo airlift line leg": [
    133.1
@@ -39514,9 +38458,6 @@
   "geaca columbia chalanger noua": [
    40.0
   ],
-  "geac iarn columbia omni": [
-   80.0
-  ],
   "geac rba original columbia": [
    96.0
   ],
@@ -39620,12 +38561,6 @@
    16.0,
    14.0
   ],
-  "saia adolescente ralph lauren": [
-   10.0,
-   10.0,
-   10.0,
-   10.0
-  ],
   "polo ralph lauren casaco": [
    130.0,
    130.0
@@ -39657,11 +38592,6 @@
    80.0,
    80.0
   ],
-  "ralph lauren colete": [
-   80.0,
-   80.0,
-   80.0
-  ],
   "casaco ralph lauren": [
    150.0,
    270.0,
@@ -39690,19 +38620,6 @@
   ],
   "camisa ralph lauren rapaz": [
    7.0
-  ],
-  "vestido ralph lauren": [
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   80.0,
-   100.0,
-   100.0
   ],
   "cal ralph lauren": [
    10.0
@@ -39805,10 +38722,6 @@
   "mala lacoste": [
    80.0
   ],
-  "lacoste sweatshirt": [
-   90.0,
-   90.0
-  ],
   "polos lacoste disponivel xxl": [
    10.0,
    10.0,
@@ -39820,14 +38733,6 @@
   "swet lacoste": [
    50.0
   ],
-  "casaco lacoste": [
-   90.0,
-   125.0,
-   120.0,
-   90.0,
-   90.0,
-   90.0
-  ],
   "chap lacoste": [
    50.0
   ],
@@ -39838,28 +38743,12 @@
    85.0,
    85.0
   ],
-  "conjunto lacoste": [
-   75.0,
-   75.0
-  ],
   "casaco lacoste tam": [
    100.0,
    100.0,
    100.0,
    100.0,
    100.0
-  ],
-  "cla lacoste bom estado": [
-   10.0,
-   10.0,
-   10.0,
-   10.0,
-   10.0
-  ],
-  "vendo camisola lacoste verdadeira": [
-   105.0,
-   105.0,
-   105.0
   ],
   "vendo chemise lacoste original": [
    90.0
@@ -39995,13 +38884,6 @@
   "lacoste m-l": [
    163.3
   ],
-  "lacoste xxl": [
-   77.7,
-   52.1
-  ],
-  "hugo boss stone island": [
-   285.4
-  ],
   "tommy hilfiger lacoste": [
    100.8
   ],
@@ -40082,9 +38964,6 @@
   ],
   "lacoste jacket": [
    119.0
-  ],
-  "lacoste sport": [
-   127.5
   ],
   "columbia columbia": [
    170.0
@@ -40483,9 +39362,6 @@
   ],
   "piumino nike storm-fit windrunner": [
    116.2
-  ],
-  "geaca nike acg therma": [
-   100.0
   ],
   "nike pro octa therma-fit": [
    132.3
@@ -40911,13 +39787,6 @@
   "under armour storm beanie": [
    5.0
   ],
-  "nsk bunda under armour": [
-   102.5,
-   102.5,
-   102.5,
-   102.5,
-   102.5
-  ],
   "jogging under armour running": [
    42.7,
    42.7
@@ -41245,12 +40114,6 @@
    24.7,
    24.1
   ],
-  "geac columbia titanium roaring": [
-   100.3,
-   100.0,
-   100.0,
-   100.0
-  ],
   "geaca iarna columbia omni-heat": [
    90.0
   ],
@@ -41564,10 +40427,6 @@
   "alo yoga clubhouse jacket": [
    113.4
   ],
-  "aloyoga airbrush high-waist heart": [
-   96.6,
-   94.5
-  ],
   "columbia delta ridge down": [
    130.0,
    132.3
@@ -41591,10 +40450,6 @@
    5.0
   ],
   "columbia winterjacke wie neu": [
-   80.0,
-   80.0
-  ],
-  "columbia ski set herren": [
    80.0,
    80.0
   ],
@@ -43298,10 +42153,6 @@
   "stone island vintage ice": [
    180.0
   ],
-  "stone island vintage 1990s": [
-   200.0,
-   200.0
-  ],
   "casaco stone island corta": [
    80.0,
    80.0,
@@ -43430,9 +42281,6 @@
   "vintage stone island wool": [
    81.9
   ],
-  "stone island massimo osti": [
-   71.4
-  ],
   "stone island sehr seltene": [
    149.0
   ],
@@ -43460,9 +42308,6 @@
   ],
   "stone island reverse color": [
    350.0
-  ],
-  "massimo osti parka stone": [
-   275.0
   ],
   "stone island bunda": [
    82.0,
@@ -43542,26 +42387,6 @@
   ],
   "jeans stone island uomo": [
    89.0
-  ],
-  "stone island jeans denim": [
-   80.0,
-   80.0,
-   80.0
-  ],
-  "stone island archivio vintage": [
-   205.0,
-   205.0
-  ],
-  "stone island marina osti": [
-   255.0,
-   255.0
-  ],
-  "stone island vintage anni": [
-   170.0,
-   120.0
-  ],
-  "boneville company massimoosti stone": [
-   249.0
   ],
   "stone island 661x7 reef": [
    121.6
@@ -43867,18 +42692,6 @@
   "giacca lana stone island": [
    350.0
   ],
-  "giacca stone island": [
-   332.5,
-   661.1,
-   380.0,
-   799.0,
-   165.0,
-   125.0,
-   465.0,
-   210.0,
-   180.0,
-   220.0
-  ],
   "stone island vintage nylon": [
    350.0,
    350.0
@@ -44034,18 +42847,6 @@
    46.4,
    45.8
   ],
-  "ralph lauren polo jeans": [
-   20.0,
-   48.0,
-   16.4,
-   60.8,
-   11.6,
-   92.0,
-   90.9
-  ],
-  "polo sport ralph lauren": [
-   226.4
-  ],
   "ralph lauren wing satin": [
    252.5
   ],
@@ -44167,14 +42968,6 @@
    24.2,
    24.2
   ],
-  "polo ralph lauren bear": [
-   245.0,
-   335.0,
-   150.0,
-   230.1,
-   161.1,
-   83.8
-  ],
   "ralph lauren usa bear": [
    25.1,
    24.9,
@@ -44186,31 +42979,11 @@
    24.9,
    25.1
   ],
-  "polo ralph lauren sport": [
-   89.1,
-   89.1,
-   8.4
-  ],
   "polo bear raph lauren": [
    119.0
   ],
   "zara nike cropp waikiki": [
    11.9
-  ],
-  "polo bear ralph lauren": [
-   28.4,
-   63.0,
-   33.0,
-   63.0,
-   31.5,
-   73.5,
-   75.6,
-   71.4,
-   46.2,
-   46.2,
-   28.4,
-   3.4,
-   100.0
   ],
   "polo ralph lauren strickpullover": [
    100.0
@@ -44612,9 +43385,6 @@
   "polo ralph lauren tricou": [
    16.0
   ],
-  "ralph lauren polo sport": [
-   118.0
-  ],
   "new treing polo ralph": [
    60.0
   ],
@@ -44631,41 +43401,8 @@
    196.0,
    196.0
   ],
-  "tenesi polo ralph lauren": [
-   80.0
-  ],
-  "bluza trening polo ralph": [
-   90.0
-  ],
-  "geaca polo ralph lauren": [
-   50.3,
-   50.3,
-   50.3,
-   60.3,
-   99.8,
-   188.0,
-   80.0,
-   99.8,
-   120.0,
-   97.8,
-   90.0,
-   80.0,
-   300.0,
-   79.8,
-   79.8,
-   110.0,
-   188.0,
-   144.0,
-   90.0,
-   80.0,
-   188.0,
-   110.0
-  ],
   "hanorac polo ralph lauren": [
    120.0
-  ],
-  "pantaloni trening polo ralph": [
-   90.0
   ],
   "bluza polo ralph lauren": [
    106.0,
@@ -44680,9 +43417,6 @@
   "polo ralph lauren 2xl": [
    80.0
   ],
-  "polo ralph lauren cotton": [
-   81.3
-  ],
   "polo ralph lauren performance": [
    95.0,
    37.3,
@@ -44696,9 +43430,6 @@
    6.1
   ],
   "polo ralph lauren-32 big": [
-   110.0
-  ],
-  "polo 2xl": [
    110.0
   ],
   "blus exclusivo raro polo": [
@@ -44792,29 +43523,6 @@
   "polo ralph lauren sweatpants": [
    23.1
   ],
-  "polo ralph lauren custom": [
-   22.7,
-   15.9,
-   23.6,
-   37.0,
-   21.3,
-   16.5,
-   15.3,
-   85.3,
-   31.0,
-   55.1,
-   41.2,
-   20.5,
-   9.6,
-   9.6,
-   9.6,
-   20.5,
-   9.6,
-   12.3,
-   9.6,
-   11.4,
-   10.5
-  ],
   "lux polo ralph lauren": [
    31.5,
    27.3,
@@ -44832,27 +43540,6 @@
    33.6,
    31.5
   ],
-  "polo ralph lauren quarter": [
-   25.2
-  ],
-  "ralph lauren": [
-   473.2,
-   48.0,
-   69.0,
-   121.8,
-   94.5,
-   60.9,
-   199.5,
-   54.6,
-   86.1,
-   58.8,
-   510.0,
-   765.0,
-   495.4,
-   299.0,
-   299.0,
-   11.9
-  ],
   "polo ralph lauren usa": [
    94.5,
    76.3,
@@ -44865,30 +43552,6 @@
    76.3,
    76.3
   ],
-  "ralph lauren polo": [
-   11.2,
-   29.7,
-   14.5,
-   6.8,
-   43.1,
-   10.4,
-   6.8,
-   10.4,
-   25.0,
-   3.3,
-   9.6,
-   9.6,
-   14.1,
-   23.2,
-   27.7,
-   23.2,
-   23.2,
-   27.7,
-   23.2,
-   23.2,
-   18.7,
-   11.9
-  ],
   "ralph lauren hose polo": [
    5.0
   ],
@@ -44900,38 +43563,6 @@
   ],
   "poloshirt ralph lauren lacoste": [
    15.0
-  ],
-  "polo ralph lauren": [
-   12.8,
-   80.0,
-   176.7,
-   80.0,
-   85.0,
-   95.0,
-   80.0,
-   109.0,
-   100.0,
-   95.0,
-   90.0,
-   100.0,
-   90.0,
-   80.0,
-   85.0,
-   28.4,
-   21.0,
-   31.5,
-   9.2,
-   10.5,
-   8.5,
-   136.0,
-   9.3,
-   7.6,
-   136.0,
-   8.5,
-   10.2,
-   170.0,
-   3.4,
-   35.0
   ],
   "ralph lauren shirt": [
    11.2,
@@ -44959,29 +43590,6 @@
   ],
   "origin ern batoh polo": [
    164.0
-  ],
-  "polo ralph lauren polo": [
-   333.9,
-   199.0,
-   106.6,
-   18.9,
-   14.1,
-   16.9,
-   22.3,
-   9.6,
-   14.1,
-   9.6,
-   10.5,
-   9.6,
-   33.6,
-   33.6,
-   33.6,
-   33.6,
-   31.5,
-   80.8,
-   36.7,
-   6.8,
-   106.6
   ],
   "nov bunda ralph lauren": [
    75.9
@@ -45018,19 +43626,11 @@
   "t-shirt ralph lauren ralph": [
    20.0
   ],
-  "tuta polo ralph lauren": [
-   120.0
-  ],
   "piumino polo ralph lauren": [
    93.0
   ],
   "maglione vintage polo ralph": [
    87.0
-  ],
-  "maglione polo ralph lauren": [
-   160.0,
-   190.0,
-   150.0
   ],
   "giacchetto ralph lauren": [
    90.0
@@ -45136,14 +43736,8 @@
   "essentials ss22 iron": [
    115.0
   ],
-  "fato treino essentials cinzento": [
-   110.0
-  ],
   "fear god essentials baseball": [
    58.8
-  ],
-  "fear god essentials relaxed": [
-   95.6
   ],
   "essentials": [
    4.2
@@ -45193,11 +43787,6 @@
   ],
   "jordan essentials statement fleece": [
    77.3
-  ],
-  "fear god essentials fog": [
-   94.5,
-   100.6,
-   123.9
   ],
   "top essentials essentials essentials": [
    36.8,
@@ -45279,12 +43868,6 @@
   ],
   "hoodie essentials kapuzenpullover beige": [
    89.0
-  ],
-  "fog fear god essentials": [
-   160.0
-  ],
-  "essentials fear god real": [
-   140.0
   ],
   "essentials hoodie": [
    189.7,
@@ -45674,31 +44257,11 @@
   "geanti piele joop lacoste": [
    91.8
   ],
-  "promo lacoste michael stipe": [
-   100.0
-  ],
   "relogio lacoste novo": [
    150.0
   ],
-  "sweat lacoste azul escuro": [
-   100.0
-  ],
   "nis lacoste l-spin deluxe": [
    85.0
-  ],
-  "bolsa lacoste": [
-   130.0,
-   75.0,
-   80.0,
-   50.0,
-   80.0,
-   130.0,
-   80.0,
-   80.0,
-   130.0,
-   80.0,
-   130.0,
-   120.0
   ],
   "lacoste vintage chino trousers": [
    8.4
@@ -45742,58 +44305,17 @@
   "lacoste golf 80x": [
    15.8
   ],
-  "lacoste 90s vintage v-neck": [
-   79.8
-  ],
   "vintage beanie center logo": [
    8.4
   ],
   "lacoste lacoste vintage old": [
    37.8
   ],
-  "lacoste": [
-   37.8,
-   73.4,
-   62.2,
-   79.8,
-   84.0,
-   94.5,
-   105.0,
-   325.5,
-   163.8,
-   63.0,
-   137.6,
-   58.8,
-   84.0,
-   52.5,
-   84.0,
-   64.0,
-   67.2,
-   132.6,
-   144.5,
-   153.0,
-   221.0,
-   340.0,
-   170.0,
-   102.0,
-   119.0,
-   255.0,
-   127.5,
-   204.0,
-   119.0,
-   11.2
-  ],
   "y-3 lacoste adidas vintage": [
    7.7
   ],
   "lacoste vintage nylon jacket": [
    34.7
-  ],
-  "chemise lacoste made france": [
-   18.9
-  ],
-  "lacoste france chemise vintage": [
-   73.5
   ],
   "lacoste vintage": [
    50.0,
@@ -46380,11 +44902,6 @@
   ],
   "airlift suit alo yoga": [
    60.9
-  ],
-  "alo yoga": [
-   98.4,
-   8.0,
-   65.1
   ],
   "alo yoga airlift divine": [
    14.3
@@ -47175,16 +45692,6 @@
   "adidas stella mccartney training": [
    34.6
   ],
-  "adidas tiro training pants": [
-   16.8,
-   39.9
-  ],
-  "adidas celtic tiro training": [
-   8.4
-  ],
-  "adidas adidas tiro training": [
-   6.3
-  ],
   "adidas entrada training top": [
    6.3
   ],
@@ -47196,9 +45703,6 @@
   ],
   "vintage adidas vfb stuttgart": [
    63.0
-  ],
-  "adidas tiro training jacket": [
-   8.4
   ],
   "adidas clima training core": [
    11.2
@@ -47244,9 +45748,6 @@
   ],
   "original bayern adidas rarit": [
    40.0
-  ],
-  "adidas tiro training top": [
-   10.0
   ],
   "project rock": [
    120.0
@@ -47385,9 +45886,6 @@
   "t-shirt vermelha nike": [
    6.0
   ],
-  "casaco nike bom estado": [
-   10.0
-  ],
   "lote blus jack jones": [
    90.0
   ],
@@ -47471,152 +45969,1650 @@
   ],
   "nike dunk low chicago": [
    105.0
+  ],
+  "under armour rush": [
+   10.5,
+   4.0
+  ],
+  "under armour heatgear rush": [
+   11.1
+  ],
+  "under armour rush celliant": [
+   8.0
+  ],
+  "nsk bunda under armour": [
+   102.5,
+   102.5,
+   102.5,
+   102.5,
+   102.5,
+   102.5
+  ],
+  "geac columbia titanium roaring": [
+   100.3,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "geac iarn columbia omni": [
+   80.0,
+   80.0
+  ],
+  "columbia fairbanks omni-heat": [
+   79.8
+  ],
+  "bocanci columbia titanium daska": [
+   90.0
+  ],
+  "jachet impermeabil columbia omni-tech": [
+   76.0
+  ],
+  "columbia omni-tech watertproof geaca": [
+   80.0
+  ],
+  "columbia omni-tech": [
+   79.0
+  ],
+  "columbia sportswear tipton peakr": [
+   125.0
+  ],
+  "msrp columbia titanium turbodown": [
+   209.8
+  ],
+  "columbia omni-heat omni-tech": [
+   80.5
+  ],
+  "columbia ski set herren": [
+   80.0,
+   80.0,
+   80.0
+  ],
+  "giacca columbia titanium uomo": [
+   75.0
+  ],
+  "columbia titanium mogul jacket": [
+   189.0
+  ],
+  "nike acg mountain fly2": [
+   83.0
+  ],
+  "nike air winflo gore-tex": [
+   75.8
+  ],
+  "jacheta nike trail acg": [
+   90.0
+  ],
+  "nike vomero plus noi": [
+   149.8,
+   129.8
+  ],
+  "jacheta pentru sport nike": [
+   130.0
+  ],
+  "ghete nike acg goretex": [
+   120.0
+  ],
+  "geaca dama hardshell nike": [
+   130.0
+  ],
+  "nike zoom fly noi": [
+   89.8
+  ],
+  "nike acg air mowabb": [
+   330.0
+  ],
+  "nike acg stare buna": [
+   300.0
+  ],
+  "geaca nike acg therma": [
+   100.0,
+   100.0
+  ],
+  "nike zoom terra kiger": [
+   260.0
+  ],
+  "geaca ski vintage nike": [
+   90.0
+  ],
+  "nike acg gore-tex fitstorm": [
+   90.0,
+   90.0
+  ],
+  "acg mountain fly low": [
+   138.0,
+   94.6
+  ],
+  "nike acg montain fly": [
+   94.6
+  ],
+  "nike acg pegasus trail": [
+   130.0
+  ],
+  "nike acg gore-tex triple": [
+   109.0,
+   109.0
+  ],
+  "nike acg zegama hike": [
+   105.0
+  ],
+  "nike acg tuff fleece": [
+   102.3
+  ],
+  "nike zoom acg ultrafly": [
+   99.0,
+   100.0
+  ],
+  "nike acg phassad all": [
+   90.0
+  ],
+  "nike acg zegama trail": [
+   130.0,
+   98.0,
+   95.0
+  ],
+  "nike acg ultrafly": [
+   150.0
+  ],
+  "nike acg tamanho": [
+   10.0
+  ],
+  "casaco nike air original": [
+   130.0
+  ],
+  "nike tech azul": [
+   250.0
+  ],
+  "vende camisola nike": [
+   8.0
+  ],
+  "cal nike azuis": [
+   10.0
+  ],
+  "nike acg polar casaco": [
+   140.0
+  ],
+  "nike acg primaloft gore": [
+   50.4
+  ],
+  "nike acg ninja nike": [
+   46.2
+  ],
+  "nike acg puffer jacket": [
+   37.8
+  ],
+  "nike acg running gore-tex": [
+   59.9
+  ],
+  "nike acg ultrafly trail": [
+   130.0,
+   100.0,
+   100.0,
+   100.0,
+   81.9
+  ],
+  "nike acg therma-fit fv8827": [
+   73.5
+  ],
+  "nike acg one": [
+   10.5
+  ],
+  "nike acg therma-fit grey": [
+   73.5
+  ],
+  "nike acg therma-fit dh3087": [
+   75.6
+  ],
+  "nike acg therma-fit fleece": [
+   73.5
+  ],
+  "nike acg puffer": [
+   52.5
+  ],
+  "nike acg polartec": [
+   34.5
+  ],
+  "nike acg polartec wolf": [
+   39.5
+  ],
+  "nike acg mountain gore-tex": [
+   73.5
+  ],
+  "nike acg terra antarktik": [
+   73.5,
+   44.1
+  ],
+  "nike acg polartec xxl": [
+   30.5
+  ],
+  "nike asg": [
+   9.5
+  ],
+  "nike acg dri-fit original": [
+   42.0,
+   31.5
+  ],
+  "nike acg mountainfly low": [
+   85.0
+  ],
+  "nike nike acg air": [
+   136.0
+  ],
+  "nike acg smith summit": [
+   113.4,
+   113.4,
+   204.0
+  ],
+  "nike acg zegama cream": [
+   100.0
+  ],
+  "snowboard -skihose nike acg": [
+   8.0
+  ],
+  "nike kawa shower neu": [
+   119.0
+  ],
+  "skianzug nike fit acg": [
+   100.0
+  ],
+  "nike trail running schuh": [
+   145.0
+  ],
+  "nike acg gore tex": [
+   120.0
+  ],
+  "vintage nike acg jacke": [
+   150.0
+  ],
+  "nike acg jacke": [
+   139.0
+  ],
+  "nike vintage sport jacke": [
+   149.0
+  ],
+  "nsk zimn bunda nike": [
+   82.0
+  ],
+  "nike acg all conditions": [
+   10.2
+  ],
+  "mske tri nike acg": [
+   9.0
+  ],
+  "nike acg vintage 865417-009": [
+   199.0
+  ],
+  "pred nike trekingov obuv": [
+   100.0
+  ],
+  "nike acg air zoom": [
+   120.0,
+   81.9,
+   75.6,
+   81.9,
+   145.0
+  ],
+  "nike acg lunar lake": [
+   295.0
+  ],
+  "nike acg nike ispa": [
+   250.0
+  ],
+  "piumino nike acg": [
+   150.0
+  ],
+  "nike acg": [
+   150.0,
+   31.5,
+   56.7,
+   37.8,
+   35.7,
+   65.1,
+   51.5,
+   27.3,
+   38.4,
+   8.2,
+   200.0
+  ],
+  "nike acg cactus plant": [
+   165.0
+  ],
+  "nike acg phassad": [
+   115.0
+  ],
+  "nike acg mountain fly": [
+   150.0,
+   138.1,
+   85.0,
+   85.0,
+   138.1,
+   102.3,
+   105.0,
+   85.0,
+   120.0,
+   76.5,
+   73.1,
+   240.0
+  ],
+  "stone island vintage 1990s": [
+   200.0,
+   200.0,
+   200.0
+  ],
+  "stone island massimo osti": [
+   71.4,
+   71.4
+  ],
+  "massimo osti parka stone": [
+   275.0,
+   275.0
+  ],
+  "stone island jeans denim": [
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "stone island archivio vintage": [
+   205.0,
+   205.0,
+   205.0
+  ],
+  "stone island marina osti": [
+   255.0,
+   255.0,
+   255.0
+  ],
+  "stone island vintage anni": [
+   170.0,
+   120.0,
+   170.0,
+   120.0
+  ],
+  "boneville company massimoosti stone": [
+   249.0,
+   249.0
+  ],
+  "stone island softshell jacke": [
+   369.0
+  ],
+  "stone island light soft": [
+   320.0,
+   220.0
+  ],
+  "stone island soft shell-r": [
+   310.0
+  ],
+  "giacca stone island": [
+   332.5,
+   661.1,
+   380.0,
+   799.0,
+   165.0,
+   125.0,
+   465.0,
+   210.0,
+   180.0,
+   220.0,
+   180.0,
+   220.0
+  ],
+  "tenesi polo ralph lauren": [
+   80.0,
+   80.0
+  ],
+  "bluza trening polo ralph": [
+   90.0,
+   90.0
+  ],
+  "pantaloni trening polo ralph": [
+   90.0,
+   90.0
+  ],
+  "rulment kuhn huard rulment": [
+   110.0
+  ],
+  "rolex yacht-master rlx titanium": [
+   1250.0,
+   1250.0
+  ],
+  "rlx date just automatic": [
+   170.0
+  ],
+  "cafetiera masina expresor cafea": [
+   130.0
+  ],
+  "vesta barbati rlx ralph": [
+   160.0
+  ],
+  "geaca rlx ralph lauren": [
+   98.0
+  ],
+  "vand atv e-ton viper": [
+   1050.0
+  ],
+  "apache rlx 450cc": [
+   3000.0
+  ],
+  "ralph lauren rlx": [
+   450.0
+  ],
+  "polo ralph lauren bear": [
+   245.0,
+   335.0,
+   150.0,
+   230.1,
+   161.1,
+   83.8,
+   150.0
+  ],
+  "ralph lauren rlx camouflage": [
+   115.0
+  ],
+  "rlx ralph lauren polo": [
+   100.0
+  ],
+  "polo sport tam": [
+   10.0
+  ],
+  "mochila trolley lowepro pro": [
+   99.0
+  ],
+  "ralph lauren polo sport": [
+   118.0,
+   118.0,
+   41.2
+  ],
+  "ralph lauren polo": [
+   11.2,
+   29.7,
+   14.5,
+   6.8,
+   43.1,
+   10.4,
+   6.8,
+   10.4,
+   25.0,
+   3.3,
+   9.6,
+   9.6,
+   14.1,
+   23.2,
+   27.7,
+   23.2,
+   23.2,
+   27.7,
+   23.2,
+   23.2,
+   18.7,
+   11.9,
+   8.4
+  ],
+  "polo sport": [
+   6.3,
+   6.3
+  ],
+  "nike acg 90s black": [
+   84.0
+  ],
+  "cap polo ralph lauren": [
+   10.5
+  ],
+  "polo ralph lauren sport": [
+   89.1,
+   89.1,
+   8.4,
+   80.3,
+   10.2,
+   6.3
+  ],
+  "polo sport ralph lauren": [
+   226.4,
+   4.9
+  ],
+  "cartier ralph lauren christian": [
+   7.4
+  ],
+  "acura adx ilx integra": [
+   21.0
+  ],
+  "ralph lauren rlx cap": [
+   8.0
+  ],
+  "acura ilx tsx tlx": [
+   25.8
+  ],
+  "acura mdx rdx ilx": [
+   75.6
+  ],
+  "acura rlx 14-17": [
+   430.0
+  ],
+  "trakker rlx scout chair": [
+   37.8
+  ],
+  "acura rlx 2014-2017": [
+   344.0,
+   516.0
+  ],
+  "r16c michelin cros rlx": [
+   50.4
+  ],
+  "r20 goodyear rlx": [
+   36.8
+  ],
+  "rlx": [
+   21.0
+  ],
+  "polo ralph lauren kleid": [
+   80.0
+  ],
+  "ralph lauren rlx daunenjacke": [
+   240.0
+  ],
+  "rlx daunenjacke": [
+   120.0
+  ],
+  "polo ralph lauren rlx": [
+   86.9,
+   135.0,
+   100.0
+  ],
+  "trakker rlx beine bed": [
+   200.0
+  ],
+  "trakker rlx wide camo": [
+   330.0
+  ],
+  "lehatko trakker rlx camo": [
+   310.0
+  ],
+  "tuta polo ralph lauren": [
+   120.0,
+   120.0
+  ],
+  "vis rlx 5x26f": [
+   1.0
+  ],
+  "sci dynastar rlx speed": [
+   135.0
+  ],
+  "moto morini excalibur rlx": [
+   2000.0
+  ],
+  "jeans polo noi eticheta": [
+   10.0
+  ],
+  "vand geaca polo": [
+   94.0
+  ],
+  "plover polo masura": [
+   12.0
+  ],
+  "geaca polo ralph lauren": [
+   50.3,
+   50.3,
+   50.3,
+   60.3,
+   99.8,
+   188.0,
+   80.0,
+   99.8,
+   120.0,
+   97.8,
+   90.0,
+   80.0,
+   300.0,
+   79.8,
+   79.8,
+   110.0,
+   188.0,
+   144.0,
+   90.0,
+   80.0,
+   188.0,
+   110.0,
+   220.0,
+   131.8,
+   89.8,
+   89.8
+  ],
+  "pulover polo ralph lauren": [
+   96.0,
+   90.0
+  ],
+  "polo 2xl": [
+   110.0,
+   110.0
+  ],
+  "polo 2xl 3xl": [
+   80.0
+  ],
+  "polo ralph lauren custom": [
+   22.7,
+   15.9,
+   23.6,
+   37.0,
+   21.3,
+   16.5,
+   15.3,
+   85.3,
+   31.0,
+   55.1,
+   41.2,
+   20.5,
+   9.6,
+   9.6,
+   9.6,
+   20.5,
+   9.6,
+   12.3,
+   9.6,
+   11.4,
+   10.5,
+   10.0
+  ],
+  "polo ralph lauren cotton": [
+   81.3,
+   90.0,
+   90.0,
+   75.0
+  ],
+  "ralph lauren polo ralph": [
+   85.0
+  ],
+  "camisola ralph lauren": [
+   220.0
+  ],
+  "ralph lauren knit": [
+   90.0
+  ],
+  "polo ralph lauren camisola": [
+   120.0
+  ],
+  "ralph lauren colete": [
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "vestido ralph lauren": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   80.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "camisola malha ralph lauren": [
+   95.0
+  ],
+  "t-shirt ralph lauren": [
+   12.0,
+   10.0
+  ],
+  "blus ralph lauren": [
+   99.0
+  ],
+  "saia adolescente ralph lauren": [
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "polo ralph lauren polo": [
+   333.9,
+   199.0,
+   106.6,
+   18.9,
+   14.1,
+   16.9,
+   22.3,
+   9.6,
+   14.1,
+   9.6,
+   10.5,
+   9.6,
+   33.6,
+   33.6,
+   33.6,
+   33.6,
+   31.5,
+   80.8,
+   36.7,
+   6.8,
+   106.6,
+   8.4,
+   333.9
+  ],
+  "polo adidas tnf": [
+   6.3
+  ],
+  "ralph lauren polo automatic": [
+   1050.0
+  ],
+  "ralph lauren polo swiss": [
+   1018.5
+  ],
+  "polo ralph lauren big": [
+   9.5,
+   10.5
+  ],
+  "double ralph lauren": [
+   168.0
+  ],
+  "polo ralph lauren quarter": [
+   25.2,
+   102.9
+  ],
+  "polo ralph lauren s-xxl": [
+   31.5,
+   31.5
+  ],
+  "polo ralph lauren off-white": [
+   58.8
+  ],
+  "ralph lauren": [
+   473.2,
+   48.0,
+   69.0,
+   121.8,
+   94.5,
+   60.9,
+   199.5,
+   54.6,
+   86.1,
+   58.8,
+   510.0,
+   765.0,
+   495.4,
+   299.0,
+   299.0,
+   11.9,
+   5.2,
+   168.0
+  ],
+  "polo ralph laurent": [
+   41.0
+  ],
+  "cable-knit polo ralph lauren": [
+   25.2
+  ],
+  "ralph lauren sport": [
+   18.9
+  ],
+  "ralph lauren cable-knit cotton": [
+   136.5
+  ],
+  "polo ralph lauren": [
+   9.2,
+   10.5,
+   8.5,
+   136.0,
+   9.3,
+   7.6,
+   136.0,
+   8.5,
+   10.2,
+   170.0,
+   3.4,
+   35.0,
+   80.0,
+   8.8,
+   12.0,
+   145.0,
+   8.4,
+   10.3,
+   31.5,
+   25.2,
+   23.1,
+   23.1,
+   42.0,
+   13.7,
+   13.7,
+   86.1,
+   63.0,
+   15.8,
+   22.1,
+   38.9
+  ],
+  "usa polo": [
+   13.6
+  ],
+  "polo": [
+   127.8,
+   76.5
+  ],
+  "polo ralph lauren jeanshemd": [
+   105.0
+  ],
+  "polo ralph lauren jacke": [
+   90.0,
+   175.0
+  ],
+  "ralph lauren vintage oberteil": [
+   9.0
+  ],
+  "schn ppchen original ralph": [
+   13.0
+  ],
+  "pullover polo": [
+   10.0
+  ],
+  "neu polo ralph lauren": [
+   100.0
+  ],
+  "ralph lauren poloshirt": [
+   10.0
+  ],
+  "ralph lauren polo jeans": [
+   20.0,
+   48.0,
+   16.4,
+   60.8,
+   11.6,
+   92.0,
+   90.9,
+   3.0
+  ],
+  "ralph lauren strickpullover": [
+   125.0
+  ],
+  "polo ralph lauren zopfmuster": [
+   75.0
+  ],
+  "polo ralph lauren strickjacke": [
+   90.0
+  ],
+  "polo ralph lauren cable": [
+   130.0,
+   178.0,
+   185.0,
+   80.0,
+   140.6,
+   125.0,
+   120.2,
+   117.0,
+   145.7,
+   127.8,
+   115.0,
+   181.5,
+   130.4,
+   150.8,
+   143.2,
+   85.0,
+   127.8,
+   115.0,
+   99.0,
+   115.0,
+   102.9,
+   86.1,
+   121.8,
+   96.6,
+   80.0
+  ],
+  "polo ralph lauren cable-knit": [
+   90.0,
+   79.0,
+   14.7,
+   43.1,
+   52.5,
+   147.0,
+   10.5,
+   11.3,
+   95.0
+  ],
+  "polo ralph lauren tri": [
+   4.0
+  ],
+  "nove ralph lauren detsk": [
+   6.0
+  ],
+  "polo ralph lauren cricket": [
+   75.0
+  ],
+  "nsky pleten sveter polo": [
+   74.0
+  ],
+  "smanicato imbottito polo": [
+   80.0
+  ],
+  "giacca polo ralph lauren": [
+   150.0
+  ],
+  "polo bear ralph lauren": [
+   28.4,
+   63.0,
+   33.0,
+   63.0,
+   31.5,
+   73.5,
+   75.6,
+   71.4,
+   46.2,
+   46.2,
+   28.4,
+   3.4,
+   100.0,
+   180.0
+  ],
+  "pullover polo ralph lauren": [
+   165.0
+  ],
+  "maglione polo ralph lauren": [
+   160.0,
+   190.0,
+   150.0,
+   90.0,
+   160.0,
+   190.0,
+   150.0
+  ],
+  "cardigan ralph lauren maglia": [
+   129.0
+  ],
+  "maglione ralph lauren cashmere": [
+   72.0
+  ],
+  "maglione ralph lauren": [
+   75.0,
+   90.0
+  ],
+  "polo ralph lauren quarter-zip": [
+   75.0
+  ],
+  "polo ralph lauren maglione": [
+   75.0,
+   75.0
+  ],
+  "blus homem essentials calvin": [
+   100.0
+  ],
+  "conjunto cinzento essentials": [
+   120.0
+  ],
+  "fato treino essentials cinzento": [
+   110.0,
+   110.0
+  ],
+  "cal lft denim essentials": [
+   5.0
+  ],
+  "fear god essentials ripstop": [
+   220.5
+  ],
+  "nike nylon air jordan": [
+   176.4
+  ],
+  "essentials essentials": [
+   28.4
+  ],
+  "fear god essentials ssense": [
+   52.5
+  ],
+  "fear god essentials reflective": [
+   17.9
+  ],
+  "essentials sweatpants": [
+   112.5
+  ],
+  "essentials fear god sweatshirt": [
+   140.0,
+   140.0
+  ],
+  "puma essentials logo sweatpants": [
+   35.7
+  ],
+  "fear god essentials jet": [
+   126.0
+  ],
+  "essentials sweatpants essentials fear": [
+   23.1
+  ],
+  "fear god essrntials reflective": [
+   31.5,
+   31.5
+  ],
+  "puma essentials logo youth": [
+   12.6
+  ],
+  "fear god essentials tapered": [
+   49.4
+  ],
+  "essentials fear god washed": [
+   39.9
+  ],
+  "fear god essentials relaxed": [
+   95.6,
+   95.6
+  ],
+  "puma ess col logo": [
+   16.8
+  ],
+  "fog essentials pants": [
+   25.2
+  ],
+  "gap essentials big logo": [
+   25.2
+  ],
+  "adidas essentials camo print": [
+   15.5
+  ],
+  "essentials fear god pants": [
+   29.2
+  ],
+  "puma essentials tape sweatpants": [
+   23.1
+  ],
+  "essentials fear god sweatpants": [
+   50.4
+  ],
+  "fear god essentials sweatpants": [
+   126.0
+  ],
+  "essentials fear god wide-leg": [
+   8.6,
+   9.0
+  ],
+  "fear god essentials fog": [
+   94.5,
+   100.6,
+   123.9,
+   102.9,
+   125.8,
+   102.9,
+   125.8,
+   136.5,
+   136.5,
+   136.5
+  ],
+  "fear god essentials grey": [
+   115.5
+  ],
+  "adidas originals essentials trefoil": [
+   9.5
+  ],
+  "essentials fear god fog": [
+   8.4
+  ],
+  "nike big swoosh sportswear": [
+   14.7
+  ],
+  "adidas essentials colorblock crewneck": [
+   16.8
+  ],
+  "fear god essentials crewneck": [
+   73.1,
+   50.0,
+   39.9
+  ],
+  "fog fear god essentials": [
+   160.0,
+   147.0,
+   73.5
+  ],
+  "adidas essentials 3-stripes crewneck": [
+   29.4
+  ],
+  "nike sport essentials glitch": [
+   8.4
+  ],
+  "x-mas preis fear god": [
+   150.0
+  ],
+  "neue original fear god": [
+   199.0
+  ],
+  "original fear god sweatpants": [
+   199.0
+  ],
+  "essentials fear god real": [
+   140.0,
+   140.0
+  ],
+  "tricou polo lacoste original": [
+   6.0
+  ],
+  "jackwolfskin napapijri lacoste": [
+   6.0
+  ],
+  "lacoste made france knit": [
+   75.0
+  ],
+  "lacoste made france hoodie": [
+   120.2
+  ],
+  "promo lacoste michael stipe": [
+   100.0,
+   100.0
+  ],
+  "lacoste sweatshirt": [
+   90.0,
+   90.0,
+   90.0
+  ],
+  "casaco lacoste": [
+   90.0,
+   125.0,
+   120.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0
+  ],
+  "cla lacoste bom estado": [
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "vendo camisola lacoste verdadeira": [
+   105.0,
+   105.0,
+   105.0,
+   105.0
+  ],
+  "bolsa lacoste": [
+   130.0,
+   75.0,
+   80.0,
+   50.0,
+   80.0,
+   130.0,
+   80.0,
+   80.0,
+   130.0,
+   80.0,
+   130.0,
+   120.0,
+   80.0,
+   130.0,
+   80.0
+  ],
+  "sweat lacoste azul escuro": [
+   100.0,
+   100.0
+  ],
+  "conjunto cintos homem pele": [
+   180.0
+  ],
+  "headbands lacoste polar": [
+   3.0
+  ],
+  "conjunto lacoste": [
+   75.0,
+   75.0,
+   75.0
+  ],
+  "hugo boss stone island": [
+   285.4,
+   285.4
+  ],
+  "lacoste cotton stretch": [
+   27.3
+  ],
+  "lacoste 90s vintage v-neck": [
+   79.8,
+   79.8
+  ],
+  "molecule amethyst girl kilian": [
+   12.3
+  ],
+  "lacoste sport": [
+   127.5,
+   18.8
+  ],
+  "upcycling flowers lacoste": [
+   21.0
+  ],
+  "lacoste sport vintage y2k": [
+   23.1
+  ],
+  "zip lacoste": [
+   8.4
+  ],
+  "lacoste chamise lacoste chamise": [
+   10.5
+  ],
+  "chemise lacoste tennis heritage": [
+   18.9,
+   18.9
+  ],
+  "lacoste xxl made france": [
+   25.2
+  ],
+  "chemise lacoste v-neck made": [
+   6.3
+  ],
+  "lacoste ampthill made france": [
+   20.9
+  ],
+  "lacoste france chemise vintage": [
+   73.5,
+   73.5
+  ],
+  "lacoste": [
+   325.5,
+   163.8,
+   63.0,
+   137.6,
+   58.8,
+   84.0,
+   52.5,
+   84.0,
+   64.0,
+   67.2,
+   132.6,
+   144.5,
+   153.0,
+   221.0,
+   340.0,
+   170.0,
+   102.0,
+   119.0,
+   255.0,
+   127.5,
+   204.0,
+   119.0,
+   11.2,
+   63.0,
+   52.5,
+   163.8,
+   102.9,
+   4.2,
+   11.2,
+   9.5
+  ],
+  "lacoste xxl": [
+   77.7,
+   52.1,
+   16.8
+  ],
+  "lacoste made france xxl": [
+   9.5
+  ],
+  "lacoste motion unisex rk4849-x5e": [
+   21.0
+  ],
+  "lacoste made france": [
+   120.0,
+   10.5,
+   52.5,
+   16.8,
+   9.5,
+   21.0
+  ],
+  "lacoste made france xxxl": [
+   21.0
+  ],
+  "lacoste lacoste original": [
+   18.0
+  ],
+  "lacoste made france m-l": [
+   6.9
+  ],
+  "lacoste vintage bomber made": [
+   29.4,
+   29.4
+  ],
+  "chemise lacoste made france": [
+   18.9,
+   30.5,
+   21.0,
+   30.5,
+   18.9,
+   21.0,
+   31.5,
+   38.9,
+   33.6
+  ],
+  "lacoste chemise made france": [
+   31.5,
+   12.4
+  ],
+  "lacoste original": [
+   3.8
+  ],
+  "vintage lacoste top lady": [
+   80.0
+  ],
+  "vintage lacoste made france": [
+   109.0
+  ],
+  "vintage bomberjacke aus den": [
+   140.0
+  ],
+  "vintage lacoste pullover chemise": [
+   110.0,
+   110.0
+  ],
+  "lacoste gold pilot vintage": [
+   80.0
+  ],
+  "cardigan vintage chemise lacoste": [
+   75.0
+  ],
+  "lacoste vintage maglione uomo": [
+   130.0
+  ],
+  "tuta completa chemise lacoste": [
+   130.0
+  ],
+  "lacoste uomo vintage anni": [
+   120.0
+  ],
+  "alo airbrush heart throb": [
+   129.0
+  ],
+  "alo yoga set airbrush": [
+   160.0
+  ],
+  "alo yoga airbrush azure": [
+   154.4
+  ],
+  "alo yoga airbrush high-waist": [
+   36.7,
+   91.0,
+   94.5
+  ],
+  "alo yoga better together": [
+   98.7
+  ],
+  "aloyoga airbrush heart throb": [
+   63.2
+  ],
+  "aloyoga airbrush high-waist heart": [
+   96.6,
+   94.5,
+   96.6,
+   94.5
+  ],
+  "alo yoga airbrush splendor": [
+   102.9
+  ],
+  "alo yoga airbrush sparks": [
+   134.4
+  ],
+  "alo yoga airbrush heart": [
+   144.9,
+   79.8
+  ],
+  "alo yoga": [
+   98.4,
+   8.0,
+   65.1,
+   207.9,
+   63.0,
+   65.1
+  ],
+  "alo airbrush legging": [
+   140.0
+  ],
+  "alo yoga accolade full": [
+   121.8
+  ],
+  "alo yoga hoodie": [
+   84.0
+  ],
+  "alo yoga muse suit": [
+   99.8
+  ],
+  "alo yoga accolade zip": [
+   105.0
+  ],
+  "alo pullover mit kaputze": [
+   100.0
+  ],
+  "alo yoga 3-teiliges set": [
+   110.0
+  ],
+  "maglione hoodie alo": [
+   170.0
+  ],
+  "pantaloni adidas wales bonner": [
+   109.8
+  ],
+  "sapatilhas adidas ozweego": [
+   80.0
+  ],
+  "adidas adizero prime strung": [
+   115.0
+  ],
+  "sapatilhas adidas wales bonner": [
+   86.0
+  ],
+  "adidas wales bonner pony": [
+   190.0
+  ],
+  "adidas wensley": [
+   120.0
+  ],
+  "sapatilhas adidas yeezy boost": [
+   300.0
+  ],
+  "nis adidas gazelle bold": [
+   55.0
+  ],
+  "adidas adistar repetitor": [
+   85.0
+  ],
+  "adidas adistar byd lightstrike": [
+   85.0
+  ],
+  "adidas samba pony wales": [
+   46.2
+  ],
+  "37-41 adidas wales bonner": [
+   26.2
+  ],
+  "adidas samba millennium wales": [
+   105.0
+  ],
+  "adidas samba super low": [
+   31.0
+  ],
+  "adidas wales bonner japan": [
+   67.2
+  ],
+  "adidas pullunder wales bonner": [
+   110.0
+  ],
+  "neu adidas wales bonner": [
+   160.0
+  ],
+  "adidas wales bonner samba": [
+   115.0,
+   115.0,
+   315.0,
+   600.0
+  ],
+  "wales bonner adidas": [
+   80.0
+  ],
+  "adidas wales bonner": [
+   190.0,
+   220.5,
+   374.0,
+   200.0
+  ],
+  "adidas originals wales bonner": [
+   105.0,
+   105.0,
+   120.0
+  ],
+  "adidas wales bonner sl72": [
+   115.0
+  ],
+  "adidas samba": [
+   91.0
+  ],
+  "adidas gazelle wales bonner": [
+   250.0
+  ],
+  "wales bonner adidas originals": [
+   80.0,
+   79.0,
+   75.0,
+   80.0
+  ],
+  "adidas samba wales bonner": [
+   85.0,
+   9.5,
+   280.0,
+   300.0,
+   220.0
+  ],
+  "wales bonner adidas samba": [
+   85.0
+  ],
+  "adidas wales bonner leopard": [
+   200.0
+  ],
+  "adidas sportswear house tiro": [
+   75.0
+  ],
+  "adidas ajax tiro track": [
+   90.0
+  ],
+  "adidas tiro sports jacket": [
+   31.5
+  ],
+  "adidas tiro15 swt top": [
+   18.5
+  ],
+  "adidas tiro warm top": [
+   14.7
+  ],
+  "adidas jamaica bob marley": [
+   25.2
+  ],
+  "adidas tiro training pants": [
+   16.8,
+   39.9,
+   16.8,
+   39.9
+  ],
+  "adidas celtic tiro training": [
+   8.4,
+   8.4
+  ],
+  "adidas adidas tiro training": [
+   6.3,
+   6.3
+  ],
+  "adidas tiro all weather": [
+   13.7
+  ],
+  "adidas tiro training jacket": [
+   8.4,
+   8.4
+  ],
+  "adidas tiro training top": [
+   10.0,
+   10.0
+  ],
+  "ghete baschet curry mouthguard": [
+   99.8
+  ],
+  "under armour curry low": [
+   3.2
+  ],
+  "under armour curry flotro": [
+   126.0,
+   63.0
+  ],
+  "under armour steph curry": [
+   16.8
+  ],
+  "under armour curry champ": [
+   13.7
+  ],
+  "under armour curry": [
+   26.5,
+   50.4,
+   10.5
+  ],
+  "curry": [
+   107.1
+  ],
+  "under armour curry flow": [
+   115.0
+  ],
+  "casaco nike cinza branco": [
+   0.0
+  ],
+  "nike nocta": [
+   110.0
+  ],
+  "casaco nike adolescente 12-14": [
+   20.0
+  ],
+  "nike lunar air force": [
+   110.0
+  ],
+  "casaco nike bom estado": [
+   10.0,
+   10.0
+  ],
+  "sapatilhas nike revolution": [
+   10.0
+  ],
+  "sapatilhas nike com caixa": [
+   20.0
+  ],
+  "casaco novo amarelo nike": [
+   90.0
+  ],
+  "casaco cinzento nike": [
+   10.0
+  ],
+  "giacca nike psg vintage": [
+   65.0
+  ],
+  "giacca nike": [
+   120.0,
+   25.0
+  ],
+  "giacca antivento nike": [
+   20.0
+  ],
+  "giacca vento nike taglia": [
+   27.0
+  ],
+  "giubbotto nike": [
+   80.0
+  ],
+  "giacca invernale nike ragazzo": [
+   50.0
+  ],
+  "tuta nike tech": [
+   79.0,
+   79.0
+  ],
+  "giacca nike ragazzo": [
+   25.0
+  ],
+  "tuta completa nike siviglia": [
+   80.0
+  ],
+  "giacca piumino nike uomo": [
+   90.0
+  ],
+  "giacca nike cappuccio uomo": [
+   95.0
   ]
  },
  "meta": {
-  "olx:ua:880640768": {
-   "model": "nike vaporwaffle sacai classi",
-   "seller": "Skyshop - \u043c\u0430\u0433\u0430\u0437\u0438\u043d \u0432\u0437\u0443\u0442\u0442\u044f \u0442\u0430 \u043e\u0434\u044f\u0433\u0443",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/d8mgkkai9jpx1-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/3tviz6wx0b9m3-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/9o00pgvjonvi1-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/00enqdhbuog83-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/y8ozdrsljetq3-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/ztg4qke2tuzg1-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/fvmd0wgazhmf2-UA/image;s=800x800"
-   ],
-   "title": "\u041a\u0440\u043e\u0441\u0456\u0432\u043a\u0438 Nike Vaporwaffle Sacai Classi premium | \u041a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 \u041d\u0430\u0439\u043a \u0447\u043e\u043b\u043e\u0432\u0456\u0447\u0456 \u0436\u0456\u043d\u043e\u0447\u0456",
-   "url": "https://www.olx.ua/d/uk/obyavlenie/krosvki-nike-vaporwaffle-sacai-classi-premium-krossovki-nayk-cholovch-zhnoch-IDXB4Tm.html",
-   "brand": "Nike",
-   "price": 3100.0,
-   "currency": "UAH",
-   "lang": "en",
-   "eur": 65.10000000000001
-  },
-  "olx:ua:914609227": {
-   "model": "nike vaporwaffle sacai black",
-   "seller": "50 \u0432\u0456\u0434\u0442\u0456\u043d\u043a\u0456\u0432 \u0441\u0442\u0438\u043b\u044e",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/atdwseh85l782-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/cskzt4wkxsyk2-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/y6zxzis6fabi-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/8eudkenqgze91-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/dlkd7gs2k37z1-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/1mwl7igf35ld2-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/9s9n4ashjq5h2-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/kn4gvd4javs92-UA/image;s=800x800"
-   ],
-   "title": "\u0427\u043e\u043b\u043e\u0432\u0456\u0447\u0456 \u043a\u0440\u043e\u0441\u0456\u0432\u043a\u0438 Nike VaporWaffle x Sacai \"Black/White\" P1. 40-45",
-   "url": "https://www.olx.ua/d/uk/obyavlenie/cholovch-krosvki-nike-vaporwaffle-x-sacai-black-white-p1-40-45-IDZTBDJ.html",
-   "brand": "Nike",
-   "price": 2799.0,
-   "currency": "UAH",
-   "lang": "en",
-   "eur": 58.779
-  },
-  "olx:ua:939551377": {
-   "model": "nike sacai vaporwaffle black",
-   "seller": "\u0420\u043e\u043c\u0430\u043d",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/vmgf6fi8pzsr3-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/o59803frw2vv3-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/q6veqzargq6o3-UA/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/k8kx8u23czce-UA/image;s=800x800"
-   ],
-   "title": "\u0427\u043e\u043b\u043e\u0432\u0456\u0447\u0456 \u043a\u0440\u043e\u0441\u0456\u0432\u043a\u0438 Nike x Sacai VaporWaffle Black Gum \u0440\u043e\u0437\u043c\u0456\u0440 46 (30 \u0441\u043c) \u2014 \u0442\u043e\u0442\u0430\u043b \u0447\u043e\u0440\u043d\u0456, \u0441\u0442\u0430\u043d \u043d\u0430 \u0444\u043e\u0442\u043e, \u043e\u0440\u0438\u0433\u0456\u043d\u0430\u043b",
-   "url": "https://www.olx.ua/d/uk/obyavlenie/cholovch-krosvki-nike-x-sacai-vaporwaffle-black-gum-rozmr-46-30-sm-total-chorn-stan-na-foto-orignal-ID11Aget.html",
-   "brand": "Nike",
-   "price": 699.0,
-   "currency": "UAH",
-   "lang": "en",
-   "eur": 14.679
-  },
-  "olx:pt:674989317": {
-   "model": "camisola ralph lauren xxl",
-   "seller": "Telma1985",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/ugpt7gh3p1ft1-PT/image;s=800x800"
-   ],
-   "title": "Camisola RALPH LAUREN do S ao XXL",
-   "url": "https://www.olx.pt/d/anuncio/camisola-ralph-lauren-do-s-ao-xxl-IDJGbyt.html",
-   "brand": "Ralph Lauren",
-   "price": 23.0,
-   "currency": "EUR",
-   "lang": "pt",
-   "eur": 23.0
-  },
-  "willhaben:1227827752": {
-   "model": "vintage polo jeans duffle",
-   "seller": "",
-   "photos": [
-    "https://cache.willhaben.at/mmo/2/122/782/7752_2037416344.jpg"
-   ],
-   "title": "Vintage Polo Jeans Co. Duffle Bag / Reisetasche (Ralph Lauren) - Navy Blau - Y2K 90s",
-   "url": "https://www.willhaben.at/iad/kaufen-und-verkaufen/d/vintage-polo-jeans-co-duffle-bag-reisetasche-ralph-lauren-navy-blau-y2k-90s-1227827752/",
-   "brand": "Ralph Lauren",
-   "price": 25.0,
-   "currency": "EUR",
-   "lang": "de",
-   "eur": 25.0
-  },
-  "subito:id:ad:f30ebd6a-1f82-4489-9d19-fbcfcea3cfad:list:660865633": {
-   "model": "cammica vintage polo ralph",
-   "seller": "",
-   "photos": [
-    "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/3e/3e7bd97d-a955-4626-b0d8-7b7b6ebae045?rule=fullscreen-1x-auto"
-   ],
-   "title": "Cammica Vintage By Polo Ralph Laurent-Taglia XL",
-   "url": "https://www.subito.it/abbigliamento-accessori/cammica-vintage-by-polo-ralph-laurent-taglia-xl-teramo-660865633.htm",
-   "brand": "Ralph Lauren",
-   "price": 20.0,
-   "currency": "EUR",
-   "lang": "it",
-   "eur": 20.0
-  },
-  "subito:id:ad:26a888c7-062f-45f6-9fab-2a90861ca3aa:list:657709951": {
-   "model": "ralph lauren pantaloni jeans",
-   "seller": "",
-   "photos": [
-    "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/7c/7c9e9983-65f1-4545-b65d-c5aadac817ed?rule=fullscreen-1x-auto"
-   ],
-   "title": "RALPH LAUREN PANTALONI JEANS VINTAGE BEAGE",
-   "url": "https://www.subito.it/abbigliamento-accessori/ralph-lauren-pantaloni-jeans-vintage-beage-napoli-657709951.htm",
-   "brand": "Ralph Lauren",
-   "price": 12.0,
-   "currency": "EUR",
-   "lang": "it",
-   "eur": 12.0
-  },
-  "subito:id:ad:af251a1f-d55d-4a01-a841-d4fbdc140cb3:list:656643768": {
-   "model": "polo uomo ralph lauren",
-   "seller": "",
-   "photos": [
-    "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/70/705d92e3-9887-4512-abcf-269eeabca828?rule=fullscreen-1x-auto"
-   ],
-   "title": "Polo uomo (Ralph Lauren)",
-   "url": "https://www.subito.it/abbigliamento-accessori/polo-uomo-ralph-lauren-padova-656643768.htm",
-   "brand": "Ralph Lauren",
-   "price": 28.0,
-   "currency": "EUR",
-   "lang": "it",
-   "eur": 28.0
-  },
-  "olx:pt:670883874": {
-   "model": "under armour sapatilhas",
-   "seller": "ramoswrkt",
-   "photos": [
-    "https://ireland.apollo.olxcdn.com:443/v1/files/8zohhceuqfho2-PT/image;s=800x800",
-    "https://ireland.apollo.olxcdn.com:443/v1/files/qgj9ad2vbfzl2-PT/image;s=800x800"
-   ],
-   "title": "Under armour sapatilhas",
-   "url": "https://www.olx.pt/d/anuncio/under-armour-sapatilhas-IDJoXxE.html",
-   "brand": "Under Armour",
-   "price": 30.0,
-   "currency": "EUR",
-   "lang": "pt",
-   "eur": 30.0
-  },
   "olx:pt:654614715": {
    "model": "sapatilhas under armour novas",
    "seller": "VendasOnlineTOP",
@@ -53712,6 +53708,151 @@
    "currency": "EUR",
    "lang": "pt",
    "eur": 25.0
+  },
+  "olx:ua:939610880": {
+   "model": "nike acg primaloft gore",
+   "seller": "\u0414\u0435\u043d\u0438\u0441",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ir4zkx95z35x2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/1ktofd4vnaeo2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/xf89e2yvj01i-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/a0xgntez4zve-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/hqviipn2npjg-UA/image;s=800x800"
+   ],
+   "title": "\u041d\u043e\u0432\u0430 \u041a\u0443\u0440\u0442\u043a\u0430 Nike ACG Primaloft Gore tex \u0440\u043e\u0437\u043c\u0456\u0440 XS/XL",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/nova-kurtka-nike-acg-primaloft-gore-tex-rozmr-xs-xl-ID11AwIc.html",
+   "brand": "Nike",
+   "price": 2399.0,
+   "currency": "UAH",
+   "lang": "en",
+   "eur": 50.379000000000005
+  },
+  "olx:ua:938740009": {
+   "model": "nike acg",
+   "seller": "KRATOS.BUTIK",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/o3teudhxvruq1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/fzfho36qor99-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/uap2zgl4xo0n3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ema8v963pn802-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/zn533luzg8gt1-UA/image;s=800x800"
+   ],
+   "title": "\u0425\u0406\u0422 \u0421\u0415\u0417\u041e\u041d\u0423\u203c\ufe0f\u0428\u0442\u0430\u043d\u0438 \u0432\u0456\u0434 Nike ACG, \u043f\u043b\u044e\u0448\u0435\u0432\u0456 \u0448\u0442\u0430\u043d\u0438 \u0430\u0441\u0433",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/ht-sezonushtani-vd-nike-acg-plyushev-shtani-asg-ID11vR9T.html",
+   "brand": "Nike",
+   "price": 1499.0,
+   "currency": "UAH",
+   "lang": "en",
+   "eur": 31.479000000000003
+  },
+  "olx:ua:939610409": {
+   "model": "nike acg ninja nike",
+   "seller": "\u0411\u043e\u0433\u0434\u0430\u043d",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/h7ibm3h96mwp3-UA/image;s=800x800"
+   ],
+   "title": "\u0425\u0443\u0434\u0456 Nike ACG Ninja \u043a\u043e\u0444\u0442\u0430 \u0431\u0430\u043b\u0430\u043d\u043a\u043b\u0430\u0432\u0430 / \u0425\u0443\u0434\u0438 Nike ACG Ninja \u0444\u043b\u0438\u0441\u043e\u0432\u043e\u0435 / Nike ACG Ninja hoodie fleece black",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/hud-nike-acg-ninja-kofta-balanklava-hudi-nike-acg-ninja-flisovoe-nike-acg-ninja-hoodie-fleece-black-ID11AwAB.html",
+   "brand": "Nike",
+   "price": 2200.0,
+   "currency": "UAH",
+   "lang": "en",
+   "eur": 46.2
+  },
+  "olx:pt:673871367": {
+   "model": "nis adidas gazelle bold",
+   "seller": "Pedro Coelho",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/0zxstl4blj1t3-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/p069e7vm1njd3-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/saeziv7jpus43-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/1v3n33yut13o1-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/k2bpibin2nua3-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/vwooacurghvt3-PT/image;s=800x800"
+   ],
+   "title": "T\u00e9nis Adidas Gazelle Bold W",
+   "url": "https://www.olx.pt/d/anuncio/tnis-adidas-gazelle-bold-w-IDJBuJ1.html",
+   "brand": "Adidas",
+   "price": 55.0,
+   "currency": "EUR",
+   "lang": "pt",
+   "eur": 55.0
+  },
+  "olx:pt:673907860": {
+   "model": "casaco nike adolescente 12-14",
+   "seller": "Flor Cadinha",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/bhkfpfcrj56r3-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/1z3od2pqius72-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/5icg9l5tltk53-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/2ox79gagtdhu2-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/03353r3jvo1o1-PT/image;s=800x800"
+   ],
+   "title": "Casaco Nike adolescente 12-14 anos",
+   "url": "https://www.olx.pt/d/anuncio/casaco-nike-adolescente-12-14-anos-IDJBEdC.html",
+   "brand": "Nike",
+   "price": 20.0,
+   "currency": "EUR",
+   "lang": "pt",
+   "eur": 20.0
+  },
+  "olx:pt:656539424": {
+   "model": "sapatilhas nike com caixa",
+   "seller": "David Silva",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/478fj8ezmkv5-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/lp1t987f0d153-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/378t3lkof15t3-PT/image;s=800x800"
+   ],
+   "title": "Sapatilhas nike com caixa",
+   "url": "https://www.olx.pt/d/anuncio/sapatilhas-nike-com-caixa-IDIqLTy.html",
+   "brand": "Nike",
+   "price": 20.0,
+   "currency": "EUR",
+   "lang": "pt",
+   "eur": 20.0
+  },
+  "subito:id:ad:95f07b82-8240-4fbd-85c3-19d0ea84d2da:list:666735652": {
+   "model": "giacca nike psg vintage",
+   "seller": "",
+   "photos": [
+    "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/08/0863b46f-f2fa-49e5-98f0-be13ad513683?rule=fullscreen-1x-auto"
+   ],
+   "title": "Giacca nike psg vintage",
+   "url": "https://www.subito.it/abbigliamento-accessori/giacca-nike-psg-vintage-torino-666735652.htm",
+   "brand": "Nike",
+   "price": 65.0,
+   "currency": "EUR",
+   "lang": "it",
+   "eur": 65.0
+  },
+  "subito:id:ad:39c9d7ce-ef49-4f8d-a7a9-676e6c38ddfa:list:666729650": {
+   "model": "giacca nike",
+   "seller": "",
+   "photos": [
+    "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c1/c156bf87-2dc4-4de9-99d7-037e89564437?rule=fullscreen-1x-auto"
+   ],
+   "title": "Giacca Nike",
+   "url": "https://www.subito.it/abbigliamento-accessori/giacca-nike-salerno-666729650.htm",
+   "brand": "Nike",
+   "price": 25.0,
+   "currency": "EUR",
+   "lang": "it",
+   "eur": 25.0
+  },
+  "subito:id:ad:5e94b507-90bf-4d2f-9d01-9621780c7237:list:658833145": {
+   "model": "giacca antivento nike",
+   "seller": "",
+   "photos": [
+    "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/28/2843436c-51a4-470f-9c9d-7cd5270f5c53?rule=fullscreen-1x-auto"
+   ],
+   "title": "Giacca antivento Nike",
+   "url": "https://www.subito.it/abbigliamento-accessori/giacca-antivento-nike-como-658833145.htm",
+   "brand": "Nike",
+   "price": 20.0,
+   "currency": "EUR",
+   "lang": "it",
+   "eur": 20.0
   }
  },
  "stats": {
@@ -53799,7 +53940,7 @@
   "columbia pfg": 352,
   "columbia montrail": 193,
   "nike storm fit": 166,
-  "nike acg": 1672,
+  "nike acg": 1675,
   "nike woven running": 314,
   "nike phenon": 68,
   "nike therma fit adv": 101,
@@ -53884,7 +54025,7 @@
   "lacoste 90s": 219,
   "lacoste x supreme": 66,
   "alo muse": 33,
-  "adidas x wales bonner": 217,
+  "adidas x wales bonner": 218,
   "ua coldgear infrared": 101,
   "adidas originals vintage 90s": 230,
   "heat reactive": 35,
@@ -53965,7 +54106,7 @@
   "giacca ralph lauren": 42,
   "geac\u0103 ralph lauren": 40,
   "veste ralph lauren": 95,
-  "giacca nike": 67,
+  "giacca nike": 72,
   "bunda nike": 107,
   "giacca under armour": 42,
   "kurtka stone island": 226,
@@ -54137,1142 +54278,10 @@
   "ebay:us:v1|287366102744|0"
  ],
  "day": {
-  "scanned": 919258,
-  "alerts": 5467
+  "scanned": 923383,
+  "alerts": 5476
  },
  "pm": {
-  "lacosge live tracksuit black@vinted:pl": [
-   26.5
-  ],
-  "lacoste military style shirt@vinted:pl": [
-   22.7
-  ],
-  "t-shirt alb lacoste text@vinted:pl": [
-   11.4
-  ],
-  "lacoste classic fit polo@vinted:pl": [
-   18.0
-  ],
-  "lacoste white shirt@vinted:pl": [
-   15.4
-  ],
-  "lacoste dark blue sweater@vinted:pl": [
-   13.9
-  ],
-  "lacoste live sweatshirt@vinted:pl": [
-   30.3
-  ],
-  "supreme lacoste harrington jacket@vinted:pl": [
-   184.4
-  ],
-  "koszulka ska lacoste live@vinted:pl": [
-   7.8
-  ],
-  "zielona bluza green hoodie@vinted:pl": [
-   22.9
-  ],
-  "lacoste live nylon black@vinted:pl": [
-   43.9
-  ],
-  "lacoste koszulka t-shirt bia@vinted:pl": [
-   25.4
-  ],
-  "lacoste two-tone polo shirt@vinted:pl": [
-   12.5
-  ],
-  "lacoste crewneck unisex@vinted:pl": [
-   54.7
-  ],
-  "lacoste bomber jacket@vinted:pl": [
-   66.7
-  ],
-  "sweat lacoste vert fonc@vinted:ie": [
-   63.7
-  ],
-  "veste lacoste navy pull@vinted:ie": [
-   44.8
-  ],
-  "sweat-shirt lacoste beige@vinted:ie": [
-   26.9
-  ],
-  "pull lacoste col gris@vinted:ie": [
-   41.6
-  ],
-  "lacoste pull v-neck sweater@vinted:ie": [
-   31.3
-  ],
-  "pull sweat capuche lacoste@vinted:ie": [
-   26.9
-  ],
-  "sweat zipp capuche lacoste@vinted:ie": [
-   32.2
-  ],
-  "pull lacoste excellente tat@vinted:ie": [
-   29.1
-  ],
-  "pull lacoste noir@vinted:ie": [
-   58.4
-  ],
-  "pull lacoste vert kaki@vinted:ie": [
-   21.7
-  ],
-  "veste survet coupe vent@vinted:ie": [
-   45.9
-  ],
-  "lacoste pull polo manche@vinted:ie": [
-   42.7
-  ],
-  "cardigan lacoste rouge bordeaux@vinted:ie": [
-   26.9
-  ],
-  "sweat pull col lacoste@vinted:ie": [
-   23.8
-  ],
-  "sweat pull crewneck marini@vinted:ie": [
-   30.1
-  ],
-  "sweat pull col vintage@vinted:ie": [
-   23.3
-  ],
-  "sweat lacoste colorblock beige@vinted:ie": [
-   26.9
-  ],
-  "pull lacoste bordeaux col@vinted:ie": [
-   31.1
-  ],
-  "veste lacoste zipp capuche@vinted:ie": [
-   42.7
-  ],
-  "gilet lacoste@vinted:ie": [
-   42.7,
-   26.9
-  ],
-  "pull vintage lacoste@vinted:ie": [
-   34.3
-  ],
-  "pull capuche beige unisexe@vinted:ie": [
-   53.2
-  ],
-  "pull col lacoste gris@vinted:ie": [
-   13.3
-  ],
-  "sweat lacoste bleu@vinted:ie": [
-   32.2
-  ],
-  "lacoste pull@vinted:ie": [
-   32.2
-  ],
-  "sweat rouge-blanc-marine lacoste@vinted:ie": [
-   37.5
-  ],
-  "sweat lacoste sport@vinted:ie": [
-   21.7,
-   26.9
-  ],
-  "sweat capuche zipp lacoste@vinted:ie": [
-   42.7
-  ],
-  "lacoste pull fin blanc@vinted:ie": [
-   37.5
-  ],
-  "pull lacoste blanc tel@vinted:ie": [
-   32.2
-  ],
-  "pull col rond gris@vinted:ie": [
-   26.9
-  ],
-  "pull ray lacoste sport@vinted:ie": [
-   37.5
-  ],
-  "sweat lacoste sport col@vinted:ie": [
-   37.5
-  ],
-  "pull lacoste bleu marine@vinted:ie": [
-   32.2,
-   15.4,
-   21.7
-  ],
-  "veste zipp noire lacoste@vinted:ie": [
-   84.7
-  ],
-  "sweat lacoste roland garros@vinted:ie": [
-   31.1
-  ],
-  "pull lacoste xxl@vinted:ie": [
-   21.7
-  ],
-  "pull hiver noir@vinted:ie": [
-   26.9
-  ],
-  "pull lacoste vintage 90s@vinted:ie": [
-   21.7
-  ],
-  "gilet cardigan vintage lacoste@vinted:ie": [
-   21.7
-  ],
-  "veste lacoste@vinted:ie": [
-   28.0
-  ],
-  "pull lacoste vintage@vinted:ie": [
-   37.4
-  ],
-  "pull lacoste moutarde coton@vinted:ie": [
-   24.9
-  ],
-  "pull half buttons lacoste@vinted:ie": [
-   24.9
-  ],
-  "lacoste pull col bleu@vinted:ie": [
-   26.9
-  ],
-  "pull maille lacoste bleu@vinted:ie": [
-   15.4
-  ],
-  "gilet lacoste dition roland-garros@vinted:ie": [
-   74.2
-  ],
-  "pull lacoste ray col@vinted:ie": [
-   29.0
-  ],
-  "pull lacoste beige parfait@vinted:ie": [
-   32.2
-  ],
-  "pull lacoste gris carreaux@vinted:ie": [
-   34.8
-  ],
-  "sweat capuche lacoste@vinted:ie": [
-   21.7,
-   30.1
-  ],
-  "pull sans manches lacoste@vinted:ie": [
-   21.7
-  ],
-  "pull bleu marine vintage@vinted:ie": [
-   26.9
-  ],
-  "pull lacoste rouge@vinted:ie": [
-   58.5
-  ],
-  "pull lacoste ray@vinted:ie": [
-   19.6
-  ],
-  "veste lacoste novak djokovic@vinted:ie": [
-   21.7
-  ],
-  "pull lacoste chic colorblock@vinted:ie": [
-   37.5
-  ],
-  "pull lacoste col rond@vinted:ie": [
-   32.2
-  ],
-  "pull col rond lacoste@vinted:ie": [
-   26.9,
-   32.2,
-   32.2,
-   19.6,
-   4.9
-  ],
-  "sweat lacoste@vinted:ie": [
-   48.0,
-   26.9,
-   32.2,
-   37.5
-  ],
-  "gilet lacoste torsad chic@vinted:ie": [
-   44.8
-  ],
-  "veste neuve lacoste@vinted:ie": [
-   137.2
-  ],
-  "pull lacoste authentique@vinted:ie": [
-   42.7
-  ],
-  "sweat capuche hoody lacoste@vinted:ie": [
-   29.6
-  ],
-  "sweat vintage lacoste ray@vinted:ie": [
-   37.5
-  ],
-  "pull lacoste@vinted:ie": [
-   79.5,
-   48.0,
-   26.9,
-   6.0,
-   19.6,
-   34.3,
-   16.4,
-   16.4,
-   21.7,
-   16.4
-  ],
-  "alo yoga warrior black@vinted:pl": [
-   136.0
-  ],
-  "alo shortsit@vinted:pl": [
-   13.9
-  ],
-  "mata warrior mat alo@vinted:pl": [
-   79.6
-  ],
-  "alo high waisted ripped@vinted:pl": [
-   18.3
-  ],
-  "alo ripped warrior sport@vinted:pl": [
-   17.4
-  ],
-  "alo ripped warrior sportbra@vinted:pl": [
-   17.4
-  ],
-  "alo yoga high-waisted ripped@vinted:pl": [
-   35.7
-  ],
-  "alo yoga warrior mat@vinted:pl": [
-   139.0
-  ],
-  "alon musta warrior joogamatto@vinted:pl": [
-   198.6
-  ],
-  "ripped warrior leggings alo@vinted:pl": [
-   35.7
-  ],
-  "set alo yoga@vinted:pl": [
-   77.2
-  ],
-  "alo yoga ripped warrior@vinted:pl": [
-   45.8,
-   49.8,
-   68.5,
-   31.5
-  ],
-  "alo yoga muse -setti@vinted:lt": [
-   74.2
-  ],
-  "alo yoga@vinted:lt": [
-   98.4
-  ],
-  "alo muse sweatpant czarne@vinted:lt": [
-   44.1
-  ],
-  "alo yoga muse hoodie@vinted:lt": [
-   60.8,
-   41.7
-  ],
-  "superbe legging moto blanc@vinted:ie": [
-   14.3
-  ],
-  "pantalon molletonn alo yoga@vinted:ie": [
-   95.2
-  ],
-  "legging high-waist moto alo@vinted:ie": [
-   32.2,
-   42.7
-  ],
-  "leggings alo yoga embl@vinted:ie": [
-   13.3
-  ],
-  "legging alo yoga moto@vinted:ie": [
-   32.2,
-   40.6
-  ],
-  "legging alo moto alo@vinted:ie": [
-   16.4
-  ],
-  "legging gris alo modele@vinted:ie": [
-   30.1
-  ],
-  "legging haute alo yoga@vinted:ie": [
-   29.1
-  ],
-  "legging blanc lycra alo@vinted:ie": [
-   30.1
-  ],
-  "alo yoga leggings sport@vinted:ie": [
-   73.2
-  ],
-  "legging moto alo yoga@vinted:ie": [
-   14.3,
-   26.9,
-   21.7
-  ],
-  "moto leggings alo yoga@vinted:ie": [
-   72.1
-  ],
-  "alo yoga leggings@vinted:pl": [
-   83.1,
-   63.8
-  ],
-  "alo yoga leggings airlift@vinted:pl": [
-   91.0
-  ],
-  "alo yoga top zatepleny@vinted:pl": [
-   97.8
-  ],
-  "alo yoga high-waist airlift@vinted:pl": [
-   90.9,
-   116.1
-  ],
-  "alo leggings airbrush@vinted:pl": [
-   95.8
-  ],
-  "airbrush high-waist bootcut legging@vinted:pl": [
-   68.4
-  ],
-  "alo high waist airbrush@vinted:pl": [
-   83.1
-  ],
-  "alo yoga airbrush high-waist@vinted:pl": [
-   91.0
-  ],
-  "alo airlift line leg@vinted:pl": [
-   133.1
-  ],
-  "alo yoga high waist@vinted:pl": [
-   116.1
-  ],
-  "alo yoga airbrush high@vinted:pl": [
-   63.4
-  ],
-  "alo softsculpt high-waist leggings@vinted:pl": [
-   99.1
-  ],
-  "alo yoga airlift game@vinted:pl": [
-   93.9
-  ],
-  "alo yoga airlift high@vinted:pl": [
-   120.5,
-   99.6
-  ],
-  "alo yoga legging@vinted:pl": [
-   66.9
-  ],
-  "alo leggings airlift@vinted:pl": [
-   72.8
-  ],
-  "alo yoga airbrush leggings@vinted:pl": [
-   38.1,
-   99.6
-  ],
-  "alo yoga airlift high-waist@vinted:pl": [
-   116.1
-  ],
-  "alo high-waist airlift legging@vinted:pl": [
-   99.1,
-   90.8
-  ],
-  "alo yoga softsculp legging@vinted:pl": [
-   123.8
-  ],
-  "alo airbrush leggings@vinted:pl": [
-   30.1
-  ],
-  "alo tights@vinted:pl": [
-   110.9
-  ],
-  "alo yoga leggingsit@vinted:pl": [
-   55.7
-  ],
-  "women alo airlift high-waist@vinted:pl": [
-   117.9
-  ],
-  "adidas manchester united gyerekmez@vinted:pl": [
-   21.7
-  ],
-  "koszulka new england revolution@vinted:pl": [
-   72.0
-  ],
-  "adidas celtic gyerek edz@vinted:pl": [
-   20.9
-  ],
-  "adidas fodboldtr str med@vinted:pl": [
-   7.3
-  ],
-  "koszulka real madryt bellingham@vinted:pl": [
-   25.4
-  ],
-  "bluza rozpinana adidas@vinted:pl": [
-   9.3
-  ],
-  "musiala fcbayern 2025-26 away@vinted:pl": [
-   55.7
-  ],
-  "adidas ningsjakke@vinted:pl": [
-   6.4
-  ],
-  "koszulka bluza damska sportowa@vinted:pl": [
-   19.9
-  ],
-  "adidas aeroready mikina pansk@vinted:pl": [
-   22.8
-  ],
-  "pantaloni scur adidas tiro@vinted:pl": [
-   8.9
-  ],
-  "legginsy adidas lampasem panterk@vinted:pl": [
-   10.3
-  ],
-  "czarne spodenki adidas squadra@vinted:pl": [
-   5.6
-  ],
-  "czerwone spodenki sportowe adidas@vinted:pl": [
-   5.6
-  ],
-  "adodas aeroready running zielona@vinted:pl": [
-   6.9
-  ],
-  "czarne spodnie dresowe adidas@vinted:pl": [
-   4.4,
-   8.1
-  ],
-  "czarne spodenki sportowe adidas@vinted:pl": [
-   6.9
-  ],
-  "adidas argentyna messi koszulka@vinted:pl": [
-   22.6
-  ],
-  "granatowa bluza treningowa adidas@vinted:pl": [
-   16.7
-  ],
-  "koszulka treningowa adidas techfit@vinted:pl": [
-   12.3
-  ],
-  "colan adidas@vinted:pl": [
-   13.1
-  ],
-  "dzieci komplet bramkarski adidas@vinted:pl": [
-   8.1
-  ],
-  "odzie owa bluza treningowa@vinted:pl": [
-   10.1
-  ],
-  "vintage official real madrid@vinted:pl": [
-   42.8
-  ],
-  "spodnie dresowe train essentials@vinted:pl": [
-   20.4
-  ],
-  "verkkahousut adidas aeroready@vinted:pl": [
-   4.0
-  ],
-  "koszulka real madryt domowa@vinted:pl": [
-   37.7
-  ],
-  "granatowa adidas primeblue areoready@vinted:pl": [
-   13.0
-  ],
-  "real madryt bellingham@vinted:pl": [
-   49.8
-  ],
-  "adidas aeroready rfi sportmez@vinted:pl": [
-   14.1
-  ],
-  "messi adidas@vinted:pl": [
-   25.1
-  ],
-  "adidas germany away euro@vinted:pl": [
-   15.2
-  ],
-  "oryginalna koszulka adidas legia@vinted:pl": [
-   22.6
-  ],
-  "adidas parma spodenki sportowe@vinted:pl": [
-   10.3
-  ],
-  "colanti sport adidas aerorady@vinted:pl": [
-   23.4
-  ],
-  "top sportowy adidas aeroready@vinted:pl": [
-   6.9
-  ],
-  "tricou sport adidas aeroready@vinted:pl": [
-   8.9
-  ],
-  "adidas komplet dresowy oliwkowy@vinted:pl": [
-   47.3
-  ],
-  "adidas leeds united koszulka@vinted:pl": [
-   25.4
-  ],
-  "koszulka shirt adidas sportowa@vinted:pl": [
-   14.0
-  ],
-  "adidas spodnie sportowe 3-stripes@vinted:pl": [
-   10.6
-  ],
-  "tri adidas primegreen aeroready@vinted:pl": [
-   23.3
-  ],
-  "bluza adidas czarno-bia rozmiar@vinted:pl": [
-   14.3
-  ],
-  "klasyczna bia koszulka realu@vinted:pl": [
-   19.2
-  ],
-  "szorty biegowe spodenki adidas@vinted:pl": [
-   27.8
-  ],
-  "adidas aeroready piros hossz@vinted:pl": [
-   9.7
-  ],
-  "bluza adidas bia czarnymi@vinted:pl": [
-   16.7
-  ],
-  "owa koszulka adidas reprezentacji@vinted:pl": [
-   18.0
-  ],
-  "adidas primegreen aeroready leggins@vinted:pl": [
-   6.9
-  ],
-  "spodnie dresowe adidas@vinted:pl": [
-   11.8
-  ],
-  "adidas real madrid luhikesed@vinted:pl": [
-   8.3
-  ],
-  "leg adidas aeroready@vinted:pl": [
-   16.5
-  ],
-  "adidas aeroready verkkaritakki@vinted:pl": [
-   4.0
-  ],
-  "musiala fcbayern away jersey@vinted:pl": [
-   55.7
-  ],
-  "adidas aeroready team base@vinted:pl": [
-   12.8
-  ],
-  "ska bluza adidas real@vinted:pl": [
-   27.6
-  ],
-  "koszulka tkim kawem t-shirt@vinted:pl": [
-   8.1
-  ],
-  "nowa koszulka sportowa adidas@vinted:pl": [
-   10.6
-  ],
-  "adidas ska bluza sportowa@vinted:pl": [
-   20.4
-  ],
-  "adidas aeroready@vinted:pl": [
-   7.3
-  ],
-  "granatowa koszulka sportowa adidas@vinted:pl": [
-   6.9
-  ],
-  "adidas aeroready originalni dres@vinted:pl": [
-   11.7
-  ],
-  "oryginalna koszulka bramkarska reprezentacji@vinted:pl": [
-   25.1
-  ],
-  "adidas bluza sportowa zip@vinted:pl": [
-   20.4
-  ],
-  "leg adidas vel@vinted:pl": [
-   9.7
-  ],
-  "adidas koszulka sportowa t-shirt@vinted:pl": [
-   10.5
-  ],
-  "bluza sportowa adidas aeroready@vinted:pl": [
-   15.5,
-   4.4,
-   5.1
-  ],
-  "green adidas leggings@vinted:pl": [
-   24.9
-  ],
-  "bluza kapturem adidas train@vinted:pl": [
-   14.5
-  ],
-  "spodenki sportowe adidas aeroready@vinted:pl": [
-   5.1,
-   5.1
-  ],
-  "pantaloni scur sport adidas@vinted:pl": [
-   3.8
-  ],
-  "adidas arsenal bluza treningowa@vinted:pl": [
-   19.9
-  ],
-  "koszulka bluzka termoaktywna technologi@vinted:pl": [
-   9.3
-  ],
-  "koszulka sportowa adidas aeroready@vinted:pl": [
-   5.1,
-   4.1,
-   5.1,
-   5.1
-  ],
-  "czarne legginsy getry adidas@vinted:pl": [
-   5.0
-  ],
-  "adidas mbapp futbolo mar@vinted:pl": [
-   22.7
-  ],
-  "koszulka bayern monachium home@vinted:pl": [
-   47.3
-  ],
-  "adidas bluzka koszulka shirt@vinted:pl": [
-   5.1
-  ],
-  "pantaloni adidas@vinted:pl": [
-   13.1,
-   17.2
-  ],
-  "adidas t-shirt aeroready@vinted:pl": [
-   25.4
-  ],
-  "olaszorsz renesz nsz mez@vinted:pl": [
-   14.1
-  ],
-  "koszulka ska adidas nowa@vinted:pl": [
-   15.2
-  ],
-  "adidas cipz ras edz@vinted:pl": [
-   15.7
-  ],
-  "czarna bluza ska adidas@vinted:pl": [
-   32.5
-  ],
-  "adidas aeroready stilingas juodas@vinted:pl": [
-   13.9
-  ],
-  "jap cseresznye vir mez@vinted:pl": [
-   15.7
-  ],
-  "komplet dresowy adidas@vinted:lt": [
-   62.7
-  ],
-  "adidas joggers@vinted:lt": [
-   26.9
-  ],
-  "adidas tango bluza ska@vinted:lt": [
-   16.4
-  ],
-  "spodnie dresowe adidas czarne@vinted:lt": [
-   21.2
-  ],
-  "ska bluza kapturem adidas@vinted:lt": [
-   17.4
-  ],
-  "czarna bluza ska adidas@vinted:lt": [
-   31.8
-  ],
-  "adidas sportinis kostiumas@vinted:lt": [
-   84.7
-  ],
-  "bluza ska adidas@vinted:lt": [
-   29.7
-  ],
-  "spodnie dresowe adidas premium@vinted:lt": [
-   51.4
-  ],
-  "bluza adidas warm full-zip@vinted:lt": [
-   31.8
-  ],
-  "bluza adidas hoody samba@vinted:lt": [
-   14.0
-  ],
-  "dzieci bluza adidas@vinted:lt": [
-   12.8
-  ],
-  "sukienka adidas@vinted:lt": [
-   22.2
-  ],
-  "uchawki adidas anc true@vinted:lt": [
-   31.8
-  ],
-  "adidas kurtka bluza sportowa@vinted:lt": [
-   29.4
-  ],
-  "spodnie dresowe adidas@vinted:lt": [
-   46.3
-  ],
-  "bluza dresowa addidas@vinted:lt": [
-   36.9
-  ],
-  "dres adidas@vinted:lt": [
-   121.4
-  ],
-  "bluza adidas hoody outdoor@vinted:lt": [
-   15.2
-  ],
-  "bluza adidas loose full-zip@vinted:lt": [
-   16.4
-  ],
-  "adidas full zip hoodie@vinted:lt": [
-   32.2
-  ],
-  "bluza damska adidas roz@vinted:lt": [
-   16.4
-  ],
-  "bluza adidas hoody@vinted:lt": [
-   39.3
-  ],
-  "adidas kurtka zimowa@vinted:lt": [
-   106.7
-  ],
-  "komplet dres adidas nowy@vinted:lt": [
-   145.5
-  ],
-  "spodnie dresowe treningowe adidas@vinted:lt": [
-   46.3
-  ],
-  "czarna bluza adidas@vinted:lt": [
-   12.8
-  ],
-  "bluza adidas damska kapturem@vinted:lt": [
-   17.4
-  ],
-  "adidas laisvalaikio kostiumas@vinted:lt": [
-   100.5
-  ],
-  "adidas hoodie@vinted:lt": [
-   6.0
-  ],
-  "sporta jaka@vinted:lt": [
-   48.0
-  ],
-  "adidas zne hupparitakki@vinted:lt": [
-   11.2
-  ],
-  "kardigan aszcz adidas pulse@vinted:lt": [
-   24.4
-  ],
-  "turkusowa rozpinana bluza kapturem@vinted:lt": [
-   20.0
-  ],
-  "francja france travel@vinted:lt": [
-   56.2
-  ],
-  "spodnie adidas sportswear barrel@vinted:lt": [
-   29.7
-  ],
-  "niana kurtka merino wool@vinted:lt": [
-   53.6
-  ],
-  "kurtka zimowa puchowa adidas@vinted:lt": [
-   128.4
-  ],
-  "spodne dresowe adidas@vinted:lt": [
-   36.4
-  ],
-  "adidas full zip velour@vinted:lt": [
-   10.3
-  ],
-  "adidas nnett urheilutakki@vinted:lt": [
-   5.8
-  ],
-  "bluza adidas@vinted:lt": [
-   48.7,
-   23.6,
-   17.6
-  ],
-  "adidas t-shirt@vinted:lt": [
-   16.4
-  ],
-  "adidas damska koszulka bia@vinted:lt": [
-   17.6
-  ],
-  "bluza kapturem rozpinana adidas@vinted:lt": [
-   70.7
-  ],
-  "bluza dresowa kapturem adidas@vinted:lt": [
-   35.7
-  ],
-  "szara bluza rozpinana adidas@vinted:lt": [
-   51.4
-  ],
-  "jasna bluza kapturem marki@vinted:lt": [
-   21.2
-  ],
-  "adidas puffer kurtka zimowa@vinted:lt": [
-   157.6,
-   121.1
-  ],
-  "adidas bluza ska sweatshirt@vinted:lt": [
-   58.4
-  ],
-  "czarne spodnie dresowe adidas@vinted:lt": [
-   41.5
-  ],
-  "dres granatowy nowy adidas@vinted:lt": [
-   85.2
-  ],
-  "oryginalna bluza sportowa adidas@vinted:lt": [
-   49.0
-  ],
-  "czarna bluza adidas athletic@vinted:lt": [
-   16.4
-  ],
-  "bluza addidas@vinted:lt": [
-   53.8
-  ],
-  "lekka kurtka biegania adidas@vinted:lt": [
-   36.9
-  ],
-  "adidas zne bluza ska@vinted:lt": [
-   20.0
-  ],
-  "bia spodnie dresowe adidas@vinted:lt": [
-   23.6
-  ],
-  "bluza adidas kapturem@vinted:lt": [
-   24.8
-  ],
-  "liverpool official adidas takki@vinted:lt": [
-   52.1
-  ],
-  "spodnie dresowe skie adidas@vinted:lt": [
-   41.7
-  ],
-  "skie spodnie dresowe adidas@vinted:lt": [
-   10.3,
-   29.4
-  ],
-  "rozpinana bluza kapturem adidas@vinted:lt": [
-   29.7
-  ],
-  "bluza@vinted:lt": [
-   85.2
-  ],
-  "adidas bluza long bomber@vinted:lt": [
-   21.2
-  ],
-  "adidas bluza@vinted:lt": [
-   46.5
-  ],
-  "adidas pants gm3297@vinted:lt": [
-   20.0
-  ],
-  "bluza kapturem adidas parley@vinted:lt": [
-   48.7
-  ],
-  "adidas zne boxy crewneck@vinted:lt": [
-   17.4
-  ],
-  "rie sporta jaka@vinted:lt": [
-   48.0
-  ],
-  "spodnie adidas@vinted:lt": [
-   36.7,
-   20.0
-  ],
-  "adidas dres@vinted:lt": [
-   73.1
-  ],
-  "adidas housut@vinted:lt": [
-   11.2
-  ],
-  "germany world cup jacket@vinted:lt": [
-   63.7
-  ],
-  "adidas zne stadium sweatshirt@vinted:lt": [
-   20.0
-  ],
-  "adidas hoodie rozpinana bluza@vinted:lt": [
-   27.2
-  ],
-  "bluza chelsea london anthem@vinted:lt": [
-   24.8
-  ],
-  "bluza rozpinana adidas@vinted:lt": [
-   48.7
-  ],
-  "adidas bikses@vinted:lt": [
-   74.2
-  ],
-  "adidas parley@vinted:lt": [
-   36.7
-  ],
-  "bluza kapturem adidas primeknit@vinted:lt": [
-   17.6
-  ],
-  "sportowa bluza rozpinana kapturem@vinted:lt": [
-   41.5
-  ],
-  "bluza adidas full-zip hoodie@vinted:lt": [
-   36.7
-  ],
-  "dresy czarne adidas nowe@vinted:lt": [
-   42.9
-  ],
-  "adidas zip-up hoodie@vinted:lt": [
-   21.7
-  ],
-  "bluza adidas tech@vinted:lt": [
-   17.6
-  ],
-  "czarna bluza kurtka adidas@vinted:lt": [
-   34.5
-  ],
-  "adidas original@vinted:gr": [
-   26.6
-  ],
-  "hoodica kapulja@vinted:gr": [
-   38.5
-  ],
-  "hanorac premium adidas fast@vinted:gr": [
-   22.6
-  ],
-  "hanorac dam adidas@vinted:gr": [
-   19.6
-  ],
-  "adidas jopa@vinted:gr": [
-   26.9
-  ],
-  "adidas arte@vinted:gr": [
-   100.3
-  ],
-  "trening complet adidas primeblue@vinted:gr": [
-   44.5
-  ],
-  "adidas hoody@vinted:gr": [
-   42.7
-  ],
-  "adidas grey pants black@vinted:gr": [
-   23.8
-  ],
-  "adidas hoodie gri deschis@vinted:gr": [
-   27.6
-  ],
-  "tricou adidas@vinted:gr": [
-   34.6
-  ],
-  "adidas hoodie zne hanorac@vinted:gr": [
-   66.5
-  ],
-  "adidas zne originals@vinted:gr": [
-   53.2
-  ],
-  "geac sport adidas@vinted:gr": [
-   60.5
-  ],
-  "adidas sportswear track jacket@vinted:gr": [
-   42.7
-  ],
-  "donji dio trenirke adidas@vinted:gr": [
-   53.2
-  ],
-  "hanorac adidas dam@vinted:gr": [
-   14.5
-  ],
-  "adidas hoodie pulse knitted@vinted:gr": [
-   16.6
-  ],
-  "hanorac adidas nec scurt@vinted:gr": [
-   22.6
-  ],
-  "adidas black zipper sweatshirt@vinted:gr": [
-   74.2
-  ],
-  "pantaloni sport adidas@vinted:gr": [
-   56.5
-  ],
-  "pantaloni trening adidas@vinted:gr": [
-   57.5,
-   56.5
-  ],
-  "hanorac gluga@vinted:gr": [
-   57.5
-  ],
-  "hanorac glug adidas@vinted:gr": [
-   54.1
-  ],
-  "adidas trenirka dje@vinted:gr": [
-   53.2
-  ],
-  "nova adidas tee enska@vinted:gr": [
-   30.1
-  ],
-  "trenirka hla adidas@vinted:gr": [
-   26.9
-  ],
-  "adidas germany dbf woven@vinted:gr": [
-   42.7
-  ],
-  "adidas zenska trenerka@vinted:gr": [
-   69.0
-  ],
-  "adidas komplet@vinted:gr": [
-   90.0
-  ],
-  "adidas sportswear sportska sweater@vinted:gr": [
-   32.2
-  ],
-  "adidas full-zip@vinted:gr": [
-   74.2
-  ],
-  "adidas plus@vinted:gr": [
-   44.1
-  ],
-  "pants medium@vinted:gr": [
-   25.9
-  ],
-  "adidas enska trenerka@vinted:gr": [
-   48.0
-  ],
-  "adidas cuffed sweatpants plus@vinted:gr": [
-   10.7
-  ],
-  "adidas tapered pants@vinted:gr": [
-   21.7
-  ],
-  "hanorac adidas full-zip@vinted:gr": [
-   20.6
-  ],
-  "adidas sportwear t-shirt@vinted:gr": [
-   11.2
-  ],
-  "adidas donji dio trenerke@vinted:gr": [
-   16.4
-  ],
-  "adidas crew sweatshirt@vinted:gr": [
-   63.7
-  ],
-  "pink adidas full-zip hoodie@vinted:gr": [
-   21.7
-  ],
-  "authentic adidas manchester united@vinted:gr": [
-   9.7
-  ],
-  "adidas fleece@vinted:gr": [
-   21.7
-  ],
-  "adidas trenirka@vinted:gr": [
-   53.2
-  ],
-  "adidas hlace novo@vinted:gr": [
-   26.9
-  ],
-  "adidas donji dio trenirke@vinted:gr": [
-   39.5,
-   21.7
-  ],
-  "adidas zne tee@vinted:gr": [
-   16.4
-  ],
-  "adidas t-shirt@vinted:gr": [
-   7.0
-  ],
-  "enska trenirka adidas@vinted:gr": [
-   48.0
-  ],
-  "jacheta adidas@vinted:gr": [
-   30.6
-  ],
-  "adidas hlace@vinted:gr": [
-   30.1
-  ],
-  "adidas cold rdy@vinted:gr": [
-   21.7
-  ],
-  "hanorac adidas real madrid@vinted:gr": [
-   80.4
-  ],
-  "set adidas@vinted:gr": [
-   130.2
-  ],
   "hanorac adidas@vinted:gr": [
    20.6,
    43.5,
@@ -56572,9 +55581,6 @@
   "geaca columbia chalanger noua@olx:ro": [
    40.0
   ],
-  "geac iarn columbia omni@olx:ro": [
-   80.0
-  ],
   "geac rba original columbia@olx:ro": [
    96.0
   ],
@@ -56678,12 +55684,6 @@
    16.0,
    14.0
   ],
-  "saia adolescente ralph lauren@olx:pt": [
-   10.0,
-   10.0,
-   10.0,
-   10.0
-  ],
   "polo ralph lauren casaco@olx:pt": [
    130.0,
    130.0
@@ -56708,11 +55708,6 @@
    110.0
   ],
   "polo original ralph lauren@olx:pt": [
-   80.0,
-   80.0
-  ],
-  "ralph lauren colete@olx:pt": [
-   80.0,
    80.0,
    80.0
   ],
@@ -56750,19 +55745,6 @@
   ],
   "camisa ralph lauren rapaz@olx:pt": [
    7.0
-  ],
-  "vestido ralph lauren@olx:pt": [
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   80.0,
-   100.0,
-   100.0
   ],
   "cal ralph lauren@olx:pt": [
    10.0
@@ -56865,10 +55847,6 @@
   "mala lacoste@olx:pt": [
    80.0
   ],
-  "lacoste sweatshirt@olx:pt": [
-   90.0,
-   90.0
-  ],
   "polos lacoste disponivel xxl@olx:pt": [
    10.0,
    10.0,
@@ -56880,14 +55858,6 @@
   "swet lacoste@olx:pt": [
    50.0
   ],
-  "casaco lacoste@olx:pt": [
-   90.0,
-   125.0,
-   120.0,
-   90.0,
-   90.0,
-   90.0
-  ],
   "chap lacoste@olx:pt": [
    50.0
   ],
@@ -56898,28 +55868,12 @@
    85.0,
    85.0
   ],
-  "conjunto lacoste@olx:pt": [
-   75.0,
-   75.0
-  ],
   "casaco lacoste tam@olx:pt": [
    100.0,
    100.0,
    100.0,
    100.0,
    100.0
-  ],
-  "cla lacoste bom estado@olx:pt": [
-   10.0,
-   10.0,
-   10.0,
-   10.0,
-   10.0
-  ],
-  "vendo camisola lacoste verdadeira@olx:pt": [
-   105.0,
-   105.0,
-   105.0
   ],
   "vendo chemise lacoste original@olx:pt": [
    90.0
@@ -57054,13 +56008,6 @@
   ],
   "lacoste m-l@olx:ua": [
    163.3
-  ],
-  "lacoste xxl@olx:ua": [
-   77.7,
-   52.1
-  ],
-  "hugo boss stone island@olx:ua": [
-   285.4
   ],
   "tommy hilfiger lacoste@olx:ua": [
    100.8
@@ -57579,9 +56526,6 @@
   "piumino nike storm-fit windrunner@vinted:fr": [
    116.2
   ],
-  "geaca nike acg therma@olx:ro": [
-   100.0
-  ],
   "nike acg lava flow@olx:bg": [
    170.0
   ],
@@ -57985,13 +56929,6 @@
   "under armour storm beanie@willhaben": [
    5.0
   ],
-  "nsk bunda under armour@bazos:cz": [
-   102.5,
-   102.5,
-   102.5,
-   102.5,
-   102.5
-  ],
   "jogging under armour running@vinted:fr": [
    42.7
   ],
@@ -58329,11 +57266,6 @@
   "columbia omni-shield green grey@vinted:com": [
    24.1
   ],
-  "geac columbia titanium roaring@olx:ro": [
-   100.0,
-   100.0,
-   100.0
-  ],
   "geaca iarna columbia omni-heat@olx:ro": [
    90.0
   ],
@@ -58648,10 +57580,6 @@
   "alo yoga clubhouse jacket@olx:ua": [
    113.4
   ],
-  "aloyoga airbrush high-waist heart@olx:ua": [
-   96.6,
-   94.5
-  ],
   "columbia delta ridge down@olx:ua": [
    132.3
   ],
@@ -58674,10 +57602,6 @@
    5.0
   ],
   "columbia winterjacke wie neu@willhaben": [
-   80.0,
-   80.0
-  ],
-  "columbia ski set herren@willhaben": [
    80.0,
    80.0
   ],
@@ -60270,10 +59194,6 @@
   "stone island vintage ice@olx:bg": [
    180.0
   ],
-  "stone island vintage 1990s@olx:bg": [
-   200.0,
-   200.0
-  ],
   "casaco stone island corta@olx:pt": [
    80.0
   ],
@@ -60381,9 +59301,6 @@
   "vintage stone island wool@olx:ua": [
    81.9
   ],
-  "stone island massimo osti@olx:ua": [
-   71.4
-  ],
   "stone island sehr seltene@willhaben": [
    149.0
   ],
@@ -60401,9 +59318,6 @@
   ],
   "stone island reverse color@willhaben": [
    350.0
-  ],
-  "massimo osti parka stone@willhaben": [
-   275.0
   ],
   "stone island bunda@bazos:sk": [
    85.0,
@@ -60469,26 +59383,6 @@
   ],
   "jeans stone island uomo@subito": [
    89.0
-  ],
-  "stone island jeans denim@subito": [
-   80.0,
-   80.0,
-   80.0
-  ],
-  "stone island archivio vintage@subito": [
-   205.0,
-   205.0
-  ],
-  "stone island marina osti@subito": [
-   255.0,
-   255.0
-  ],
-  "stone island vintage anni@subito": [
-   170.0,
-   120.0
-  ],
-  "boneville company massimoosti stone@subito": [
-   249.0
   ],
   "stone island 661x7 reef@vinted:co.uk": [
    121.6
@@ -60757,10 +59651,6 @@
   ],
   "giacca lana stone island@subito": [
    350.0
-  ],
-  "giacca stone island@subito": [
-   180.0,
-   220.0
   ],
   "stone island vintage nylon@subito": [
    350.0,
@@ -61085,13 +59975,6 @@
   "iphone pro case polo@olx:bg": [
    5.1
   ],
-  "polo ralph lauren bear@olx:bg": [
-   245.0,
-   335.0,
-   150.0,
-   230.1,
-   161.1
-  ],
   "ralph lauren polo alco@olx:ua": [
    25.4
   ],
@@ -61135,9 +60018,6 @@
    46.2,
    46.2,
    28.4
-  ],
-  "polo ralph lauren sport@olx:ua": [
-   8.4
   ],
   "polo bear ralph lauren@olx:kz": [
    3.4
@@ -61582,9 +60462,6 @@
   "polo ralph lauren tricou@olx:ro": [
    16.0
   ],
-  "ralph lauren polo sport@olx:ro": [
-   118.0
-  ],
   "new treing polo ralph@olx:ro": [
    60.0
   ],
@@ -61601,37 +60478,8 @@
    196.0,
    196.0
   ],
-  "tenesi polo ralph lauren@olx:ro": [
-   80.0
-  ],
-  "bluza trening polo ralph@olx:ro": [
-   90.0
-  ],
-  "geaca polo ralph lauren@olx:ro": [
-   99.8,
-   188.0,
-   80.0,
-   99.8,
-   120.0,
-   97.8,
-   90.0,
-   80.0,
-   300.0,
-   79.8,
-   79.8,
-   110.0,
-   188.0,
-   144.0,
-   90.0,
-   80.0,
-   188.0,
-   110.0
-  ],
   "hanorac polo ralph lauren@olx:ro": [
    120.0
-  ],
-  "pantaloni trening polo ralph@olx:ro": [
-   90.0
   ],
   "bluza polo ralph lauren@olx:ro": [
    106.0,
@@ -61646,9 +60494,6 @@
   "polo ralph lauren 2xl@olx:bg": [
    80.0
   ],
-  "polo ralph lauren cotton@olx:bg": [
-   81.3
-  ],
   "polo ralph lauren performance@olx:bg": [
    70.6
   ],
@@ -61660,21 +60505,6 @@
   ],
   "polo ralph lauren-32 big@olx:bg": [
    110.0
-  ],
-  "polo 2xl@olx:bg": [
-   110.0
-  ],
-  "polo ralph lauren@olx:bg": [
-   80.0,
-   95.0,
-   80.0,
-   109.0,
-   100.0,
-   95.0,
-   90.0,
-   100.0,
-   90.0,
-   80.0
   ],
   "blus exclusivo raro polo@olx:pt": [
    190.0,
@@ -61758,13 +60588,6 @@
   "polo ralph lauren xxxl@olx:ua": [
    23.7
   ],
-  "polo ralph lauren@olx:ua": [
-   28.4,
-   21.0,
-   31.5,
-   9.2,
-   10.5
-  ],
   "new polo ralph lauren@olx:ua": [
    33.6,
    31.5,
@@ -61783,16 +60606,6 @@
   "polo ralph lauren custom@olx:ua": [
    10.5
   ],
-  "polo ralph lauren polo@olx:ua": [
-   333.9,
-   33.6,
-   33.6,
-   33.6,
-   33.6,
-   31.5,
-   80.8,
-   36.7
-  ],
   "lux polo ralph lauren@olx:ua": [
    31.5,
    27.3,
@@ -61809,9 +60622,6 @@
    31.5,
    33.6,
    31.5
-  ],
-  "polo ralph lauren quarter@olx:ua": [
-   25.2
   ],
   "ralph lauren@olx:kz": [
    11.9
@@ -61916,19 +60726,11 @@
   "t-shirt ralph lauren ralph@subito": [
    20.0
   ],
-  "tuta polo ralph lauren@subito": [
-   120.0
-  ],
   "piumino polo ralph lauren@subito": [
    93.0
   ],
   "maglione vintage polo ralph@subito": [
    87.0
-  ],
-  "maglione polo ralph lauren@subito": [
-   160.0,
-   190.0,
-   150.0
   ],
   "giacchetto ralph lauren@subito": [
    90.0
@@ -62034,14 +60836,8 @@
   "essentials ss22 iron@olx:bg": [
    115.0
   ],
-  "fato treino essentials cinzento@olx:pt": [
-   110.0
-  ],
   "fear god essentials baseball@olx:ua": [
    58.8
-  ],
-  "fear god essentials relaxed@olx:ua": [
-   95.6
   ],
   "essentials@olx:ua": [
    4.2
@@ -62100,11 +60896,6 @@
   "jordan essentials statement fleece@olx:ua": [
    77.3
   ],
-  "fear god essentials fog@olx:ua": [
-   94.5,
-   100.6,
-   123.9
-  ],
   "top essentials essentials essentials@olx:ua": [
    36.8,
    36.8
@@ -62162,9 +60953,6 @@
   ],
   "fog fear god essentials@bazos:sk": [
    160.0
-  ],
-  "essentials fear god real@subito": [
-   140.0
   ],
   "essentials hoodie@subito": [
    80.0
@@ -62580,31 +61368,11 @@
   "lacoste vintage@olx:bg": [
    50.0
   ],
-  "promo lacoste michael stipe@olx:pt": [
-   100.0
-  ],
   "relogio lacoste novo@olx:pt": [
    150.0
   ],
-  "sweat lacoste azul escuro@olx:pt": [
-   100.0
-  ],
   "nis lacoste l-spin deluxe@olx:pt": [
    85.0
-  ],
-  "bolsa lacoste@olx:pt": [
-   130.0,
-   75.0,
-   80.0,
-   50.0,
-   80.0,
-   130.0,
-   80.0,
-   80.0,
-   130.0,
-   80.0,
-   130.0,
-   120.0
   ],
   "lacoste vintage chino trousers@olx:ua": [
    8.4
@@ -62648,48 +61416,17 @@
   "lacoste golf 80x@olx:ua": [
    15.8
   ],
-  "lacoste 90s vintage v-neck@olx:ua": [
-   79.8
-  ],
   "vintage beanie center logo@olx:ua": [
    8.4
   ],
   "lacoste lacoste vintage old@olx:ua": [
    37.8
   ],
-  "lacoste@olx:ua": [
-   52.5,
-   94.5,
-   37.8,
-   73.4,
-   62.2,
-   79.8,
-   84.0,
-   94.5,
-   105.0,
-   325.5,
-   163.8,
-   63.0,
-   137.6,
-   58.8,
-   84.0,
-   52.5,
-   84.0,
-   64.0,
-   67.2,
-   11.2
-  ],
   "y-3 lacoste adidas vintage@olx:ua": [
    7.7
   ],
   "lacoste vintage nylon jacket@olx:ua": [
    34.7
-  ],
-  "chemise lacoste made france@olx:ua": [
-   18.9
-  ],
-  "lacoste france chemise vintage@olx:ua": [
-   73.5
   ],
   "lacoste vintage@olx:ua": [
    29.4,
@@ -63333,10 +62070,6 @@
   ],
   "airlift suit alo yoga@olx:ua": [
    60.9
-  ],
-  "alo yoga@olx:ua": [
-   8.0,
-   65.1
   ],
   "alo yoga airlift divine@olx:ua": [
    14.3
@@ -64128,16 +62861,6 @@
   "adidas stella mccartney training@olx:ua": [
    34.6
   ],
-  "adidas tiro training pants@olx:ua": [
-   16.8,
-   39.9
-  ],
-  "adidas celtic tiro training@olx:ua": [
-   8.4
-  ],
-  "adidas adidas tiro training@olx:ua": [
-   6.3
-  ],
   "adidas entrada training top@olx:ua": [
    6.3
   ],
@@ -64149,9 +62872,6 @@
   ],
   "vintage adidas vfb stuttgart@olx:ua": [
    63.0
-  ],
-  "adidas tiro training jacket@olx:ua": [
-   8.4
   ],
   "adidas clima training core@olx:ua": [
    11.2
@@ -64197,9 +62917,6 @@
   ],
   "original bayern adidas rarit@willhaben": [
    40.0
-  ],
-  "adidas tiro training top@subito": [
-   10.0
   ],
   "project rock@olx:bg": [
    120.0
@@ -64314,9 +63031,6 @@
   "nike jumpman jack@olx:pt": [
    300.0
   ],
-  "casaco nike bom estado@olx:pt": [
-   10.0
-  ],
   "lote blus jack jones@olx:pt": [
    90.0
   ],
@@ -64399,54 +63113,1587 @@
   ],
   "nike dunk low chicago@subito": [
    105.0
+  ],
+  "under armour rush@olx:ua": [
+   10.5,
+   4.0
+  ],
+  "under armour heatgear rush@olx:ua": [
+   11.1
+  ],
+  "under armour rush celliant@olx:ua": [
+   8.0
+  ],
+  "nsk bunda under armour@bazos:cz": [
+   102.5,
+   102.5,
+   102.5,
+   102.5,
+   102.5,
+   102.5
+  ],
+  "geac columbia titanium roaring@olx:ro": [
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "geac iarn columbia omni@olx:ro": [
+   80.0,
+   80.0
+  ],
+  "columbia fairbanks omni-heat@olx:ro": [
+   79.8
+  ],
+  "bocanci columbia titanium daska@olx:ro": [
+   90.0
+  ],
+  "jachet impermeabil columbia omni-tech@olx:ro": [
+   76.0
+  ],
+  "columbia omni-tech watertproof geaca@olx:ro": [
+   80.0
+  ],
+  "columbia omni-tech@olx:bg": [
+   79.0
+  ],
+  "columbia sportswear tipton peakr@olx:ua": [
+   125.0
+  ],
+  "msrp columbia titanium turbodown@olx:ua": [
+   209.8
+  ],
+  "columbia omni-heat omni-tech@olx:kz": [
+   80.5
+  ],
+  "columbia ski set herren@willhaben": [
+   80.0,
+   80.0,
+   80.0
+  ],
+  "giacca columbia titanium uomo@subito": [
+   75.0
+  ],
+  "columbia titanium mogul jacket@olx:ua": [
+   189.0
+  ],
+  "nike acg zegama trail@olx:ro": [
+   130.0
+  ],
+  "nike acg mountain fly2@olx:ro": [
+   83.0
+  ],
+  "nike air winflo gore-tex@olx:ro": [
+   75.8
+  ],
+  "jacheta nike trail acg@olx:ro": [
+   90.0
+  ],
+  "nike vomero plus noi@olx:ro": [
+   149.8,
+   129.8
+  ],
+  "jacheta pentru sport nike@olx:ro": [
+   130.0
+  ],
+  "ghete nike acg goretex@olx:ro": [
+   120.0
+  ],
+  "geaca dama hardshell nike@olx:ro": [
+   130.0
+  ],
+  "nike zoom fly noi@olx:ro": [
+   89.8
+  ],
+  "nike acg air mowabb@olx:ro": [
+   330.0
+  ],
+  "nike acg stare buna@olx:ro": [
+   300.0
+  ],
+  "geaca nike acg therma@olx:ro": [
+   100.0,
+   100.0
+  ],
+  "nike zoom terra kiger@olx:ro": [
+   260.0
+  ],
+  "nike acg mountain fly@olx:ro": [
+   150.0
+  ],
+  "geaca ski vintage nike@olx:ro": [
+   90.0
+  ],
+  "nike acg gore-tex fitstorm@olx:bg": [
+   90.0,
+   90.0
+  ],
+  "acg mountain fly low@olx:bg": [
+   138.0,
+   94.6
+  ],
+  "nike acg montain fly@olx:bg": [
+   94.6
+  ],
+  "nike acg air zoom@olx:bg": [
+   120.0
+  ],
+  "nike acg pegasus trail@olx:bg": [
+   130.0
+  ],
+  "nike acg gore-tex triple@olx:bg": [
+   109.0,
+   109.0
+  ],
+  "nike acg zegama hike@olx:bg": [
+   105.0
+  ],
+  "nike acg ultrafly trail@olx:bg": [
+   130.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "nike acg tuff fleece@olx:bg": [
+   102.3
+  ],
+  "nike zoom acg ultrafly@olx:bg": [
+   99.0,
+   100.0
+  ],
+  "nike acg phassad all@olx:bg": [
+   90.0
+  ],
+  "nike acg zegama trail@olx:bg": [
+   98.0,
+   95.0
+  ],
+  "nike acg@olx:bg": [
+   150.0
+  ],
+  "nike acg mountain fly@olx:bg": [
+   138.1,
+   85.0,
+   85.0,
+   138.1,
+   102.3,
+   105.0,
+   85.0,
+   120.0
+  ],
+  "nike acg ultrafly@olx:bg": [
+   150.0
+  ],
+  "nike acg tamanho@olx:pt": [
+   10.0
+  ],
+  "casaco nike air original@olx:pt": [
+   130.0
+  ],
+  "nike tech azul@olx:pt": [
+   250.0
+  ],
+  "vende camisola nike@olx:pt": [
+   8.0
+  ],
+  "cal nike azuis@olx:pt": [
+   10.0
+  ],
+  "nike acg polar casaco@olx:pt": [
+   140.0
+  ],
+  "nike acg primaloft gore@olx:ua": [
+   50.4
+  ],
+  "nike acg air zoom@olx:ua": [
+   81.9,
+   75.6,
+   81.9
+  ],
+  "nike acg ninja nike@olx:ua": [
+   46.2
+  ],
+  "nike acg smith summit@olx:ua": [
+   113.4,
+   113.4
+  ],
+  "nike acg puffer jacket@olx:ua": [
+   37.8
+  ],
+  "nike acg running gore-tex@olx:ua": [
+   59.9
+  ],
+  "nike acg ultrafly trail@olx:ua": [
+   81.9
+  ],
+  "nike acg therma-fit fv8827@olx:ua": [
+   73.5
+  ],
+  "nike acg one@olx:ua": [
+   10.5
+  ],
+  "nike acg therma-fit grey@olx:ua": [
+   73.5
+  ],
+  "nike acg therma-fit dh3087@olx:ua": [
+   75.6
+  ],
+  "nike acg therma-fit fleece@olx:ua": [
+   73.5
+  ],
+  "nike acg puffer@olx:ua": [
+   52.5
+  ],
+  "nike acg polartec@olx:ua": [
+   34.5
+  ],
+  "nike acg polartec wolf@olx:ua": [
+   39.5
+  ],
+  "nike acg mountain gore-tex@olx:ua": [
+   73.5
+  ],
+  "nike acg@olx:ua": [
+   31.5,
+   56.7,
+   37.8,
+   35.7,
+   65.1,
+   51.5,
+   27.3,
+   38.4
+  ],
+  "nike acg terra antarktik@olx:ua": [
+   73.5,
+   44.1
+  ],
+  "nike acg polartec xxl@olx:ua": [
+   30.5
+  ],
+  "nike asg@olx:ua": [
+   9.5
+  ],
+  "nike acg dri-fit original@olx:ua": [
+   42.0,
+   31.5
+  ],
+  "nike acg mountainfly low@olx:kz": [
+   85.0
+  ],
+  "nike acg mountain fly@olx:kz": [
+   76.5,
+   73.1
+  ],
+  "nike nike acg air@olx:kz": [
+   136.0
+  ],
+  "nike acg smith summit@olx:kz": [
+   204.0
+  ],
+  "nike acg zegama cream@willhaben": [
+   100.0
+  ],
+  "snowboard -skihose nike acg@willhaben": [
+   8.0
+  ],
+  "nike kawa shower neu@willhaben": [
+   119.0
+  ],
+  "skianzug nike fit acg@willhaben": [
+   100.0
+  ],
+  "nike trail running schuh@willhaben": [
+   145.0
+  ],
+  "nike acg gore tex@willhaben": [
+   120.0
+  ],
+  "vintage nike acg jacke@willhaben": [
+   150.0
+  ],
+  "nike acg jacke@willhaben": [
+   139.0
+  ],
+  "nike vintage sport jacke@willhaben": [
+   149.0
+  ],
+  "nsk zimn bunda nike@bazos:cz": [
+   82.0
+  ],
+  "nike acg@bazos:cz": [
+   8.2
+  ],
+  "nike acg all conditions@bazos:cz": [
+   10.2
+  ],
+  "mske tri nike acg@bazos:sk": [
+   9.0
+  ],
+  "nike acg vintage 865417-009@bazos:sk": [
+   199.0
+  ],
+  "pred nike trekingov obuv@bazos:sk": [
+   100.0
+  ],
+  "nike acg air zoom@bazos:sk": [
+   145.0
+  ],
+  "nike acg lunar lake@subito": [
+   295.0
+  ],
+  "nike acg nike ispa@subito": [
+   250.0
+  ],
+  "piumino nike acg@subito": [
+   150.0
+  ],
+  "nike acg@subito": [
+   200.0
+  ],
+  "nike acg cactus plant@subito": [
+   165.0
+  ],
+  "nike acg phassad@subito": [
+   115.0
+  ],
+  "nike acg mountain fly@subito": [
+   240.0
+  ],
+  "stone island vintage 1990s@olx:bg": [
+   200.0,
+   200.0,
+   200.0
+  ],
+  "stone island massimo osti@olx:ua": [
+   71.4,
+   71.4
+  ],
+  "massimo osti parka stone@willhaben": [
+   275.0,
+   275.0
+  ],
+  "stone island jeans denim@subito": [
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "stone island archivio vintage@subito": [
+   205.0,
+   205.0,
+   205.0
+  ],
+  "stone island marina osti@subito": [
+   255.0,
+   255.0,
+   255.0
+  ],
+  "stone island vintage anni@subito": [
+   170.0,
+   120.0,
+   170.0,
+   120.0
+  ],
+  "boneville company massimoosti stone@subito": [
+   249.0,
+   249.0
+  ],
+  "stone island softshell jacke@willhaben": [
+   369.0
+  ],
+  "stone island light soft@willhaben": [
+   320.0,
+   220.0
+  ],
+  "stone island soft shell-r@subito": [
+   310.0
+  ],
+  "giacca stone island@subito": [
+   180.0,
+   220.0,
+   180.0,
+   220.0
+  ],
+  "ralph lauren polo sport@olx:ro": [
+   118.0,
+   118.0
+  ],
+  "tenesi polo ralph lauren@olx:ro": [
+   80.0,
+   80.0
+  ],
+  "bluza trening polo ralph@olx:ro": [
+   90.0,
+   90.0
+  ],
+  "pantaloni trening polo ralph@olx:ro": [
+   90.0,
+   90.0
+  ],
+  "rulment kuhn huard rulment@olx:ro": [
+   110.0
+  ],
+  "rolex yacht-master rlx titanium@olx:ro": [
+   1250.0,
+   1250.0
+  ],
+  "rlx date just automatic@olx:ro": [
+   170.0
+  ],
+  "cafetiera masina expresor cafea@olx:ro": [
+   130.0
+  ],
+  "vesta barbati rlx ralph@olx:ro": [
+   160.0
+  ],
+  "geaca rlx ralph lauren@olx:ro": [
+   98.0
+  ],
+  "vand atv e-ton viper@olx:ro": [
+   1050.0
+  ],
+  "apache rlx 450cc@olx:ro": [
+   3000.0
+  ],
+  "polo ralph lauren sport@olx:bg": [
+   80.3,
+   10.2
+  ],
+  "ralph lauren rlx@olx:bg": [
+   450.0
+  ],
+  "polo ralph lauren bear@olx:bg": [
+   245.0,
+   335.0,
+   150.0,
+   230.1,
+   161.1,
+   150.0
+  ],
+  "ralph lauren rlx camouflage@olx:bg": [
+   115.0
+  ],
+  "rlx ralph lauren polo@olx:bg": [
+   100.0
+  ],
+  "polo ralph lauren rlx@olx:bg": [
+   86.9,
+   135.0
+  ],
+  "polo sport tam@olx:pt": [
+   10.0
+  ],
+  "mochila trolley lowepro pro@olx:pt": [
+   99.0
+  ],
+  "ralph lauren polo sport@olx:ua": [
+   41.2
+  ],
+  "ralph lauren polo@olx:ua": [
+   8.4
+  ],
+  "polo sport@olx:ua": [
+   6.3,
+   6.3
+  ],
+  "nike acg 90s black@olx:ua": [
+   84.0
+  ],
+  "cap polo ralph lauren@olx:ua": [
+   10.5
+  ],
+  "polo ralph lauren sport@olx:ua": [
+   8.4,
+   6.3
+  ],
+  "polo sport ralph lauren@olx:ua": [
+   4.9
+  ],
+  "cartier ralph lauren christian@olx:ua": [
+   7.4
+  ],
+  "acura adx ilx integra@olx:ua": [
+   21.0
+  ],
+  "ralph lauren rlx cap@olx:ua": [
+   8.0
+  ],
+  "acura ilx tsx tlx@olx:ua": [
+   25.8
+  ],
+  "acura mdx rdx ilx@olx:ua": [
+   75.6
+  ],
+  "acura rlx 14-17@olx:ua": [
+   430.0
+  ],
+  "trakker rlx scout chair@olx:ua": [
+   37.8
+  ],
+  "acura rlx 2014-2017@olx:ua": [
+   344.0,
+   516.0
+  ],
+  "r16c michelin cros rlx@olx:ua": [
+   50.4
+  ],
+  "r20 goodyear rlx@olx:ua": [
+   36.8
+  ],
+  "rlx@olx:ua": [
+   21.0
+  ],
+  "polo ralph lauren kleid@willhaben": [
+   80.0
+  ],
+  "ralph lauren rlx daunenjacke@willhaben": [
+   240.0
+  ],
+  "rlx daunenjacke@willhaben": [
+   120.0
+  ],
+  "polo ralph lauren rlx@willhaben": [
+   100.0
+  ],
+  "trakker rlx beine bed@willhaben": [
+   200.0
+  ],
+  "trakker rlx wide camo@willhaben": [
+   330.0
+  ],
+  "lehatko trakker rlx camo@bazos:sk": [
+   310.0
+  ],
+  "tuta polo ralph lauren@subito": [
+   120.0,
+   120.0
+  ],
+  "vis rlx 5x26f@subito": [
+   1.0
+  ],
+  "sci dynastar rlx speed@subito": [
+   135.0
+  ],
+  "moto morini excalibur rlx@subito": [
+   2000.0
+  ],
+  "jeans polo noi eticheta@olx:ro": [
+   10.0
+  ],
+  "vand geaca polo@olx:ro": [
+   94.0
+  ],
+  "plover polo masura@olx:ro": [
+   12.0
+  ],
+  "geaca polo ralph lauren@olx:ro": [
+   80.0,
+   99.8,
+   120.0,
+   97.8,
+   90.0,
+   80.0,
+   300.0,
+   79.8,
+   79.8,
+   110.0,
+   188.0,
+   144.0,
+   90.0,
+   80.0,
+   188.0,
+   110.0,
+   220.0,
+   131.8,
+   89.8,
+   89.8
+  ],
+  "polo ralph lauren cable-knit@olx:ro": [
+   90.0
+  ],
+  "pulover polo ralph lauren@olx:ro": [
+   96.0,
+   90.0
+  ],
+  "polo 2xl@olx:bg": [
+   110.0,
+   110.0
+  ],
+  "polo 2xl 3xl@olx:bg": [
+   80.0
+  ],
+  "polo ralph lauren@olx:bg": [
+   80.0,
+   95.0,
+   80.0,
+   109.0,
+   100.0,
+   95.0,
+   90.0,
+   100.0,
+   90.0,
+   80.0,
+   80.0,
+   12.0,
+   145.0
+  ],
+  "polo ralph lauren custom@olx:bg": [
+   10.0
+  ],
+  "polo@olx:bg": [
+   127.8
+  ],
+  "polo ralph lauren cable-knit@olx:bg": [
+   79.0
+  ],
+  "polo ralph lauren cotton@olx:bg": [
+   81.3,
+   90.0,
+   90.0,
+   75.0
+  ],
+  "polo ralph lauren cable@olx:bg": [
+   130.0,
+   178.0,
+   185.0,
+   80.0,
+   140.6,
+   125.0,
+   120.2,
+   117.0,
+   145.7,
+   127.8,
+   115.0,
+   181.5,
+   130.4,
+   150.8,
+   143.2,
+   85.0,
+   127.8,
+   115.0,
+   99.0,
+   115.0
+  ],
+  "ralph lauren polo ralph@olx:bg": [
+   85.0
+  ],
+  "camisola ralph lauren@olx:pt": [
+   220.0
+  ],
+  "ralph lauren knit@olx:pt": [
+   90.0
+  ],
+  "polo ralph lauren camisola@olx:pt": [
+   120.0
+  ],
+  "ralph lauren colete@olx:pt": [
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "vestido ralph lauren@olx:pt": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   80.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "camisola malha ralph lauren@olx:pt": [
+   95.0
+  ],
+  "t-shirt ralph lauren@olx:pt": [
+   12.0,
+   10.0
+  ],
+  "blus ralph lauren@olx:pt": [
+   99.0
+  ],
+  "saia adolescente ralph lauren@olx:pt": [
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "polo ralph lauren polo@olx:ua": [
+   333.9,
+   33.6,
+   33.6,
+   33.6,
+   33.6,
+   31.5,
+   80.8,
+   36.7,
+   8.4,
+   333.9
+  ],
+  "polo adidas tnf@olx:ua": [
+   6.3
+  ],
+  "ralph lauren polo automatic@olx:ua": [
+   1050.0
+  ],
+  "ralph lauren polo swiss@olx:ua": [
+   1018.5
+  ],
+  "polo ralph lauren big@olx:ua": [
+   9.5,
+   10.5
+  ],
+  "double ralph lauren@olx:ua": [
+   168.0
+  ],
+  "polo ralph lauren quarter@olx:ua": [
+   25.2,
+   102.9
+  ],
+  "polo ralph lauren s-xxl@olx:ua": [
+   31.5,
+   31.5
+  ],
+  "polo ralph lauren off-white@olx:ua": [
+   58.8
+  ],
+  "ralph lauren@olx:ua": [
+   5.2,
+   168.0
+  ],
+  "polo ralph laurent@olx:ua": [
+   41.0
+  ],
+  "polo ralph lauren cable@olx:ua": [
+   102.9,
+   86.1,
+   121.8,
+   96.6
+  ],
+  "cable-knit polo ralph lauren@olx:ua": [
+   25.2
+  ],
+  "ralph lauren sport@olx:ua": [
+   18.9
+  ],
+  "ralph lauren cable-knit cotton@olx:ua": [
+   136.5
+  ],
+  "polo ralph lauren@olx:ua": [
+   28.4,
+   21.0,
+   31.5,
+   9.2,
+   10.5,
+   8.8,
+   8.4,
+   10.3,
+   31.5,
+   25.2,
+   23.1,
+   23.1,
+   42.0,
+   13.7,
+   13.7,
+   86.1,
+   63.0,
+   15.8,
+   22.1,
+   38.9
+  ],
+  "polo ralph lauren cable-knit@olx:ua": [
+   14.7,
+   43.1,
+   52.5,
+   147.0,
+   10.5,
+   11.3
+  ],
+  "usa polo@olx:kz": [
+   13.6
+  ],
+  "polo@olx:kz": [
+   76.5
+  ],
+  "polo ralph lauren jeanshemd@willhaben": [
+   105.0
+  ],
+  "polo ralph lauren jacke@willhaben": [
+   90.0,
+   175.0
+  ],
+  "ralph lauren vintage oberteil@willhaben": [
+   9.0
+  ],
+  "schn ppchen original ralph@willhaben": [
+   13.0
+  ],
+  "pullover polo@willhaben": [
+   10.0
+  ],
+  "neu polo ralph lauren@willhaben": [
+   100.0
+  ],
+  "ralph lauren poloshirt@willhaben": [
+   10.0
+  ],
+  "ralph lauren polo jeans@willhaben": [
+   3.0
+  ],
+  "ralph lauren strickpullover@willhaben": [
+   125.0
+  ],
+  "polo ralph lauren zopfmuster@willhaben": [
+   75.0
+  ],
+  "polo ralph lauren strickjacke@willhaben": [
+   90.0
+  ],
+  "polo ralph lauren cable@willhaben": [
+   80.0
+  ],
+  "polo ralph lauren cable-knit@willhaben": [
+   95.0
+  ],
+  "polo ralph lauren tri@bazos:sk": [
+   4.0
+  ],
+  "nove ralph lauren detsk@bazos:sk": [
+   6.0
+  ],
+  "polo ralph lauren cricket@bazos:sk": [
+   75.0
+  ],
+  "nsky pleten sveter polo@bazos:sk": [
+   74.0
+  ],
+  "smanicato imbottito polo@subito": [
+   80.0
+  ],
+  "giacca polo ralph lauren@subito": [
+   150.0
+  ],
+  "polo bear ralph lauren@subito": [
+   180.0
+  ],
+  "pullover polo ralph lauren@subito": [
+   165.0
+  ],
+  "maglione polo ralph lauren@subito": [
+   160.0,
+   190.0,
+   150.0,
+   90.0,
+   160.0,
+   190.0,
+   150.0
+  ],
+  "cardigan ralph lauren maglia@subito": [
+   129.0
+  ],
+  "maglione ralph lauren cashmere@subito": [
+   72.0
+  ],
+  "maglione ralph lauren@subito": [
+   75.0,
+   90.0
+  ],
+  "polo ralph lauren quarter-zip@subito": [
+   75.0
+  ],
+  "polo ralph lauren maglione@subito": [
+   75.0,
+   75.0
+  ],
+  "blus homem essentials calvin@olx:pt": [
+   100.0
+  ],
+  "conjunto cinzento essentials@olx:pt": [
+   120.0
+  ],
+  "fato treino essentials cinzento@olx:pt": [
+   110.0,
+   110.0
+  ],
+  "cal lft denim essentials@olx:pt": [
+   5.0
+  ],
+  "fear god essentials ripstop@olx:ua": [
+   220.5
+  ],
+  "nike nylon air jordan@olx:ua": [
+   176.4
+  ],
+  "essentials essentials@olx:ua": [
+   28.4
+  ],
+  "fear god essentials ssense@olx:ua": [
+   52.5
+  ],
+  "fear god essentials reflective@olx:ua": [
+   17.9
+  ],
+  "essentials sweatpants@olx:bg": [
+   112.5
+  ],
+  "essentials fear god sweatshirt@olx:pt": [
+   140.0,
+   140.0
+  ],
+  "puma essentials logo sweatpants@olx:ua": [
+   35.7
+  ],
+  "fear god essentials jet@olx:ua": [
+   126.0
+  ],
+  "essentials sweatpants essentials fear@olx:ua": [
+   23.1
+  ],
+  "fear god essrntials reflective@olx:ua": [
+   31.5,
+   31.5
+  ],
+  "puma essentials logo youth@olx:ua": [
+   12.6
+  ],
+  "fear god essentials tapered@olx:ua": [
+   49.4
+  ],
+  "essentials fear god washed@olx:ua": [
+   39.9
+  ],
+  "fear god essentials relaxed@olx:ua": [
+   95.6,
+   95.6
+  ],
+  "puma ess col logo@olx:ua": [
+   16.8
+  ],
+  "fog essentials pants@olx:ua": [
+   25.2
+  ],
+  "gap essentials big logo@olx:ua": [
+   25.2
+  ],
+  "adidas essentials camo print@olx:ua": [
+   15.5
+  ],
+  "essentials fear god pants@olx:ua": [
+   29.2
+  ],
+  "puma essentials tape sweatpants@olx:ua": [
+   23.1
+  ],
+  "essentials fear god sweatpants@olx:ua": [
+   50.4
+  ],
+  "fear god essentials sweatpants@olx:ua": [
+   126.0
+  ],
+  "essentials fear god wide-leg@olx:ua": [
+   8.6,
+   9.0
+  ],
+  "fear god essentials fog@olx:ua": [
+   94.5,
+   100.6,
+   123.9,
+   102.9,
+   125.8,
+   102.9,
+   125.8,
+   136.5,
+   136.5,
+   136.5
+  ],
+  "fear god essentials grey@olx:ua": [
+   115.5
+  ],
+  "adidas originals essentials trefoil@olx:ua": [
+   9.5
+  ],
+  "essentials fear god fog@olx:ua": [
+   8.4
+  ],
+  "nike big swoosh sportswear@olx:ua": [
+   14.7
+  ],
+  "adidas essentials colorblock crewneck@olx:ua": [
+   16.8
+  ],
+  "fear god essentials crewneck@olx:ua": [
+   73.1,
+   50.0,
+   39.9
+  ],
+  "fog fear god essentials@olx:ua": [
+   147.0,
+   73.5
+  ],
+  "adidas essentials 3-stripes crewneck@olx:ua": [
+   29.4
+  ],
+  "nike sport essentials glitch@olx:ua": [
+   8.4
+  ],
+  "x-mas preis fear god@willhaben": [
+   150.0
+  ],
+  "neue original fear god@willhaben": [
+   199.0
+  ],
+  "original fear god sweatpants@willhaben": [
+   199.0
+  ],
+  "essentials fear god real@subito": [
+   140.0,
+   140.0
+  ],
+  "tricou polo lacoste original@olx:ro": [
+   6.0
+  ],
+  "jackwolfskin napapijri lacoste@olx:bg": [
+   6.0
+  ],
+  "lacoste made france knit@olx:bg": [
+   75.0
+  ],
+  "lacoste made france@olx:bg": [
+   120.0
+  ],
+  "lacoste made france hoodie@olx:bg": [
+   120.2
+  ],
+  "promo lacoste michael stipe@olx:pt": [
+   100.0,
+   100.0
+  ],
+  "lacoste sweatshirt@olx:pt": [
+   90.0,
+   90.0,
+   90.0
+  ],
+  "casaco lacoste@olx:pt": [
+   90.0,
+   125.0,
+   120.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0
+  ],
+  "cla lacoste bom estado@olx:pt": [
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "vendo camisola lacoste verdadeira@olx:pt": [
+   105.0,
+   105.0,
+   105.0,
+   105.0
+  ],
+  "bolsa lacoste@olx:pt": [
+   130.0,
+   75.0,
+   80.0,
+   50.0,
+   80.0,
+   130.0,
+   80.0,
+   80.0,
+   130.0,
+   80.0,
+   130.0,
+   120.0,
+   80.0,
+   130.0,
+   80.0
+  ],
+  "sweat lacoste azul escuro@olx:pt": [
+   100.0,
+   100.0
+  ],
+  "conjunto cintos homem pele@olx:pt": [
+   180.0
+  ],
+  "headbands lacoste polar@olx:pt": [
+   3.0
+  ],
+  "conjunto lacoste@olx:pt": [
+   75.0,
+   75.0,
+   75.0
+  ],
+  "hugo boss stone island@olx:ua": [
+   285.4,
+   285.4
+  ],
+  "lacoste cotton stretch@olx:ua": [
+   27.3
+  ],
+  "lacoste 90s vintage v-neck@olx:ua": [
+   79.8,
+   79.8
+  ],
+  "molecule amethyst girl kilian@olx:ua": [
+   12.3
+  ],
+  "lacoste sport@olx:ua": [
+   18.8
+  ],
+  "upcycling flowers lacoste@olx:ua": [
+   21.0
+  ],
+  "lacoste sport vintage y2k@olx:ua": [
+   23.1
+  ],
+  "zip lacoste@olx:ua": [
+   8.4
+  ],
+  "lacoste chamise lacoste chamise@olx:ua": [
+   10.5
+  ],
+  "chemise lacoste tennis heritage@olx:ua": [
+   18.9,
+   18.9
+  ],
+  "lacoste xxl made france@olx:ua": [
+   25.2
+  ],
+  "chemise lacoste v-neck made@olx:ua": [
+   6.3
+  ],
+  "lacoste ampthill made france@olx:ua": [
+   20.9
+  ],
+  "lacoste france chemise vintage@olx:ua": [
+   73.5,
+   73.5
+  ],
+  "lacoste@olx:ua": [
+   94.5,
+   105.0,
+   325.5,
+   163.8,
+   63.0,
+   137.6,
+   58.8,
+   84.0,
+   52.5,
+   84.0,
+   64.0,
+   67.2,
+   11.2,
+   63.0,
+   52.5,
+   163.8,
+   102.9,
+   4.2,
+   11.2,
+   9.5
+  ],
+  "lacoste xxl@olx:ua": [
+   77.7,
+   52.1,
+   16.8
+  ],
+  "lacoste made france xxl@olx:ua": [
+   9.5
+  ],
+  "lacoste motion unisex rk4849-x5e@olx:ua": [
+   21.0
+  ],
+  "lacoste made france@olx:ua": [
+   10.5,
+   52.5,
+   16.8,
+   9.5,
+   21.0
+  ],
+  "lacoste made france xxxl@olx:ua": [
+   21.0
+  ],
+  "lacoste lacoste original@olx:ua": [
+   18.0
+  ],
+  "lacoste made france m-l@olx:ua": [
+   6.9
+  ],
+  "lacoste vintage bomber made@olx:ua": [
+   29.4,
+   29.4
+  ],
+  "chemise lacoste made france@olx:ua": [
+   18.9,
+   30.5,
+   21.0,
+   30.5,
+   18.9,
+   21.0,
+   31.5,
+   38.9,
+   33.6
+  ],
+  "lacoste chemise made france@olx:ua": [
+   31.5,
+   12.4
+  ],
+  "lacoste original@olx:ua": [
+   3.8
+  ],
+  "vintage lacoste top lady@willhaben": [
+   80.0
+  ],
+  "vintage lacoste made france@willhaben": [
+   109.0
+  ],
+  "vintage bomberjacke aus den@willhaben": [
+   140.0
+  ],
+  "vintage lacoste pullover chemise@willhaben": [
+   110.0,
+   110.0
+  ],
+  "lacoste gold pilot vintage@willhaben": [
+   80.0
+  ],
+  "cardigan vintage chemise lacoste@subito": [
+   75.0
+  ],
+  "lacoste vintage maglione uomo@subito": [
+   130.0
+  ],
+  "tuta completa chemise lacoste@subito": [
+   130.0
+  ],
+  "lacoste uomo vintage anni@subito": [
+   120.0
+  ],
+  "alo airbrush heart throb@olx:bg": [
+   129.0
+  ],
+  "alo yoga set airbrush@olx:bg": [
+   160.0
+  ],
+  "alo yoga airbrush azure@olx:ua": [
+   154.4
+  ],
+  "alo yoga airbrush high-waist@olx:ua": [
+   94.5
+  ],
+  "alo yoga better together@olx:ua": [
+   98.7
+  ],
+  "aloyoga airbrush heart throb@olx:ua": [
+   63.2
+  ],
+  "aloyoga airbrush high-waist heart@olx:ua": [
+   96.6,
+   94.5,
+   96.6,
+   94.5
+  ],
+  "alo yoga airbrush splendor@olx:ua": [
+   102.9
+  ],
+  "alo yoga airbrush sparks@olx:ua": [
+   134.4
+  ],
+  "alo yoga airbrush heart@olx:ua": [
+   144.9,
+   79.8
+  ],
+  "alo yoga@olx:ua": [
+   8.0,
+   65.1,
+   207.9,
+   63.0,
+   65.1
+  ],
+  "alo airbrush legging@willhaben": [
+   140.0
+  ],
+  "alo yoga accolade full@olx:ua": [
+   121.8
+  ],
+  "alo yoga hoodie@olx:ua": [
+   84.0
+  ],
+  "alo yoga muse suit@olx:ua": [
+   99.8
+  ],
+  "alo yoga accolade zip@olx:ua": [
+   105.0
+  ],
+  "alo pullover mit kaputze@willhaben": [
+   100.0
+  ],
+  "alo yoga 3-teiliges set@willhaben": [
+   110.0
+  ],
+  "maglione hoodie alo@subito": [
+   170.0
+  ],
+  "pantaloni adidas wales bonner@olx:ro": [
+   109.8
+  ],
+  "adidas wales bonner@olx:ro": [
+   190.0
+  ],
+  "adidas wales bonner samba@olx:bg": [
+   115.0,
+   115.0
+  ],
+  "sapatilhas adidas ozweego@olx:pt": [
+   80.0
+  ],
+  "adidas adizero prime strung@olx:pt": [
+   115.0
+  ],
+  "sapatilhas adidas wales bonner@olx:pt": [
+   86.0
+  ],
+  "adidas wales bonner pony@olx:pt": [
+   190.0
+  ],
+  "adidas wensley@olx:pt": [
+   120.0
+  ],
+  "sapatilhas adidas yeezy boost@olx:pt": [
+   300.0
+  ],
+  "nis adidas gazelle bold@olx:pt": [
+   55.0
+  ],
+  "adidas adistar repetitor@olx:pt": [
+   85.0
+  ],
+  "adidas adistar byd lightstrike@olx:pt": [
+   85.0
+  ],
+  "adidas samba wales bonner@olx:pt": [
+   85.0
+  ],
+  "adidas wales bonner@olx:ua": [
+   220.5
+  ],
+  "adidas samba pony wales@olx:ua": [
+   46.2
+  ],
+  "adidas originals wales bonner@olx:ua": [
+   105.0,
+   105.0
+  ],
+  "37-41 adidas wales bonner@olx:ua": [
+   26.2
+  ],
+  "adidas samba millennium wales@olx:ua": [
+   105.0
+  ],
+  "adidas samba wales bonner@olx:ua": [
+   9.5
+  ],
+  "adidas samba super low@olx:ua": [
+   31.0
+  ],
+  "adidas wales bonner samba@olx:ua": [
+   315.0
+  ],
+  "adidas wales bonner japan@olx:ua": [
+   67.2
+  ],
+  "adidas wales bonner@olx:kz": [
+   374.0
+  ],
+  "adidas pullunder wales bonner@willhaben": [
+   110.0
+  ],
+  "neu adidas wales bonner@willhaben": [
+   160.0
+  ],
+  "adidas wales bonner samba@willhaben": [
+   600.0
+  ],
+  "wales bonner adidas@willhaben": [
+   80.0
+  ],
+  "adidas wales bonner@willhaben": [
+   200.0
+  ],
+  "adidas originals wales bonner@willhaben": [
+   120.0
+  ],
+  "adidas wales bonner sl72@willhaben": [
+   115.0
+  ],
+  "adidas samba@willhaben": [
+   91.0
+  ],
+  "adidas gazelle wales bonner@subito": [
+   250.0
+  ],
+  "wales bonner adidas originals@subito": [
+   80.0,
+   79.0,
+   75.0,
+   80.0
+  ],
+  "adidas samba wales bonner@subito": [
+   280.0,
+   300.0,
+   220.0
+  ],
+  "wales bonner adidas samba@subito": [
+   85.0
+  ],
+  "adidas wales bonner leopard@subito": [
+   200.0
+  ],
+  "adidas sportswear house tiro@olx:bg": [
+   75.0
+  ],
+  "adidas ajax tiro track@olx:bg": [
+   90.0
+  ],
+  "adidas tiro sports jacket@olx:ua": [
+   31.5
+  ],
+  "adidas tiro15 swt top@olx:ua": [
+   18.5
+  ],
+  "adidas tiro warm top@olx:ua": [
+   14.7
+  ],
+  "adidas jamaica bob marley@olx:ua": [
+   25.2
+  ],
+  "adidas tiro training pants@olx:ua": [
+   16.8,
+   39.9,
+   16.8,
+   39.9
+  ],
+  "adidas celtic tiro training@olx:ua": [
+   8.4,
+   8.4
+  ],
+  "adidas adidas tiro training@olx:ua": [
+   6.3,
+   6.3
+  ],
+  "adidas tiro all weather@olx:ua": [
+   13.7
+  ],
+  "adidas tiro training jacket@olx:ua": [
+   8.4,
+   8.4
+  ],
+  "adidas tiro training top@subito": [
+   10.0,
+   10.0
+  ],
+  "ghete baschet curry mouthguard@olx:ro": [
+   99.8
+  ],
+  "under armour curry low@olx:ua": [
+   3.2
+  ],
+  "under armour curry flotro@olx:ua": [
+   126.0,
+   63.0
+  ],
+  "under armour steph curry@olx:ua": [
+   16.8
+  ],
+  "under armour curry champ@olx:ua": [
+   13.7
+  ],
+  "under armour curry@olx:ua": [
+   26.5,
+   50.4,
+   10.5
+  ],
+  "curry@olx:kz": [
+   107.1
+  ],
+  "under armour curry flow@willhaben": [
+   115.0
+  ],
+  "casaco nike cinza branco@olx:pt": [
+   0.0
+  ],
+  "nike nocta@olx:pt": [
+   110.0
+  ],
+  "casaco nike adolescente 12-14@olx:pt": [
+   20.0
+  ],
+  "nike lunar air force@olx:pt": [
+   110.0
+  ],
+  "casaco nike bom estado@olx:pt": [
+   10.0,
+   10.0
+  ],
+  "sapatilhas nike revolution@olx:pt": [
+   10.0
+  ],
+  "sapatilhas nike com caixa@olx:pt": [
+   20.0
+  ],
+  "casaco novo amarelo nike@olx:pt": [
+   90.0
+  ],
+  "casaco cinzento nike@olx:pt": [
+   10.0
+  ],
+  "giacca nike psg vintage@subito": [
+   65.0
+  ],
+  "giacca nike@subito": [
+   120.0,
+   25.0
+  ],
+  "giacca antivento nike@subito": [
+   20.0
+  ],
+  "giacca vento nike taglia@subito": [
+   27.0
+  ],
+  "giubbotto nike@subito": [
+   80.0
+  ],
+  "giacca invernale nike ragazzo@subito": [
+   50.0
+  ],
+  "tuta nike tech@subito": [
+   79.0,
+   79.0
+  ],
+  "giacca nike ragazzo@subito": [
+   25.0
+  ],
+  "tuta completa nike siviglia@subito": [
+   80.0
+  ],
+  "giacca piumino nike uomo@subito": [
+   90.0
+  ],
+  "giacca nike cappuccio uomo@subito": [
+   95.0
   ]
  },
  "ph": [
-  [
-   9181501940961373983,
-   69.30000000000001,
-   "olx:ua:890804885"
-  ],
-  [
-   8102223996073070672,
-   59.85,
-   "olx:ua:933821047"
-  ],
-  [
-   18224947319944972571,
-   50.0,
-   "subito:id:ad:649a5932-3231-470d-8080-591f4bbfdc54:list:663348035"
-  ],
-  [
-   3472963374195451402,
-   56.0,
-   "olx:ro:264296155"
-  ],
-  [
-   318466168947560464,
-   30.0,
-   "olx:ro:309792712"
-  ],
-  [
-   7522123824931577500,
-   50.0,
-   "olx:ro:310488587"
-  ],
-  [
-   2249353464993759039,
-   40.0,
-   "subito:id:ad:9dabf9eb-7f80-4336-ad84-b71da0c77d38:list:653555966"
-  ],
-  [
-   8572682106539345903,
-   55.0,
-   "olx:pt:673024057"
-  ],
-  [
-   5316984464711575394,
-   40.0,
-   "olx:pt:664077086"
-  ],
   [
    1398583758949192467,
    50.0,
@@ -71901,6 +72148,51 @@
    7514472362151812340,
    25.0,
    "olx:pt:674023426"
+  ],
+  [
+   7052849105787469888,
+   50.379000000000005,
+   "olx:ua:939610880"
+  ],
+  [
+   1926054764880766883,
+   31.479000000000003,
+   "olx:ua:938740009"
+  ],
+  [
+   5616112347926277220,
+   46.2,
+   "olx:ua:939610409"
+  ],
+  [
+   16996187617275351916,
+   55.0,
+   "olx:pt:673871367"
+  ],
+  [
+   8714699290068422272,
+   20.0,
+   "olx:pt:673907860"
+  ],
+  [
+   16041716105064995824,
+   20.0,
+   "olx:pt:656539424"
+  ],
+  [
+   17487729024286649586,
+   65.0,
+   "subito:id:ad:95f07b82-8240-4fbd-85c3-19d0ea84d2da:list:666735652"
+  ],
+  [
+   13416280399619889456,
+   25.0,
+   "subito:id:ad:39c9d7ce-ef49-4f8d-a7a9-676e6c38ddfa:list:666729650"
+  ],
+  [
+   77462590945624353,
+   20.0,
+   "subito:id:ad:5e94b507-90bf-4d2f-9d01-9621780c7237:list:658833145"
   ]
  ],
  "week": [
