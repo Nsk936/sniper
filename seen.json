@@ -1,5 +1,13 @@
 {
  "seen": {
+  "subito:id:ad:33f7e8eb-22bb-420f-84eb-9835a2f50477:list:655623897": 1794870087,
+  "olx:ua:941164147": 1794870084,
+  "olx:pt:670883874": 1794870081,
+  "olx:pt:674279459": 1794870078,
+  "olx:ua:881872444": 1794870076,
+  "olx:ua:922611461": 1794870074,
+  "olx:ua:881666725": 1794870071,
+  "olx:pt:673672533": 1794870069,
   "vinted:7398323654": 1794869791,
   "vinted:10840343151": 1794869789,
   "vinted:10787446481": 1794869786,
@@ -19991,15 +19999,7 @@
   "ebay:us:v1|287728342385|0": 1794650694,
   "ebay:us:v1|168861379261|0": 1794650693,
   "ebay:it:v1|198793998377|0": 1794650691,
-  "ebay:gb:v1|198793998377|0": 1794650691,
-  "willhaben:1727828700": 1794650690,
-  "ebay:de:v1|900088540087|0": 1794650690,
-  "ebay:fr:v1|840084855040|0": 1794650688,
-  "olx:ua:937821955": 1794650687,
-  "ebay:us:v1|267843251922|0": 1794650685,
-  "ebay:gb:v1|227613859361|0": 1794650683,
-  "ebay:it:v1|880115905906|0": 1794650682,
-  "ebay:fr:v1|407312956521|0": 1794650680
+  "ebay:gb:v1|198793998377|0": 1794650691
  },
  "initialized": [
   "2dehands|1352029-001",
@@ -26346,7 +26346,17 @@
  ],
  "cooldown": {
   "vinted:fr": 1794870864.4292681,
-  "vinted:ie": 1794870864.4292681
+  "vinted:ie": 1794870864.4292681,
+  "ebay:fr": 1794872599.850771,
+  "ebay:de": 1794872599.850771,
+  "ebayend:fr": 1794872599.850771,
+  "ebayend:de": 1794872599.850771,
+  "ebayend:gb": 1794872599.850771,
+  "ebayend:it": 1794872599.850771,
+  "ebayend:es": 1794872599.850771,
+  "ebay:it": 1794872599.850771,
+  "ebay:gb": 1794872599.850771,
+  "ebay:us": 1794872599.850771
  },
  "rot": {
   "vinted": 18
@@ -26364,67 +26374,59 @@
   "vinted:com": 1794869355.153457,
   "vinted:gr": 1794869355.153457,
   "vinted:ie": 1794868164.4292681,
-  "ebay:fr": 1794866903.894659,
-  "ebay:de": 1794866903.894659,
-  "ebay:it": 1794866903.894659,
-  "ebay:gb": 1794866903.894659,
-  "ebay:us": 1794866903.894659,
+  "ebay:fr": 1794869899.850771,
+  "ebay:de": 1794869899.850771,
+  "ebay:it": 1794869899.850771,
+  "ebay:gb": 1794869899.850771,
+  "ebay:us": 1794869899.850771,
   "olx:pl": 1792757224.1069632,
-  "olx:ro": 1794869355.153457,
-  "olx:bg": 1794869355.153457,
-  "olx:pt": 1794869355.153457,
-  "olx:ua": 1794869355.153457,
-  "olx:kz": 1794869355.153457,
+  "olx:ro": 1794869899.850771,
+  "olx:bg": 1794869899.850771,
+  "olx:pt": 1794869899.850771,
+  "olx:ua": 1794869899.850771,
+  "olx:kz": 1794869899.850771,
   "marktplaats": 1792757224.1069632,
   "2dehands": 1792757224.1069632,
   "2ememain": 1792757224.1069632,
-  "willhaben": 1794869355.153457,
-  "bazos:cz": 1794869355.153457,
-  "bazos:sk": 1794869355.153457,
-  "subito": 1794869355.153457,
-  "ebayend:fr": 1794866903.894659,
-  "ebayend:de": 1794866903.894659,
-  "ebayend:gb": 1794866903.894659,
-  "ebayend:it": 1794866903.894659,
-  "ebayend:es": 1794866903.894659
+  "willhaben": 1794869899.850771,
+  "bazos:cz": 1794869899.850771,
+  "bazos:sk": 1794869899.850771,
+  "subito": 1794869899.850771,
+  "ebayend:fr": 1794869899.850771,
+  "ebayend:de": 1794869899.850771,
+  "ebayend:gb": 1794869899.850771,
+  "ebayend:it": 1794869899.850771,
+  "ebayend:es": 1794869899.850771
  },
  "qrot": {
   "vinted:fr": 236,
-  "vinted:pl": 80,
-  "vinted:lt": 126,
-  "vinted:fi": 98,
-  "vinted:co.uk": 42,
-  "vinted:com": 154,
-  "vinted:gr": 28,
+  "vinted:pl": 94,
+  "vinted:lt": 140,
+  "vinted:fi": 112,
+  "vinted:co.uk": 56,
+  "vinted:com": 168,
+  "vinted:gr": 42,
   "vinted:ie": 56,
-  "ebay:fr": 50,
-  "ebay:de": 50,
-  "ebay:it": 30,
-  "ebay:gb": 30,
-  "ebay:us": 55,
+  "ebay:fr": 70,
+  "ebay:de": 70,
+  "ebay:it": 50,
+  "ebay:gb": 50,
+  "ebay:us": 75,
   "olx:pl": 190,
-  "olx:ro": 242,
-  "olx:bg": 242,
-  "olx:pt": 242,
-  "olx:ua": 242,
-  "olx:kz": 242,
+  "olx:ro": 272,
+  "olx:bg": 272,
+  "olx:pt": 272,
+  "olx:ua": 272,
+  "olx:kz": 272,
   "marktplaats": 190,
   "2dehands": 190,
   "2ememain": 190,
-  "willhaben": 242,
-  "bazos:cz": 242,
-  "bazos:sk": 242,
-  "subito": 242
+  "willhaben": 272,
+  "bazos:cz": 272,
+  "bazos:sk": 272,
+  "subito": 272
  },
  "pl": {
-  "vinted:10832865099": 45.38,
-  "olx:ro:311985980": 64.0,
-  "olx:ro:311984779": 56.0,
-  "olx:ro:311857682": 42.0,
-  "willhaben:996272482": 15.0,
-  "olx:bg:148565876": 30.0,
-  "vinted:10796171894": 43.043,
-  "vinted:10518079548": 29.497999999999998,
   "olx:bg:149816848": 25.0,
   "vinted:10098914851": 27.821649999999998,
   "vinted:9584129466": 38.377849999999995,
@@ -31416,16 +31418,17 @@
   "vinted:10844852365": 18.662,
   "vinted:10787446481": 24.55,
   "vinted:10840343151": 21.3325,
-  "vinted:7398323654": 30.09
+  "vinted:7398323654": 30.09,
+  "olx:pt:673672533": 50.0,
+  "olx:ua:881666725": 63.00000000000001,
+  "olx:ua:922611461": 62.790000000000006,
+  "olx:ua:881872444": 38.85,
+  "olx:pt:674279459": 24.99,
+  "olx:pt:670883874": 30.0,
+  "olx:ua:941164147": 86.10000000000001,
+  "subito:id:ad:33f7e8eb-22bb-420f-84eb-9835a2f50477:list:655623897": 70.0
  },
  "fp": {
-  "czarnakurtkanikeshieldzkapturemxl158170c|15": "vinted:10834880581",
-  "nikewindbreakerjacket|55": "vinted:10833122346",
-  "nikedrifitmensrunningjacketoslobislettga|19": "vinted:10825171627",
-  "hanoracpolopilefleecehoodie|50": "vinted:10835061086",
-  "ralphlaurenwoolshirt|30": "vinted:10834892497",
-  "pantalonicatifearaiatamaroinchis|40": "vinted:10834513744",
-  "tnissapatilhasnikeshoxturbo|45": "olx:pt:641832038",
   "nike|59": "olx:ua:940790820",
   "polobyralphlaurenstripedbigponypoloshirt|14": "vinted:10778147951",
   "sapatosdenikeparatreinos|30": "olx:pt:670136740",
@@ -36157,7 +36160,7 @@
   "salenikejordan1lowxtravisscottxguccixsup|63": "olx:ua:922613564",
   "stoneislandxsupreme|73": "olx:ua:929244325",
   "camisolaunderarmour|35": "olx:pt:668767710",
-  "stoneisland|86": "olx:ua:941163133",
+  "stoneisland|86": "olx:ua:941164147",
   "stoneisland|16": "olx:ua:937972369",
   "nikestormfit|63": "olx:ua:940527617",
   "nikestormfitgreyxsxl|37": "olx:ua:938960367",
@@ -36418,986 +36421,17 @@
   "vintagepoloralphlaurencustomfitbuttondow|19": "vinted:10844852365",
   "poloralphlaurennavybluecottonshirtunisex|25": "vinted:10787446481",
   "fearofgodessentialstracksuitbottoms|21": "vinted:10840343151",
-  "underarmour|30": "vinted:7398323654"
+  "underarmour|30": "vinted:7398323654",
+  "fatodetreinodanikecompletocasacoecalas|50": "olx:pt:673672533",
+  "nikexcactusjackbytravisscottpants|63": "olx:ua:881666725",
+  "salenikeairjordanxtravisscottxsupremegre|63": "olx:ua:922611461",
+  "nikextravisscottmens|39": "olx:ua:881872444",
+  "camisolasstoneisland|25": "olx:pt:674279459",
+  "underarmoursapatilhas|30": "olx:pt:670883874",
+  "golfabbigliamentocompletoinvernounderarm|70": "subito:id:ad:33f7e8eb-22bb-420f-84eb-9835a2f50477:list:655623897"
  },
  "digest": [],
  "prices": {
-  "under armour t-shirt koszulka": [
-   41.7
-  ],
-  "vanish breeze tank top": [
-   36.9
-  ],
-  "top sportowy under armour": [
-   22.4
-  ],
-  "podkoszulek under armour vanish": [
-   7.9
-  ],
-  "under armour bluzka sportowa": [
-   34.2
-  ],
-  "koszulka under armour threadborne": [
-   19.8
-  ],
-  "legginsy under armor vanish": [
-   7.9
-  ],
-  "indend rssko": [
-   14.9
-  ],
-  "t-shirt under armour steph": [
-   20.0
-  ],
-  "curry spawn flotro": [
-   79.5
-  ],
-  "nowa bluza under armour": [
-   36.9
-  ],
-  "koszulka under armour stephen": [
-   6.5,
-   6.5
-  ],
-  "spodenki nba golden state": [
-   10.8
-  ],
-  "curry flow": [
-   32.7
-  ],
-  "under armour curry aqua": [
-   17.9
-  ],
-  "ett par curry 12or": [
-   77.2
-  ],
-  "under armour girl dad": [
-   26.9
-  ],
-  "under amour curry mane": [
-   43.3
-  ],
-  "under armour stephen curry": [
-   3.9
-  ],
-  "under armour curry koripallokeng": [
-   32.2
-  ],
-  "curry flotro krep inio": [
-   21.7
-  ],
-  "nowe under armour curry": [
-   68.2
-  ],
-  "curry low flotro": [
-   94.5
-  ],
-  "curry bang bang": [
-   22.4
-  ],
-  "curry under armour rozmiar": [
-   104.4
-  ],
-  "bluza kurtka under armour": [
-   18.8
-  ],
-  "under armour curry unisex": [
-   36.9
-  ],
-  "under armour curry playable": [
-   22.4
-  ],
-  "under armour koszulka steph": [
-   36.6
-  ],
-  "curry sesame street": [
-   39.0
-  ],
-  "under armour curry low": [
-   87.5,
-   27.2,
-   8.1
-  ],
-  "under armour curry flotro": [
-   73.0
-  ],
-  "curry splash sde": [
-   24.8
-  ],
-  "under armour curry champions": [
-   36.6
-  ],
-  "under armour curry brand": [
-   24.8,
-   9.3
-  ],
-  "sportowy tank top under": [
-   3.4
-  ],
-  "hoddie curry": [
-   19.8
-  ],
-  "curry sportssko": [
-   50.5
-  ],
-  "pojemny plecak koszykarski under": [
-   24.6
-  ],
-  "bluza curry cookie monster": [
-   12.8
-  ],
-  "under armour curry": [
-   55.9,
-   94.5,
-   21.7,
-   12.8,
-   61.0,
-   8.3,
-   97.2
-  ],
-  "bluza under armour stephen": [
-   48.9
-  ],
-  "t-shirt under armour": [
-   6.0
-  ],
-  "under armour swag y2k": [
-   7.4
-  ],
-  "geaca nike neagr": [
-   22.0
-  ],
-  "vand geaca nike groasa": [
-   100.0
-  ],
-  "geaca nike sportswear synthetic": [
-   70.0
-  ],
-  "geaca nike barbat": [
-   40.0
-  ],
-  "geaca nike dinamo": [
-   100.0
-  ],
-  "geaca sport nike": [
-   27.0
-  ],
-  "geaca nike puf": [
-   25.8
-  ],
-  "geaca nike vintige": [
-   14.0
-  ],
-  "geac nike drake nocta": [
-   110.0
-  ],
-  "bluza geaca nike fas": [
-   14.0
-  ],
-  "geaca nike storm-fit windrunner": [
-   100.0,
-   100.0
-  ],
-  "geaca nike air max": [
-   80.0,
-   80.0
-  ],
-  "geaca copii calitativa super": [
-   40.0
-  ],
-  "geaca nike sportswear": [
-   50.0
-  ],
-  "geaca polo ralph lauren": [
-   99.8,
-   110.0,
-   97.8,
-   78.0,
-   99.8,
-   170.0,
-   79.8,
-   79.8,
-   99.8,
-   80.0,
-   80.0,
-   80.0,
-   100.0,
-   79.8,
-   120.0,
-   180.0,
-   90.0,
-   90.0,
-   90.0,
-   78.0,
-   97.8,
-   99.8,
-   89.8,
-   89.8,
-   220.0,
-   131.8,
-   54.3,
-   99.8
-  ],
-  "geaca puf nike": [
-   70.0,
-   40.0
-  ],
-  "costum snowboard geaca burton": [
-   300.0
-  ],
-  "geac nike rimea": [
-   90.0
-  ],
-  "vand geaca nike": [
-   200.0
-  ],
-  "fato treino nike completo": [
-   50.0
-  ],
-  "casaco desporto nike vermelho": [
-   20.0
-  ],
-  "casaco nike original como": [
-   49.0
-  ],
-  "casaco nike mulher": [
-   75.0
-  ],
-  "hoddie com per nike": [
-   35.0
-  ],
-  "blus imperme vel nike": [
-   10.0
-  ],
-  "casaco nike sporting": [
-   50.0
-  ],
-  "fato treino nike para": [
-   25.0
-  ],
-  "casaco infantil nike lil": [
-   20.0
-  ],
-  "kispo senhora novo nike": [
-   100.0
-  ],
-  "blus nike vintage": [
-   48.0
-  ],
-  "casaco nike novo": [
-   40.0
-  ],
-  "nike acg polar casaco": [
-   140.0
-  ],
-  "casaco nike- tam": [
-   8.0
-  ],
-  "camisola nike premier": [
-   120.0
-  ],
-  "nike nocta blus": [
-   99.0,
-   99.0,
-   99.0,
-   99.0
-  ],
-  "nis nike tamanho": [
-   50.0
-  ],
-  "nike sportswear rosa": [
-   75.0
-  ],
-  "nis nike excelente estado": [
-   5.0
-  ],
-  "nis nike usados poucas": [
-   30.0
-  ],
-  "sapatilhas nike usadas": [
-   10.0
-  ],
-  "nike casaco": [
-   6.3
-  ],
-  "nike fleece": [
-   102.3
-  ],
-  "nike club puffer jkt": [
-   115.5
-  ],
-  "nike synclssc jkt": [
-   151.2
-  ],
-  "nike midweight vest fb8201-011": [
-   73.5
-  ],
-  "nike acdpr 2in1 sdf": [
-   100.8
-  ],
-  "nike syn clssc jkt": [
-   121.8
-  ],
-  "nike park26 fall jkt": [
-   99.0
-  ],
-  "sweatshirt bege nike": [
-   8.0
-  ],
-  "original nike aero swift": [
-   7.0
-  ],
-  "nike aeroswift storm-fit adv": [
-   175.0
-  ],
-  "under armour tech hybrid": [
-   4.6
-  ],
-  "columbia titanium powder keg": [
-   200.0
-  ],
-  "costum ski columbia titanium": [
-   280.0
-  ],
-  "geaca originala columbia titanium": [
-   120.0
-  ],
-  "jacheta columbia titanium rba": [
-   180.0
-  ],
-  "geac columbia titanium roaring": [
-   103.6,
-   100.0
-  ],
-  "bocanci columbia titanium daska": [
-   90.0
-  ],
-  "geac ski schi columbia": [
-   170.0
-  ],
-  "columbia titanium omni shield": [
-   115.0
-  ],
-  "columbia titanium tennent mountain": [
-   105.0
-  ],
-  "columbia usa titanium roaring": [
-   270.9
-  ],
-  "columbia titanium omni-heat": [
-   8.4
-  ],
-  "columbia titanium omni-tech jacket": [
-   110.2,
-   110.2
-  ],
-  "columbia roaring fork titanium": [
-   270.5
-  ],
-  "columbia titanium arctic crest": [
-   84.0
-  ],
-  "columbia titanium usa silver": [
-   168.0
-  ],
-  "columbia 2xl highland summit": [
-   119.7
-  ],
-  "columbia titanium": [
-   11.8,
-   120.0,
-   76.7,
-   100.0,
-   10.5,
-   11.3,
-   147.0,
-   10.5
-  ],
-  "columbia titanium silver leaf": [
-   126.0
-  ],
-  "columbia titanium jacke": [
-   9.0
-  ],
-  "skihose und jacke columbia": [
-   250.0
-  ],
-  "columbia titanium skihose schwarz": [
-   10.0
-  ],
-  "skijacke columbia titanium": [
-   120.0
-  ],
-  "kurze leichte hose von": [
-   10.0
-  ],
-  "columbia titanium omni-dry herren": [
-   10.0
-  ],
-  "columbia titanium rucksack": [
-   75.0
-  ],
-  "columbia titanium outdry regen": [
-   110.0,
-   110.0
-  ],
-  "msk sportovn bunda columbia": [
-   6.2
-  ],
-  "columbia titanium msk softshell": [
-   11.1
-  ],
-  "mska perov bunda columbia": [
-   130.0
-  ],
-  "tuta columbia titanium": [
-   220.0
-  ],
-  "giacca sci snowboard columbia": [
-   95.0
-  ],
-  "giacca neve columbia titanium": [
-   90.0
-  ],
-  "giacca columbia titanium uomo": [
-   75.0
-  ],
-  "giacca columbia titanium": [
-   100.0
-  ],
-  "tops running nike": [
-   10.0,
-   10.0
-  ],
-  "nike dunk low what": [
-   510.0
-  ],
-  "nike air force grey": [
-   90.0
-  ],
-  "nike blazer off white": [
-   110.0
-  ],
-  "nike air max navy": [
-   153.4
-  ],
-  "silicone nike apple watch": [
-   8.0
-  ],
-  "nike air force white": [
-   80.0
-  ],
-  "nike air bakin supreme": [
-   120.0
-  ],
-  "nike shox white": [
-   120.0
-  ],
-  "sapatos nike court vision": [
-   10.0
-  ],
-  "nike dunk retro white": [
-   105.0
-  ],
-  "nike air jordan low": [
-   389.2,
-   90.0
-  ],
-  "nis nike air max": [
-   75.0
-  ],
-  "cal vintage nike originais": [
-   10.0
-  ],
-  "nike vandals vintage sapatos": [
-   5.0
-  ],
-  "nike running vintage preto": [
-   10.0
-  ],
-  "nike 80-90s vintage zip": [
-   96.6
-  ],
-  "nike vintage 90s": [
-   84.0
-  ],
-  "nike vintage 90s lacoste": [
-   11.6
-  ],
-  "helly hansen 90s vintage": [
-   84.0
-  ],
-  "nike sportswear swoosh": [
-   11.6
-  ],
-  "nike 90s vintage": [
-   71.4
-  ],
-  "nike": [
-   9.1,
-   20.6,
-   53.2,
-   73.1,
-   63.0,
-   58.8,
-   42.0,
-   31.5,
-   63.0,
-   49.0,
-   62.6,
-   10.2,
-   55.0,
-   55.0,
-   9.3,
-   6.3,
-   76.7,
-   8.4
-  ],
-  "nike jordan retro high": [
-   190.0
-  ],
-  "nike air jordan red": [
-   140.0
-  ],
-  "nike off white blazer": [
-   685.0
-  ],
-  "nike blazer off-white": [
-   390.0
-  ],
-  "nike dunk low next": [
-   80.0,
-   80.0
-  ],
-  "x-mas preis nike air": [
-   150.0,
-   200.0
-  ],
-  "nike air jordan white": [
-   200.0
-  ],
-  "nike vintage 90s puffer": [
-   90.0
-  ],
-  "rare vintage nike air": [
-   80.0
-  ],
-  "vintage nike air jordan": [
-   75.0
-  ],
-  "vtg 90s nike hoodie": [
-   85.0
-  ],
-  "nike trainingsanzug set late": [
-   100.0
-  ],
-  "nike challenge court shirt": [
-   220.0
-  ],
-  "vintage nike hose": [
-   8.0
-  ],
-  "nike tennessee volunteers vols": [
-   110.0
-  ],
-  "ungetragenes original aus den": [
-   400.0
-  ],
-  "nike air vapormax flyknit": [
-   122.6
-  ],
-  "nike blazer mid white": [
-   90.2
-  ],
-  "nike blazer mid vintage": [
-   77.9
-  ],
-  "nike air vapormax plus": [
-   122.6
-  ],
-  "nike jordan alaska numero": [
-   230.0
-  ],
-  "nuove mai indossate nike": [
-   80.0
-  ],
-  "nike air force con": [
-   99.0
-  ],
-  "nike mercurial superfly cr7": [
-   350.0
-  ],
-  "nike vapormax off-white black": [
-   300.0
-  ],
-  "nike mid white lobster": [
-   120.0
-  ],
-  "nike off-white dunk low": [
-   150.0,
-   270.0
-  ],
-  "nike dunk": [
-   20.0,
-   20.0,
-   120.0
-  ],
-  "jordan vintage nike swingman": [
-   300.0
-  ],
-  "rare vintage 90s nike": [
-   269.0
-  ],
-  "polo nike vintage andre": [
-   200.0,
-   200.0
-  ],
-  "vintage nike ronaldo 90s": [
-   100.0
-  ],
-  "t-shirt nike vintage": [
-   4.0
-  ],
-  "t-shirt nike pippen aop": [
-   150.0
-  ],
-  "stone island david vintage": [
-   130.0
-  ],
-  "stone island membrana ss21": [
-   252.0
-  ],
-  "stone island membrana": [
-   141.3
-  ],
-  "stone island membrana hooded": [
-   304.5
-  ],
-  "stone island v0029": [
-   945.0
-  ],
-  "stone island david-tc navy": [
-   336.0
-  ],
-  "stone island david jersey-tc": [
-   159.6
-  ],
-  "reserviert winterjacke stone island": [
-   280.0
-  ],
-  "stone island jacke xxl": [
-   525.0
-  ],
-  "stone island david mantel": [
-   359.0
-  ],
-  "stone island jacke david-tc": [
-   279.0
-  ],
-  "stone island david navy": [
-   420.0
-  ],
-  "stone island jacke": [
-   320.0,
-   760.0,
-   1380.0
-  ],
-  "stone island performance cotton": [
-   550.0
-  ],
-  "stone island membrana jacket": [
-   150.0,
-   290.0
-  ],
-  "stone island david-tc down": [
-   271.2,
-   630.0,
-   750.0
-  ],
-  "giacca stone island bianca": [
-   480.0
-  ],
-  "stone island david-tc primaloft": [
-   450.0
-  ],
-  "giacca stone island david": [
-   500.0
-  ],
-  "trench parka stone island": [
-   310.0
-  ],
-  "stone island david giubbotto": [
-   580.0
-  ],
-  "stone island david-tc trench": [
-   350.0
-  ],
-  "stone island giacca david": [
-   398.0
-  ],
-  "stone island david": [
-   500.0
-  ],
-  "stone island david light-tc": [
-   700.0,
-   890.0
-  ],
-  "giaccone stone island": [
-   900.0,
-   300.0
-  ],
-  "giaccone stone island uomo": [
-   350.0
-  ],
-  "stone island ice nylon": [
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0
-  ],
-  "hoodies stone island": [
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0
-  ],
-  "sweat stone island": [
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   45.0
-  ],
-  "sweat hoddie stone island": [
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0
-  ],
-  "stone island marina italy": [
-   100.8
-  ],
-  "stone island big logo": [
-   79.8
-  ],
-  "giacca stone island shell": [
-   75.0
-  ],
-  "t-shirt stone island marina": [
-   89.0
-  ],
-  "giacca giaccone stone island": [
-   150.0
-  ],
-  "polo polo ralph lauren": [
-   10.0,
-   10.0,
-   10.0,
-   10.0
-  ],
-  "polo ralph lauren original": [
-   11.2,
-   100.0
-  ],
-  "blugi reworked polo ralph": [
-   93.8
-  ],
-  "tricou polo barbati ralph": [
-   10.0
-  ],
-  "polo ralph lauren barbati": [
-   12.0
-  ],
-  "polo ralph lauren rba": [
-   13.0
-  ],
-  "polo ralph lauren pique": [
-   90.5
-  ],
-  "polo ralph lauren cotton": [
-   80.3,
-   86.4,
-   75.2
-  ],
-  "vendo camisas polo ralph": [
-   7.0
-  ],
-  "polo ralph lauren s-xxl": [
-   14.7
-  ],
-  "ralph lauren polo custom": [
-   11.6
-  ],
-  "polo ralph lauren hugo": [
-   8.8
-  ],
-  "ralph lauren polo shirt-": [
-   8.0
-  ],
-  "ralph lauren poloshirt": [
-   12.0,
-   10.0
-  ],
-  "polo ralph lauren poloshirt": [
-   32.2,
-   80.0
-  ],
-  "polo ralph lauren leinenhemd": [
-   95.0
-  ],
-  "polo ralph lauren langarmhemd": [
-   100.0
-  ],
-  "nov ralph lauren polo": [
-   82.0
-  ],
-  "ralph lauren tri": [
-   120.0
-  ],
-  "polo uomo rugby ralph": [
-   80.0,
-   80.0
-  ],
-  "lotto capi uomo ralph": [
-   75.0
-  ],
-  "polo ralph lauren taglia": [
-   75.0
-  ],
-  "polo ralph lauren lacoste": [
-   95.0
-  ],
-  "polo ralph lauren xxl": [
-   75.0
-  ],
-  "conjunto essentials fear god": [
-   73.1,
-   100.0,
-   80.0,
-   100.0,
-   80.0
-  ],
-  "lacoste tennis": [
-   86.0
-  ],
-  "supreme lacoste wool varsity": [
-   360.0
-  ],
-  "culos sol lacoste": [
-   100.0
-  ],
-  "rel gio lacoste preto": [
-   75.0
-  ],
-  "mala lacoste nova": [
-   80.0
-  ],
-  "bolsa lacoste cintura": [
-   75.0,
-   80.0
-  ],
-  "rel gio lacoste usado": [
-   10.0
-  ],
-  "relogio lacoste como novo": [
-   75.0
-  ],
-  "bolso lacoste": [
-   120.0,
-   120.0,
-   120.0
-  ],
-  "mochila marca lacoste": [
-   10.0,
-   10.0
-  ],
-  "casaco lacoste azul": [
-   85.0,
-   85.0
-  ],
-  "lacoste puffer azul marinho": [
-   190.0,
-   190.0
-  ],
-  "casaco lacoste novo": [
-   130.0
-  ],
-  "casaco lacoste": [
-   90.0,
-   90.0,
-   90.0
-  ],
-  "bolsa lacoste": [
-   75.0,
-   100.0,
-   90.0,
-   110.0,
-   110.0,
-   100.0,
-   90.0,
-   110.0,
-   110.0,
-   110.0,
-   100.0,
-   110.0,
-   100.0,
-   75.0,
-   100.0,
-   90.0,
-   110.0,
-   10.0,
-   100.0,
-   110.0,
-   100.0,
-   110.0,
-   100.0,
-   110.0,
-   75.0,
-   100.0,
-   110.0
-  ],
-  "supreme lacoste": [
-   231.0
-  ],
   "pullover lacoste supreme rosa": [
    169.0
   ],
@@ -37796,10 +36830,6 @@
    13.0,
    13.0
   ],
-  "nou geaca windstopper impermeabila": [
-   79.8,
-   79.8
-  ],
   "under armour hovr phantom": [
    74.5,
    12.1,
@@ -37875,9 +36905,6 @@
   "casaco nike homem": [
    50.0,
    25.0
-  ],
-  "cal nike sporting": [
-   10.0
   ],
   "cal nike dri-fit": [
    14.0
@@ -37985,11 +37012,6 @@
   "t-shirt nike vermelho tamanho": [
    10.0
   ],
-  "vestido nike desporto": [
-   7.5,
-   7.5,
-   7.5
-  ],
   "tshirt dry-fit nike": [
    10.0,
    10.0,
@@ -37998,11 +37020,6 @@
   "t-shirt desportiva nike tamanho": [
    5.0,
    5.0
-  ],
-  "leggings nike running dri-fit": [
-   11.0,
-   11.0,
-   11.0
   ],
   "t-shirt dri-fit nike": [
    7.0,
@@ -38109,10 +37126,6 @@
   "sapatilha air nike": [
    120.0
   ],
-  "nike dunk low retro": [
-   110.0,
-   80.0
-  ],
   "sapatilhas nike zoom air": [
    85.0
   ],
@@ -38164,11 +37177,6 @@
   ],
   "nike stussy novo": [
    500.0
-  ],
-  "nike dunk low supreme": [
-   215.0,
-   215.0,
-   180.0
   ],
   "nike nocta sunset puffer": [
    160.0
@@ -38358,11 +37366,6 @@
   "taglia europa nike stussy": [
    120.0
   ],
-  "supreme comme des gar": [
-   1500.0,
-   1500.0,
-   1500.0
-  ],
   "nike strike thicker center": [
    11.5
   ],
@@ -38372,25 +37375,6 @@
   "stone island raso gommato": [
    150.0,
    396.9
-  ],
-  "new balance stone island": [
-   363.1,
-   120.3,
-   218.2,
-   236.3,
-   155.4,
-   175.9,
-   332.9,
-   169.9,
-   242.3,
-   181.9,
-   151.7,
-   236.3,
-   242.3,
-   230.2,
-   169.9,
-   218.2,
-   315.0
   ],
   "stone island raso gommoto": [
    161.7
@@ -38416,16 +37400,8 @@
   "polo ralph lauren tweed": [
    240.0
   ],
-  "polo ralph lauren slim": [
-   10.5,
-   120.0
-  ],
   "set skateboard deck ralph": [
    315.0
-  ],
-  "polo country ralph lauren": [
-   290.0,
-   320.0
   ],
   "tracksuit essentials": [
    89.8
@@ -38439,9 +37415,6 @@
   ],
   "essentials oversize premium tracksuit": [
    85.0
-  ],
-  "fear god essentials ss22": [
-   200.0
   ],
   "essentials ss22 iron": [
    115.0
@@ -39020,15 +37993,6 @@
    25.4,
    24.6
   ],
-  "nike dri-fit run division": [
-   4.5,
-   21.7,
-   7.3,
-   11.8,
-   49.1,
-   3.2,
-   7.0
-  ],
   "nike jacket storm-fit run": [
    110.0
   ],
@@ -39508,9 +38472,6 @@
   "casaco nike cinza branco": [
    0.0,
    0.0
-  ],
-  "nike storm-fit run division": [
-   92.4
   ],
   "nike tech woven flash": [
    81.9
@@ -40311,12 +39272,6 @@
    117.2,
    160.0
   ],
-  "zwei stone island jacken": [
-   1600.0
-  ],
-  "stone island supreme reflective": [
-   500.0
-  ],
   "giacca sportiva track jacket": [
    10.0
   ],
@@ -40660,28 +39615,12 @@
   "nike kobe protro undefeated": [
    235.0
   ],
-  "nike zoom field jaxx": [
-   239.1,
-   142.4,
-   129.8,
-   177.5,
-   169.0
-  ],
   "nike air max originais": [
    1300.0
   ],
   "nike dunk low there": [
    170.0,
    170.0
-  ],
-  "dunk low nike off-white": [
-   149.0,
-   149.0,
-   149.0,
-   149.0
-  ],
-  "nike travis scoot jordan": [
-   150.0
   ],
   "nike p-6000 tamanho novas": [
    90.0
@@ -40695,16 +39634,9 @@
   "nike waffe sacai clot": [
    240.0
   ],
-  "nike sacai collab": [
-   220.0,
-   220.0
-  ],
   "nike vaporwaffle sacai": [
    97.2,
    75.0
-  ],
-  "sapatilhas nike sacai vaporwaffle": [
-   220.0
   ],
   "nike dunk low safari": [
    90.0
@@ -40724,12 +39656,6 @@
   "nike zoom cortez sacai": [
    200.0
   ],
-  "nike travis scott reverse": [
-   80.0,
-   80.0,
-   80.0,
-   80.0
-  ],
   "corteiz nike airmax honey": [
    200.0
   ],
@@ -40738,9 +39664,6 @@
   ],
   "nike dunk high neutral": [
    100.0
-  ],
-  "travis scott nike barcelona": [
-   300.0
   ],
   "nike cortez ultra moire": [
    8.0,
@@ -40854,17 +39777,6 @@
   "nike dunk off white": [
    250.0
   ],
-  "nike off-white air force": [
-   200.0,
-   220.0,
-   330.0,
-   170.0,
-   220.0,
-   550.0,
-   151.2,
-   500.0,
-   330.0
-  ],
   "nike air force low": [
    338.3,
    260.0,
@@ -40970,46 +39882,11 @@
    120.0,
    250.0
   ],
-  "nike air force mid": [
-   130.0,
-   220.0,
-   230.0,
-   150.0,
-   170.0,
-   100.0,
-   120.0,
-   140.0,
-   199.8,
-   160.0,
-   130.0,
-   220.0,
-   126.0,
-   100.0
-  ],
   "nike air force off": [
    100.0,
    150.0,
    100.0,
    180.0
-  ],
-  "nike dunk low off-white": [
-   234.0,
-   220.0,
-   140.0,
-   234.0,
-   127.8,
-   136.0,
-   220.0,
-   270.0,
-   320.0,
-   350.0,
-   275.0
-  ],
-  "nike air jordan retro": [
-   388.1,
-   7.9,
-   181.2,
-   280.0
   ],
   "off-white nike air force": [
    200.0,
@@ -41019,10 +39896,6 @@
   ],
   "off-white nike air presto": [
    100.0
-  ],
-  "nike air jordan high": [
-   89.0,
-   300.0
   ],
   "nike dunk off-white pine": [
    450.0
@@ -41634,23 +40507,12 @@
   "stone island termochrome heat": [
    94.5
   ],
-  "vintage stone island jacke": [
-   1000.0,
-   1000.0
-  ],
-  "stone island sweater mit": [
-   139.0
-  ],
   "stone island liquid reflective": [
    280.0,
    750.0
   ],
   "stone island trinkflasche heat": [
    110.0
-  ],
-  "giacca stone island": [
-   380.0,
-   799.0
   ],
   "stone island metal lamina": [
    1134.0,
@@ -41691,38 +40553,6 @@
   ],
   "overshirt": [
    43.2
-  ],
-  "stone island": [
-   340.0,
-   299.0,
-   399.0,
-   2600.0,
-   483.8,
-   304.1,
-   86.1,
-   15.5,
-   207.9,
-   210.0,
-   210.0,
-   0.0,
-   420.7,
-   7.4,
-   178.5,
-   399.0,
-   191.9,
-   7360.3,
-   217.7,
-   1400.0,
-   312.9,
-   386.5,
-   368.2,
-   357.0,
-   300.0,
-   340.0,
-   299.0,
-   399.0,
-   2600.0,
-   235.2
   ],
   "stone island overshirt sort": [
    284.9,
@@ -41958,9 +40788,6 @@
   "stone island aw07 archive": [
    85.3
   ],
-  "stone island nylon metal": [
-   301.5
-  ],
   "stone island t-shirt": [
    11.3,
    18.9
@@ -41992,9 +40819,6 @@
   ],
   "stone island green t-shirt": [
    109.5
-  ],
-  "stone island micro rip": [
-   194.0
   ],
   "some island knit badge": [
    49.1
@@ -42385,9 +41209,6 @@
   ],
   "sweat ralph lauren": [
    80.0
-  ],
-  "cal polo ralph lauren": [
-   10.0
   ],
   "sweat polo ralph lauren": [
    90.0
@@ -43292,75 +42113,11 @@
   "pulover tricotat polo ralph": [
    23.6
   ],
-  "polo ralph lauren": [
-   77.0,
-   10.0,
-   7.7,
-   7.7,
-   7.3,
-   14.7,
-   10.5,
-   11.6,
-   6.8,
-   29.6,
-   23.2,
-   36.9,
-   11.6,
-   2.1,
-   25.2,
-   11.6,
-   1.2,
-   7.0,
-   115.5,
-   21.1,
-   28.5,
-   25.9,
-   26.9,
-   7.0,
-   42.7,
-   10.0,
-   16.4,
-   16.4,
-   26.9,
-   9.7
-  ],
   "pulover bluz polo ralph": [
    15.6
   ],
   "ralph lauren skinny jean": [
    21.7
-  ],
-  "vintage polo ralph lauren": [
-   20.4,
-   28.3,
-   34.3,
-   26.5,
-   84.7,
-   26.9,
-   30.5,
-   32.2,
-   37.5,
-   32.2,
-   221.8,
-   71.0,
-   45.7,
-   90.9,
-   63.8,
-   63.8,
-   136.1,
-   109.0,
-   107.1,
-   72.8,
-   90.9,
-   179.4,
-   140.0,
-   8.4,
-   10.5,
-   10.5,
-   22.5,
-   18.7,
-   22.6,
-   46.4
   ],
   "ralph lauren pants": [
    11.2
@@ -43491,27 +42248,9 @@
   "essentials ss22 light oatmeal": [
    115.0
   ],
-  "conjunto cinzento essentials": [
-   120.0,
-   120.0,
-   120.0
-  ],
-  "fato treino essentials tamanho": [
-   124.0,
-   124.0,
-   124.0
-  ],
   "cal bombazine essentials modalfa": [
    10.0,
    10.0
-  ],
-  "conjunto essentials": [
-   140.0,
-   140.0
-  ],
-  "camisola vermelha doone essentials": [
-   4.0,
-   4.0
   ],
   "conjunto preto essentials": [
    120.0
@@ -43537,87 +42276,11 @@
    72.8,
    75.6
   ],
-  "fog fear god essentials": [
-   147.0,
-   157.5,
-   150.0,
-   147.0,
-   126.0,
-   126.0,
-   73.5,
-   150.0,
-   150.0,
-   73.5
-  ],
   "fear god essentials": [
    47.0,
    73.5
   ],
-  "fear god essentials fog": [
-   94.5,
-   100.6,
-   100.6,
-   125.8,
-   123.9,
-   102.9,
-   125.8,
-   136.5,
-   136.5,
-   136.5,
-   100.6,
-   100.6,
-   123.9,
-   102.9,
-   100.6,
-   125.8,
-   125.8,
-   123.9,
-   94.5,
-   125.8,
-   125.8,
-   125.8,
-   141.2,
-   83.8,
-   94.5,
-   130.1,
-   130.1,
-   125.8,
-   94.5,
-   94.5
-  ],
   "fear god essentials raglan": [
-   79.4
-  ],
-  "fear god essentials hoodie": [
-   88.6,
-   58.5,
-   63.7,
-   109.2,
-   100.5,
-   79.4,
-   75.0,
-   85.7,
-   79.4,
-   90.3,
-   79.4,
-   220.0,
-   80.0,
-   80.0,
-   60.1,
-   61.2,
-   21.4,
-   100.5,
-   63.7,
-   220.0,
-   80.0,
-   80.0,
-   93.3,
-   14.1,
-   45.8,
-   41.2,
-   53.2,
-   63.7,
-   85.7,
    79.4
   ],
   "fear god essentials dark": [
@@ -43755,9 +42418,6 @@
   "fear god essentials grey": [
    95.2
   ],
-  "hoodie essentials": [
-   30.5
-  ],
   "fear god essentials cream": [
    82.6,
    82.6
@@ -43803,13 +42463,6 @@
   ],
   "essentials hoodie 25as": [
    54.3
-  ],
-  "essentials fear god light": [
-   56.6,
-   53.0,
-   125.0,
-   125.0,
-   50.4
   ],
   "essential hoodie": [
    80.2
@@ -47105,9 +45758,6 @@
   "2000s under armour zip-up": [
    6.9
   ],
-  "under armour hoodie": [
-   6.9
-  ],
   "vintage under armour yoga": [
    5.1
   ],
@@ -47233,32 +45883,9 @@
   "nike dunk low purple": [
    160.0
   ],
-  "conjunto under armour air": [
-   115.0,
-   115.0,
-   115.0,
-   115.0
-  ],
-  "balenciaga under armour hoodie": [
-   450.0,
-   450.0
-  ],
   "fato treino under armour": [
    75.0,
    75.0
-  ],
-  "casaco inverno under armour": [
-   90.0,
-   90.0,
-   90.0,
-   90.0,
-   90.0
-  ],
-  "conjunto under armour preto": [
-   80.0,
-   80.0,
-   80.0,
-   80.0
   ],
   "under armour unstoppable down": [
    157.5
@@ -47283,9 +45910,6 @@
    126.0,
    126.0,
    126.0
-  ],
-  "under armour legend down": [
-   168.0
   ],
   "under armour softshell": [
    60.9,
@@ -47360,121 +45984,1482 @@
   ],
   "tracksuit under armour": [
    90.0
+  ],
+  "leggings nike running dri-fit": [
+   11.0,
+   11.0,
+   11.0,
+   11.0
+  ],
+  "nike running performance limited": [
+   82.0
+  ],
+  "under armour legend down": [
+   168.0,
+   157.5
+  ],
+  "under armour limitless athletic": [
+   163.8
+  ],
+  "verkauft stone island daunenjacke": [
+   100.0
+  ],
+  "stone-island hoodie-weste ocean-blue original": [
+   139.0
+  ],
+  "stone island vintage strick-hoodie": [
+   155.0
+  ],
+  "ralph lauren zipper sweatjacke": [
+   75.0
+  ],
+  "under armour hoodie": [
+   6.9,
+   10.0
+  ],
+  "3tlg set under armour": [
+   90.0
+  ],
+  "under armour cold gear": [
+   8.0
+  ],
+  "underarmor t-shirt": [
+   7.0
+  ],
+  "trainingshose ylg 14-16 underarmor": [
+   8.0
+  ],
+  "pantalone stone island chino": [
+   75.0
+  ],
+  "lotto pantaloncini corti jorts": [
+   149.0
+  ],
+  "nike patta barcelona": [
+   100.0
+  ],
+  "nike patta barca rimea": [
+   110.0
+  ],
+  "ghete travis scott nike": [
+   105.0
+  ],
+  "nike travis scott dunk": [
+   80.0
+  ],
+  "nike jordan 4xtravis scott": [
+   160.0
+  ],
+  "nike jordan retro low": [
+   1100.0
+  ],
+  "travis scott jordan air": [
+   85.8,
+   85.8
+  ],
+  "nike af1 travis scott": [
+   80.0
+  ],
+  "tricou copii nike cw3819-104": [
+   9.0
+  ],
+  "stoc incaltaminte copii adidas": [
+   10.0
+  ],
+  "nike patta fcb": [
+   150.0
+  ],
+  "nike air max dn8": [
+   139.0
+  ],
+  "nike dunke travis scott": [
+   357.9
+  ],
+  "travis scott nike zoom": [
+   120.0
+  ],
+  "travis scott nike trainer": [
+   92.0
+  ],
+  "nike dunk travis scott": [
+   100.0
+  ],
+  "nike air max pure": [
+   110.0
+  ],
+  "dunk low nike off-white": [
+   149.0,
+   149.0,
+   149.0,
+   149.0,
+   149.0
+  ],
+  "nike palace total iii": [
+   250.0
+  ],
+  "nike dunk low black": [
+   160.0
+  ],
+  "nike panda originais tam": [
+   100.0
+  ],
+  "nike nocta tamanho": [
+   180.0
+  ],
+  "nike dunk low retro": [
+   110.0,
+   80.0,
+   110.0
+  ],
+  "nike dunk low panda": [
+   90.0
+  ],
+  "nike sacai collab": [
+   220.0,
+   220.0,
+   220.0
+  ],
+  "sapatilhas nike sacai vaporwaffle": [
+   220.0,
+   220.0
+  ],
+  "nike jordan air force": [
+   85.0
+  ],
+  "supreme comme des gar": [
+   1500.0,
+   1500.0,
+   1500.0,
+   1500.0
+  ],
+  "nike jordan travis scoot": [
+   150.0
+  ],
+  "nike jordan low travis": [
+   90.0,
+   110.0
+  ],
+  "nike sir jordan travis": [
+   100.0
+  ],
+  "travis scott nike barcelona": [
+   300.0,
+   300.0
+  ],
+  "nike travis scott rias": [
+   160.0
+  ],
+  "nike air trainer travis": [
+   220.0
+  ],
+  "air jordan nike travis": [
+   400.0
+  ],
+  "travis scott cact corp": [
+   75.0
+  ],
+  "travis scott nike air": [
+   85.0,
+   220.0
+  ],
+  "nike travis scott reverse": [
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "nike travis scoot jordan": [
+   150.0,
+   150.0,
+   150.0,
+   150.0
+  ],
+  "tennis nike airmax": [
+   80.0
+  ],
+  "sapatilhas nike air": [
+   5.0
+  ],
+  "nike air max white": [
+   85.0
+  ],
+  "sapatilhas azuis nike": [
+   6.0
+  ],
+  "nike air force mid": [
+   130.0,
+   220.0,
+   230.0,
+   150.0,
+   170.0,
+   100.0,
+   120.0,
+   140.0,
+   199.8,
+   160.0,
+   130.0,
+   220.0,
+   126.0,
+   100.0,
+   220.0
+  ],
+  "nike dunk low supreme": [
+   215.0,
+   215.0,
+   180.0,
+   180.0
+  ],
+  "nike zoom victory": [
+   80.0
+  ],
+  "sapatilhas nike zoomx": [
+   75.0,
+   75.0
+  ],
+  "sapatilhas nike air max": [
+   220.0,
+   100.0
+  ],
+  "nike off-white air force": [
+   200.0,
+   220.0,
+   330.0,
+   170.0,
+   220.0,
+   550.0,
+   151.2,
+   500.0,
+   330.0,
+   220.0,
+   220.0,
+   220.0
+  ],
+  "nike ruby rose air": [
+   135.0
+  ],
+  "nike dunk low prm": [
+   130.0,
+   100.0
+  ],
+  "sapatilhas nike air force": [
+   190.0
+  ],
+  "nike airmx boas condi": [
+   75.0
+  ],
+  "fato treino nike completo": [
+   50.0,
+   50.0
+  ],
+  "nike victory brancos": [
+   100.0
+  ],
+  "vestido nike desporto": [
+   7.5,
+   7.5,
+   7.5,
+   7.5
+  ],
+  "cal nike sele francesa": [
+   10.0
+  ],
+  "fato treino completo supreme": [
+   400.0
+  ],
+  "suti desportivo nike alto": [
+   10.0
+  ],
+  "cal nike sporting": [
+   10.0,
+   10.0
+  ],
+  "casaco desporto marca nike": [
+   5.0
+  ],
+  "cal desporto nike": [
+   7.0
+  ],
+  "sapatilhas bicos nike victory": [
+   120.0
+  ],
+  "nike patta": [
+   94.5
+  ],
+  "north face nike patta": [
+   6.3
+  ],
+  "nike cactus jack travis": [
+   63.0
+  ],
+  "nike travis scott mens": [
+   38.9
+  ],
+  "nike travis scott barcelona": [
+   16.8
+  ],
+  "nike air jorgan low": [
+   73.5
+  ],
+  "new balance gator run": [
+   92.2
+  ],
+  "sale nike air jordan": [
+   62.8,
+   55.7
+  ],
+  "nike travis scott nrg": [
+   37.8
+  ],
+  "nike dunk cpfm cactus": [
+   77.7
+  ],
+  "nike dunk low cpfmcactus": [
+   71.2
+  ],
+  "nike cactus plant flea": [
+   441.0
+  ],
+  "badfive nike acg riot": [
+   75.6
+  ],
+  "nike therma-fit adv run": [
+   9.5
+  ],
+  "nike dri-fit run division": [
+   4.5,
+   21.7,
+   7.3,
+   11.8,
+   49.1,
+   3.2,
+   7.0,
+   7.4
+  ],
+  "nike air zoom division": [
+   9.5
+  ],
+  "nike dry stripped division": [
+   10.5
+  ],
+  "nike storm-fit adv running": [
+   115.5
+  ],
+  "nike storm-fit run division": [
+   92.4,
+   92.4
+  ],
+  "nike striped division": [
+   4.7
+  ],
+  "nike running division storm": [
+   84.0
+  ],
+  "jordan nike trapstar riot": [
+   8.4
+  ],
+  "nike travis scott black": [
+   6.8
+  ],
+  "nike travis scott jordan": [
+   8.3
+  ],
+  "nike travis scott air": [
+   5.1
+  ],
+  "nike air max1 patta": [
+   999.0
+  ],
+  "nike patta vapor elite": [
+   390.0
+  ],
+  "nike patta pro": [
+   355.0
+  ],
+  "nike jumpman jack travis": [
+   230.0
+  ],
+  "nike air jordan retro": [
+   388.1,
+   7.9,
+   181.2,
+   280.0,
+   379.8,
+   500.0,
+   520.0
+  ],
+  "nike travis scott zoom": [
+   220.0
+  ],
+  "reserviert nike air jordan": [
+   130.0
+  ],
+  "nike dunk low off-white": [
+   234.0,
+   220.0,
+   140.0,
+   234.0,
+   127.8,
+   136.0,
+   220.0,
+   270.0,
+   320.0,
+   350.0,
+   275.0,
+   220.0
+  ],
+  "nike air force travis": [
+   100.0,
+   120.0,
+   545.0
+  ],
+  "nike mac attack travis": [
+   220.0
+  ],
+  "nike travis scott canary": [
+   301.0
+  ],
+  "nike air jordan travis": [
+   78.0,
+   230.1,
+   95.0,
+   73.5,
+   60.7,
+   250.0
+  ],
+  "barcelona dress travis scott": [
+   75.0
+  ],
+  "nike barcelona travis scott": [
+   95.0,
+   95.0
+  ],
+  "nike dunk april skateboard": [
+   299.0
+  ],
+  "nike smiley swoosh hoddie": [
+   200.0
+  ],
+  "balltrikot fantrikot heimtrikot vereinstrikot": [
+   140.0
+  ],
+  "nike mercurial vapor elite": [
+   274.7
+  ],
+  "nike airmax barcelona ispirate": [
+   80.0
+  ],
+  "nike cryoshot mercurial vapor": [
+   250.0
+  ],
+  "nike air per patta": [
+   135.0
+  ],
+  "eur patta nike air": [
+   230.0
+  ],
+  "nike patta runnig tea": [
+   750.0
+  ],
+  "nike air max patta": [
+   195.0,
+   170.0,
+   220.0,
+   220.0
+  ],
+  "nike barcellona patta": [
+   80.0
+  ],
+  "nike air max plus": [
+   149.0,
+   200.0,
+   135.0
+  ],
+  "nike patta air max": [
+   94.5,
+   330.0,
+   210.0
+  ],
+  "nike jordan travis scott": [
+   75.0,
+   400.0,
+   209.0,
+   209.0
+  ],
+  "nike zoom field jaxx": [
+   239.1,
+   142.4,
+   129.8,
+   177.5,
+   169.0,
+   169.0,
+   143.5,
+   110.0
+  ],
+  "nike dunk low travis": [
+   470.0
+  ],
+  "nike air jordan low": [
+   389.2,
+   90.0,
+   80.0,
+   73.5,
+   105.0,
+   58.8,
+   470.0,
+   130.0,
+   360.0,
+   209.0,
+   110.0,
+   95.0
+  ],
+  "nike travis scott olive": [
+   95.0
+  ],
+  "cactus jack travis scott": [
+   71.1,
+   100.0
+  ],
+  "nike phantom elite travis": [
+   320.0
+  ],
+  "nike zoom travis scott": [
+   120.0
+  ],
+  "nike air max travis": [
+   339.0,
+   150.0
+  ],
+  "nike air jordan high": [
+   89.0,
+   300.0,
+   150.0,
+   130.0,
+   125.0,
+   140.0
+  ],
+  "nike jordan low fragment": [
+   250.0,
+   500.0
+  ],
+  "felpa nike acg cpfm": [
+   340.0
+  ],
+  "nike air rift breathe": [
+   108.0
+  ],
+  "nike triax swift juventus": [
+   120.0
+  ],
+  "camisolas stone island": [
+   25.0
+  ],
+  "camisola stone island": [
+   85.0,
+   85.0
+  ],
+  "sweatshirt stone island": [
+   80.0,
+   80.0
+  ],
+  "dior stone island b30": [
+   130.0
+  ],
+  "stone island supreme s-m-l-xl-xxl": [
+   60.5
+  ],
+  "stone island supreme": [
+   210.0,
+   399.0,
+   273.0,
+   218.4
+  ],
+  "stone island supreme sweatpants": [
+   302.4
+  ],
+  "supreme stone island": [
+   49.3
+  ],
+  "stone island supreme new": [
+   828.5
+  ],
+  "stone island suprrme": [
+   24.2
+  ],
+  "stone island new balance574": [
+   210.0
+  ],
+  "new balance fuelcell stone": [
+   72.5
+  ],
+  "new balance legacy stone": [
+   77.7,
+   77.7,
+   77.7
+  ],
+  "stone island supreme hoodie": [
+   54.6,
+   54.6,
+   699.0,
+   400.0
+  ],
+  "stone island supreme weste": [
+   429.0
+  ],
+  "stone island supreme jogginghose": [
+   150.0
+  ],
+  "reserviert newbalance stone island": [
+   100.0
+  ],
+  "stone island supreme corduroy": [
+   1500.0
+  ],
+  "new balance stone island": [
+   363.1,
+   120.3,
+   218.2,
+   236.3,
+   155.4,
+   175.9,
+   332.9,
+   169.9,
+   242.3,
+   181.9,
+   151.7,
+   236.3,
+   242.3,
+   230.2,
+   169.9,
+   218.2,
+   315.0,
+   170.0,
+   102.0,
+   130.0,
+   630.0,
+   220.5,
+   346.3,
+   123.9,
+   650.0,
+   150.0,
+   350.0
+  ],
+  "stone island new balance": [
+   295.0,
+   305.8,
+   440.0,
+   280.0,
+   320.0,
+   550.0,
+   333.0,
+   333.0,
+   300.0,
+   150.0,
+   500.0,
+   450.0
+  ],
+  "lote roupa chaps ralph": [
+   200.0
+  ],
+  "saia adolescente ralph lauren": [
+   10.0
+  ],
+  "casaco homem ralph lauren": [
+   200.0
+  ],
+  "casaco polo ralph lauren": [
+   80.0
+  ],
+  "vendo casaco ralph lauren": [
+   1140.0
+  ],
+  "casaco sweatshirt polo ralph": [
+   120.0
+  ],
+  "casaco ralph lauren preto": [
+   185.0
+  ],
+  "puffer ralph lauren": [
+   120.0
+  ],
+  "hoodie polo ralph lauren": [
+   150.0
+  ],
+  "camisola chaps ralph lauren": [
+   6.0,
+   6.0
+  ],
+  "cal polo ralph lauren": [
+   10.0,
+   10.0
+  ],
+  "vendo camisas polo ralph": [
+   7.0,
+   7.0
+  ],
+  "polo ralph lauren azul": [
+   8.0
+  ],
+  "polo ralph lauren menino": [
+   10.0
+  ],
+  "polo ralph lauren infantil": [
+   2.0
+  ],
+  "polo ralph lauren": [
+   14.7,
+   10.5,
+   11.6,
+   6.8,
+   29.6,
+   23.2,
+   36.9,
+   11.6,
+   2.1,
+   25.2,
+   11.6,
+   1.2,
+   7.0,
+   115.5,
+   21.1,
+   28.5,
+   25.9,
+   26.9,
+   7.0,
+   42.7,
+   10.0,
+   16.4,
+   16.4,
+   26.9,
+   9.7,
+   8.0,
+   9.0,
+   9.0,
+   9.0,
+   10.0
+  ],
+  "t-shirt polo ralph lauren": [
+   10.0
+  ],
+  "polo polo ralph lauren": [
+   10.0,
+   10.0,
+   10.0,
+   10.0,
+   10.0
+  ],
+  "chaps vintage denim jacket": [
+   37.8
+  ],
+  "ralph lauren made usa": [
+   9.7
+  ],
+  "polo ralph lauren slim": [
+   10.5,
+   120.0,
+   5.7
+  ],
+  "polo ralph lauren made": [
+   8.0,
+   107.1
+  ],
+  "chaps ralph lauren vintage": [
+   10.0
+  ],
+  "vintage field jacket von": [
+   110.0
+  ],
+  "vintage chaps leather biker": [
+   200.0
+  ],
+  "ralph lauren chaps vintage": [
+   10.0
+  ],
+  "vintage polo ralph lauren": [
+   28.3,
+   34.3,
+   26.5,
+   84.7,
+   26.9,
+   30.5,
+   32.2,
+   37.5,
+   32.2,
+   221.8,
+   71.0,
+   45.7,
+   90.9,
+   63.8,
+   63.8,
+   136.1,
+   109.0,
+   107.1,
+   72.8,
+   90.9,
+   179.4,
+   140.0,
+   8.4,
+   10.5,
+   10.5,
+   22.5,
+   18.7,
+   22.6,
+   46.4,
+   160.0
+  ],
+  "polo ralph lauren flag": [
+   190.0
+  ],
+  "made usa vintage polo": [
+   120.0
+  ],
+  "exklusives polo jeans ralph": [
+   79.0
+  ],
+  "neu herren hemd von": [
+   110.0
+  ],
+  "polo country ralph lauren": [
+   290.0,
+   320.0,
+   299.0
+  ],
+  "polo champ ralph lauren": [
+   10.0
+  ],
+  "giacca vintage polo ralph": [
+   79.0
+  ],
+  "rara felpa ralph lauren": [
+   98.0
+  ],
+  "vand pantaloni essentials fear": [
+   80.0,
+   80.0
+  ],
+  "next premium modern essentials": [
+   8.0
+  ],
+  "fear god essentials ss22": [
+   200.0,
+   200.0
+  ],
+  "conjunto essentials fear god": [
+   73.1,
+   100.0,
+   80.0,
+   100.0,
+   80.0,
+   100.0,
+   80.0
+  ],
+  "casaco essentials": [
+   80.0
+  ],
+  "conjunto cinzento essentials": [
+   120.0,
+   120.0,
+   120.0,
+   120.0,
+   120.0
+  ],
+  "hoodie essentials": [
+   30.5,
+   110.0,
+   110.0
+  ],
+  "essentials fear god light": [
+   56.6,
+   53.0,
+   125.0,
+   125.0,
+   50.4,
+   125.0,
+   125.0
+  ],
+  "fato treino essentials tamanho": [
+   124.0,
+   124.0,
+   124.0,
+   124.0,
+   124.0
+  ],
+  "conjunto essentials": [
+   140.0,
+   140.0,
+   140.0
+  ],
+  "essentials hoodie khaki": [
+   100.0,
+   100.0
+  ],
+  "camisola vermelha doone essentials": [
+   4.0,
+   4.0,
+   4.0
+  ],
+  "business essentials ronald ebert": [
+   5.0
+  ],
+  "essentials fear god relaxed": [
+   75.6
+  ],
+  "fear god essentials black": [
+   32.6
+  ],
+  "fear god essentials pullover": [
+   92.4
+  ],
+  "essentials represent": [
+   37.8
+  ],
+  "fear god essentials knit": [
+   65.1
+  ],
+  "fear god essentials logo-flocked": [
+   79.4
+  ],
+  "fear god essentials smoke": [
+   84.0,
+   136.5
+  ],
+  "fear god essentials jet": [
+   189.0
+  ],
+  "fog fear god essentials": [
+   147.0,
+   157.5,
+   150.0,
+   147.0,
+   126.0,
+   126.0,
+   73.5,
+   150.0,
+   150.0,
+   73.5,
+   147.0,
+   157.5
+  ],
+  "new fear god essentials": [
+   136.5,
+   94.5
+  ],
+  "fear god essentials fog": [
+   123.9,
+   102.9,
+   125.8,
+   136.5,
+   136.5,
+   136.5,
+   100.6,
+   100.6,
+   123.9,
+   102.9,
+   100.6,
+   125.8,
+   125.8,
+   123.9,
+   94.5,
+   125.8,
+   125.8,
+   125.8,
+   141.2,
+   83.8,
+   94.5,
+   130.1,
+   130.1,
+   125.8,
+   94.5,
+   94.5,
+   125.8,
+   125.8,
+   104.8,
+   157.5
+  ],
+  "fear god essentials hoodie": [
+   58.5,
+   63.7,
+   109.2,
+   100.5,
+   79.4,
+   75.0,
+   85.7,
+   79.4,
+   90.3,
+   79.4,
+   220.0,
+   80.0,
+   80.0,
+   60.1,
+   61.2,
+   21.4,
+   100.5,
+   63.7,
+   220.0,
+   80.0,
+   80.0,
+   93.3,
+   14.1,
+   45.8,
+   41.2,
+   53.2,
+   63.7,
+   85.7,
+   79.4,
+   75.0
+  ],
+  "tchibo essentials luftige culotte": [
+   0.0
+  ],
+  "fear god essentials mikina": [
+   199.0
+  ],
+  "geaca iarna puf under": [
+   100.0
+  ],
+  "geac under armour rimea": [
+   90.0
+  ],
+  "geaca under armour ski": [
+   80.0
+  ],
+  "nou geaca windstopper impermeabila": [
+   79.8,
+   79.8,
+   79.8
+  ],
+  "geaca originala under armour": [
+   99.8
+  ],
+  "geaca under armour noua": [
+   79.8,
+   76.0
+  ],
+  "geaca jacheta under armour": [
+   80.0
+  ],
+  "geaca puf under armour": [
+   80.0
+  ],
+  "tricou under armour": [
+   8.0
+  ],
+  "vesta under armour": [
+   90.0
+  ],
+  "under armour sapatilhas": [
+   30.0
+  ],
+  "casaco inverno under armour": [
+   90.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0
+  ],
+  "conjunto under armour air": [
+   115.0,
+   115.0,
+   115.0,
+   115.0,
+   115.0,
+   115.0,
+   115.0
+  ],
+  "balenciaga under armour hoodie": [
+   450.0,
+   450.0,
+   450.0,
+   450.0,
+   450.0
+  ],
+  "conjunto under armour preto": [
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "casaco stone island novo": [
+   120.0,
+   120.0,
+   120.0
+  ],
+  "casaco stone island shadow": [
+   460.0,
+   460.0
+  ],
+  "casaco stone island ss2002": [
+   380.0,
+   380.0,
+   380.0
+  ],
+  "casaco stone island": [
+   85.0,
+   85.0,
+   85.0
+  ],
+  "stone island camisola maga": [
+   160.0,
+   160.0,
+   160.0,
+   160.0,
+   160.0,
+   160.0,
+   160.0
+  ],
+  "stone island ice nylon": [
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0
+  ],
+  "cal cargo stone island": [
+   220.0,
+   220.0,
+   220.0,
+   220.0,
+   220.0
+  ],
+  "hoodies stone island": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "sweat stone island": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   45.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "fatos banho marca stone": [
+   120.0,
+   120.0,
+   120.0,
+   120.0,
+   120.0,
+   120.0
+  ],
+  "sweat hoddie stone island": [
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0
+  ],
+  "camisola gola alta stone": [
+   99.5
+  ],
+  "stone island s-xxl": [
+   84.0
+  ],
+  "stone island ghost": [
+   119.7
+  ],
+  "stone island ghost beige": [
+   132.7
+  ],
+  "stone island ghost ventile": [
+   588.0
+  ],
+  "hugo boss stone island": [
+   277.0
+  ],
+  "soft-she stone island topstoney": [
+   102.5
+  ],
+  "stone island reflective": [
+   197.4
+  ],
+  "grot softshell stone island": [
+   56.5
+  ],
+  "stone island light soft": [
+   52.3
+  ],
+  "stone island avio blue": [
+   315.0,
+   315.0
+  ],
+  "stone island-": [
+   109.2
+  ],
+  "stone island xxl xxxl": [
+   77.7
+  ],
+  "stone island nylon metal": [
+   301.5,
+   294.0,
+   420.0,
+   409.5,
+   409.5
+  ],
+  "stone island grot softshell": [
+   56.1
+  ],
+  "stone island stone island": [
+   96.6,
+   77.4,
+   77.7
+  ],
+  "stone island comfort tech": [
+   100.8,
+   100.8,
+   105.0,
+   96.6,
+   105.0
+  ],
+  "stone island": [
+   483.8,
+   304.1,
+   86.1,
+   15.5,
+   207.9,
+   210.0,
+   210.0,
+   0.0,
+   420.7,
+   7.4,
+   178.5,
+   399.0,
+   191.9,
+   7360.3,
+   217.7,
+   1400.0,
+   312.9,
+   386.5,
+   368.2,
+   357.0,
+   300.0,
+   340.0,
+   299.0,
+   399.0,
+   2600.0,
+   235.2,
+   86.1,
+   420.0,
+   207.9,
+   0.0
+  ],
+  "stone island softshell 48-50": [
+   85.0
+  ],
+  "stone island jacke weiss": [
+   250.0
+  ],
+  "stone island bomberjacke": [
+   350.0
+  ],
+  "stone island jacke": [
+   150.0
+  ],
+  "stone island cotton jacke": [
+   320.0
+  ],
+  "stone island leichte winterjacke": [
+   210.0
+  ],
+  "stone island jacke herren": [
+   229.0
+  ],
+  "zwei stone island jacken": [
+   1600.0,
+   1600.0
+  ],
+  "stone island jacke jungen": [
+   90.0
+  ],
+  "stone island jacke loom": [
+   499.0
+  ],
+  "stone island cardigan jacke": [
+   79.0
+  ],
+  "verkaufe orig stone island": [
+   185.0
+  ],
+  "stone island micro rip": [
+   194.0,
+   250.0
+  ],
+  "stone island loom woven": [
+   290.0
+  ],
+  "stone island supreme reflective": [
+   500.0,
+   500.0,
+   500.0
+  ],
+  "stone island winterjacke original": [
+   950.0
+  ],
+  "vintage stone island jacke": [
+   1000.0,
+   1000.0,
+   1000.0
+  ],
+  "stone island soft shell": [
+   150.0
+  ],
+  "reserviert winterjacke stone island": [
+   280.0
+  ],
+  "stone island zipp hoodie": [
+   150.0
+  ],
+  "stone island zip jacke": [
+   170.0,
+   150.0
+  ],
+  "stone island sweater mit": [
+   139.0,
+   139.0
+  ],
+  "bunda stone island": [
+   90.2
+  ],
+  "mske portov tielko under": [
+   9.0
+  ],
+  "perov bunda canada goose": [
+   150.0
+  ],
+  "stone island nska bunda": [
+   105.0
+  ],
+  "prechodn bunda stone island": [
+   100.0
+  ],
+  "stone island bunda": [
+   82.0,
+   85.0,
+   110.0
+  ],
+  "stone island zimn bunda": [
+   85.0
+  ],
+  "golf abbigliamento completo inverno": [
+   70.0
+  ],
+  "maglia spiderman under armour": [
+   120.0
+  ],
+  "under armour pantaloni": [
+   10.0
+  ],
+  "piumino parka stone island": [
+   550.0
+  ],
+  "giacca grigia lana del": [
+   250.0
+  ],
+  "gilet stone island": [
+   250.0,
+   110.0
+  ],
+  "stone island piumino giacca": [
+   159.0
+  ],
+  "giacca cardigan stone island": [
+   130.0
+  ],
+  "stone island giacca": [
+   110.0
+  ],
+  "giacche stone island double": [
+   130.0
+  ],
+  "giacca stone island": [
+   380.0,
+   799.0,
+   129.0,
+   150.0,
+   300.0,
+   279.0,
+   280.0
+  ],
+  "stone island originale": [
+   1.0
+  ],
+  "giacca vento stone island": [
+   130.0
+  ],
+  "giacca stone island verde": [
+   220.0
+  ],
+  "giacca giubbotto stone island": [
+   300.0
+  ],
+  "giacca stone island nera": [
+   155.0
   ]
  },
  "meta": {
-  "vinted:10783166195": {
-   "model": "ensemble running fitness nike",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/05_01030_ef7L69oN7gnay29CseZCPxBE/310x430/a2033ccb.webp?s=d7c93ffba74d1f1c2fced35c08309df34b2dd8f6"
-   ],
-   "title": "Ensemble running/fitness Nike legging (M)/d\u00e9bardeur (XL) - Dri-fit",
-   "url": "https://www.vinted.ie/items/10783166195-ensemble-runningfitness-nike-legging-mdebardeur-xl-dri-fit?referrer=catalog",
-   "brand": "Nike",
-   "price": 63.7,
-   "currency": "EUR",
-   "lang": "en",
-   "eur": 63.7
-  },
-  "vinted:10363149669": {
-   "model": "kurtka tactical softshell jacket",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/05_0190c_699kjaCsRtV5opQNALfTyRif/310x430/3b50c1d8.webp?s=d4b8f7f500e7c432ada6b62a8e6cd75668c0d588"
-   ],
-   "title": "Kurtka tactical softshell jacket under armour M",
-   "url": "https://www.vinted.lt/items/10363149669-kurtka-tactical-softshell-jacket-under-armour-m?referrer=catalog",
-   "brand": "Under Armour",
-   "price": 26.98,
-   "currency": "EUR",
-   "lang": "en",
-   "eur": 26.98
-  },
-  "vinted:10844054416": {
-   "model": "veste under armour hybride",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/02_0021a_8nedu4Pu3at4vtB7JCsNohq5/310x430/d0659907.webp?s=53ecd5f8b90e3b5071176fb3576cf2fb488c4c5c"
-   ],
-   "title": "Veste under armour hybride",
-   "url": "https://www.vinted.ie/items/10844054416-veste-under-armour-hybride?referrer=catalog",
-   "brand": "Under Armour",
-   "price": 63.7,
-   "currency": "EUR",
-   "lang": "en",
-   "eur": 63.7
-  },
-  "vinted:10794714996": {
-   "model": "columbia pfg release year",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/06_023dc_1nAULbNQeNPHQaLPcQvz36d1/310x430/c7363d7f.webp?s=7b6b126419295fd062e15f64271965ae9080ba85"
-   ],
-   "title": "E3 Columbia PFG Release Year 2010's fishing hoodie graphic summer Streetwear vintage rock",
-   "url": "https://www.vinted.lt/items/10794714996-e3-columbia-pfg-release-year-2010s-fishing-hoodie-graphic-summer-streetwear-vintage-rock?referrer=catalog",
-   "brand": "Columbia",
-   "price": 17.34,
-   "currency": "EUR",
-   "lang": "en",
-   "eur": 17.34
-  },
-  "vinted:10843708178": {
-   "model": "columbia titanium softschell",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/05_017c1_MX8Bu7Y7DTLj473aKDxQfyrG/310x430/e47c9fc9.webp?s=27d8ad06ed018f9ca9dfcaec582da99b6592d244"
-   ],
-   "title": "Columbia Titanium Softschell r. M",
-   "url": "https://www.vinted.fi/items/10843708178-columbia-titanium-softschell-r-m?referrer=catalog",
-   "brand": "Columbia",
-   "price": 17.58,
-   "currency": "EUR",
-   "lang": "en",
-   "eur": 17.58
-  },
-  "vinted:10843416727": {
-   "model": "columbia carpenter manchester byxor",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/02_005d9_LfvfkKqkwQdqptxbJoPG7X41/310x430/29ddfdef.webp?s=be83d14469057065ad101b292bce01ad742f856e"
-   ],
-   "title": "Columbia carpenter manchester byxor W 34 L 32 Titanium",
-   "url": "https://www.vinted.fi/items/10843416727-columbia-carpenter-manchester-byxor-w-34-l-32-titanium?referrer=catalog",
-   "brand": "Columbia",
-   "price": 38.88,
-   "currency": "EUR",
-   "lang": "en",
-   "eur": 38.88
-  },
-  "vinted:10768881274": {
-   "model": "damska kurtka puchowa columbia",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/05_00116_iCxB4rCPoytQtCqWUK8GATeC/310x430/4edcaa9a.webp?s=310d24f6d2b8da7a9f599b3dabac9e2c61e1a63c"
-   ],
-   "title": "Damska kurtka puchowa Columbia Titanium rozmiar S",
-   "url": "https://www.vinted.fi/items/10768881274-damska-kurtka-puchowa-columbia-titanium-rozmiar-s-puch-naturalny?referrer=catalog",
-   "brand": "Columbia",
-   "price": 58.33,
-   "currency": "EUR",
-   "lang": "en",
-   "eur": 58.33
-  },
-  "vinted:10783648585": {
-   "model": "columbia konos trs outdry",
-   "seller": "",
-   "photos": [
-    "https://images1.vinted.net/t/02_003fb_Qd9AVWLZYwiJxrAs2Znpt9nm/310x430/a69e5bb4.webp?s=473d1731786b8f8a0c77f6e02bdf72baafb3fe90"
-   ],
-   "title": "Men's Columbia Konos TRS Outdry Mid Hiking Boots - Size 8",
-   "url": "https://www.vinted.co.uk/items/10783648585-mens-columbia-konos-trs-outdry-mid-hiking-boots-size-8?referrer=catalog",
-   "brand": "Columbia",
-   "price": 18.39,
-   "currency": "GBP",
-   "lang": "en",
-   "eur": 21.1485
-  },
   "vinted:10600951771": {
    "model": "columbia facet mid outdry",
    "seller": "",
@@ -53525,6 +53510,158 @@
    "currency": "EUR",
    "lang": "en",
    "eur": 30.09
+  },
+  "olx:pt:673672533": {
+   "model": "fato treino nike completo",
+   "seller": "Rodrigo Fernandes",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/8jtfho0fgtrm3-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/kg6ei3t0fae21-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/l5qpipg7ikmc1-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/kszmdh3eg8s41-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/zpmz6r7rqfn83-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/zv7wrxxghjfg2-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/vsqz9b6axvim1-PT/image;s=800x800"
+   ],
+   "title": "Fato de treino da Nike completo ( Casaco e cal\u00e7as)",
+   "url": "https://www.olx.pt/d/anuncio/fato-de-treino-da-nike-completo-casaco-e-calas-IDJAF01.html",
+   "brand": "Nike",
+   "price": 50.0,
+   "currency": "EUR",
+   "lang": "pt",
+   "eur": 50.0
+  },
+  "olx:ua:881666725": {
+   "model": "nike cactus jack travis",
+   "seller": "\u043c\u043e\u044f \u0456\u043d\u0441\u0442\u0430 - oleg.glock",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/xfgrwuk780ka-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/u6suvpxlb1em2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/6n0grjh8f2dj1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/cpgqfxkuomlh3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ksf35xo1zy1z-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/bzx8elnw1ive3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/qxf44qnoivfo-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/1781taum486u1-UA/image;s=800x800"
+   ],
+   "title": "\u041e\u0440\u0438\u0433\u0456\u043d\u0430\u043b\u044c\u043d\u0456 \u0447\u043e\u043b\u043e\u0432\u0456\u0447\u0456 \u0448\u0442\u0430\u043d\u0438 Nike x Cactus Jack by Travis Scott Pants",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/orignaln-cholovch-shtani-nike-x-cactus-jack-by-travis-scott-pants-IDXFnN3.html",
+   "brand": "Nike",
+   "price": 3000.0,
+   "currency": "UAH",
+   "lang": "en",
+   "eur": 63.00000000000001
+  },
+  "olx:ua:922611461": {
+   "model": "sale nike air jordan",
+   "seller": "\u0421\u043e\u0444\u0456\u044f",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/yrriek6b02nu1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/kl03robwexh31-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/dm94ijvux64k3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/thfr92fxh1t92-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/oyzgyfczf2de1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/gycwzr8xhssq1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/qxni29d4h2p61-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/d1r0myq1yiz3-UA/image;s=800x800"
+   ],
+   "title": "!SALE! Nike Air Jordan x Travis Scott x Supreme Grey/White 36 37 38 39 40 41 42 43 44 45",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/sale-nike-air-jordan-x-travis-scott-x-supreme-grey-white-36-37-38-39-40-41-42-43-44-45-ID10rbo1.html",
+   "brand": "Nike",
+   "price": 2990.0,
+   "currency": "UAH",
+   "lang": "en",
+   "eur": 62.790000000000006
+  },
+  "olx:ua:881872444": {
+   "model": "nike travis scott mens",
+   "seller": "Nazar",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/8os21hepl90e-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/tqddfngv1q7z1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/obhgm5e0vors3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/8ip1esr7rr4y-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/olgem4w59fd63-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/n0owqd6wkvv91-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/q2vr8gswlqmj2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/8wx97ik0qpsi1-UA/image;s=800x800"
+   ],
+   "title": "\u0428\u0442\u0430\u043d\u0438 NIKE X TRAVIS SCOTT \u043e\u0440\u0438\u0433\u0456\u043d\u0430\u043b \u0442\u0440\u0435\u043a\u0456\u043d\u0433\u043e\u0432\u0456 \u0437 \u0440\u0435\u043c\u0456\u043d\u044c\u0446\u0435\u043c \u043d\u0430\u0439\u043a mens",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/shtani-nike-x-travis-scott-orignal-trekngov-z-remntsem-nayk-mens-IDXGfj6.html",
+   "brand": "Nike",
+   "price": 1850.0,
+   "currency": "UAH",
+   "lang": "en",
+   "eur": 38.85
+  },
+  "olx:pt:674279459": {
+   "model": "camisolas stone island",
+   "seller": "ptzn",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/pwtpuh9bhybo1-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ejn5b28dcicm-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/t155u8t852rj2-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/f8sdk03r6dau-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/9d860tqbq6qg1-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/slnb3mm2faem-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/9km5p0yg0h3g-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/62nts9kjx4h-PT/image;s=800x800"
+   ],
+   "title": "Camisolas - Stone Island",
+   "url": "https://www.olx.pt/d/anuncio/camisolas-stone-island-IDJDcT9.html",
+   "brand": "Stone Island",
+   "price": 24.99,
+   "currency": "EUR",
+   "lang": "pt",
+   "eur": 24.99
+  },
+  "olx:pt:670883874": {
+   "model": "under armour sapatilhas",
+   "seller": "ramoswrkt",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/8zohhceuqfho2-PT/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/qgj9ad2vbfzl2-PT/image;s=800x800"
+   ],
+   "title": "Under armour sapatilhas",
+   "url": "https://www.olx.pt/d/anuncio/under-armour-sapatilhas-IDJoXxE.html",
+   "brand": "Under Armour",
+   "price": 30.0,
+   "currency": "EUR",
+   "lang": "pt",
+   "eur": 30.0
+  },
+  "olx:ua:941164147": {
+   "model": "stone island",
+   "seller": "Unlock",
+   "photos": [
+    "https://ireland.apollo.olxcdn.com:443/v1/files/uw9srihwe08q2-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/ujrr25yk8pnr1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/m9i2f8qkiwgs1-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/wa399u42h2x42-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/t1hv5uh0wszb3-UA/image;s=800x800",
+    "https://ireland.apollo.olxcdn.com:443/v1/files/bhplzpi53arg2-UA/image;s=800x800"
+   ],
+   "title": "\u041f\u0443\u0445\u043e\u0432\u0438\u043a Stone Island",
+   "url": "https://www.olx.ua/d/uk/obyavlenie/puhovik-stone-island-ID11H1MT.html",
+   "brand": "Stone Island",
+   "price": 4100.0,
+   "currency": "UAH",
+   "lang": "en",
+   "eur": 86.10000000000001
+  },
+  "subito:id:ad:33f7e8eb-22bb-420f-84eb-9835a2f50477:list:655623897": {
+   "model": "golf abbigliamento completo inverno",
+   "seller": "",
+   "photos": [
+    "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/42/420325f9-1deb-4b6c-943f-0ed04fd2526b?rule=fullscreen-1x-auto"
+   ],
+   "title": "Golf. Abbigliamento .Completo inverno Under Armour",
+   "url": "https://www.subito.it/sport/golf-abbigliamento-completo-inverno-under-armour-lecco-655623897.htm",
+   "brand": "Under Armour",
+   "price": 70.0,
+   "currency": "EUR",
+   "lang": "it",
+   "eur": 70.0
   }
  },
  "stats": {
@@ -53580,7 +53717,7 @@
   "nike x patta": 658,
   "nike x sacai": 1075,
   "nike x corteiz": 1240,
-  "nike x travis scott": 1565,
+  "nike x travis scott": 1568,
   "nike white tag": 2210,
   "nike silver tag": 1474,
   "nike dri-fit": 671,
@@ -53607,7 +53744,7 @@
   "nike big swoosh": 1403,
   "ua cgi": 369,
   "nike aeroswift": 1400,
-  "nike division": 1438,
+  "nike division": 1439,
   "columbia titanium": 1358,
   "columbia pfg": 850,
   "columbia montrail": 546,
@@ -53647,7 +53784,7 @@
   "lacoste made in france": 815,
   "lacoste sport tennis": 761,
   "alo conquer": 281,
-  "stone island x supreme": 435,
+  "stone island x supreme": 436,
   "polo sailing": 431,
   "essentials tracksuit": 549,
   "stone island x new balance": 548,
@@ -53768,10 +53905,10 @@
   "jas nike": 88,
   "chaqueta nike": 90,
   "veste nike": 332,
-  "geac\u0103 under armour": 221,
+  "geac\u0103 under armour": 222,
   "kurtka under armour": 223,
   "bunda under armour": 120,
-  "veste under armour": 164,
+  "veste under armour": 165,
   "geac\u0103 stone island": 86,
   "chaqueta under armour": 20,
   "jas under armour": 61,
@@ -53781,7 +53918,7 @@
   "giacca nike": 237,
   "bunda nike": 402,
   "giacca under armour": 126,
-  "kurtka stone island": 940,
+  "kurtka stone island": 941,
   "jacke stone island": 41,
   "bunda stone island": 9,
   "veste stone island": 99,
@@ -53950,1136 +54087,10 @@
   "ebay:us:v1|287366102744|0"
  ],
  "day": {
-  "scanned": 816223,
-  "alerts": 4959
+  "scanned": 818509,
+  "alerts": 4967
  },
  "pm": {
-  "stone island membrana hooded@olx:ua": [
-   304.5
-  ],
-  "stone island v0029@olx:ua": [
-   945.0
-  ],
-  "stone island david-tc down@olx:ua": [
-   630.0
-  ],
-  "stone island david-tc navy@olx:ua": [
-   336.0
-  ],
-  "stone island david jersey-tc@olx:ua": [
-   159.6
-  ],
-  "reserviert winterjacke stone island@willhaben": [
-   280.0
-  ],
-  "stone island jacke xxl@willhaben": [
-   525.0
-  ],
-  "stone island david mantel@willhaben": [
-   359.0
-  ],
-  "stone island jacke david-tc@willhaben": [
-   279.0
-  ],
-  "stone island david navy@willhaben": [
-   420.0
-  ],
-  "stone island jacke@willhaben": [
-   320.0,
-   760.0,
-   1380.0
-  ],
-  "stone island david light-tc@willhaben": [
-   700.0
-  ],
-  "stone island performance cotton@subito": [
-   550.0
-  ],
-  "stone island membrana jacket@subito": [
-   150.0,
-   290.0
-  ],
-  "stone island david-tc down@subito": [
-   750.0
-  ],
-  "giacca stone island bianca@subito": [
-   480.0
-  ],
-  "stone island david-tc primaloft@subito": [
-   450.0
-  ],
-  "giacca stone island david@subito": [
-   500.0
-  ],
-  "trench parka stone island@subito": [
-   310.0
-  ],
-  "stone island david giubbotto@subito": [
-   580.0
-  ],
-  "stone island david-tc trench@subito": [
-   350.0
-  ],
-  "stone island giacca david@subito": [
-   398.0
-  ],
-  "stone island david@subito": [
-   500.0
-  ],
-  "stone island david light-tc@subito": [
-   890.0
-  ],
-  "giaccone stone island@subito": [
-   900.0,
-   300.0
-  ],
-  "giaccone stone island uomo@subito": [
-   350.0
-  ],
-  "stone island ice nylon@olx:pt": [
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0
-  ],
-  "hoodies stone island@olx:pt": [
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0
-  ],
-  "sweat stone island@olx:pt": [
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   100.0,
-   45.0
-  ],
-  "sweat hoddie stone island@olx:pt": [
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0,
-   150.0
-  ],
-  "stone island marina italy@olx:ua": [
-   100.8
-  ],
-  "stone island big logo@olx:ua": [
-   79.8
-  ],
-  "giacca stone island shell@subito": [
-   75.0
-  ],
-  "t-shirt stone island marina@subito": [
-   89.0
-  ],
-  "giacca giaccone stone island@subito": [
-   150.0
-  ],
-  "polo polo ralph lauren@olx:pt": [
-   10.0,
-   10.0,
-   10.0,
-   10.0
-  ],
-  "polo ralph lauren original@olx:ro": [
-   100.0
-  ],
-  "blugi reworked polo ralph@olx:ro": [
-   93.8
-  ],
-  "polo ralph lauren@olx:ro": [
-   10.0
-  ],
-  "tricou polo barbati ralph@olx:ro": [
-   10.0
-  ],
-  "polo ralph lauren barbati@olx:ro": [
-   12.0
-  ],
-  "camasa polo ralph lauren@olx:ro": [
-   79.8
-  ],
-  "polo ralph lauren rba@olx:ro": [
-   13.0
-  ],
-  "polo ralph lauren pique@olx:bg": [
-   90.5
-  ],
-  "polo ralph lauren cotton@olx:bg": [
-   80.3,
-   86.4,
-   75.2
-  ],
-  "vendo camisas polo ralph@olx:pt": [
-   7.0
-  ],
-  "polo ralph lauren slim@olx:ua": [
-   10.5
-  ],
-  "polo ralph lauren s-xxl@olx:ua": [
-   14.7
-  ],
-  "polo ralph lauren long@olx:ua": [
-   86.1
-  ],
-  "ralph lauren custom fit@olx:ua": [
-   10.5
-  ],
-  "ralph lauren polo custom@olx:ua": [
-   11.6
-  ],
-  "polo ralph lauren hugo@olx:ua": [
-   8.8
-  ],
-  "polo ralph lauren custom@olx:ua": [
-   7.3,
-   14.7,
-   10.5,
-   13.9
-  ],
-  "polo ralph lauren@olx:kz": [
-   6.8
-  ],
-  "ralph lauren polo shirt-@willhaben": [
-   8.0
-  ],
-  "ralph lauren poloshirt@willhaben": [
-   12.0,
-   10.0
-  ],
-  "polo ralph lauren poloshirt@willhaben": [
-   80.0
-  ],
-  "polo ralph lauren leinenhemd@willhaben": [
-   95.0
-  ],
-  "polo ralph lauren langarmhemd@willhaben": [
-   100.0
-  ],
-  "nov ralph lauren polo@bazos:cz": [
-   82.0
-  ],
-  "ralph lauren tri@bazos:sk": [
-   120.0
-  ],
-  "polo uomo rugby ralph@subito": [
-   80.0,
-   80.0
-  ],
-  "lotto capi uomo ralph@subito": [
-   75.0
-  ],
-  "polo ralph lauren taglia@subito": [
-   75.0
-  ],
-  "polo ralph lauren shirt@subito": [
-   10.0
-  ],
-  "polo ralph lauren lacoste@subito": [
-   95.0
-  ],
-  "polo ralph lauren xxl@subito": [
-   75.0
-  ],
-  "conjunto essentials fear god@olx:pt": [
-   100.0,
-   80.0,
-   100.0,
-   80.0
-  ],
-  "lacoste tennis@olx:bg": [
-   86.0
-  ],
-  "supreme lacoste wool varsity@olx:bg": [
-   360.0
-  ],
-  "culos sol lacoste@olx:pt": [
-   100.0
-  ],
-  "rel gio lacoste preto@olx:pt": [
-   75.0
-  ],
-  "mala lacoste nova@olx:pt": [
-   80.0
-  ],
-  "bolsa lacoste cintura@olx:pt": [
-   75.0,
-   80.0
-  ],
-  "rel gio lacoste usado@olx:pt": [
-   10.0
-  ],
-  "relogio lacoste como novo@olx:pt": [
-   75.0
-  ],
-  "bolso lacoste@olx:pt": [
-   120.0,
-   120.0,
-   120.0
-  ],
-  "mochila marca lacoste@olx:pt": [
-   10.0,
-   10.0
-  ],
-  "casaco lacoste azul@olx:pt": [
-   85.0,
-   85.0
-  ],
-  "lacoste puffer azul marinho@olx:pt": [
-   190.0,
-   190.0
-  ],
-  "casaco lacoste novo@olx:pt": [
-   130.0
-  ],
-  "casaco lacoste@olx:pt": [
-   90.0,
-   90.0,
-   90.0
-  ],
-  "bolsa lacoste@olx:pt": [
-   75.0,
-   100.0,
-   90.0,
-   110.0,
-   10.0,
-   100.0,
-   110.0,
-   100.0,
-   110.0,
-   100.0,
-   110.0,
-   75.0,
-   100.0,
-   110.0
-  ],
-  "supreme lacoste@olx:ua": [
-   231.0
-  ],
-  "pullover lacoste supreme rosa@willhaben": [
-   169.0
-  ],
-  "supreme lacoste windjacke peach@willhaben": [
-   239.0
-  ],
-  "supreme lacoste logo panel@willhaben": [
-   90.0
-  ],
-  "vintage rare lacoste supreme@subito": [
-   90.0
-  ],
-  "pantaloni supreme lacoste@subito": [
-   180.0
-  ],
-  "supreme lacoste bucket@subito": [
-   150.0
-  ],
-  "cappellino supreme lacoste@subito": [
-   90.0
-  ],
-  "giacca piumino lacoste supreme@subito": [
-   159.0
-  ],
-  "vestido azul marinho lacoste@olx:pt": [
-   9.0
-  ],
-  "casaco hoodie lacoste anos@olx:pt": [
-   45.0
-  ],
-  "lacoste veste bomber live@olx:ua": [
-   304.5
-  ],
-  "alo yoga muse suit@olx:ua": [
-   99.8,
-   99.8,
-   99.8
-  ],
-  "adidas techfit bustiera@olx:ro": [
-   10.0
-  ],
-  "maiou tehnic compresie original@olx:ro": [
-   9.8
-  ],
-  "tricou adidas techfit@olx:ro": [
-   8.0
-  ],
-  "colan leggings femei adidas@olx:ro": [
-   7.0
-  ],
-  "bluza tricou adidas compression@olx:ro": [
-   10.0
-  ],
-  "bluza maleta adidas climacool@olx:ro": [
-   18.0
-  ],
-  "tricou adidas techfit preparation@olx:ro": [
-   14.0
-  ],
-  "tricou adidas techfit compression@olx:ro": [
-   30.4
-  ],
-  "adidas bluza compresie@olx:ro": [
-   10.0
-  ],
-  "colanti adidas noi@olx:ro": [
-   32.0
-  ],
-  "adidas techfit climacool sorti@olx:ro": [
-   11.0
-  ],
-  "ghete fotbal adidas techfit@olx:ro": [
-   24.0
-  ],
-  "colant copi adidas techfit@olx:ro": [
-   10.0
-  ],
-  "adidas techfit@olx:ro": [
-   10.0,
-   84.0
-  ],
-  "colan scur adidas techfit@olx:ro": [
-   16.0
-  ],
-  "trening adidas@olx:ro": [
-   80.0
-  ],
-  "hanorac adidas hoodie@olx:ro": [
-   80.0
-  ],
-  "adidas hanorac adidas@olx:ro": [
-   76.0
-  ],
-  "pantaloni adidas wording pack@olx:ro": [
-   33.8
-  ],
-  "hanorac adidas sportswear zne@olx:ro": [
-   29.8
-  ],
-  "adidas full-zip hooded track@olx:ro": [
-   72.0
-  ],
-  "geaca adidas puffer@olx:ro": [
-   120.0
-  ],
-  "pantaloni adidas zne barrel@olx:ro": [
-   39.8
-  ],
-  "incaltari golden goose michael@olx:ro": [
-   20.0
-  ],
-  "adidas t-shirt techfit@olx:bg": [
-   10.0
-  ],
-  "adidas performance techfit training@olx:bg": [
-   10.2
-  ],
-  "adidas techfitx@olx:bg": [
-   35.8
-  ],
-  "adidas techfit@olx:bg": [
-   30.0,
-   20.0
-  ],
-  "techfit adidas@olx:bg": [
-   20.0
-  ],
-  "adidas techfit springblade@olx:bg": [
-   70.0
-  ],
-  "nike adidas@olx:bg": [
-   40.0
-  ],
-  "adidas climawarm techfit@olx:bg": [
-   18.0
-  ],
-  "adidas full-zip hooded track@olx:bg": [
-   71.6
-  ],
-  "lacoste napapijri adidas boss@olx:bg": [
-   9.0
-  ],
-  "adidas real madrid hoodie@olx:bg": [
-   50.0
-  ],
-  "adidas@olx:bg": [
-   90.0,
-   10.2,
-   10.2,
-   20.0,
-   120.0,
-   20.4
-  ],
-  "adidas zne@olx:bg": [
-   77.0
-  ],
-  "chuteiras sapatilhas original nike@olx:pt": [
-   45.0
-  ],
-  "vendo com muito pouco@olx:pt": [
-   75.0
-  ],
-  "cal pretos adidas@olx:pt": [
-   10.0
-  ],
-  "chuteiras menino adidas techfit@olx:pt": [
-   6.0
-  ],
-  "sapatilhas desportivas adidas unissexo@olx:pt": [
-   22.0
-  ],
-  "adidas trailcross gtx novas@olx:pt": [
-   90.0
-  ],
-  "camisola fitness adidas original@olx:pt": [
-   8.0
-  ],
-  "cal treino adidas vermelhos@olx:pt": [
-   8.0
-  ],
-  "t-shirt desportiva adidas aeroready@olx:pt": [
-   8.5,
-   8.5
-  ],
-  "adidas adizero evo@olx:pt": [
-   100.0,
-   85.0,
-   100.0,
-   100.0,
-   85.0,
-   90.0
-  ],
-  "nis adidas adizero evo@olx:pt": [
-   80.0
-  ],
-  "adidas adizero xcs sprint@olx:pt": [
-   22.0
-  ],
-  "adidas adizero prime strung@olx:pt": [
-   250.0
-  ],
-  "sapatilhas samba adidas@olx:pt": [
-   50.0
-  ],
-  "adidas novas cinza@olx:pt": [
-   40.0,
-   40.0
-  ],
-  "sapatilhas adidas nizza@olx:pt": [
-   25.0
-  ],
-  "adidas stan smith@olx:pt": [
-   45.0
-  ],
-  "samba adidas novos@olx:pt": [
-   150.0
-  ],
-  "t-shirt adidas@olx:pt": [
-   10.0
-  ],
-  "nis adidas estado novo@olx:pt": [
-   40.0
-  ],
-  "adidas samba pretos@olx:pt": [
-   40.0
-  ],
-  "cal adidas@olx:pt": [
-   10.0
-  ],
-  "sapatilhas adidas flux@olx:pt": [
-   10.0
-  ],
-  "cal adidas novos@olx:pt": [
-   8.0
-  ],
-  "adidas originals boost@olx:pt": [
-   30.0
-  ],
-  "adidas oportunidade@olx:pt": [
-   100.0,
-   100.0
-  ],
-  "nike pro combat adidas@olx:ua": [
-   2.7
-  ],
-  "adidas techfit compression@olx:ua": [
-   16.6
-  ],
-  "adidas techfit climalite@olx:ua": [
-   10.5
-  ],
-  "adidas techfit climalite 8-12@olx:ua": [
-   2.6
-  ],
-  "adidas climalite techfit@olx:ua": [
-   9.1
-  ],
-  "adidas techfit sportswear@olx:ua": [
-   8.4
-  ],
-  "adidas techfit climachill@olx:ua": [
-   12.6
-  ],
-  "adidas performance techfit@olx:ua": [
-   13.7
-  ],
-  "adidas tech fit adidas@olx:ua": [
-   8.0
-  ],
-  "adidas techfit bb3859@olx:ua": [
-   10.5
-  ],
-  "adidas techfit@olx:ua": [
-   6.9,
-   10.1,
-   5.2,
-   7.4,
-   23.1,
-   7.4,
-   12.6
-  ],
-  "adidas techfit climacool@olx:ua": [
-   10.5,
-   9.7,
-   9.5
-  ],
-  "adidas climalite techfit compression@olx:ua": [
-   5.8
-  ],
-  "adidas adidas@olx:ua": [
-   132.3
-  ],
-  "adidas sportswear@olx:ua": [
-   52.5
-  ],
-  "adidas climawarm down@olx:ua": [
-   105.0
-  ],
-  "adidas puffer climawarm oversized@olx:ua": [
-   165.9
-  ],
-  "adidas zne@olx:ua": [
-   125.8
-  ],
-  "adidas black new@olx:ua": [
-   111.3,
-   111.3
-  ],
-  "adidas climawarm down black@olx:ua": [
-   139.6,
-   139.6,
-   132.3
-  ],
-  "adidas puffer climawarm jl6905@olx:ua": [
-   151.0
-  ],
-  "adidas@olx:ua": [
-   5.2,
-   11.5,
-   8.4,
-   11.5,
-   3.2,
-   11.7,
-   7.1,
-   140.7,
-   31.1,
-   39.9,
-   46.2,
-   63.0,
-   63.0,
-   31.1,
-   86.1,
-   138.6,
-   140.7,
-   73.5,
-   125.8,
-   11.1
-  ],
-  "adidas climawarm down jl6905@olx:ua": [
-   122.9
-  ],
-  "adidas jw7770@olx:ua": [
-   90.1
-  ],
-  "adidas jw7739@olx:ua": [
-   90.1
-  ],
-  "adidas techfit@olx:kz": [
-   3.4,
-   3.4
-  ],
-  "adidas@olx:kz": [
-   85.0,
-   8.5,
-   8.5,
-   204.0
-  ],
-  "adidas shirt techfit@willhaben": [
-   5.0
-  ],
-  "sport fitness hose adidas@willhaben": [
-   10.0
-  ],
-  "tanktop adidas techfit neuwertig@willhaben": [
-   5.0
-  ],
-  "adidas performance techfit langarmshirt@willhaben": [
-   10.0
-  ],
-  "adidas techfit shirt@willhaben": [
-   3.5,
-   5.0,
-   4.0
-  ],
-  "adidas shirt herren@willhaben": [
-   10.0
-  ],
-  "adidas handball techfit powerweb@willhaben": [
-   10.0
-  ],
-  "adidas hose zip-hoodie wei@willhaben": [
-   105.0
-  ],
-  "adidas zne trainingshosen@willhaben": [
-   80.0
-  ],
-  "originale adidas weste edition@willhaben": [
-   99.0
-  ],
-  "funk triko adidas techfit@bazos:cz": [
-   10.2
-  ],
-  "adidas techfit funk leginy@bazos:cz": [
-   8.2
-  ],
-  "portove tielko adidas techfit@bazos:sk": [
-   7.0
-  ],
-  "adidas techfit climalite velkost@bazos:sk": [
-   10.0
-  ],
-  "leggings adidas adizero sprintweb@subito": [
-   10.0,
-   10.0
-  ],
-  "maglia adidas techfit uomo@subito": [
-   8.0
-  ],
-  "milan adidas jong autografata@subito": [
-   130.0
-  ],
-  "shirt adidas techfit clima@subito": [
-   10.0
-  ],
-  "felpa juventus adidas@subito": [
-   150.0
-  ],
-  "pantaloni scur adidas response@olx:ro": [
-   14.0
-  ],
-  "adidas terrex xperior pro@olx:ro": [
-   100.0
-  ],
-  "adidas own run full-length@olx:ua": [
-   27.3
-  ],
-  "adidas reebok nike training@olx:ua": [
-   23.1
-  ],
-  "adidas shirt formotion neu@willhaben": [
-   10.0
-  ],
-  "adidas -jungen funktionsshirts 164-170@willhaben": [
-   12.0
-  ],
-  "adidas formotion tshirt neuw@willhaben": [
-   10.0
-  ],
-  "adidas laufshirt@willhaben": [
-   8.0
-  ],
-  "adidas own run laufshirt@willhaben": [
-   13.0,
-   13.0
-  ],
-  "nou geaca windstopper impermeabila@olx:ro": [
-   79.8,
-   79.8
-  ],
-  "under armour hovr phantom@olx:bg": [
-   90.0
-  ],
-  "under armour charget bandit@olx:bg": [
-   165.0
-  ],
-  "under armour storm hoodie@olx:bg": [
-   92.0
-  ],
-  "undeniable duffle 1369223-010@olx:ua": [
-   52.5
-  ],
-  "undeniable duffle 1369223-001@olx:ua": [
-   52.5
-  ],
-  "under armour herren weste@olx:ua": [
-   36.8
-  ],
-  "under armour unisex project@olx:ua": [
-   42.0
-  ],
-  "under armour hustle pro@olx:ua": [
-   39.8
-  ],
-  "under armour sportstyle woven@willhaben": [
-   39.0
-  ],
-  "jbl under armour true@bazos:cz": [
-   82.0
-  ],
-  "under armour unstoppable@subito": [
-   90.0
-  ],
-  "pantaloni under armour storrm@subito": [
-   30.0
-  ],
-  "zaino under armour hustle@subito": [
-   35.0
-  ],
-  "scarpa ginnastica under armour@subito": [
-   50.0
-  ],
-  "casaco nike tech original@olx:pt": [
-   30.0
-  ],
-  "conjunto nike tech fleece@olx:pt": [
-   120.0
-  ],
-  "casaco fecho nike@olx:pt": [
-   10.0
-  ],
-  "casaco oficial barcelona nike@olx:pt": [
-   45.0
-  ],
-  "casaco nike nunca usado@olx:pt": [
-   25.0
-  ],
-  "fato treino nike tech@olx:pt": [
-   135.0
-  ],
-  "casaco nike homem@olx:pt": [
-   50.0,
-   25.0
-  ],
-  "cal nike sporting@olx:pt": [
-   10.0
-  ],
-  "cal nike dri-fit@olx:pt": [
-   14.0
-  ],
-  "nike hooded jacket@olx:pt": [
-   120.0
-  ],
-  "128-147 5tlg nike sportswear@willhaben": [
-   86.0
-  ],
-  "under armour valsetz rts@olx:bg": [
-   100.0
-  ],
-  "under armour ccgi@olx:ua": [
-   168.0,
-   168.0
-  ],
-  "under armour tactical coldgear@willhaben": [
-   10.0
-  ],
-  "under armour stellar tactical@willhaben": [
-   95.0
-  ],
-  "tricou columbia pfg grafic@olx:ro": [
-   10.0
-  ],
-  "columbia bahama vent relaxed@olx:ro": [
-   80.0
-  ],
-  "columbia pfg@olx:bg": [
-   10.0
-  ],
-  "columbia facet outdry@olx:pt": [
-   85.0
-  ],
-  "columbia montrail titan ultra@olx:ua": [
-   9.5
-  ],
-  "columbia montrail trinity trail@olx:ua": [
-   88.2
-  ],
-  "columbia montrail trinity fkt@olx:ua": [
-   80.9
-  ],
-  "columbia pfg tamiami bm8380-010@olx:ua": [
-   73.5
-  ],
-  "columbia pfg@olx:ua": [
-   10.3,
-   10.3
-  ],
-  "columbia youth boatside pfg@olx:ua": [
-   9.5
-  ],
-  "columbia pfg whipray shoe@olx:ua": [
-   147.0
-  ],
-  "columbia montrail@olx:kz": [
-   11.9
-  ],
-  "columbia pfg blood guts@willhaben": [
-   10.0
-  ],
-  "jacheta pentru sport nike@olx:ro": [
-   130.0
-  ],
-  "nike storm fit adv@olx:ro": [
-   139.8
-  ],
-  "nike-storm-fit-windrunner-regular-fit-puffa-jacket-58903@olx:bg": [
-   139.0
-  ],
-  "jacket nike storm-fit@olx:bg": [
-   109.0
-  ],
-  "nike storm fit golf@olx:bg": [
-   81.8
-  ],
-  "nike storm fit primaloft@olx:bg": [
-   137.5
-  ],
-  "nike storm -fit jacket@olx:bg": [
-   255.7
-  ],
-  "nike storm- fit jacket@olx:bg": [
-   100.0
-  ],
-  "nike acg lava flow@olx:bg": [
-   160.0
-  ],
-  "t-shirt dri fit nike@olx:pt": [
-   10.0,
-   10.0
-  ],
-  "t-shirt nike como nova@olx:pt": [
-   10.0
-  ],
-  "top crop desporto marca@olx:pt": [
-   4.0
-  ],
-  "top nike fitness@olx:pt": [
-   6.0
-  ],
-  "shirt nike dri fit@olx:pt": [
-   10.0,
-   10.0,
-   10.0
-  ],
-  "t-shirt nike vermelho tamanho@olx:pt": [
-   10.0
-  ],
-  "vestido nike desporto@olx:pt": [
-   7.5,
-   7.5,
-   7.5
-  ],
-  "tshirt dry-fit nike@olx:pt": [
-   10.0,
-   10.0,
-   10.0
-  ],
-  "t-shirt desportiva nike tamanho@olx:pt": [
-   5.0,
-   5.0
-  ],
-  "leggings nike running dri-fit@olx:pt": [
-   11.0,
-   11.0,
-   11.0
-  ],
-  "t-shirt dri-fit nike@olx:pt": [
-   7.0,
-   7.0,
-   7.0
-  ],
-  "nike storm-fit windrunner primaloft@olx:ua": [
-   162.8
-  ],
-  "nike acg therma-fit adv@olx:ua": [
-   136.3
-  ],
-  "nike acg lava flow@olx:ua": [
-   98.7,
-   168.0,
-   115.5,
-   98.7
-  ],
-  "nike acg primaloft therma-fit@olx:ua": [
-   140.7
-  ],
-  "nike tech pack therma-fit@olx:ua": [
-   136.5
-  ],
-  "nike storm-fit jacke schawrz@willhaben": [
-   90.0
-  ],
-  "nike sportswear storm-fit winterjacke@willhaben": [
-   101.0
-  ],
-  "nike storm-fit jacke@willhaben": [
-   159.9,
-   159.9
-  ],
-  "nike acg storm-fit adv@willhaben": [
-   179.0,
-   199.0,
-   179.0,
-   199.0
-  ],
-  "austria wien nike storm-fit@willhaben": [
-   99.0
-  ],
-  "nike club storm-fit pufferjacke@willhaben": [
-   80.0
-  ],
-  "nike storm-fit windrunner primaloft@willhaben": [
-   180.0
-  ],
-  "reserviert nike storm-fit jacke@willhaben": [
-   159.9
-  ],
-  "nike golf storm-fit herren@willhaben": [
-   10.0
-  ],
-  "nike storm fit jacke@willhaben": [
-   80.0
-  ],
-  "nike winterjacke@willhaben": [
-   90.0
-  ],
-  "giacca nike windrunner uomo@subito": [
-   100.0
-  ],
-  "giacca nike storm fit@subito": [
-   95.0
-  ],
-  "gilet nike therma-fit adv@subito": [
-   80.0
-  ],
-  "geac nike big swoosh@olx:ro": [
-   109.8
-  ],
-  "nike air zoom unvrs@olx:ro": [
-   100.0
-  ],
-  "stussy nike zoom spiridon@olx:ro": [
-   100.0
-  ],
-  "nike air force stussy@olx:ro": [
-   76.0
-  ],
-  "nike stussy air penny@olx:ro": [
-   79.8
-  ],
-  "nike big swoosh reversible@olx:bg": [
-   140.0
-  ],
-  "nike ssy beach pant@olx:bg": [
-   85.0
-  ],
-  "stussy nike air penny@olx:bg": [
-   160.0,
-   160.0
-  ],
-  "nike air force branco@olx:pt": [
-   75.0
-  ],
-  "camisola sweat nike sporting@olx:pt": [
-   10.0
-  ],
-  "sapatilha air nike@olx:pt": [
-   120.0
-  ],
-  "nike dunk low retro@olx:pt": [
-   110.0,
-   80.0
-  ],
-  "sapatilhas nike zoom air@olx:pt": [
-   85.0
-  ],
-  "nike dunk high decon@olx:pt": [
-   99.9
-  ],
-  "sweatshirt nike nba lakers@olx:pt": [
-   5.0,
-   5.0
-  ],
-  "sapatilhas nike shox@olx:pt": [
-   80.0,
-   120.0
-  ],
-  "nike mind black orange@olx:pt": [
-   80.0
-  ],
-  "nike kobe bruce lee@olx:pt": [
-   215.0
-  ],
-  "nike originais@olx:pt": [
-   140.0,
-   140.0,
-   140.0
-  ],
-  "nike air jordan bred@olx:pt": [
-   195.0
-  ],
-  "nike air max ltr@olx:pt": [
-   90.0,
-   90.0
-  ],
   "nike dunk low undefeated@olx:pt": [
    265.0
   ],
@@ -55099,9 +54110,6 @@
   ],
   "nike stussy novo@olx:pt": [
    500.0
-  ],
-  "nike dunk low supreme@olx:pt": [
-   180.0
   ],
   "nike nocta sunset puffer@olx:pt": [
    160.0
@@ -55300,11 +54308,6 @@
   "taglia europa nike stussy@subito": [
    120.0
   ],
-  "supreme comme des gar@olx:pt": [
-   1500.0,
-   1500.0,
-   1500.0
-  ],
   "nike strike thicker center@olx:ua": [
    11.5
   ],
@@ -55319,9 +54322,6 @@
   ],
   "stone island raso gommato@olx:ua": [
    396.9
-  ],
-  "new balance stone island@olx:ua": [
-   315.0
   ],
   "stone island raso gommoto@olx:ua": [
    161.7
@@ -55390,9 +54390,6 @@
   ],
   "essentials oversize premium tracksuit@olx:bg": [
    85.0
-  ],
-  "fear god essentials ss22@olx:bg": [
-   200.0
   ],
   "essentials ss22 iron@olx:bg": [
    115.0
@@ -56394,9 +55391,6 @@
    0.0,
    0.0
   ],
-  "nike storm-fit run division@olx:ua": [
-   92.4
-  ],
   "nike tech woven flash@olx:ua": [
    81.9
   ],
@@ -57174,12 +56168,6 @@
   "polo ralph lauren puffer@willhaben": [
    160.0
   ],
-  "zwei stone island jacken@willhaben": [
-   1600.0
-  ],
-  "stone island supreme reflective@willhaben": [
-   500.0
-  ],
   "giacca sportiva track jacket@subito": [
    10.0
   ],
@@ -57623,13 +56611,6 @@
    750.0,
    750.0
   ],
-  "nike air force mid@olx:pt": [
-   220.0,
-   220.0
-  ],
-  "nike zoom field jaxx@olx:pt": [
-   169.0
-  ],
   "nike air force off@olx:pt": [
    100.0,
    100.0
@@ -57641,23 +56622,9 @@
   "nike air max originais@olx:pt": [
    1300.0
   ],
-  "nike off-white air force@olx:pt": [
-   220.0,
-   220.0,
-   550.0
-  ],
   "nike dunk low there@olx:pt": [
    170.0,
    170.0
-  ],
-  "dunk low nike off-white@olx:pt": [
-   149.0,
-   149.0,
-   149.0,
-   149.0
-  ],
-  "nike travis scoot jordan@olx:pt": [
-   150.0
   ],
   "nike p-6000 tamanho novas@olx:pt": [
    90.0
@@ -57674,15 +56641,8 @@
   "nike waffe sacai clot@olx:pt": [
    240.0
   ],
-  "nike sacai collab@olx:pt": [
-   220.0,
-   220.0
-  ],
   "nike vaporwaffle sacai@olx:pt": [
    75.0
-  ],
-  "sapatilhas nike sacai vaporwaffle@olx:pt": [
-   220.0
   ],
   "nike dunk low safari@olx:pt": [
    90.0
@@ -57702,12 +56662,6 @@
   "nike zoom cortez sacai@olx:pt": [
    200.0
   ],
-  "nike travis scott reverse@olx:pt": [
-   80.0,
-   80.0,
-   80.0,
-   80.0
-  ],
   "corteiz nike airmax honey@olx:pt": [
    200.0
   ],
@@ -57716,9 +56670,6 @@
   ],
   "nike dunk high neutral@olx:pt": [
    100.0
-  ],
-  "travis scott nike barcelona@olx:pt": [
-   300.0
   ],
   "nike cortez ultra moire@olx:pt": [
    8.0,
@@ -57872,11 +56823,6 @@
   "nike dunk lox off-white@willhaben": [
    350.0
   ],
-  "nike dunk low off-white@willhaben": [
-   220.0,
-   220.0,
-   270.0
-  ],
   "nike air presto off@willhaben": [
    450.0
   ],
@@ -57996,9 +56942,6 @@
   ],
   "off-white nike air presto@subito": [
    100.0
-  ],
-  "nike air jordan high@subito": [
-   300.0
   ],
   "nike dunk off-white pine@subito": [
    450.0
@@ -58480,23 +57423,12 @@
   "stone island termochrome heat@olx:ua": [
    94.5
   ],
-  "vintage stone island jacke@willhaben": [
-   1000.0,
-   1000.0
-  ],
-  "stone island sweater mit@willhaben": [
-   139.0
-  ],
   "stone island liquid reflective@willhaben": [
    280.0,
    750.0
   ],
   "stone island trinkflasche heat@willhaben": [
    110.0
-  ],
-  "giacca stone island@subito": [
-   380.0,
-   799.0
   ],
   "stone island metal lamina@subito": [
    1100.0
@@ -59223,9 +58155,6 @@
   ],
   "sweat ralph lauren@olx:pt": [
    80.0
-  ],
-  "cal polo ralph lauren@olx:pt": [
-   10.0
   ],
   "sweat polo ralph lauren@olx:pt": [
    90.0
@@ -60349,31 +59278,9 @@
   "essentials ss22 light oatmeal@olx:bg": [
    115.0
   ],
-  "essentials fear god light@olx:pt": [
-   125.0,
-   125.0
-  ],
-  "conjunto cinzento essentials@olx:pt": [
-   120.0,
-   120.0,
-   120.0
-  ],
-  "fato treino essentials tamanho@olx:pt": [
-   124.0,
-   124.0,
-   124.0
-  ],
   "cal bombazine essentials modalfa@olx:pt": [
    10.0,
    10.0
-  ],
-  "conjunto essentials@olx:pt": [
-   140.0,
-   140.0
-  ],
-  "camisola vermelha doone essentials@olx:pt": [
-   4.0,
-   4.0
   ],
   "conjunto preto essentials@olx:pt": [
    120.0
@@ -60384,33 +59291,8 @@
   "essentials fear god hoodie@olx:ua": [
    75.6
   ],
-  "fog fear god essentials@olx:ua": [
-   73.5
-  ],
   "fear god essentials@olx:ua": [
    73.5
-  ],
-  "fear god essentials fog@olx:ua": [
-   100.6,
-   100.6,
-   123.9,
-   102.9,
-   100.6,
-   125.8,
-   125.8,
-   123.9,
-   94.5,
-   125.8,
-   125.8,
-   125.8,
-   141.2,
-   83.8,
-   94.5,
-   130.1,
-   130.1,
-   125.8,
-   94.5,
-   94.5
   ],
   "fear god essentials raglan@olx:ua": [
    79.4
@@ -63872,32 +62754,9 @@
   "nike dunk low purple@olx:pt": [
    160.0
   ],
-  "conjunto under armour air@olx:pt": [
-   115.0,
-   115.0,
-   115.0,
-   115.0
-  ],
-  "balenciaga under armour hoodie@olx:pt": [
-   450.0,
-   450.0
-  ],
   "fato treino under armour@olx:pt": [
    75.0,
    75.0
-  ],
-  "casaco inverno under armour@olx:pt": [
-   90.0,
-   90.0,
-   90.0,
-   90.0,
-   90.0
-  ],
-  "conjunto under armour preto@olx:pt": [
-   80.0,
-   80.0,
-   80.0,
-   80.0
   ],
   "under armour unstoppable down@olx:ua": [
    157.5
@@ -63922,9 +62781,6 @@
    126.0,
    126.0,
    126.0
-  ],
-  "under armour legend down@olx:ua": [
-   168.0
   ],
   "under armour softshell@olx:ua": [
    60.9,
@@ -63995,49 +62851,1295 @@
   ],
   "tracksuit under armour@subito": [
    90.0
+  ],
+  "leggings nike running dri-fit@olx:pt": [
+   11.0,
+   11.0,
+   11.0,
+   11.0
+  ],
+  "nike running performance limited@willhaben": [
+   82.0
+  ],
+  "under armour legend down@olx:ua": [
+   168.0,
+   157.5
+  ],
+  "under armour limitless athletic@olx:ua": [
+   163.8
+  ],
+  "verkauft stone island daunenjacke@willhaben": [
+   100.0
+  ],
+  "stone-island hoodie-weste ocean-blue original@willhaben": [
+   139.0
+  ],
+  "stone island vintage strick-hoodie@willhaben": [
+   155.0
+  ],
+  "ralph lauren zipper sweatjacke@willhaben": [
+   75.0
+  ],
+  "under armour hoodie@willhaben": [
+   10.0
+  ],
+  "3tlg set under armour@willhaben": [
+   90.0
+  ],
+  "under armour cold gear@willhaben": [
+   8.0
+  ],
+  "underarmor t-shirt@willhaben": [
+   7.0
+  ],
+  "trainingshose ylg 14-16 underarmor@willhaben": [
+   8.0
+  ],
+  "pantalone stone island chino@subito": [
+   75.0
+  ],
+  "lotto pantaloncini corti jorts@subito": [
+   149.0
+  ],
+  "nike patta barcelona@olx:ro": [
+   100.0
+  ],
+  "nike patta barca rimea@olx:ro": [
+   110.0
+  ],
+  "nike air jordan retro@olx:ro": [
+   379.8
+  ],
+  "ghete travis scott nike@olx:ro": [
+   105.0
+  ],
+  "nike travis scott dunk@olx:ro": [
+   80.0
+  ],
+  "nike jordan 4xtravis scott@olx:ro": [
+   160.0
+  ],
+  "nike air jordan travis@olx:ro": [
+   78.0
+  ],
+  "nike jordan low travis@olx:ro": [
+   90.0
+  ],
+  "nike jordan retro low@olx:ro": [
+   1100.0
+  ],
+  "travis scott jordan air@olx:ro": [
+   85.8,
+   85.8
+  ],
+  "nike air force travis@olx:ro": [
+   100.0
+  ],
+  "nike af1 travis scott@olx:ro": [
+   80.0
+  ],
+  "tricou copii nike cw3819-104@olx:ro": [
+   9.0
+  ],
+  "stoc incaltaminte copii adidas@olx:ro": [
+   10.0
+  ],
+  "nike patta fcb@olx:bg": [
+   150.0
+  ],
+  "nike air max dn8@olx:bg": [
+   139.0
+  ],
+  "cactus jack travis scott@olx:bg": [
+   71.1
+  ],
+  "nike air jordan high@olx:bg": [
+   150.0
+  ],
+  "nike dunke travis scott@olx:bg": [
+   357.9
+  ],
+  "travis scott nike zoom@olx:bg": [
+   120.0
+  ],
+  "nike air jordan travis@olx:bg": [
+   230.1,
+   95.0
+  ],
+  "travis scott nike trainer@olx:bg": [
+   92.0
+  ],
+  "nike jordan travis scott@olx:bg": [
+   75.0
+  ],
+  "nike dunk travis scott@olx:bg": [
+   100.0
+  ],
+  "travis scott nike air@olx:bg": [
+   85.0
+  ],
+  "nike air max travis@olx:bg": [
+   339.0
+  ],
+  "nike air max pure@olx:pt": [
+   110.0
+  ],
+  "dunk low nike off-white@olx:pt": [
+   149.0,
+   149.0,
+   149.0,
+   149.0,
+   149.0
+  ],
+  "nike palace total iii@olx:pt": [
+   250.0
+  ],
+  "nike dunk low black@olx:pt": [
+   160.0
+  ],
+  "nike panda originais tam@olx:pt": [
+   100.0
+  ],
+  "nike nocta tamanho@olx:pt": [
+   180.0
+  ],
+  "nike dunk low retro@olx:pt": [
+   110.0,
+   80.0,
+   110.0
+  ],
+  "nike dunk low panda@olx:pt": [
+   90.0
+  ],
+  "nike sacai collab@olx:pt": [
+   220.0,
+   220.0,
+   220.0
+  ],
+  "sapatilhas nike sacai vaporwaffle@olx:pt": [
+   220.0,
+   220.0
+  ],
+  "nike jordan air force@olx:pt": [
+   85.0
+  ],
+  "nike air jordan low@olx:pt": [
+   80.0
+  ],
+  "supreme comme des gar@olx:pt": [
+   1500.0,
+   1500.0,
+   1500.0,
+   1500.0
+  ],
+  "nike jordan travis scoot@olx:pt": [
+   150.0
+  ],
+  "nike jordan low travis@olx:pt": [
+   110.0
+  ],
+  "nike sir jordan travis@olx:pt": [
+   100.0
+  ],
+  "travis scott nike barcelona@olx:pt": [
+   300.0,
+   300.0
+  ],
+  "nike travis scott rias@olx:pt": [
+   160.0
+  ],
+  "nike air trainer travis@olx:pt": [
+   220.0
+  ],
+  "air jordan nike travis@olx:pt": [
+   400.0
+  ],
+  "nike zoom field jaxx@olx:pt": [
+   169.0,
+   169.0
+  ],
+  "travis scott cact corp@olx:pt": [
+   75.0
+  ],
+  "nike air force travis@olx:pt": [
+   120.0
+  ],
+  "nike air jordan retro@olx:pt": [
+   500.0
+  ],
+  "travis scott nike air@olx:pt": [
+   220.0
+  ],
+  "nike travis scott reverse@olx:pt": [
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "nike travis scoot jordan@olx:pt": [
+   150.0,
+   150.0,
+   150.0,
+   150.0
+  ],
+  "tennis nike airmax@olx:pt": [
+   80.0
+  ],
+  "sapatilhas nike air@olx:pt": [
+   5.0
+  ],
+  "nike air max white@olx:pt": [
+   85.0
+  ],
+  "sapatilhas azuis nike@olx:pt": [
+   6.0
+  ],
+  "nike air force mid@olx:pt": [
+   220.0,
+   220.0,
+   220.0
+  ],
+  "nike dunk low supreme@olx:pt": [
+   180.0,
+   180.0
+  ],
+  "nike zoom victory@olx:pt": [
+   80.0
+  ],
+  "sapatilhas nike zoomx@olx:pt": [
+   75.0,
+   75.0
+  ],
+  "sapatilhas nike air max@olx:pt": [
+   220.0,
+   100.0
+  ],
+  "nike off-white air force@olx:pt": [
+   220.0,
+   220.0,
+   550.0,
+   220.0,
+   220.0,
+   220.0
+  ],
+  "nike ruby rose air@olx:pt": [
+   135.0
+  ],
+  "nike dunk low prm@olx:pt": [
+   130.0,
+   100.0
+  ],
+  "sapatilhas nike air force@olx:pt": [
+   190.0
+  ],
+  "nike airmx boas condi@olx:pt": [
+   75.0
+  ],
+  "fato treino nike completo@olx:pt": [
+   50.0
+  ],
+  "nike victory brancos@olx:pt": [
+   100.0
+  ],
+  "vestido nike desporto@olx:pt": [
+   7.5,
+   7.5,
+   7.5,
+   7.5
+  ],
+  "cal nike sele francesa@olx:pt": [
+   10.0
+  ],
+  "fato treino completo supreme@olx:pt": [
+   400.0
+  ],
+  "suti desportivo nike alto@olx:pt": [
+   10.0
+  ],
+  "cal nike sporting@olx:pt": [
+   10.0,
+   10.0
+  ],
+  "casaco desporto marca nike@olx:pt": [
+   5.0
+  ],
+  "cal desporto nike@olx:pt": [
+   7.0
+  ],
+  "sapatilhas bicos nike victory@olx:pt": [
+   120.0
+  ],
+  "nike patta air max@olx:ua": [
+   94.5
+  ],
+  "nike patta@olx:ua": [
+   94.5
+  ],
+  "north face nike patta@olx:ua": [
+   6.3
+  ],
+  "nike cactus jack travis@olx:ua": [
+   63.0
+  ],
+  "nike travis scott mens@olx:ua": [
+   38.9
+  ],
+  "nike travis scott barcelona@olx:ua": [
+   16.8
+  ],
+  "nike air jordan low@olx:ua": [
+   73.5,
+   105.0,
+   58.8
+  ],
+  "nike air jorgan low@olx:ua": [
+   73.5
+  ],
+  "new balance gator run@olx:ua": [
+   92.2
+  ],
+  "nike air jordan travis@olx:ua": [
+   73.5,
+   60.7
+  ],
+  "sale nike air jordan@olx:ua": [
+   62.8,
+   55.7
+  ],
+  "nike travis scott nrg@olx:ua": [
+   37.8
+  ],
+  "nike dunk cpfm cactus@olx:ua": [
+   77.7
+  ],
+  "nike dunk low cpfmcactus@olx:ua": [
+   71.2
+  ],
+  "nike cactus plant flea@olx:ua": [
+   441.0
+  ],
+  "badfive nike acg riot@olx:ua": [
+   75.6
+  ],
+  "nike therma-fit adv run@olx:ua": [
+   9.5
+  ],
+  "nike dri-fit run division@olx:ua": [
+   7.4
+  ],
+  "nike air zoom division@olx:ua": [
+   9.5
+  ],
+  "nike dry stripped division@olx:ua": [
+   10.5
+  ],
+  "nike storm-fit adv running@olx:ua": [
+   115.5
+  ],
+  "nike storm-fit run division@olx:ua": [
+   92.4,
+   92.4
+  ],
+  "nike striped division@olx:ua": [
+   4.7
+  ],
+  "nike running division storm@olx:ua": [
+   84.0
+  ],
+  "jordan nike trapstar riot@olx:ua": [
+   8.4
+  ],
+  "nike travis scott black@olx:kz": [
+   6.8
+  ],
+  "nike travis scott jordan@olx:kz": [
+   8.3
+  ],
+  "nike travis scott air@olx:kz": [
+   5.1
+  ],
+  "nike air max1 patta@willhaben": [
+   999.0
+  ],
+  "nike air max patta@willhaben": [
+   195.0,
+   170.0
+  ],
+  "nike patta vapor elite@willhaben": [
+   390.0
+  ],
+  "nike air max plus@willhaben": [
+   149.0,
+   200.0
+  ],
+  "nike patta pro@willhaben": [
+   355.0
+  ],
+  "nike jumpman jack travis@willhaben": [
+   230.0
+  ],
+  "nike air jordan retro@willhaben": [
+   520.0
+  ],
+  "nike travis scott zoom@willhaben": [
+   220.0
+  ],
+  "nike air jordan high@willhaben": [
+   130.0
+  ],
+  "nike air jordan low@willhaben": [
+   470.0,
+   130.0
+  ],
+  "reserviert nike air jordan@willhaben": [
+   130.0
+  ],
+  "nike dunk low off-white@willhaben": [
+   220.0,
+   220.0,
+   270.0,
+   220.0
+  ],
+  "nike air force travis@willhaben": [
+   545.0
+  ],
+  "nike mac attack travis@willhaben": [
+   220.0
+  ],
+  "nike travis scott canary@willhaben": [
+   301.0
+  ],
+  "nike air jordan travis@willhaben": [
+   250.0
+  ],
+  "barcelona dress travis scott@willhaben": [
+   75.0
+  ],
+  "nike barcelona travis scott@willhaben": [
+   95.0,
+   95.0
+  ],
+  "nike jordan travis scott@willhaben": [
+   400.0
+  ],
+  "nike dunk april skateboard@willhaben": [
+   299.0
+  ],
+  "nike smiley swoosh hoddie@willhaben": [
+   200.0
+  ],
+  "balltrikot fantrikot heimtrikot vereinstrikot@willhaben": [
+   140.0
+  ],
+  "nike mercurial vapor elite@bazos:cz": [
+   274.7
+  ],
+  "nike zoom field jaxx@bazos:cz": [
+   143.5
+  ],
+  "nike airmax barcelona ispirate@subito": [
+   80.0
+  ],
+  "nike cryoshot mercurial vapor@subito": [
+   250.0
+  ],
+  "nike air per patta@subito": [
+   135.0
+  ],
+  "eur patta nike air@subito": [
+   230.0
+  ],
+  "nike patta runnig tea@subito": [
+   750.0
+  ],
+  "nike air max patta@subito": [
+   220.0,
+   220.0
+  ],
+  "nike barcellona patta@subito": [
+   80.0
+  ],
+  "nike air max plus@subito": [
+   135.0
+  ],
+  "nike patta air max@subito": [
+   330.0,
+   210.0
+  ],
+  "nike jordan travis scott@subito": [
+   209.0,
+   209.0
+  ],
+  "nike zoom field jaxx@subito": [
+   110.0
+  ],
+  "nike dunk low travis@subito": [
+   470.0
+  ],
+  "nike air jordan low@subito": [
+   360.0,
+   209.0,
+   110.0,
+   95.0
+  ],
+  "nike travis scott olive@subito": [
+   95.0
+  ],
+  "cactus jack travis scott@subito": [
+   100.0
+  ],
+  "nike phantom elite travis@subito": [
+   320.0
+  ],
+  "nike zoom travis scott@subito": [
+   120.0
+  ],
+  "nike air max travis@subito": [
+   150.0
+  ],
+  "nike air jordan high@subito": [
+   300.0,
+   125.0,
+   140.0
+  ],
+  "nike jordan low fragment@subito": [
+   250.0,
+   500.0
+  ],
+  "felpa nike acg cpfm@subito": [
+   340.0
+  ],
+  "nike air rift breathe@subito": [
+   108.0
+  ],
+  "nike triax swift juventus@subito": [
+   120.0
+  ],
+  "new balance stone island@olx:ro": [
+   170.0
+  ],
+  "stone island supreme@olx:bg": [
+   210.0
+  ],
+  "new balance stone island@olx:bg": [
+   102.0,
+   130.0
+  ],
+  "stone island new balance@olx:bg": [
+   295.0
+  ],
+  "camisolas stone island@olx:pt": [
+   25.0
+  ],
+  "camisola stone island@olx:pt": [
+   85.0,
+   85.0
+  ],
+  "sweatshirt stone island@olx:pt": [
+   80.0,
+   80.0
+  ],
+  "dior stone island b30@olx:pt": [
+   130.0
+  ],
+  "stone island supreme s-m-l-xl-xxl@olx:ua": [
+   60.5
+  ],
+  "stone island supreme hoodie@olx:ua": [
+   54.6,
+   54.6
+  ],
+  "stone island supreme@olx:ua": [
+   399.0,
+   273.0,
+   218.4
+  ],
+  "stone island supreme sweatpants@olx:ua": [
+   302.4
+  ],
+  "supreme stone island@olx:ua": [
+   49.3
+  ],
+  "stone island supreme new@olx:ua": [
+   828.5
+  ],
+  "stone island suprrme@olx:ua": [
+   24.2
+  ],
+  "stone island new balance574@olx:ua": [
+   210.0
+  ],
+  "new balance fuelcell stone@olx:ua": [
+   72.5
+  ],
+  "new balance legacy stone@olx:ua": [
+   77.7,
+   77.7,
+   77.7
+  ],
+  "stone island new balance@olx:ua": [
+   305.8
+  ],
+  "new balance stone island@olx:ua": [
+   315.0,
+   630.0,
+   220.5,
+   346.3,
+   123.9
+  ],
+  "stone island supreme hoodie@willhaben": [
+   699.0,
+   400.0
+  ],
+  "stone island supreme weste@willhaben": [
+   429.0
+  ],
+  "stone island supreme jogginghose@willhaben": [
+   150.0
+  ],
+  "reserviert newbalance stone island@willhaben": [
+   100.0
+  ],
+  "new balance stone island@willhaben": [
+   650.0
+  ],
+  "stone island new balance@willhaben": [
+   440.0,
+   280.0,
+   320.0,
+   550.0,
+   333.0,
+   333.0,
+   300.0
+  ],
+  "stone island new balance@bazos:sk": [
+   150.0
+  ],
+  "stone island supreme corduroy@subito": [
+   1500.0
+  ],
+  "new balance stone island@subito": [
+   150.0,
+   350.0
+  ],
+  "stone island new balance@subito": [
+   500.0,
+   450.0
+  ],
+  "polo ralph lauren made@olx:bg": [
+   8.0
+  ],
+  "lote roupa chaps ralph@olx:pt": [
+   200.0
+  ],
+  "saia adolescente ralph lauren@olx:pt": [
+   10.0
+  ],
+  "casaco homem ralph lauren@olx:pt": [
+   200.0
+  ],
+  "casaco polo ralph lauren@olx:pt": [
+   80.0
+  ],
+  "vendo casaco ralph lauren@olx:pt": [
+   1140.0
+  ],
+  "casaco sweatshirt polo ralph@olx:pt": [
+   120.0
+  ],
+  "casaco ralph lauren preto@olx:pt": [
+   185.0
+  ],
+  "puffer ralph lauren@olx:pt": [
+   120.0
+  ],
+  "hoodie polo ralph lauren@olx:pt": [
+   150.0
+  ],
+  "camisola chaps ralph lauren@olx:pt": [
+   6.0,
+   6.0
+  ],
+  "cal polo ralph lauren@olx:pt": [
+   10.0,
+   10.0
+  ],
+  "vendo camisas polo ralph@olx:pt": [
+   7.0
+  ],
+  "polo ralph lauren azul@olx:pt": [
+   8.0
+  ],
+  "polo ralph lauren menino@olx:pt": [
+   10.0
+  ],
+  "polo ralph lauren infantil@olx:pt": [
+   2.0
+  ],
+  "polo ralph lauren@olx:pt": [
+   8.0,
+   9.0,
+   9.0,
+   9.0,
+   10.0
+  ],
+  "t-shirt polo ralph lauren@olx:pt": [
+   10.0
+  ],
+  "polo polo ralph lauren@olx:pt": [
+   10.0
+  ],
+  "chaps vintage denim jacket@olx:ua": [
+   37.8
+  ],
+  "ralph lauren made usa@olx:ua": [
+   9.7
+  ],
+  "polo ralph lauren slim@olx:ua": [
+   5.7
+  ],
+  "polo ralph lauren made@olx:ua": [
+   107.1
+  ],
+  "chaps ralph lauren vintage@willhaben": [
+   10.0
+  ],
+  "vintage field jacket von@willhaben": [
+   110.0
+  ],
+  "vintage chaps leather biker@willhaben": [
+   200.0
+  ],
+  "ralph lauren chaps vintage@willhaben": [
+   10.0
+  ],
+  "vintage polo ralph lauren@willhaben": [
+   160.0
+  ],
+  "polo ralph lauren flag@willhaben": [
+   190.0
+  ],
+  "made usa vintage polo@willhaben": [
+   120.0
+  ],
+  "exklusives polo jeans ralph@willhaben": [
+   79.0
+  ],
+  "neu herren hemd von@willhaben": [
+   110.0
+  ],
+  "polo country ralph lauren@willhaben": [
+   299.0
+  ],
+  "polo champ ralph lauren@subito": [
+   10.0
+  ],
+  "giacca vintage polo ralph@subito": [
+   79.0
+  ],
+  "rara felpa ralph lauren@subito": [
+   98.0
+  ],
+  "vand pantaloni essentials fear@olx:ro": [
+   80.0,
+   80.0
+  ],
+  "next premium modern essentials@olx:ro": [
+   8.0
+  ],
+  "fear god essentials ss22@olx:bg": [
+   200.0,
+   200.0
+  ],
+  "conjunto essentials fear god@olx:pt": [
+   100.0,
+   80.0
+  ],
+  "casaco essentials@olx:pt": [
+   80.0
+  ],
+  "conjunto cinzento essentials@olx:pt": [
+   120.0,
+   120.0,
+   120.0,
+   120.0,
+   120.0
+  ],
+  "hoodie essentials@olx:pt": [
+   110.0,
+   110.0
+  ],
+  "essentials fear god light@olx:pt": [
+   125.0,
+   125.0,
+   125.0,
+   125.0
+  ],
+  "fato treino essentials tamanho@olx:pt": [
+   124.0,
+   124.0,
+   124.0,
+   124.0,
+   124.0
+  ],
+  "conjunto essentials@olx:pt": [
+   140.0,
+   140.0,
+   140.0
+  ],
+  "essentials hoodie khaki@olx:pt": [
+   100.0,
+   100.0
+  ],
+  "camisola vermelha doone essentials@olx:pt": [
+   4.0,
+   4.0,
+   4.0
+  ],
+  "business essentials ronald ebert@olx:pt": [
+   5.0
+  ],
+  "essentials fear god relaxed@olx:ua": [
+   75.6
+  ],
+  "fear god essentials black@olx:ua": [
+   32.6
+  ],
+  "fear god essentials pullover@olx:ua": [
+   92.4
+  ],
+  "essentials represent@olx:ua": [
+   37.8
+  ],
+  "fear god essentials knit@olx:ua": [
+   65.1
+  ],
+  "fear god essentials logo-flocked@olx:ua": [
+   79.4
+  ],
+  "fear god essentials smoke@olx:ua": [
+   84.0,
+   136.5
+  ],
+  "fear god essentials jet@olx:ua": [
+   189.0
+  ],
+  "fog fear god essentials@olx:ua": [
+   73.5,
+   147.0,
+   157.5
+  ],
+  "new fear god essentials@olx:ua": [
+   136.5,
+   94.5
+  ],
+  "fear god essentials fog@olx:ua": [
+   100.6,
+   125.8,
+   125.8,
+   123.9,
+   94.5,
+   125.8,
+   125.8,
+   125.8,
+   141.2,
+   83.8,
+   94.5,
+   130.1,
+   130.1,
+   125.8,
+   94.5,
+   94.5,
+   125.8,
+   125.8,
+   104.8,
+   157.5
+  ],
+  "fear god essentials hoodie@willhaben": [
+   75.0
+  ],
+  "tchibo essentials luftige culotte@willhaben": [
+   0.0
+  ],
+  "fear god essentials mikina@bazos:sk": [
+   199.0
+  ],
+  "geaca iarna puf under@olx:ro": [
+   100.0
+  ],
+  "geac under armour rimea@olx:ro": [
+   90.0
+  ],
+  "geaca under armour ski@olx:ro": [
+   80.0
+  ],
+  "nou geaca windstopper impermeabila@olx:ro": [
+   79.8
+  ],
+  "geaca originala under armour@olx:ro": [
+   99.8
+  ],
+  "geaca under armour noua@olx:ro": [
+   79.8,
+   76.0
+  ],
+  "geaca jacheta under armour@olx:ro": [
+   80.0
+  ],
+  "geaca puf under armour@olx:ro": [
+   80.0
+  ],
+  "tricou under armour@olx:ro": [
+   8.0
+  ],
+  "vesta under armour@olx:ro": [
+   90.0
+  ],
+  "under armour sapatilhas@olx:pt": [
+   30.0
+  ],
+  "casaco inverno under armour@olx:pt": [
+   90.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0,
+   90.0
+  ],
+  "conjunto under armour air@olx:pt": [
+   115.0,
+   115.0,
+   115.0,
+   115.0,
+   115.0,
+   115.0,
+   115.0
+  ],
+  "balenciaga under armour hoodie@olx:pt": [
+   450.0,
+   450.0,
+   450.0,
+   450.0,
+   450.0
+  ],
+  "conjunto under armour preto@olx:pt": [
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0,
+   80.0
+  ],
+  "casaco stone island novo@olx:pt": [
+   120.0,
+   120.0,
+   120.0
+  ],
+  "casaco stone island shadow@olx:pt": [
+   460.0,
+   460.0
+  ],
+  "casaco stone island ss2002@olx:pt": [
+   380.0,
+   380.0,
+   380.0
+  ],
+  "casaco stone island@olx:pt": [
+   85.0,
+   85.0,
+   85.0
+  ],
+  "stone island camisola maga@olx:pt": [
+   160.0,
+   160.0,
+   160.0,
+   160.0,
+   160.0,
+   160.0,
+   160.0
+  ],
+  "stone island ice nylon@olx:pt": [
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0,
+   150.0
+  ],
+  "cal cargo stone island@olx:pt": [
+   220.0,
+   220.0,
+   220.0,
+   220.0,
+   220.0
+  ],
+  "hoodies stone island@olx:pt": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "sweat stone island@olx:pt": [
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0,
+   100.0
+  ],
+  "fatos banho marca stone@olx:pt": [
+   120.0,
+   120.0,
+   120.0,
+   120.0,
+   120.0,
+   120.0
+  ],
+  "sweat hoddie stone island@olx:pt": [
+   150.0,
+   150.0,
+   150.0
+  ],
+  "camisola gola alta stone@olx:pt": [
+   99.5
+  ],
+  "stone island s-xxl@olx:ua": [
+   84.0
+  ],
+  "stone island ghost@olx:ua": [
+   119.7
+  ],
+  "stone island ghost beige@olx:ua": [
+   132.7
+  ],
+  "stone island ghost ventile@olx:ua": [
+   588.0
+  ],
+  "hugo boss stone island@olx:ua": [
+   277.0
+  ],
+  "soft-she stone island topstoney@olx:ua": [
+   102.5
+  ],
+  "stone island reflective@olx:ua": [
+   197.4
+  ],
+  "grot softshell stone island@olx:ua": [
+   56.5
+  ],
+  "stone island light soft@olx:ua": [
+   52.3
+  ],
+  "stone island avio blue@olx:ua": [
+   315.0,
+   315.0
+  ],
+  "stone island@olx:ua": [
+   86.1,
+   420.0,
+   207.9
+  ],
+  "stone island-@olx:ua": [
+   109.2
+  ],
+  "stone island xxl xxxl@olx:ua": [
+   77.7
+  ],
+  "stone island nylon metal@olx:ua": [
+   294.0,
+   420.0,
+   409.5,
+   409.5
+  ],
+  "stone island grot softshell@olx:ua": [
+   56.1
+  ],
+  "stone island stone island@olx:ua": [
+   96.6,
+   77.4,
+   77.7
+  ],
+  "stone island comfort tech@olx:ua": [
+   100.8,
+   100.8,
+   105.0,
+   96.6,
+   105.0
+  ],
+  "stone island@olx:kz": [
+   0.0
+  ],
+  "stone island softshell 48-50@olx:kz": [
+   85.0
+  ],
+  "stone island jacke weiss@willhaben": [
+   250.0
+  ],
+  "stone island bomberjacke@willhaben": [
+   350.0
+  ],
+  "stone island jacke@willhaben": [
+   150.0
+  ],
+  "stone island cotton jacke@willhaben": [
+   320.0
+  ],
+  "stone island leichte winterjacke@willhaben": [
+   210.0
+  ],
+  "stone island jacke herren@willhaben": [
+   229.0
+  ],
+  "zwei stone island jacken@willhaben": [
+   1600.0,
+   1600.0
+  ],
+  "stone island jacke jungen@willhaben": [
+   90.0
+  ],
+  "stone island jacke loom@willhaben": [
+   499.0
+  ],
+  "stone island cardigan jacke@willhaben": [
+   79.0
+  ],
+  "verkaufe orig stone island@willhaben": [
+   185.0
+  ],
+  "stone island micro rip@willhaben": [
+   250.0
+  ],
+  "stone island loom woven@willhaben": [
+   290.0
+  ],
+  "stone island supreme reflective@willhaben": [
+   500.0,
+   500.0,
+   500.0
+  ],
+  "stone island winterjacke original@willhaben": [
+   950.0
+  ],
+  "vintage stone island jacke@willhaben": [
+   1000.0,
+   1000.0,
+   1000.0
+  ],
+  "stone island soft shell@willhaben": [
+   150.0
+  ],
+  "reserviert winterjacke stone island@willhaben": [
+   280.0
+  ],
+  "stone island zipp hoodie@willhaben": [
+   150.0
+  ],
+  "stone island zip jacke@willhaben": [
+   170.0,
+   150.0
+  ],
+  "stone island sweater mit@willhaben": [
+   139.0,
+   139.0
+  ],
+  "bunda stone island@bazos:cz": [
+   90.2
+  ],
+  "stone island bunda@bazos:cz": [
+   82.0
+  ],
+  "mske portov tielko under@bazos:sk": [
+   9.0
+  ],
+  "perov bunda canada goose@bazos:sk": [
+   150.0
+  ],
+  "stone island nska bunda@bazos:sk": [
+   105.0
+  ],
+  "prechodn bunda stone island@bazos:sk": [
+   100.0
+  ],
+  "stone island bunda@bazos:sk": [
+   85.0,
+   110.0
+  ],
+  "stone island zimn bunda@bazos:sk": [
+   85.0
+  ],
+  "golf abbigliamento completo inverno@subito": [
+   70.0
+  ],
+  "maglia spiderman under armour@subito": [
+   120.0
+  ],
+  "under armour pantaloni@subito": [
+   10.0
+  ],
+  "piumino parka stone island@subito": [
+   550.0
+  ],
+  "giacca grigia lana del@subito": [
+   250.0
+  ],
+  "gilet stone island@subito": [
+   250.0,
+   110.0
+  ],
+  "stone island piumino giacca@subito": [
+   159.0
+  ],
+  "giacca cardigan stone island@subito": [
+   130.0
+  ],
+  "stone island giacca@subito": [
+   110.0
+  ],
+  "giacche stone island double@subito": [
+   130.0
+  ],
+  "giacca stone island@subito": [
+   380.0,
+   799.0,
+   129.0,
+   150.0,
+   300.0,
+   279.0,
+   280.0
+  ],
+  "stone island originale@subito": [
+   1.0
+  ],
+  "giacca vento stone island@subito": [
+   130.0
+  ],
+  "giacca stone island verde@subito": [
+   220.0
+  ],
+  "giacca giubbotto stone island@subito": [
+   300.0
+  ],
+  "giacca stone island nera@subito": [
+   155.0
   ]
  },
  "ph": [
-  [
-   3995664742426205673,
-   52.0,
-   "olx:bg:149503746"
-  ],
-  [
-   10480123537532443678,
-   31.81,
-   "vinted:10841804222"
-  ],
-  [
-   536456760194814151,
-   48.93,
-   "vinted:10840982626"
-  ],
-  [
-   14353560371812368384,
-   17.05,
-   "vinted:10840698011"
-  ],
-  [
-   10561698219707385869,
-   30.0,
-   "olx:ro:307007113"
-  ],
-  [
-   11189208693298785337,
-   70.0,
-   "olx:ro:310538736"
-  ],
-  [
-   4605076840558419148,
-   50.0,
-   "olx:ro:303421480"
-  ],
-  [
-   3068418246198888021,
-   44.0,
-   "olx:ro:297626175"
-  ],
   [
    14374770246943895688,
    37.45,
@@ -71497,6 +71599,46 @@
    11020997902946493251,
    30.09,
    "vinted:7398323654"
+  ],
+  [
+   518248691605188608,
+   50.0,
+   "olx:pt:673672533"
+  ],
+  [
+   6699501822151517388,
+   63.00000000000001,
+   "olx:ua:881666725"
+  ],
+  [
+   9842877453220127515,
+   62.790000000000006,
+   "olx:ua:922611461"
+  ],
+  [
+   2268109184733604900,
+   38.85,
+   "olx:ua:881872444"
+  ],
+  [
+   7559508358429723852,
+   24.99,
+   "olx:pt:674279459"
+  ],
+  [
+   4555196543935127327,
+   30.0,
+   "olx:pt:670883874"
+  ],
+  [
+   12963877389431264406,
+   86.10000000000001,
+   "olx:ua:941164147"
+  ],
+  [
+   5531560007030326514,
+   70.0,
+   "subito:id:ad:33f7e8eb-22bb-420f-84eb-9835a2f50477:list:655623897"
   ]
  ],
  "week": [
